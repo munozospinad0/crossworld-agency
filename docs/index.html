@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross World Agency · Plan del sitio web y avances</title>
+<meta name="description" content="Plan maestro, investigación de mercado, keyword research y tablero de avances del nuevo sitio de Cross World Agency (Panamá). Proyecto de ECUS Agency.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f7f9; --surface:#ffffff; --ink:#0e1620; --text:#2b3640; --muted:#66727f; --line:#dbe1e7; --line-strong:#c5ced7;
+  --accent:#1f4fd8; --accent-ink:#173fae; --accent-soft:#e6ecfb; --accent-soft-2:#f0f4fd;
+  --ok:#1d7a4d; --ok-soft:#e3f3ea; --warn:#9a6300; --warn-soft:#fff3d6;
+  --r:12px; --r-sm:8px; --max:1240px;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--text);font:400 1.0625rem/1.6 var(--sans);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+h1,h2,h3,h4{color:var(--ink);margin:0;font-weight:600;letter-spacing:-0.02em}
+h1{font-size:clamp(2.25rem,4.6vw,3.9rem);line-height:1.04;font-weight:700}
+h2{font-size:clamp(1.65rem,2.6vw,2.25rem);line-height:1.12;margin-bottom:.35em}
+h3{font-size:1.2rem;line-height:1.3;letter-spacing:-0.01em;margin:1.6rem 0 .5rem}
+p{margin:.6em 0}
+.lead{font-size:1.2rem;line-height:1.5;color:var(--text);max-width:62ch}
+.mono{font-family:var(--mono);font-size:.86em}
+.muted{color:var(--muted)}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+section{padding:clamp(56px,7vw,96px) 0;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+.section-head{max-width:70ch;margin-bottom:2rem}
+.section-head p{color:var(--muted);font-size:1.05rem}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:20;height:64px;background:rgba(245,247,249,.72);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);border-bottom:1px solid rgba(14,22,32,.06)}
+.nav .wrap{display:flex;align-items:center;gap:22px;height:64px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:600;white-space:nowrap}
+.brand-mark{width:30px;height:30px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:#fff;font-family:var(--mono);font-size:.8rem;font-weight:500}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.78rem;line-height:1.1}
+.nav-links{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}
+.nav-links::-webkit-scrollbar{display:none}
+.nav-links a{color:var(--text);font-size:.9rem;padding:6px 10px;border-radius:999px;white-space:nowrap}
+.nav-links a:hover{background:var(--accent-soft);text-decoration:none;color:var(--accent-ink)}
+.stamp{font-family:var(--mono);font-size:.78rem;color:var(--muted);white-space:nowrap}
+@media (max-width:900px){.stamp{display:none}}
+
+/* hero */
+.hero{padding:clamp(48px,7vw,88px) 0 clamp(40px,5vw,64px);background:linear-gradient(180deg,#ffffff 0%,var(--paper) 100%)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(28px,5vw,64px);align-items:end}
+.hero .lead{margin-top:1.2rem}
+.hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:1.6rem;font-family:var(--mono);font-size:.82rem;color:var(--muted)}
+.hero-meta b{color:var(--ink);font-weight:500}
+.progress-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;box-shadow:0 12px 40px -24px rgba(31,79,216,.35)}
+.progress-card h3{margin:0 0 6px;font-size:1rem}
+.progress-total{display:flex;align-items:baseline;gap:10px;margin:6px 0 10px}
+.progress-total .num{font-size:2.6rem;font-weight:700;letter-spacing:-0.03em;color:var(--ink);line-height:1}
+.bar{height:8px;background:var(--accent-soft);border-radius:999px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:999px}
+.phases{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:9px}
+.phases li{display:grid;grid-template-columns:26px 1fr auto;gap:10px;align-items:center;font-size:.92rem}
+.phases .n{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.chip{font-family:var(--mono);font-size:.72rem;padding:3px 9px;border-radius:999px;background:var(--line);color:var(--text);white-space:nowrap}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}
+.chip.now{background:var(--accent-soft);color:var(--accent-ink)}
+.chip.warn{background:var(--warn-soft);color:var(--warn)}
+@media (max-width:860px){.hero-grid{grid-template-columns:1fr}}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:1.8rem 0}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px}
+.tile .k{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.tile .v{font-size:2rem;font-weight:700;letter-spacing:-0.03em;color:var(--ink);line-height:1.1;margin:6px 0 4px}
+.tile .d{font-size:.9rem;color:var(--text)}
+@media (max-width:760px){.tiles{grid-template-columns:1fr}}
+
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);margin:1.2rem 0}
+table{border-collapse:collapse;width:100%;font-size:.93rem}
+th,td{text-align:left;vertical-align:top;padding:11px 14px;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--ink);background:var(--accent-soft-2);font-size:.85rem;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td .mono{font-size:.82rem;color:var(--ink)}
+.num{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+/* lists */
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 40px}
+@media (max-width:820px){.cols{grid-template-columns:1fr}}
+ul.clean{padding-left:1.15em;margin:.4em 0}
+ul.clean li{margin:.35em 0}
+.check{list-style:none;padding:0;margin:.6em 0;display:grid;gap:8px}
+.check li{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start}
+.check .box{width:18px;height:18px;border:1.5px solid var(--line-strong);border-radius:5px;margin-top:4px}
+.check .box.on{background:var(--accent);border-color:var(--accent);position:relative}
+.check .box.on::after{content:"";position:absolute;left:5px;top:2px;width:5px;height:9px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+.check .box.half{background:linear-gradient(90deg,var(--accent) 50%,transparent 50%);border-color:var(--accent)}
+
+/* callouts */
+.note{border-left:3px solid var(--accent);background:var(--accent-soft-2);padding:14px 18px;border-radius:0 var(--r-sm) var(--r-sm) 0;margin:1.2rem 0}
+.note.warn{border-color:var(--warn);background:var(--warn-soft)}
+.quote{font-size:1.35rem;line-height:1.35;letter-spacing:-0.01em;color:var(--ink);font-weight:500;max-width:34ch;margin:1rem 0}
+
+/* bars chart */
+.chart{display:grid;gap:10px;margin:1.2rem 0}
+.row{display:grid;grid-template-columns:minmax(160px,34%) 1fr 84px;gap:12px;align-items:center;font-size:.92rem}
+.row .lbl{color:var(--ink)}
+.row .lbl small{display:block;color:var(--muted);font-size:.8rem}
+.row .b{height:14px;background:var(--accent-soft);border-radius:999px;overflow:hidden}
+.row .b i{display:block;height:100%;background:var(--accent);border-radius:999px}
+.row .v{font-family:var(--mono);font-size:.82rem;text-align:right;color:var(--ink)}
+@media (max-width:600px){.row{grid-template-columns:1fr;gap:4px}.row .v{text-align:left}}
+
+/* tree */
+pre.tree{background:var(--ink);color:#dfe6ee;border-radius:var(--r);padding:20px 22px;overflow-x:auto;font:400 .84rem/1.55 var(--mono);margin:1.2rem 0}
+pre.tree b{color:#8fb0ff;font-weight:500}
+pre.tree span{color:#8a97a6}
+
+/* design */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:1rem 0}
+.sw{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.sw i{display:block;height:64px}
+.sw div{padding:10px 12px;font-family:var(--mono);font-size:.78rem}
+.sw div b{display:block;font-family:var(--sans);font-size:.9rem;font-weight:600;color:var(--ink)}
+.type-sample{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px 28px;margin:1rem 0}
+.type-sample .display{font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;letter-spacing:-0.025em;font-weight:700;color:var(--ink)}
+.type-sample .body{max-width:62ch;margin-top:.8rem}
+.type-sample .data{font-family:var(--mono);font-size:.86rem;margin-top:1rem;color:var(--ink)}
+
+/* timeline */
+.timeline{list-style:none;padding:0;margin:1.2rem 0;display:grid;gap:0;border-left:2px solid var(--line);margin-left:8px}
+.timeline li{position:relative;padding:0 0 22px 26px}
+.timeline li::before{content:"";position:absolute;left:-7px;top:8px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--accent)}
+.timeline li.done::before{background:var(--accent)}
+.timeline .when{font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.timeline b{color:var(--ink);font-weight:600}
+.timeline p{margin:.25em 0 0;font-size:.95rem}
+
+/* stories */
+.epic{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;margin:14px 0}
+.epic h3{margin:0 0 .6rem;font-size:1.05rem}
+.story{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:.95rem}
+.story:first-of-type{border-top:0}
+.story .id{font-family:var(--mono);font-size:.78rem;color:var(--muted);padding-top:3px}
+.story .id b{display:block;color:var(--ink);font-weight:500}
+.story .ac{color:var(--muted);font-size:.88rem;margin-top:3px}
+
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;padding:10px 16px;border-radius:999px;font-weight:500;font-size:.95rem;transition:transform .12s ease}
+.btn:hover{text-decoration:none;background:var(--accent-ink)}
+.btn:active{transform:scale(.98)}
+.btn.ghost{background:transparent;color:var(--accent-ink);border:1px solid var(--line-strong)}
+.btn.ghost:hover{background:var(--accent-soft)}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:1.4rem}
+</style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Secciones">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="brand-mark">CW</span><span>Cross World Agency<small>Plan del sitio web · ECUS</small></span></a>
+    <div class="nav-links">
+      <a href="#avance">Avance</a><a href="#resumen">Resumen</a><a href="#diagnostico">Diagnóstico</a><a href="#mercado">Mercado</a><a href="#keywords">Keywords</a><a href="#estrategia">SEO + GEO</a><a href="#arquitectura">Arquitectura</a><a href="#historias">Historias</a><a href="#diseno">Diseño</a><a href="#stack">Stack</a><a href="#blog">Blog</a><a href="#medicion">Medición</a><a href="#roadmap">Roadmap</a><a href="#insumos">Insumos</a>
+    </div>
+    <span class="stamp">v1.0 · 27 ago 2026</span>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>El nuevo sitio de Cross World Agency, planeado de punta a punta.</h1>
+      <p class="lead">Agencia naviera, inspecciones marítimas, bunker y reclamos en el Canal de Panamá. Este es el plan maestro del rediseño: investigación de mercado, keyword research con datos reales, arquitectura, historias de usuario, diseño, stack, blog, medición y roadmap. Se actualiza en cada fase.</p>
+      <div class="hero-meta">
+        <span><b>Cliente</b> Cross World Agency, S.A. · Cap. Guillermo Peña</span>
+        <span><b>Agencia</b> ECUS Agency</span>
+        <span><b>Producción</b> Next.js 16 en Vercel Pro</span>
+        <span><b>Repo</b> <a href="https://github.com/munozospinad0/crossworld-agency">munozospinad0/crossworld-agency</a></span>
+      </div>
+      <div class="actions">
+        <a class="btn" href="PLAN.md">Leer el plan completo</a>
+        <a class="btn ghost" href="competidores.md">Informe de competidores</a>
+        <a class="btn ghost" href="https://github.com/munozospinad0/crossworld-agency/blob/main/research/keyword-research-crossworld.csv">Keyword research (CSV)</a>
+      </div>
+    </div>
+    <aside class="progress-card" id="avance" aria-label="Avance del proyecto">
+      <h3>Avance del proyecto</h3>
+      <div class="progress-total"><span class="num">15%</span><span class="muted">Fase 0 completa · 27 ago 2026</span></div>
+      <div class="bar"><i style="width:15%"></i></div>
+      <ul class="phases">
+        <li><span class="n">F0</span><span>Planeación, research, repo y esta página</span><span class="chip ok">Hecho</span></li>
+        <li><span class="n">F1</span><span>Fundaciones: Next.js, diseño, home, contacto</span><span class="chip">Sep 1 a 12</span></li>
+        <li><span class="n">F2</span><span>Contenido y confianza, versión en español</span><span class="chip">Sep 15 a 26</span></li>
+        <li><span class="n">F3</span><span>Blog + CMS, SEO/GEO técnico, analítica</span><span class="chip">Sep 29 a Oct 10</span></li>
+        <li><span class="n">F4</span><span>Migración de dominio y lanzamiento</span><span class="chip">Oct 13 a 17</span></li>
+        <li><span class="n">F5</span><span>Crecimiento mensual y reporte</span><span class="chip">desde Oct</span></li>
+      </ul>
+    </aside>
+  </div>
+</header>
+
+<section id="resumen">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Resumen ejecutivo</h2>
+      <p>Qué es Cross World, por qué el sitio actual es un problema y qué vamos a construir.</p>
+    </div>
+    <div class="cols">
+      <div>
+        <p><b>Cross World Agencies, S.A.</b> es una agencia naviera panameña fundada el 4 de marzo de 2010, con licencia de la Autoridad Marítima de Panamá (AMP) y de la Autoridad del Canal (ACP) para ejecutar tránsitos, número IMO 5785507 y certificaciones <b>ISO 9001, 14001, 45001 y 22000</b>. La dirige un capitán de marina mercante con credencial de auditor interno ISM. Ofrece agenciamiento y tránsitos por el Canal, inspecciones (bunker, draft, precompra, P&amp;I, escotillas, ISM), reclamos marítimos, operaciones ship-to-ship y offshore, comercialización de MGO/ULSD y consultoría marítima, con representación directa en Brasil, Aruba, Grecia y Venezuela.</p>
+        <p><b>El sitio actual es un daño reputacional activo.</b> Es una plantilla de "industrial manufacturing" sin editar: vende engranajes y cadenas, dice "Since 1995", tiene contadores en cero, Lorem Ipsum en About, ningún teléfono ni email, cero español y un banner de "scheduled maintenance". Un armador griego o un club P&amp;I que llegue ahí no llama.</p>
+      </div>
+      <div>
+        <p><b>Qué vamos a construir:</b> un sitio bilingüe (inglés principal, español completo) en Next.js 16 sobre Vercel, con diseño premium de nivel Apple/editorial, servicios organizados como compran armadores, charterers, aseguradores y compradores de bunker, un centro de contenidos firmado por el capitán que capture el clúster de búsqueda del Canal, optimizado para SEO y para motores generativos (GEO), medido de extremo a extremo (cada solicitud trazada a su origen) y con un CMS visual para que la familia publique sin tocar código.</p>
+        <p class="quote">"Licensed at the Canal. Certified on board. Accountable for the claim."</p>
+        <p class="muted">Línea de posicionamiento propuesta (a refinar con Irene y Guillermo).</p>
+      </div>
+    </div>
+    <div class="tiles">
+      <div class="tile"><span class="k">Nicho transaccional en Google</span><span class="v">10 a 40</span><span class="d">búsquedas/mes por término "Panamá + servicio", todas con competencia LOW. Ser #1 es cuestión de semanas, pero el sitio no puede vivir solo de eso.</span></div>
+      <div class="tile"><span class="k">Clúster informativo del Canal</span><span class="v">~4.000</span><span class="d">búsquedas/mes reales sobre costos, peajes, booking, calado y puertos (más 3.000 en español). Es el imán de tráfico y la base para que la IA nos cite.</span></div>
+      <div class="tile"><span class="k">Marca hoy</span><span class="v">10 a 30</span><span class="d">búsquedas/mes de "cross world agency" frente a 1.300 de GAC Panama. Y Google confunde la marca con Cross Roads Agencies. Hay que construir entidad.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="diagnostico">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Diagnóstico del sitio actual</h2>
+      <p>Auditoría del 27 de agosto de 2026 sobre crossworldagency.com (home y About).</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Área</th><th>Estado</th><th>Gravedad</th></tr></thead>
+      <tbody>
+        <tr><td>Contenido</td><td>Plantilla industrial sin editar: "Roller Chain Drives, Gear Couplings, Marine Bearings", "Since 1995", "10+ awards", contadores en 0, Lorem Ipsum y "Click edit button to change this text". El agenciamiento y los tránsitos, el negocio licenciado, no aparecen como servicio.</td><td><span class="chip warn">Crítica</span></td></tr>
+        <tr><td>Contacto</td><td>Sin teléfono, email ni dirección. Banner "we are currently undergoing scheduled maintenance".</td><td><span class="chip warn">Crítica</span></td></tr>
+        <tr><td>Idiomas</td><td>Solo inglés, con <span class="mono">lang="es"</span> en el HTML. Sin hreflang. Venezuela, Colombia y las flotas atuneras no tienen versión.</td><td><span class="chip warn">Alta</span></td></tr>
+        <tr><td>SEO</td><td>Título "Home - Cross world agency", sin meta description, schema de Yoast envolviendo contenido equivocado, sin analítica, fotos de stock.</td><td><span class="chip warn">Alta</span></td></tr>
+        <tr><td>Confianza</td><td>No muestra ISO, licencias AMP/ACP, IMO, al capitán, socios ni clientes. Todo existe en el company profile y no está en la web.</td><td><span class="chip warn">Alta</span></td></tr>
+        <tr><td>Tecnología y diseño</td><td>WordPress con tema comercial, CTA "Take Action" duplicado, sin identidad, no comunica operación marítima.</td><td><span class="chip">Media</span></td></tr>
+      </tbody>
+    </table></div>
+    <div class="note"><b>Decisión:</b> rehacer desde cero (modo overhaul), conservar el dominio y redirigir con 301 las URLs viejas (<span class="mono">/about/ /products/ /projects/ /contact/</span>) a las nuevas.</div>
+  </div>
+</section>
+
+<section id="mercado">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Mercado y competencia</h2>
+      <p>El Canal opera a capacidad (6.288 tránsitos en el primer semestre fiscal 2026, 34 a 37 diarios), las ventas de bunker en Panamá crecieron 10,5% interanual en julio 2026 (427.985 t) y la crisis de Ormuz empujó más tanqueros por el Canal. Más tránsitos y más combustible significan más agenciamiento, más surveys y más disputas.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Competidor</th><th>Tipo</th><th>Qué hace bien en web</th><th class="num">Marca/mes</th></tr></thead>
+      <tbody>
+        <tr><td><b>GAC Panama</b></td><td>Global</td><td>Páginas por servicio escritas a la pregunta del principal, oficinas en ambos extremos, feed de avisos "Hot Port News". Bloquea bots (403).</td><td class="num">1.300</td></tr>
+        <tr><td><b>Norton Lilly Panama</b></td><td>Regional, desde 1925</td><td>ISO 9001, CTA de agendar reunión, newsletter regulatorio "Panama Flash", contactos Pacífico y Atlántico separados.</td><td class="num">390 a 480</td></tr>
+        <tr><td><b>C.B. Fenton</b></td><td>Local desde 1916 (Ultramar)</td><td>Herencia. El sitio es un ejemplo de lo que no hacer: servicios como imágenes, sin meta, restos de WooCommerce.</td><td class="num">210 a 260</td></tr>
+        <tr><td><b>Adimar Shipping</b></td><td>Local mediano</td><td>La máquina de contenido: 1.179 posts, uno por día en agosto 2026 escrito por un redactor. Tiene 8 de los primeros resultados para "Panama Canal transit quote / PDA". Hub del Canal con webcams y proyección diaria de espera.</td><td class="num">90</td></tr>
+        <tr><td><b>Panama Ship Service</b></td><td>Hermano de Adimar (surveys)</td><td>1.054 posts. Lo más cercano a educación de bunker survey del mercado, pero vendido como línea de taller y no como protección del reclamo.</td><td class="num">20 a 30</td></tr>
+        <tr><td><b>Boyd Steamship</b></td><td>Local desde 1909</td><td>11 calculadoras de tránsito por tipo de carga, reporte diario de tráfico, portal de clientes, "respuesta en 2 horas 24/7", cobertura P&amp;I de ITIC.</td><td class="num">50</td></tr>
+        <tr><td><b>Leth Agencies</b></td><td>Regional (Suez, Panamá)</td><td>"Panama Analytics": subasta de slots diaria, próximo slot, calado vigente. 15 PDFs sin formulario. BIMCO y MACN.</td><td class="num">140</td></tr>
+        <tr><td><b>Orca Ships Agents</b></td><td>Local</td><td>Lidera con la licencia: "Panama Canal Authorized Agent". Directorio de terminales petroleros. WhatsApp y VHF.</td><td class="num">30 a 40</td></tr>
+        <tr><td><b>24 Marine</b></td><td>Surveyor (Panamá, EE.UU., Canadá, Venezuela)</td><td>El modelo para nuestras páginas de survey: "Why it matters / Scope / Who it's for / Deliverables / FAQ". Único con schema Service, 37 logos y testimonios.</td><td class="num">n/d</td></tr>
+      </tbody>
+    </table></div>
+    <div class="cols">
+      <div>
+        <h3>Lo que todos muestran (table stakes)</h3>
+        <ul class="clean">
+          <li>Año de fundación en el hero y contactos separados de Balboa (Pacífico) y Cristóbal (Atlántico).</li>
+          <li>24/7 con un canal concreto: WhatsApp, celular de guardia, VHF 12/16.</li>
+          <li>Taxonomía canónica: Canal Transit, Husbandry, Protecting agency, Port calls, Bunkering, Surveys.</li>
+          <li>CTA de cotización o PDA en cada página y hub de recursos del Canal (avisos ACP, booking, webcams, calado).</li>
+          <li>Lenguaje de licencia ("Panama Canal authorized agent"), ISO 9001 y canal de ética.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Lo que nadie hace bien (nuestras oportunidades)</h3>
+        <ul class="clean">
+          <li><b>Español.</b> Cero competidores publican en español; ninguno tiene hreflang.</li>
+          <li><b>Reclamos y corresponsal P&amp;I.</b> Ninguna agencia panameña tiene página de claims.</li>
+          <li><b>Bunker survey desde el lado del reclamo</b> (BDN vs sondeo, muestras MARPOL, cartas de protesta, time bars).</li>
+          <li><b>Ship-to-ship y comercialización de combustible</b> como líneas propias con independencia declarada.</li>
+          <li><b>Proceso visible y solicitud estructurada:</b> línea de tiempo nominación → PDA en 24 h → tránsito → FDA, con formulario de datos del buque.</li>
+          <li><b>Credenciales que nadie iguala:</b> cuatro ISO, IMO, AMP, ACP y un capitán auditor ISM firmando las guías.</li>
+          <li><b>GEO:</b> nadie tiene llms.txt ni schema completo. Quien lo haga primero es la fuente que cita la IA.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note warn"><b>Alerta de marca:</b> hoy las búsquedas de "Cross World" devuelven a Cross Roads Agencies S.A. (crossroadspanama.com). Google Business Profile, schema Organization y contenido firmado son la forma de separar la entidad.</div>
+  </div>
+</section>
+
+<section id="keywords">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Keyword research</h2>
+      <p>Google Ads Keyword Planner, 27 de agosto de 2026. Tres pasadas (inglés mundial, inglés Panamá + EE.UU., español Panamá + Colombia + Venezuela + México), 5.569 keywords clasificadas, 23 meses de histórico, deduplicación por concepto y filtro de ruido (turismo, "marketing agency", envíos, empleo).</p>
+    </div>
+    <h3>Dónde está el volumen (búsquedas/mes por clúster, ya sin doble conteo)</h3>
+    <div class="chart">
+      <div class="row"><span class="lbl">Precios de bunker <small>bunker rates, bunker cost, bunker pricing (global)</small></span><span class="b"><i style="width:100%"></i></span><span class="v">~6.000</span></div>
+      <div class="row"><span class="lbl">Puerto de Balboa <small>EN 1.900 + 880 · ES 2.900 + 1.300</small></span><span class="b"><i style="width:83%"></i></span><span class="v">~5.000</span></div>
+      <div class="row"><span class="lbl">Manzanillo (MIT) <small>manzanillo panama, manzanillo panama port</small></span><span class="b"><i style="width:67%"></i></span><span class="v">~4.000</span></div>
+      <div class="row"><span class="lbl">AMP, registro y ACP <small>panama maritime authority, ship registry, canal authority, ES autoridad marítima</small></span><span class="b"><i style="width:67%"></i></span><span class="v">~4.000</span></div>
+      <div class="row"><span class="lbl">Cómo funciona el Canal (ES) <small>canal de panamá cómo funciona, esclusas, cuánto cuesta cruzar</small></span><span class="b"><i style="width:50%"></i></span><span class="v">~3.000</span></div>
+      <div class="row"><span class="lbl">Puerto de Cristóbal y Colón <small>port of cristobal, cristobal panama, ES puerto de colón</small></span><span class="b"><i style="width:50%"></i></span><span class="v">~3.000</span></div>
+      <div class="row"><span class="lbl">Costo y peajes del Canal <small>fee/price/rates/cost 880 · how much does it cost 480 · toll 320</small></span><span class="b"><i style="width:48%"></i></span><span class="v">~2.900</span></div>
+      <div class="row"><span class="lbl">Marcas de competidores <small>gac panama 1.300, norton lilly 480, cb fenton 260, inchcape 210</small></span><span class="b"><i style="width:42%"></i></span><span class="v">~2.500</span></div>
+      <div class="row"><span class="lbl">Ship-to-ship <small>ship to ship transfer, STS guide, sts panama</small></span><span class="b"><i style="width:33%"></i></span><span class="v">~2.000</span></div>
+      <div class="row"><span class="lbl">Booking y schedule del Canal <small>panama canal booking 320 (HIGH), schedule 260, transit schedule</small></span><span class="b"><i style="width:17%"></i></span><span class="v">~1.000</span></div>
+      <div class="row"><span class="lbl">Servicios "Panamá + X" <small>transit agent 20 (+83%), canal agent 30 a 40, bunkering 20, surveyor 10, sts 40</small></span><span class="b"><i style="width:5%"></i></span><span class="v">~300</span></div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Lo que significa</h3>
+        <ul class="clean">
+          <li>El comprador B2B marítimo casi no busca "agente en Panamá" en Google: llega por referidos, directorios, LinkedIn y, cada vez más, preguntándole a la IA. Por eso el sitio se construye para tres puertas: búsqueda de servicio (cola larga, competencia LOW), búsqueda informativa del Canal (donde sí hay volumen) y citas en motores generativos.</li>
+          <li>Las keywords de servicio con geo Panamá crecen: "panama canal transit agent" +83% interanual, "panama canal agent" +18% a +79%, "condition surveys" +488%, "combustible de barco" +137%.</li>
+          <li>Estacionalidad (inglés, Panamá + EE.UU.): picos en <b>diciembre (2,08x) y enero (1,85x)</b>, valle en agosto (0,39x). Hay que lanzar antes de noviembre.</li>
+          <li>CPC promedio bajo (USD 0,5 a 5) en casi todo el nicho: la pauta de búsqueda de marca y de "Panamá + servicio" es barata si Irene decide activarla.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Mapa keyword → página (extracto)</h3>
+        <div class="tbl"><table>
+          <thead><tr><th>Página</th><th>Keyword principal</th><th class="num">Vol.</th></tr></thead>
+          <tbody>
+            <tr><td>Ship agency &amp; Canal transit</td><td>panama canal transit agent · panama canal agent</td><td class="num">20 a 40</td></tr>
+            <tr><td>Marine surveys</td><td>marine surveyor panama · draft survey · condition surveys</td><td class="num">10 a 1.600</td></tr>
+            <tr><td>Bunker surveys &amp; claims</td><td>bunker survey · bunker cost · bunker quality dispute</td><td class="num">480 a 720</td></tr>
+            <tr><td>Bunkering &amp; oil operations</td><td>bunkering panama · marine fuel panama · combustible de barco</td><td class="num">10 a 170</td></tr>
+            <tr><td>Ship-to-ship &amp; offshore</td><td>sts panama · ship to ship transfer</td><td class="num">40 a 1.900</td></tr>
+            <tr><td>Marine claims</td><td>cargo claims · marine claims · charterers liability</td><td class="num">260</td></tr>
+            <tr><td>Guía pilar del Canal</td><td>panama canal fee/cost · how much does it cost to transit</td><td class="num">~2.900</td></tr>
+            <tr><td>Guías de puerto</td><td>port of balboa · port of cristobal · manzanillo panama</td><td class="num">~12.000</td></tr>
+          </tbody>
+        </table></div>
+        <p class="muted">Mapa completo con secundarias, CPC y variación anual en el plan (sección 4) y en el CSV.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="estrategia">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Estrategia SEO + GEO</h2>
+      <p>SEO clásico para Google y Bing; GEO (Generative Engine Optimization) para que ChatGPT, Perplexity, Gemini y Copilot citen a Cross World cuando alguien pregunte por un agente, un surveyor o bunker en Panamá.</p>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Técnico (checklist de salida)</h3>
+        <ul class="clean">
+          <li>Render en servidor de todo el contenido; robots.txt que permite explícitamente GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, Bingbot.</li>
+          <li>hreflang en/es + x-default, URLs /en y /es recíprocas.</li>
+          <li>JSON-LD: Organization (sameAs, fundación 2010-03-04), ProfessionalService (NAP, 24/7, areaServed), Service por página, Person (capitán, credenciales), Article, BreadcrumbList.</li>
+          <li>Core Web Vitals: LCP &lt; 2,0 s, INP &lt; 150 ms, CLS &lt; 0,05. Lighthouse ≥ 95 móvil en todas las plantillas.</li>
+          <li>Cabeceras de seguridad, 301 desde WordPress, canonical, OG dinámicas, sitemap con lastmod real, llms.txt, RSS, IndexNow, Search Console y Bing desde el día 1.</li>
+        </ul>
+        <h3>Local</h3>
+        <ul class="clean">
+          <li>Google Business Profile ("Shipping agency", RBS Tower, Paitilla, 24/7, fotos reales) con flujo de reseñas; Bing Places y Apple Business Connect con el mismo NAP.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contenido y E-E-A-T</h3>
+        <ul class="clean">
+          <li>Cada página de servicio responde en las primeras 2 líneas, explica qué incluye, qué entregamos, en qué puertos, tiempos y qué necesitamos del cliente. Mínimo 600 palabras únicas.</li>
+          <li>Cada guía la firma el capitán Guillermo Peña con bio y credenciales, fecha de publicación y de última revisión, cifras con fuente (ACP, AMP, S&amp;P Global), pasajes citables y FAQ visible.</li>
+          <li>3 a 5 casos reales anonimizados (buque, puerto, problema, solución, tiempo).</li>
+        </ul>
+        <h3>GEO</h3>
+        <ul class="clean">
+          <li>Entidad clara y consistente en sitio, LinkedIn, GBP, Cámara Marítima de Panamá, directorios de agentes (BIMCO, ShipServ, Lloyd's List Intelligence).</li>
+          <li>Contenido citable: respuestas directas, definiciones, tablas, comparativa honesta "how to choose a ship agent in Panama".</li>
+          <li>Frescura trimestral de las guías del Canal; presencia en medios marítimos y en LinkedIn del capitán.</li>
+          <li>Medición mensual: 12 preguntas en 4 motores, registrando si citan el dominio. Meta: 0 a 16 de 48 en 6 meses.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="arquitectura">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Arquitectura del sitio</h2>
+      <p>Inglés principal (x-default) y español completo con slugs propios. Navegación de una línea: Services, Who we serve, Panama Canal guide, Ports, About, Insights, y el CTA "Request port call".</p>
+    </div>
+<pre class="tree"><b>/en</b>
+├── <b>/services</b>                            <span>hub de 7 servicios</span>
+│   ├── /ship-agency-panama-canal-transit   <span>agencia, tránsitos, husbandry, crew change, booking/PDA, protecting agent</span>
+│   ├── /marine-surveys                     <span>draft, petróleo, precompra, condición P&amp;I, escotillas, ISM, loss control</span>
+│   ├── /bunker-surveys-and-claims          <span>BSIS, on/off hire, cantidad y calidad, disputas, sobreconsumo</span>
+│   ├── /bunkering-and-oil-operations       <span>MGO/ULSD, suministro a flotas, CIF/FOB, SOS Resilience</span>
+│   ├── /ship-to-ship-and-offshore          <span>STS, terminales, plataformas, petcoke</span>
+│   ├── /marine-claims                      <span>carga, contenedores, reefer, acero, P&amp;I, charterers</span>
+│   └── /maritime-consulting-and-brokerage  <span>chartering, proyectos, asesoría</span>
+├── <b>/who-we-serve</b>                        <span>armadores y gestores · charterers y traders · clubes P&amp;I y aseguradores · flotas pesqueras y operadores regionales</span>
+├── <b>/panama-canal-transit-guide</b>          <span>pilar: costo y peajes, booking, requisitos, calado, tiempos, rol del agente</span>
+├── <b>/resources</b>                           <span>avisos ACP, calado vigente, checklists, PDA de muestra, glosario, "Estado del Canal hoy" (fase 2)</span>
+├── <b>/ports</b>                               <span>/balboa · /cristobal · /colon · /manzanillo · /psa-panama · /rodman (solo los que atienden)</span>
+├── <b>/about</b>                               <span>historia, capitán, equipo, red BR/AW/GR/VE, socios, canal de ética</span>
+├── <b>/certifications</b>                      <span>ISO 9001/14001/45001/22000, AMP, ACP, IMO, credenciales del capitán</span>
+├── <b>/insights</b>                            <span>blog: Panama Canal · Surveys · Bunker · Claims · Company</span>
+├── <b>/contact</b> · <b>/request-port-call</b>       <span>formulario estructurado (buque, IMO, ETA, puertos, servicios) + WhatsApp + 24/7</span>
+└── /privacy · /terms
+<b>/es</b>  <span>espejo: /servicios, /agencia-naviera-transito-canal-de-panama, /inspecciones-maritimas, /guia-transito-canal-de-panama, /puertos, /nosotros, /certificaciones, /blog, /contacto, /solicitar-port-call</span>
+/llms.txt · /llms-full.txt · /sitemap.xml · /robots.txt · /rss.xml</pre>
+    <p class="muted">Regla: cada página de servicio tiene H1 propio, resumen de 2 líneas, "Qué incluye / Qué entregamos / Puertos / Cómo empezar", FAQ y un solo CTA. Sin páginas de puerto de relleno.</p>
+  </div>
+</section>
+
+<section id="historias">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Personas e historias de usuario</h2>
+      <p>Seis personas (Nikos, ops manager en Atenas · Lauren, claims handler en un club P&amp;I · Rafael, trader de combustibles · Don Aurelio, armador atunero · Guillermo, el capitán · Irene y ECUS) y 25 historias con criterios de aceptación. Extracto de las Must.</p>
+    </div>
+    <div class="epic">
+      <h3>Épica A · Convertir visitantes en solicitudes</h3>
+      <div class="story"><span class="id"><b>A1</b>Must</span><div>Como Nikos, quiero enviar una solicitud de port call con nombre del buque, IMO, ETA, puertos y servicios, para recibir una PDA sin intercambiar 10 correos.<div class="ac">Formulario de 2 pasos con validación inline; confirmación al cliente y aviso a Cross World por email y WhatsApp; origen registrado (página, campaña, idioma); llenado &lt; 3 min en móvil.</div></div></div>
+      <div class="story"><span class="id"><b>A2</b>Must</span><div>Como Lauren, quiero pedir un surveyor indicando tipo, puerto y fecha, para que me confirmen disponibilidad el mismo día.<div class="ac">Formulario corto de surveys con los tipos reales del catálogo; adjuntar instrucciones; SLA visible ("respondemos en menos de 4 horas, 24/7").</div></div></div>
+      <div class="story"><span class="id"><b>A3</b>Must</span><div>Como cualquier visitante, quiero WhatsApp y el teléfono 24/7 siempre visibles, para hablar con alguien ahora.<div class="ac">Botón discreto en móvil; clic medido; mensaje prellenado con la página de origen.</div></div></div>
+    </div>
+    <div class="epic">
+      <h3>Épica B · Confianza y prueba</h3>
+      <div class="story"><span class="id"><b>B1</b>Must</span><div>Como Lauren, quiero ver las credenciales del capitán, las ISO con fechas y las licencias AMP/ACP, para justificar el nombramiento ante mi club.<div class="ac">Página de certificaciones con imágenes legibles y vigencias; schema Person con hasCredential.</div></div></div>
+      <div class="story"><span class="id"><b>B2</b>Must</span><div>Como Nikos, quiero ver qué puertos atienden y con qué terminales trabajan, para saber si me sirven.<div class="ac">Páginas de puerto únicas con mapa y datos fechados.</div></div></div>
+    </div>
+    <div class="epic">
+      <h3>Épica C · Encontrar respuestas (SEO/GEO)</h3>
+      <div class="story"><span class="id"><b>C1</b>Must</span><div>Como Nikos, quiero saber cuánto cuesta y cómo se reserva un tránsito, para presupuestar.<div class="ac">Guía pilar con tablas de peajes por tipo de buque con fuente ACP y fecha, slots y booking, rol del agente, FAQ, respuesta directa arriba, fecha de última revisión.</div></div></div>
+      <div class="story"><span class="id"><b>C2</b>Must</span><div>Como armador hispanohablante, quiero leer todo en español, para decidir sin traducir.<div class="ac">100% traducido por humano; hreflang correcto; el switch de idioma mantiene la página.</div></div></div>
+    </div>
+    <div class="epic">
+      <h3>Épica D · Operación del sitio</h3>
+      <div class="story"><span class="id"><b>D1</b>Must</span><div>Como Guillermo, quiero editar textos y publicar un post desde una pantalla sencilla, para no depender de nadie.<div class="ac">Keystatic en /keystatic con login de GitHub; vista previa; publicar = commit + deploy automático en &lt; 3 min.</div></div></div>
+      <div class="story"><span class="id"><b>D2</b>Must</span><div>Como Irene, quiero ver de dónde vienen las solicitudes y cuántas hay por semana, para decidir la pauta.<div class="ac">GA4 con eventos por tipo de formulario; panel semanal; cada lead con utm, gclid, fbclid y página de origen.</div></div></div>
+      <div class="story"><span class="id"><b>D3</b>Must</span><div>Como ECUS, quiero previews por cada cambio y rollback en un clic, para no romper producción.<div class="ac">Preview de Vercel por PR; producción solo desde main; build, lint, Lighthouse CI y Playwright obligatorios.</div></div></div>
+    </div>
+    <p class="muted">Las 25 historias completas (Should y Could incluidas: cotización de combustible, descarga del profile, casos, logos, checklist de bunker, webhook al CRM de ECUS, reporte mensual, sondeo de IA, accesibilidad WCAG 2.2 AA, presupuesto de rendimiento, privacidad Ley 81 / GDPR) están en la sección 7 del plan.</p>
+  </div>
+</section>
+
+<section id="diseno">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Dirección de diseño</h2>
+      <p>Lectura del brief: rediseño total de un sitio B2B de servicios marítimos para gerentes de operaciones, aseguradores y traders, con lenguaje "trust-first premium" de carácter náutico-editorial. Diales: variancia 6 · movimiento 5 · densidad 4.</p>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Principios</h3>
+        <ul class="clean">
+          <li><b>Propósito y restricción:</b> cada sección tiene un trabajo. Menos secciones, mejor hechas.</li>
+          <li><b>Respuesta inmediata:</b> feedback en pointerdown; springs críticamente amortiguados; todo interrumpible; nada bloquea la entrada.</li>
+          <li><b>Materiales y profundidad:</b> barra translúcida con el contenido pasando por debajo; jerarquía por peso del material, no por sombras negras.</li>
+          <li><b>Tipografía con tamaño óptico:</b> titulares con tracking negativo y leading apretado; cuerpo a 65 caracteres; datos operativos en monoespaciada.</li>
+          <li><b>Craft:</b> una escala de radios, una paleta, una familia de iconos (Phosphor), cero emojis, ningún valor al azar.</li>
+          <li><b>Prohibido:</b> héroes centrados sobre gradiente morado, tres tarjetas iguales, etiquetas sobre cada sección, guiones largos, capturas falsas con divs, fotos de stock de "handshake".</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Movimiento (siempre motivado)</h3>
+        <ul class="clean">
+          <li>Aparición escalonada al entrar en viewport (jerarquía).</li>
+          <li>Proceso del port call en pila pegajosa de 4 pasos (narrativa).</li>
+          <li>Agua del hero con desplazamiento sutil de 8 a 12 px (atmósfera; se apaga con prefers-reduced-motion).</li>
+          <li>Hover en tarjetas: 1 px de elevación y sombra teñida. Nada infinito salvo la franja única de logos.</li>
+        </ul>
+        <h3>Fotografía</h3>
+        <p>Imágenes reales de operación: tránsito visto desde el buque, esclusas, bunkering, el capitán en el puente, la oficina en RBS Tower. Mientras llegan, placeholders marcados en el código; nunca ilustraciones inventadas. Lista de tomas en Insumos.</p>
+      </div>
+    </div>
+    <h3>Sistema visual</h3>
+    <div class="swatches">
+      <div class="sw"><i style="background:#0e1620"></i><div><b>Grafito</b>#0E1620 · superficies oscuras</div></div>
+      <div class="sw"><i style="background:#f5f7f9;border-bottom:1px solid #dbe1e7"></i><div><b>Papel</b>#F5F7F9 · fondo claro</div></div>
+      <div class="sw"><i style="background:#2b3640"></i><div><b>Texto</b>#2B3640 · cuerpo</div></div>
+      <div class="sw"><i style="background:#66727f"></i><div><b>Humo</b>#66727F · secundario</div></div>
+      <div class="sw"><i style="background:#1f4fd8"></i><div><b>Cobalto</b>#1F4FD8 · único acento (del ancla del logo)</div></div>
+      <div class="sw"><i style="background:#e6ecfb"></i><div><b>Cobalto suave</b>#E6ECFB · fondos de estado</div></div>
+    </div>
+    <div class="type-sample">
+      <div class="display">Agency, surveys and claims at both ends of the Panama Canal.</div>
+      <p class="body">Geist para display y cuerpo (400/500/600/700, vía next/font), Geist Mono para datos. Display en clamp(2.25rem, 4.5vw, 4rem) con letter-spacing -0.02em y line-height 1.05; cuerpo 1.0625rem / 1.6. Radios: tarjetas 12 px, inputs 8 px, botones y chips en píldora.</p>
+      <div class="data">IMO 5785507 · RBS TOWER 9-902 PAITILLA · 08°58'N 079°31'W · MGO 0.10% S · DRAFT 15.24 m</div>
+    </div>
+    <p class="muted">Un solo tema por página (claro para contenido, oscuro para hero y pie en el sitio final), un acento, una familia tipográfica, una familia de iconos. Diseño y movimiento se prototipan juntos; nada se aprueba en estático.</p>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Stack técnico</h2>
+      <p>Elegido para SEO/GEO (render en servidor), rendimiento, facilidad de edición y medición completa. Todo construido para facilitar: publicar sin código, desplegar sin miedo, medir sin instalar nada más.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Capa</th><th>Elección</th><th>Por qué</th></tr></thead>
+      <tbody>
+        <tr><td>Framework</td><td><b>Next.js 16</b> (App Router, RSC, TypeScript estricto)</td><td>SSR/SSG para SEO y GEO, next/image, next/font, next/og, rutas i18n, ecosistema Vercel.</td></tr>
+        <tr><td>Estilos</td><td><b>Tailwind CSS v4</b></td><td>Tokens en CSS (@theme), CSS final &lt; 12 KB, modo por atributo.</td></tr>
+        <tr><td>Movimiento</td><td><b>Motion</b> (motion/react) con springs</td><td>Interrumpible, useReducedMotion, aislado en client leaves. GSAP solo si hace falta un pin.</td></tr>
+        <tr><td>Iconos</td><td><b>Phosphor Icons</b>, una sola familia</td><td>Consistencia; nada dibujado a mano.</td></tr>
+        <tr><td>i18n</td><td><b>next-intl</b> (/en, /es)</td><td>hreflang y switch de idioma sin recargar.</td></tr>
+        <tr><td>CMS</td><td><b>Keystatic</b> (modo GitHub) + MDX</td><td>Editor visual en /keystatic, guarda en el repo, sin base de datos ni costo, historial en git, deploy automático. Guillermo e Irene publican.</td></tr>
+        <tr><td>Formularios</td><td>Server Actions + Zod + Resend + Cloudflare Turnstile + tabla <span class="mono">leads</span> (Neon) + webhook a WhatsApp/CRM ECUS</td><td>Validación en servidor, anti-spam, ningún lead se pierde si falla el email, seguimiento en el sistema de ventas ECUS.</td></tr>
+        <tr><td>Analítica</td><td>GA4 + GTM, Vercel Web Analytics y Speed Insights, Search Console, Bing Webmaster</td><td>Eventos fijos por tipo de solicitud; atribución (utm, gclid, fbclid, referrer) guardada en cada lead.</td></tr>
+        <tr><td>SEO</td><td>sitemap.ts, robots.ts, metadata API, JSON-LD por plantilla, llms.txt, RSS, redirects 301, IndexNow</td><td>Todo generado desde el contenido, sin plugins.</td></tr>
+        <tr><td>Calidad</td><td>ESLint, Prettier, TS strict, Playwright, Lighthouse CI (perf y a11y ≥ 95), axe</td><td>Bloquea el merge si baja la calidad.</td></tr>
+        <tr><td>Hosting</td><td><b>Vercel Pro</b> (team munozospinad0s-projects): main → producción, PR → preview</td><td>Ya pagado; dominio crossworldagency.com + www; Edge Network; imágenes optimizadas.</td></tr>
+        <tr><td>Repositorio</td><td><b>GitHub munozospinad0/crossworld-agency</b> (público, requisito de Pages en plan free)</td><td>Esta página vive en /docs. Ningún secreto en el repo: variables en Vercel.</td></tr>
+        <tr><td>Dominio y correo</td><td>DNS a Vercel; MX del correo actual intactos; SPF/DKIM/DMARC para Resend en subdominio</td><td>No romper el correo de gpena@.</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section id="blog">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Blog: "Insights"</h2>
+      <p>Objetivo: ser la referencia práctica sobre operar un buque en Panamá, firmada por un capitán. Cadencia: 2 piezas al mes en inglés más su versión en español (traducción humana), revisión trimestral de las guías pilar. No perseguimos los 1.000 posts de Adimar: 2 pilares, 20 a 25 piezas cornerstone con autor real, y una nota regulatoria mensual (avisos ACP, calado, niveles de agua) en ambos idiomas.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Mes</th><th>Pieza</th><th>Clúster</th><th>Tipo</th></tr></thead>
+      <tbody>
+        <tr><td>Sep</td><td>Panama Canal transit cost and tolls 2026: what shipowners actually pay</td><td>fee/price/cost 880 · how much 480 · toll 320</td><td>Pilar</td></tr>
+        <tr><td>Sep</td><td>How to choose a ship agent in Panama (and the 12 questions to ask)</td><td>marcas de competidores 2.500</td><td>Comparativa</td></tr>
+        <tr><td>Oct</td><td>Booking a Panama Canal transit: slots, pre-booking, PDA and what your agent does</td><td>booking 320 · schedule 260</td><td>Pilar</td></tr>
+        <tr><td>Oct</td><td>Port of Balboa: terminal, anchorage, bunkering and services</td><td>EN 1.900 · ES 2.900</td><td>Guía de puerto</td></tr>
+        <tr><td>Nov</td><td>Port of Cristóbal and Colón: what to expect on the Atlantic side</td><td>1.600 + ES</td><td>Guía de puerto</td></tr>
+        <tr><td>Nov</td><td>Bunker survey in Panama: how to avoid a quantity or quality dispute</td><td>bunker survey · dispute · BDN</td><td>Guía técnica</td></tr>
+        <tr><td>Dic</td><td>Draft survey explained: method, tolerances and the report you should receive</td><td>draft survey 1.600</td><td>Guía técnica</td></tr>
+        <tr><td>Dic</td><td>Bunker prices in Panama: what moves them (monthly data with source)</td><td>bunker rates 2.900 · cost 720</td><td>Dato + fuente</td></tr>
+        <tr><td>Ene</td><td>Panama Canal draft restrictions, water levels and transit time in 2027</td><td>water levels 260 · transit time 90</td><td>Actualización</td></tr>
+        <tr><td>Ene</td><td>Crew change in Panama: rules, ports, visas and timing</td><td>crew change panama</td><td>Guía operativa</td></tr>
+        <tr><td>Feb</td><td>Pre-purchase inspection checklist for bulk carriers and tankers</td><td>condition surveys 320 (+488%)</td><td>Checklist</td></tr>
+        <tr><td>Feb</td><td>Ship-to-ship transfers in Panama: procedure, mooring master, surveys</td><td>sts panama 40 · STS guide 210</td><td>Guía técnica</td></tr>
+        <tr><td>ES</td><td>Cómo funciona el Canal de Panamá para armadores · Puerto de Balboa · Autoridad Marítima de Panamá · Cuánto cuesta cruzar el Canal · Agencia naviera en Panamá · Trasiego y suministro de combustible marino</td><td>880 · 2.900 · 1.000 · 50 a 70 · 30 · 210</td><td>Versiones ES</td></tr>
+      </tbody>
+    </table></div>
+    <p class="muted">Formato fijo de cada pieza: TL;DR de 3 líneas, respuesta directa, H2 por pregunta, tabla o lista, FAQ visible, un solo CTA, fecha de publicación y de última revisión, fuentes. Nunca sin fuente en cifras; nunca prometer tiempos del Canal.</p>
+  </div>
+</section>
+
+<section id="medicion">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Medición</h2>
+      <p>Norte: solicitudes cualificadas por mes (port call, survey, cotización de combustible) y su costo de adquisición. Todo lo demás explica ese número.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>Métrica</th><th>Herramienta</th><th>Base</th><th>3 meses</th><th>6 meses</th></tr></thead>
+      <tbody>
+        <tr><td>Solicitudes cualificadas / mes</td><td>Formularios → GA4 + tabla leads</td><td>0</td><td>6</td><td>15</td></tr>
+        <tr><td>Tasa de conversión (solicitud / sesión)</td><td>GA4</td><td>n/d</td><td>1,5%</td><td>2,5%</td></tr>
+        <tr><td>Clics orgánicos / mes</td><td>Search Console</td><td>~0</td><td>300</td><td>1.200</td></tr>
+        <tr><td>Keywords objetivo en top 3 (de 25)</td><td>Search Console + sondeo</td><td>0</td><td>8</td><td>18</td></tr>
+        <tr><td>Citas en motores de IA (12 prompts × 4 motores)</td><td>Script mensual</td><td>0 / 48</td><td>6 / 48</td><td>16 / 48</td></tr>
+        <tr><td>Core Web Vitals móvil (p75)</td><td>Speed Insights + PSI</td><td>n/d</td><td>LCP &lt; 2,0 s · INP &lt; 150 ms · CLS &lt; 0,05</td><td>igual</td></tr>
+        <tr><td>Lighthouse móvil (perf / a11y / SEO)</td><td>Lighthouse CI en cada PR</td><td>n/d</td><td>≥ 95 / 95 / 100</td><td>igual</td></tr>
+        <tr><td>Tiempo de respuesta a solicitudes</td><td>Marca de tiempo en leads</td><td>n/d</td><td>&lt; 4 h (24/7)</td><td>&lt; 2 h</td></tr>
+        <tr><td>Reseñas en Google Business Profile</td><td>GBP</td><td>0</td><td>5</td><td>12</td></tr>
+      </tbody>
+    </table></div>
+    <div class="cols">
+      <div>
+        <h3>Eventos GA4 (nombres fijos)</h3>
+        <p class="mono">port_call_request · survey_request · fuel_quote_request · contact_submit · whatsapp_click · phone_click · email_click · profile_download · language_switch · guide_read_75 · cta_click · form_error</p>
+        <p class="muted">Todos con page_path, locale, utm_*, gclid, fbclid y referrer.</p>
+      </div>
+      <div>
+        <h3>Cada lead guarda</h3>
+        <p>Timestamp, tipo, campos del formulario, página, idioma, utm, gclid, fbclid, referrer, user agent, estado del envío (email y webhook) y tiempo hasta la primera respuesta. Reporte mensual de una página con el mismo pipeline de reportes de ECUS: solicitudes, orgánico, posiciones, IA, CWV y 3 acciones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="roadmap">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Roadmap</h2>
+      <p>Cinco fases y siete semanas hasta el lanzamiento, antes del pico de demanda de diciembre y enero.</p>
+    </div>
+    <ul class="timeline">
+      <li class="done"><span class="when">27 a 29 ago 2026 · hecho</span><br><b>Fase 0 · Planeación</b><p>Plan maestro, keyword research (5.569 keywords), informe de 10 competidores, repositorio en GitHub y esta página de avances.</p></li>
+      <li><span class="when">1 a 12 sep</span><br><b>Fase 1 · Fundaciones</b><p>Repo Next.js 16 + Tailwind v4 + Motion + next-intl + Keystatic; sistema de diseño; home, hub de servicios, contacto y formulario de port call con emails y leads guardados; preview en Vercel. Hecho = Lighthouse ≥ 95 y formulario probado de punta a punta.</p></li>
+      <li><span class="when">15 a 26 sep</span><br><b>Fase 2 · Contenido y confianza</b><p>7 páginas de servicio, who we serve, about, certificaciones, 4 a 6 puertos, casos; traducción completa al español; schema y hreflang; imágenes reales o placeholders marcados. Hecho = contenido revisado por Guillermo.</p></li>
+      <li><span class="when">29 sep a 10 oct</span><br><b>Fase 3 · Contenidos y SEO/GEO</b><p>Blog con Keystatic y 4 primeras piezas, llms.txt, sitemap, robots, OG, RSS; Playwright y Lighthouse CI; auditoría de accesibilidad; GA4, GTM, Search Console y Bing. Hecho = checklist técnico 100% y eventos verificados.</p></li>
+      <li><span class="when">13 a 17 oct</span><br><b>Fase 4 · Migración y lanzamiento</b><p>Mapa de 301, DNS a Vercel, HSTS; Google Business Profile, Bing Places, directorios; envío de sitemap; monitoreo 72 h. Hecho = producción sin 4xx/5xx y GSC limpio.</p></li>
+      <li><span class="when">desde oct, mensual</span><br><b>Fase 5 · Crecimiento</b><p>2 + 2 piezas al mes, revisión trimestral de guías, sondeo de IA, reporte mensual, pauta si Irene lo decide (Search de marca y "Panamá + servicio").</p></li>
+    </ul>
+    <div class="note"><b>Riesgos y mitigación:</b> insumos del cliente tardan → arrancamos con el company profile y placeholders marcados, nada bloquea el build · acceso al dominio → se pide en la semana 1 · fotos → shot list y una sesión de 2 horas · permisos de push en algunas sesiones → Daniel corre el push o ajusta permisos.</div>
+  </div>
+</section>
+
+<section id="insumos">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Lo que necesitamos de Irene y Guillermo</h2>
+      <p>Cinco cosas bloquean el lanzamiento; las demás mejoran mucho el resultado.</p>
+    </div>
+    <div class="cols">
+      <div>
+        <h3>Bloquean el lanzamiento</h3>
+        <ul class="check">
+          <li><span class="box"></span><span>Acceso al registrador del dominio (DNS) y al hosting actual del WordPress.</span></li>
+          <li><span class="box"></span><span>Logo en vector (AI, SVG o PDF) del ancla y del wordmark. Si no existe, se redibuja.</span></li>
+          <li><span class="box"></span><span>Lista definitiva de servicios y puertos que sí atienden; SLA real (¿PDA en menos de 24 h? ¿surveyor en menos de 4 h?).</span></li>
+          <li><span class="box"></span><span>Números oficiales para la web: WhatsApp Business, teléfono 24/7, email de solicitudes.</span></li>
+          <li><span class="box"></span><span>Permiso escrito para mostrar logos de socios y clientes y para publicar los certificados ISO con vigencia.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Mejoran el resultado</h3>
+        <ul class="check">
+          <li><span class="box"></span><span>Sesión de fotos: capitán en el puente y en muelle; equipo en RBS Tower; tránsito desde cubierta; esclusas; una operación de bunkering o survey con EPP; vista de Paitilla; certificados. Horizontal 3:2 y vertical 4:5, mínimo 3.000 px.</span></li>
+          <li><span class="box"></span><span>3 a 5 historias reales de port calls o surveys (buque, puerto, qué pasó, cómo se resolvió, tiempo).</span></li>
+          <li><span class="box"></span><span>Testimonios de 2 o 3 clientes o socios (dos líneas, nombre y cargo).</span></li>
+          <li><span class="box"></span><span>Cuenta de Google (GBP, GA4, Search Console) y LinkedIn de la empresa y del capitán.</span></li>
+          <li><span class="box"></span><span>Cómo se presenta SOS Resilience Holding: marca aparte o línea de negocio.</span></li>
+        </ul>
+      </div>
+    </div>
+    <h3>Decisiones tomadas</h3>
+    <ul class="clean">
+      <li>Repo público (GitHub Pages en plan free lo exige). Ningún secreto en el repo; el PDF del company profile no se sube.</li>
+      <li>Inglés como idioma principal (x-default) porque los compradores de mayor ticket están fuera de LatAm; español completo desde el lanzamiento.</li>
+      <li>Máximo 6 páginas de puerto, con contenido único. Nada programático.</li>
+      <li>No se compra pauta de marcas de competidores. Toda cifra del Canal o de bunker se publica con fuente y fecha y se revisa trimestralmente.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>Cross World Agency · Plan del sitio web · v1.0 · 27 de agosto de 2026 · ECUS Agency</span>
+    <span><a href="PLAN.md">PLAN.md</a> · <a href="competidores.md">competidores.md</a> · <a href="https://github.com/munozospinad0/crossworld-agency">repositorio</a></span>
+  </div>
+</footer>
+</body>
+</html>

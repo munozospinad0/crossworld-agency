@@ -1,0 +1,548 @@
+
+===== en_world =====
+crudas 2685 · con volumen 2606 · conceptos 2474 · útiles 1305 · volumen útil 1,498,050/mes
+por segmento: INFO_CANAL 1,238,530 · CONSULT 125,610 · AGENCIA 62,280 · SURVEY 23,410 · BUNKER 22,280 · CONQUEST 13,080 · STS_OFFSHORE 9,810 · CLAIMS 3,050
+por encaje:   BLOG_GENERAL 1,205,040 · SERVICIO 239,430 · BLOG_CORE 39,350 · CONQUEST 13,080 · SERVICIO_PANAMA 1,150
+curva mensual servicios (1=promedio): 1.23 1 1.18 1.03 0.97 0.93 0.96 0.47 1.07 1.01 0.97 1.18
+
+-- TOP SERVICIO_PANAMA
+  panama canal booking                                 320  AGENCIA       HIGH    cpc$ 0.58  yoy -34%
+  panama shipping company                              320  CONSULT       LOW     cpc$ 1.41  yoy -23%
+  ship chandler panama                                 110  CONSULT       LOW     cpc$ 0.07  yoy -18%
+  panama canal company                                 110  INFO_CANAL    LOW     cpc$ 0.00  yoy -40%
+  panama canal agent                                    40  AGENCIA       LOW     cpc$ 0.00  yoy 18%
+  sts panama                                            40  STS_OFFSHORE  LOW     cpc$ 0.00  yoy -28%
+  panama shipping agency                                30  AGENCIA       LOW     cpc$ 0.00  yoy -11%
+  panama canal transit agent                            20  AGENCIA       LOW     cpc$ 0.00  yoy 83%
+  bunkering panama                                      20  BUNKER        LOW     cpc$ 0.90  yoy -55%
+  panama shipping agency and services                   20  AGENCIA       LOW     cpc$ 0.92  yoy -52%
+  maritime services panama                              20  CONSULT       LOW     cpc$ 0.00  yoy -18%
+  crew change panama                                    10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -29%
+  panama canal pre booking                              10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -45%
+  marine fuel panama                                    10  BUNKER        UNKNOWN cpc$ 0.00  yoy -33%
+  bunker fuel panama                                    10  BUNKER        LOW     cpc$ 0.00  yoy -8%
+  mgo panama                                            10  BUNKER        LOW     cpc$ 0.00  yoy -8%
+  marine surveyor panama                                10  SURVEY        LOW     cpc$ 0.00  yoy 10%
+  ship management panama                                10  CONSULT       LOW     cpc$ 0.00  yoy -8%
+  panama shipping agency & services                     10  AGENCIA       LOW     cpc$ 0.00  yoy 0%
+  panama canal booking system                           10  AGENCIA       LOW     cpc$ 0.00  yoy 11%
+  ship chandlers in panama                              10  CONSULT       LOW     cpc$ 0.00  yoy 22%
+
+-- TOP SERVICIO
+  shipping company                                   40500  CONSULT       LOW     cpc$ 5.22  yoy -49%
+  ship chandler                                      12100  CONSULT       LOW     cpc$ 0.81  yoy -7%
+  marine survey                                       8100  SURVEY        LOW     cpc$ 3.41  yoy -18%
+  ship charterers                                     6600  CONSULT       LOW     cpc$ 2.01  yoy -21%
+  ship chartering                                     6600  CONSULT       LOW     cpc$ 2.02  yoy -21%
+  vessel chartering                                   6600  CONSULT       LOW     cpc$ 2.02  yoy -21%
+  shipping agent                                      5400  AGENCIA       LOW     cpc$ 3.29  yoy -33%
+  ship management                                     5400  CONSULT       LOW     cpc$ 2.85  yoy -33%
+  port calls                                          5400  AGENCIA       LOW     cpc$ 2.70  yoy 12%
+  ship & bunker                                       4400  BUNKER        LOW     cpc$ 4.37  yoy 16%
+  shipping company in dubai united arab emirates      4400  CONSULT       MEDIUM  cpc$ 2.22  yoy -39%
+  bunker and ship                                     4400  BUNKER        LOW     cpc$ 4.37  yoy 16%
+  ship brokering                                      3600  CONSULT       LOW     cpc$ 9.42  yoy -25%
+  ship broker                                         3600  CONSULT       LOW     cpc$ 9.49  yoy -25%
+  chartering companies                                3600  CONSULT       LOW     cpc$ 5.33  yoy -20%
+  ic shipbrokers                                      2900  CONSULT       LOW     cpc$ 1.03  yoy -10%
+  ics shipbrokers                                     2900  CONSULT       LOW     cpc$ 1.03  yoy -10%
+  ship agencies                                       2900  AGENCIA       LOW     cpc$ 2.45  yoy -29%
+  shipping agency                                     2900  AGENCIA       LOW     cpc$ 2.45  yoy -29%
+  fuel for ship                                       2900  BUNKER        LOW     cpc$ 1.42  yoy 55%
+  bunker pricing                                      2400  BUNKER        LOW     cpc$ 1.12  yoy 15%
+  marine fuels                                        2400  BUNKER        LOW     cpc$ 3.13  yoy -9%
+  all ocean maritime agency                           1900  AGENCIA       LOW     cpc$ 0.27  yoy 34%
+  all ocean maritime agency inc                       1900  AGENCIA       LOW     cpc$ 0.27  yoy 34%
+  sharaf shipping agency ssa                          1900  AGENCIA       LOW     cpc$ 1.99  yoy 3%
+  ship to ship transfer                               1900  STS_OFFSHORE  LOW     cpc$ 7.54  yoy -5%
+  offshore supply boat                                1900  STS_OFFSHORE  LOW     cpc$ 7.66  yoy -15%
+  ship to ship                                        1900  STS_OFFSHORE  LOW     cpc$ 7.54  yoy -5%
+  maritime services                                   1900  CONSULT       LOW     cpc$ 2.54  yoy -11%
+  shipping agency china                               1900  AGENCIA       MEDIUM  cpc$ 4.55  yoy -27%
+  shipping company in us                              1900  CONSULT       MEDIUM  cpc$ 3.94  yoy -50%
+  grimaldi shipping company                           1600  CONSULT       LOW     cpc$ 5.56  yoy 2%
+  draft survey                                        1600  SURVEY        LOW     cpc$ 0.59  yoy -16%
+  chartering broker                                   1600  CONSULT       LOW     cpc$ 3.86  yoy 1%
+  survey vessel                                       1600  SURVEY        LOW     cpc$ 1.64  yoy 18%
+  fleet management shipping company                   1600  CONSULT       LOW     cpc$ 1.38  yoy -4%
+  chartering services                                 1600  CONSULT       LOW     cpc$ 8.92  yoy -33%
+  port agent                                          1300  AGENCIA       LOW     cpc$ 0.65  yoy -31%
+  crewing agencies                                    1300  AGENCIA       LOW     cpc$ 0.32  yoy -8%
+  evergreen shipping agency corp                      1300  AGENCIA       LOW     cpc$ 7.22  yoy -1%
+  offshore services                                   1300  STS_OFFSHORE  LOW     cpc$ 5.20  yoy -15%
+  agency maritime                                     1000  AGENCIA       LOW     cpc$ 1.85  yoy -31%
+  marine shipping company                             1000  CONSULT       LOW     cpc$ 3.01  yoy -36%
+  shipping company singapore                          1000  CONSULT       MEDIUM  cpc$ 1.84  yoy -40%
+  maritime agent                                      1000  AGENCIA       LOW     cpc$ 1.87  yoy -31%
+
+-- TOP BLOG_CORE
+  manzanillo panama                                   3600  INFO_CANAL    LOW     cpc$ 1.43  yoy -16%
+  bunker rates                                        2900  BUNKER        LOW     cpc$ 1.16  yoy 7%
+  balboa panama port                                  2400  INFO_CANAL    LOW     cpc$ 0.00  yoy -9%
+  balboa port                                         2400  INFO_CANAL    LOW     cpc$ 0.00  yoy -9%
+  port of ships                                       2400  INFO_CANAL    LOW     cpc$ 3.85  yoy -9%
+  port of balboa                                      1900  INFO_CANAL    LOW     cpc$ 0.00  yoy -3%
+  balboa port panama                                  1900  INFO_CANAL    LOW     cpc$ 0.00  yoy -3%
+  port of cristobal                                   1600  INFO_CANAL    LOW     cpc$ 0.00  yoy -27%
+  cristobal panama port                               1600  INFO_CANAL    LOW     cpc$ 0.00  yoy -27%
+  panama canal authority                              1600  INFO_CANAL    LOW     cpc$ 10.20  yoy -50%
+  cristobal panama                                    1300  INFO_CANAL    LOW     cpc$ 0.55  yoy -28%
+  panama maritime authority                           1000  INFO_CANAL    LOW     cpc$ 0.60  yoy -7%
+  balboa port terminal                                 880  INFO_CANAL    LOW     cpc$ 0.00  yoy -19%
+  panama canal fee                                     880  INFO_CANAL    LOW     cpc$ 0.49  yoy -87%
+  panama canal price                                   880  INFO_CANAL    LOW     cpc$ 0.49  yoy -87%
+  panama canal rates                                   880  INFO_CANAL    LOW     cpc$ 0.49  yoy -87%
+  panama canal cost                                    880  INFO_CANAL    LOW     cpc$ 0.49  yoy -87%
+  bunker cost                                          720  BUNKER        LOW     cpc$ 0.80  yoy -19%
+  maritime consulting                                  590  CONSULT       LOW     cpc$ 1.17  yoy -19%
+  manzanillo panama port                               590  INFO_CANAL    LOW     cpc$ 6.42  yoy -10%
+  panama ship registry                                 480  INFO_CANAL    LOW     cpc$ 0.55  yoy -16%
+  how much does it cost to go through panama canal     480  INFO_CANAL    LOW     cpc$ 4.13  yoy -33%
+  how much does it cost to pass the panama canal       480  INFO_CANAL    LOW     cpc$ 4.13  yoy -33%
+  how much does it cost to transit the panama canal     480  INFO_CANAL    LOW     cpc$ 4.13  yoy -33%
+  global maritime consultancy ltd                      320  CONSULT       LOW     cpc$ 0.05  yoy 7%
+  panama canal toll                                    320  INFO_CANAL    LOW     cpc$ 0.00  yoy -19%
+  cost to go through panama canal                      320  INFO_CANAL    LOW     cpc$ 0.10  yoy -53%
+  panama canal schedule                                260  INFO_CANAL    LOW     cpc$ 1.52  yoy 1%
+  panama canal water levels                            260  INFO_CANAL    LOW     cpc$ 2.16  yoy -56%
+  maritime survey                                      260  SURVEY        LOW     cpc$ 2.46  yoy 2%
+  maritime offshore                                    260  STS_OFFSHORE  LOW     cpc$ 2.26  yoy 48%
+  ship to ship transfer guide                          210  STS_OFFSHORE  LOW     cpc$ 0.00  yoy -5%
+  panama canal ship schedule                           170  INFO_CANAL    LOW     cpc$ 1.61  yoy -9%
+  how much does it cost to use the panama canal        170  INFO_CANAL    LOW     cpc$ 0.00  yoy -51%
+  panama canal crossing fee                            170  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal transit fee                             170  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal price to cross                          170  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal transit schedule                        140  INFO_CANAL    LOW     cpc$ 1.54  yoy 15%
+  how much does it cost to cross the panama canal      140  INFO_CANAL    LOW     cpc$ 0.00  yoy -51%
+  underwater survey of ship                            140  SURVEY        LOW     cpc$ 0.00  yoy -28%
+  underwater inspection of ships                       140  SURVEY        LOW     cpc$ 0.00  yoy -36%
+  panama maritime authority website                    110  INFO_CANAL    LOW     cpc$ 0.55  yoy 9%
+  panama canal transit time                             90  INFO_CANAL    LOW     cpc$ 0.00  yoy -23%
+  cost of transiting the panama canal                   90  INFO_CANAL    LOW     cpc$ 0.07  yoy -48%
+  panama canal cost per ship                            90  INFO_CANAL    LOW     cpc$ 0.00  yoy -66%
+
+-- TOP BLOG_GENERAL
+  panama canal panama canal                         368000  INFO_CANAL    LOW     cpc$ 1.04  yoy -50%
+  panama canal panama                               368000  INFO_CANAL    LOW     cpc$ 1.04  yoy -50%
+  panama canal canal                                368000  INFO_CANAL    LOW     cpc$ 1.04  yoy -50%
+  panama canal locks                                  6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  gatun locks                                         6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  gatun locks panama                                  6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  locks panama                                        6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  panama canal gates                                  6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  panama canal water locks                            6600  INFO_CANAL    LOW     cpc$ 0.96  yoy -30%
+  canal locks                                         6600  INFO_CANAL    LOW     cpc$ 2.30  yoy 5%
+  cocolí locks panama canal expansion                 4400  INFO_CANAL    LOW     cpc$ 0.00  yoy -22%
+  panama canal port                                   3600  INFO_CANAL    LOW     cpc$ 0.00  yoy 36%
+
+-- TOP CONQUEST
+  gac uae                                             2900  CONQUEST      MEDIUM  cpc$ 0.52  yoy -1%
+  inchcape company                                    1600  CONQUEST      LOW     cpc$ 0.00  yoy -23%
+  gac panama                                          1300  CONQUEST      LOW     cpc$ 0.11  yoy 17%
+  logo gac                                            1000  CONQUEST      LOW     cpc$ 3.71  yoy 76%
+  norton lilly panama                                  480  CONQUEST      LOW     cpc$ 0.54  yoy 12%
+  gac south africa                                     480  CONQUEST      LOW     cpc$ 0.20  yoy 7%
+  gac website                                          390  CONQUEST      LOW     cpc$ 0.31  yoy 16%
+  gac global                                           390  CONQUEST      LOW     cpc$ 0.78  yoy 161%
+  gac agent                                            320  CONQUEST      LOW     cpc$ 1.97  yoy 4%
+  gac europe                                           320  CONQUEST      LOW     cpc$ 1.20  yoy 31%
+  gac jordan                                           320  CONQUEST      LOW     cpc$ 1.18  yoy 37%
+  cb fenton                                            260  CONQUEST      LOW     cpc$ 0.00  yoy -1%
+  gac logistics dubai                                  260  CONQUEST      LOW     cpc$ 1.04  yoy -22%
+  gac group dubai                                      260  CONQUEST      LOW     cpc$ 1.04  yoy -22%
+  gac news                                             260  CONQUEST      LOW     cpc$ 0.58  yoy 9%
+  inchcape panama                                      210  CONQUEST      LOW     cpc$ 0.00  yoy -3%
+  gac marine llc abu dhabi                             170  CONQUEST      LOW     cpc$ 0.92  yoy -6%
+  leth agencies                                        140  CONQUEST      LOW     cpc$ 0.00  yoy -25%
+  gac world                                            140  CONQUEST      LOW     cpc$ 0.00  yoy 30%
+  wilhelmsen agency                                     90  CONQUEST      LOW     cpc$ 0.65  yoy -6%
+  wilhelmsen ship agency                                90  CONQUEST      LOW     cpc$ 0.65  yoy -6%
+  wilhelmsen panama                                     90  CONQUEST      LOW     cpc$ 3.69  yoy -6%
+  adimar shipping inc                                   90  CONQUEST      LOW     cpc$ 0.00  yoy 24%
+  gac shipping and logistics                            90  CONQUEST      LOW     cpc$ 0.00  yoy 237%
+  gac ship agency                                       70  CONQUEST      LOW     cpc$ 1.66  yoy -6%
+  gac shipping company                                  70  CONQUEST      LOW     cpc$ 0.66  yoy 47%
+  wallenius wilhelmsen logistics panama                 70  CONQUEST      LOW     cpc$ 1.04  yoy -9%
+  wallenius wilhelmsen panama                           70  CONQUEST      LOW     cpc$ 1.04  yoy -9%
+  gac shipping agents                                   70  CONQUEST      LOW     cpc$ 1.66  yoy -6%
+  gac company saudi arabia                              70  CONQUEST      LOW     cpc$ 0.22  yoy 16%
+  inchcape service                                      70  CONQUEST      LOW     cpc$ 0.25  yoy -25%
+  boyd steamship                                        50  CONQUEST      LOW     cpc$ 0.00  yoy -18%
+  gac middle east                                       50  CONQUEST      LOW     cpc$ 1.42  yoy 26%
+  gac contact number                                    50  CONQUEST      LOW     cpc$ 1.60  yoy 25%
+  gac dubai office                                      50  CONQUEST      LOW     cpc$ 1.66  yoy 188%
+  inchcape shipping company                             50  CONQUEST      LOW     cpc$ 0.00  yoy 59%
+  gac logistic                                          40  CONQUEST      LOW     cpc$ 0.00  yoy -2%
+  inchcape agency                                       40  CONQUEST      LOW     cpc$ 0.00  yoy 1%
+  wilhelmsen ships service ships agency                 40  CONQUEST      LOW     cpc$ 0.00  yoy 47%
+  orca ships agents                                     40  CONQUEST      LOW     cpc$ 0.00  yoy -%
+  gac shipping dubai                                    40  CONQUEST      LOW     cpc$ 0.52  yoy -46%
+  gac shipping malaysia                                 40  CONQUEST      LOW     cpc$ 0.00  yoy -45%
+  crossworld maritime agency                            30  CONQUEST      LOW     cpc$ 0.00  yoy 1%
+  panama ship service                                   30  CONQUEST      LOW     cpc$ 0.00  yoy -15%
+  gac contact                                           30  CONQUEST      LOW     cpc$ 2.45  yoy 39%
+
+-- REVISAR (sin segmento, top 20):
+  cargo vessel ship                                90500
+  ship as cargo                                    90500
+  ship with cargo                                  90500
+  ship per                                         74000
+  us maritime                                      74000
+  container vessel                                 60500
+  ship company                                     40500
+  biggest ship                                     40500
+  part ship                                        33100
+  hull shipping                                    22200
+  colon colon panama                               22200
+  bulk carriers                                    22200
+  ship supplier                                    14800
+  kinds of ship                                    14800
+  tankers vessel                                   14800
+  ships information                                12100
+  ships cost                                       12100
+  freight ship                                     12100
+  maritime transportation                          12100
+  freightliner ship                                12100
+
+===== en_pa_us =====
+crudas 2541 · con volumen 2339 · conceptos 2178 · útiles 1087 · volumen útil 617,680/mes
+por segmento: INFO_CANAL 567,690 · CONSULT 24,340 · AGENCIA 9,940 · SURVEY 6,230 · BUNKER 3,470 · CONQUEST 3,290 · STS_OFFSHORE 1,490 · CLAIMS 1,230
+por encaje:   BLOG_GENERAL 556,100 · SERVICIO 44,720 · BLOG_CORE 12,700 · CONQUEST 3,290 · SERVICIO_PANAMA 870
+curva mensual servicios (1=promedio): 1.85 0.88 1.03 0.9 0.78 0.78 0.83 0.39 0.84 0.82 0.81 2.08
+
+-- TOP SERVICIO_PANAMA
+  panama canal booking                                 260  AGENCIA       HIGH    cpc$ 0.26  yoy -39%
+  panama shipping company                              210  CONSULT       LOW     cpc$ 1.97  yoy -13%
+  ship chandler panama                                  90  CONSULT       LOW     cpc$ 0.07  yoy -19%
+  panama canal company                                  70  INFO_CANAL    LOW     cpc$ 0.00  yoy -39%
+  sts panama                                            40  STS_OFFSHORE  LOW     cpc$ 0.00  yoy -26%
+  panama canal agent                                    30  AGENCIA       LOW     cpc$ 0.00  yoy 79%
+  panama canal transit agent                            20  AGENCIA       LOW     cpc$ 0.00  yoy 83%
+  panama shipping agency and services                   20  AGENCIA       LOW     cpc$ 0.92  yoy -45%
+  crew change panama                                    10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -8%
+  panama canal pre booking                              10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -54%
+  bunkering panama                                      10  BUNKER        LOW     cpc$ 0.90  yoy -51%
+  marine fuel panama                                    10  BUNKER        UNKNOWN cpc$ 0.00  yoy -42%
+  bunker fuel panama                                    10  BUNKER        LOW     cpc$ 0.00  yoy -25%
+  mgo panama                                            10  BUNKER        LOW     cpc$ 0.00  yoy 0%
+  marine surveyor panama                                10  SURVEY        LOW     cpc$ 0.00  yoy 5%
+  ship management panama                                10  CONSULT       UNKNOWN cpc$ 0.00  yoy -33%
+  panama shipping agency                                10  AGENCIA       LOW     cpc$ 0.00  yoy -47%
+  panama shipping agency & services                     10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -8%
+  maritime services panama                              10  CONSULT       LOW     cpc$ 0.00  yoy -8%
+  panama canal booking system                           10  AGENCIA       LOW     cpc$ 0.00  yoy 12%
+  ship chandlers in panama                              10  CONSULT       UNKNOWN cpc$ 0.00  yoy -24%
+
+-- TOP SERVICIO
+  shipping company                                   12100  CONSULT       MEDIUM  cpc$ 9.29  yoy -73%
+  marine survey                                       2900  SURVEY        LOW     cpc$ 5.48  yoy -3%
+  ship chandler                                       1900  CONSULT       LOW     cpc$ 3.60  yoy 46%
+  port calls                                          1600  AGENCIA       LOW     cpc$ 0.00  yoy 36%
+  chartering companies                                1300  CONSULT       LOW     cpc$ 7.74  yoy 9%
+  chartering broker                                    880  CONSULT       LOW     cpc$ 3.59  yoy 3%
+  marine fuels                                         880  BUNKER        LOW     cpc$ 4.96  yoy -20%
+  ship brokering                                       720  CONSULT       MEDIUM  cpc$ 14.94  yoy -24%
+  ship charterers                                      720  CONSULT       LOW     cpc$ 1.61  yoy -20%
+  ship broker                                          720  CONSULT       MEDIUM  cpc$ 14.94  yoy -24%
+  ship chartering                                      720  CONSULT       LOW     cpc$ 1.61  yoy -20%
+  vessel chartering                                    720  CONSULT       LOW     cpc$ 1.61  yoy -20%
+  shipping agent                                       590  AGENCIA       MEDIUM  cpc$ 6.57  yoy -20%
+  evergreen shipping agency corp                       590  AGENCIA       LOW     cpc$ 9.70  yoy -3%
+  chartering services                                  590  CONSULT       LOW     cpc$ 10.44  yoy -45%
+  moran shipping agencies inc                          480  AGENCIA       LOW     cpc$ 0.00  yoy -3%
+  offshore supply boat                                 480  STS_OFFSHORE  LOW     cpc$ 17.01  yoy -10%
+  ship management                                      480  CONSULT       LOW     cpc$ 2.07  yoy -52%
+  maritime services                                    480  CONSULT       LOW     cpc$ 0.00  yoy 6%
+  shipping company in us                               480  CONSULT       MEDIUM  cpc$ 6.23  yoy -65%
+  ship & bunker                                        480  BUNKER        LOW     cpc$ 0.00  yoy 17%
+  bunker and ship                                      480  BUNKER        LOW     cpc$ 0.00  yoy 17%
+  fuel for ship                                        390  BUNKER        LOW     cpc$ 0.00  yoy -24%
+  condition surveys                                    320  SURVEY        LOW     cpc$ 0.00  yoy 488%
+  ship agencies                                        320  AGENCIA       LOW     cpc$ 19.05  yoy -30%
+  shipping agency                                      320  AGENCIA       LOW     cpc$ 19.05  yoy -30%
+  grimaldi shipping company                            260  CONSULT       LOW     cpc$ 10.09  yoy -8%
+  cargo claims                                         260  CLAIMS        LOW     cpc$ 9.48  yoy -33%
+  shipping agency china                                260  AGENCIA       MEDIUM  cpc$ 13.68  yoy -23%
+  petroleum inspection                                 210  SURVEY        LOW     cpc$ 0.04  yoy -22%
+  marine shipping company                              210  CONSULT       LOW     cpc$ 9.11  yoy -26%
+  bunker pricing                                       210  BUNKER        LOW     cpc$ 0.00  yoy -31%
+  shipping company worldwide                           210  CONSULT       LOW     cpc$ 11.88  yoy -46%
+  marine surveyor certification                        170  SURVEY        LOW     cpc$ 3.43  yoy 4%
+  certified marine surveyors                           170  SURVEY        LOW     cpc$ 3.43  yoy 4%
+  port agent                                           140  AGENCIA       LOW     cpc$ 0.00  yoy -45%
+  ship to ship transfer                                140  STS_OFFSHORE  LOW     cpc$ 45.80  yoy -9%
+  ship to ship                                         140  STS_OFFSHORE  LOW     cpc$ 45.80  yoy -9%
+  offshore services                                    140  STS_OFFSHORE  LOW     cpc$ 2.36  yoy -27%
+  marine agents                                        140  AGENCIA       LOW     cpc$ 6.52  yoy -45%
+  marine inspection                                    140  SURVEY        LOW     cpc$ 20.13  yoy -6%
+  yacht surveyor                                       140  SURVEY        LOW     cpc$ 4.23  yoy 19%
+  crewing agencies                                     110  AGENCIA       LOW     cpc$ 1.01  yoy -25%
+  husbandry shipping                                   110  AGENCIA       LOW     cpc$ 0.00  yoy -29%
+  vessel husbandry                                     110  AGENCIA       LOW     cpc$ 0.00  yoy -29%
+
+-- TOP BLOG_CORE
+  port of balboa                                       880  INFO_CANAL    LOW     cpc$ 0.00  yoy -3%
+  balboa port panama                                   880  INFO_CANAL    LOW     cpc$ 0.00  yoy -3%
+  panama canal authority                               720  INFO_CANAL    LOW     cpc$ 10.20  yoy -39%
+  manzanillo panama                                    590  INFO_CANAL    LOW     cpc$ 1.43  yoy -15%
+  port of ships                                        590  INFO_CANAL    LOW     cpc$ 0.00  yoy -18%
+  bunker cost                                          480  BUNKER        LOW     cpc$ 0.76  yoy -19%
+  panama maritime authority                            390  INFO_CANAL    LOW     cpc$ 0.00  yoy 1%
+  balboa panama port                                   390  INFO_CANAL    LOW     cpc$ 0.00  yoy -19%
+  balboa port                                          390  INFO_CANAL    LOW     cpc$ 0.00  yoy -19%
+  cristobal panama                                     390  INFO_CANAL    LOW     cpc$ 0.00  yoy -30%
+  how much does it cost to go through panama canal     390  INFO_CANAL    LOW     cpc$ 4.13  yoy -34%
+  how much does it cost to pass the panama canal       390  INFO_CANAL    LOW     cpc$ 4.13  yoy -34%
+  how much does it cost to transit the panama canal     390  INFO_CANAL    LOW     cpc$ 4.13  yoy -34%
+  panama canal fee                                     390  INFO_CANAL    LOW     cpc$ 0.25  yoy -92%
+  panama canal price                                   390  INFO_CANAL    LOW     cpc$ 0.25  yoy -92%
+  panama canal rates                                   390  INFO_CANAL    LOW     cpc$ 0.25  yoy -92%
+  panama canal cost                                    390  INFO_CANAL    LOW     cpc$ 0.25  yoy -92%
+  port of cristobal                                    260  INFO_CANAL    LOW     cpc$ 0.00  yoy -35%
+  cristobal panama port                                260  INFO_CANAL    LOW     cpc$ 0.00  yoy -35%
+  bunker rates                                         260  BUNKER        LOW     cpc$ 0.00  yoy -50%
+  cost to go through panama canal                      260  INFO_CANAL    LOW     cpc$ 0.00  yoy -57%
+  panama canal toll                                    170  INFO_CANAL    LOW     cpc$ 0.00  yoy -35%
+  panama canal schedule                                170  INFO_CANAL    LOW     cpc$ 1.58  yoy 3%
+  manzanillo panama port                               170  INFO_CANAL    LOW     cpc$ 0.86  yoy -19%
+  panama ship registry                                 140  INFO_CANAL    LOW     cpc$ 0.00  yoy -11%
+  panama canal water levels                            140  INFO_CANAL    LOW     cpc$ 2.16  yoy -60%
+  panama canal ship schedule                           140  INFO_CANAL    LOW     cpc$ 1.61  yoy -8%
+  how much does it cost to use the panama canal        110  INFO_CANAL    LOW     cpc$ 0.00  yoy -55%
+  maritime consulting                                   90  CONSULT       LOW     cpc$ 0.92  yoy -29%
+  panama canal transit schedule                         90  INFO_CANAL    LOW     cpc$ 1.54  yoy 37%
+  how much does it cost to cross the panama canal       90  INFO_CANAL    LOW     cpc$ 0.00  yoy -51%
+  balboa port terminal                                  90  INFO_CANAL    LOW     cpc$ 0.00  yoy -39%
+  panama canal crossing fee                             90  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal transit fee                              90  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal price to cross                           90  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  cost of transiting the panama canal                   70  INFO_CANAL    LOW     cpc$ 0.00  yoy -50%
+  panama canal boat schedule                            50  INFO_CANAL    LOW     cpc$ 0.73  yoy 8%
+  panama canal schedule today                           50  INFO_CANAL    LOW     cpc$ 0.80  yoy -1%
+  panama canal toll cost                                50  INFO_CANAL    LOW     cpc$ 0.00  yoy -31%
+  maritime survey                                       50  SURVEY        LOW     cpc$ 0.00  yoy 15%
+  panama canal transit time                             40  INFO_CANAL    LOW     cpc$ 0.00  yoy -24%
+  panama canal transit cost                             40  INFO_CANAL    LOW     cpc$ 0.00  yoy -45%
+  panama canal transit schedule today                   40  INFO_CANAL    LOW     cpc$ 1.26  yoy -66%
+  panama canal schedule for ships                       40  INFO_CANAL    LOW     cpc$ 0.00  yoy 8%
+  panama canal vessel schedule                          40  INFO_CANAL    LOW     cpc$ 0.00  yoy 8%
+
+-- TOP BLOG_GENERAL
+  panama canal panama canal                         165000  INFO_CANAL    LOW     cpc$ 1.15  yoy -45%
+  panama canal panama                               165000  INFO_CANAL    LOW     cpc$ 1.15  yoy -45%
+  panama canal canal                                165000  INFO_CANAL    LOW     cpc$ 1.15  yoy -45%
+  panama canal locks                                  3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  gatun locks                                         3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  gatun locks panama                                  3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  locks panama                                        3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  panama canal gates                                  3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  panama canal water locks                            3600  INFO_CANAL    LOW     cpc$ 1.06  yoy -22%
+  canal locks                                         2900  INFO_CANAL    LOW     cpc$ 0.00  yoy 51%
+  panama canal building                               2900  INFO_CANAL    LOW     cpc$ 3.05  yoy -17%
+  panama canal port                                   2400  INFO_CANAL    LOW     cpc$ 0.00  yoy 219%
+
+-- TOP CONQUEST
+  gac panama                                          1300  CONQUEST      LOW     cpc$ 0.11  yoy 21%
+  norton lilly panama                                  390  CONQUEST      LOW     cpc$ 0.54  yoy 12%
+  inchcape panama                                      210  CONQUEST      LOW     cpc$ 0.00  yoy -9%
+  cb fenton                                            210  CONQUEST      LOW     cpc$ 0.00  yoy 5%
+  inchcape company                                     170  CONQUEST      LOW     cpc$ 0.00  yoy -7%
+  adimar shipping inc                                   90  CONQUEST      LOW     cpc$ 0.00  yoy 26%
+  gac website                                           90  CONQUEST      LOW     cpc$ 0.00  yoy 19%
+  wilhelmsen panama                                     70  CONQUEST      LOW     cpc$ 0.00  yoy -16%
+  wallenius wilhelmsen logistics panama                 50  CONQUEST      LOW     cpc$ 1.04  yoy -17%
+  wallenius wilhelmsen panama                           50  CONQUEST      LOW     cpc$ 1.04  yoy -17%
+  boyd steamship                                        50  CONQUEST      LOW     cpc$ 0.00  yoy -23%
+  orca ships agents                                     30  CONQUEST      LOW     cpc$ 0.00  yoy -%
+  gac agent                                             30  CONQUEST      LOW     cpc$ 0.00  yoy -6%
+  gac ship agency                                       20  CONQUEST      LOW     cpc$ 0.00  yoy -8%
+  panama ship service                                   20  CONQUEST      LOW     cpc$ 0.00  yoy 3%
+  gac shipping agents                                   20  CONQUEST      LOW     cpc$ 0.00  yoy -8%
+  gac uae                                               20  CONQUEST      LOW     cpc$ 0.97  yoy -8%
+  gac global                                            20  CONQUEST      LOW     cpc$ 0.00  yoy 100%
+  logo gac                                              20  CONQUEST      LOW     cpc$ 0.00  yoy 53%
+  gac news                                              20  CONQUEST      LOW     cpc$ 0.00  yoy 9%
+  crossworld maritime agency                            10  CONQUEST      LOW     cpc$ 0.00  yoy 10%
+  gac logistic                                          10  CONQUEST      UNKNOWN cpc$ 0.00  yoy -54%
+  gac shipping company                                  10  CONQUEST      LOW     cpc$ 0.00  yoy -8%
+  inchcape agency                                       10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  inchcape shipping agency                              10  CONQUEST      LOW     cpc$ 0.00  yoy -25%
+  pacific shipping agency                               10  CONQUEST      UNKNOWN cpc$ 0.00  yoy -8%
+  wilhelmsen agency                                     10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  wilhelmsen ship agency                                10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  wilhelmsen ships service ships agency                 10  CONQUEST      UNKNOWN cpc$ 0.00  yoy -77%
+  leth agencies                                         10  CONQUEST      LOW     cpc$ 0.00  yoy -3%
+  adimar shipping                                       10  CONQUEST      LOW     cpc$ 0.00  yoy 15%
+  associated steamship agents                           10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  cross world agency                                    10  CONQUEST      LOW     cpc$ 0.00  yoy -25%
+  wilhelmsen ships service panama                       10  CONQUEST      LOW     cpc$ 0.00  yoy 22%
+  gac logistics dubai                                   10  CONQUEST      LOW     cpc$ 0.00  yoy -62%
+  gac europe                                            10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  gac south africa                                      10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  gac shipping and logistics                            10  CONQUEST      LOW     cpc$ 0.00  yoy -43%
+  gac freight                                           10  CONQUEST      LOW     cpc$ 0.00  yoy 83%
+  gac company saudi arabia                              10  CONQUEST      LOW     cpc$ 0.00  yoy -8%
+  gac shipping dubai                                    10  CONQUEST      UNKNOWN cpc$ 0.00  yoy 83%
+  gac middle east                                       10  CONQUEST      LOW     cpc$ 0.00  yoy 15%
+  gac contact number                                    10  CONQUEST      LOW     cpc$ 0.00  yoy 53%
+  gac world                                             10  CONQUEST      LOW     cpc$ 0.00  yoy 0%
+  gac dubai office                                      10  CONQUEST      UNKNOWN cpc$ 0.00  yoy -45%
+
+-- REVISAR (sin segmento, top 20):
+  us maritime                                      33100
+  cargo vessel ship                                27100
+  ship as cargo                                    27100
+  ship with cargo                                  27100
+  ship company                                     12100
+  part ship                                        12100
+  ship supplier                                    9900
+  colon colon panama                               9900
+  container vessel                                 9900
+  freight ship                                     8100
+  freightliner ship                                8100
+  hull shipping                                    6600
+  ship store                                       6600
+  ship per                                         5400
+  ships cost                                       5400
+  kinds of ship                                    3600
+  sides of a ship                                  2900
+  shipping international company                   2900
+  merchant vessels                                 2900
+  marine services                                  2400
+
+===== es_latam =====
+crudas 343 · con volumen 272 · conceptos 233 · útiles 205 · volumen útil 23,010/mes
+por segmento: INFO_CANAL 20,250 · AGENCIA 1,190 · BUNKER 860 · CONSULT 250 · SURVEY 240 · STS_OFFSHORE 210 · CLAIMS 10
+por encaje:   BLOG_CORE 14,300 · BLOG_GENERAL 5,990 · SERVICIO 2,610 · SERVICIO_PANAMA 110
+curva mensual servicios (1=promedio): 0.96 1 1.16 1.11 1.14 0.93 0.96 0.53 1.22 1.22 1.01 0.75
+
+-- TOP SERVICIO_PANAMA
+  agencias navieras en panamá                           30  AGENCIA       LOW     cpc$ 0.45  yoy -30%
+  navieras en panamá                                    20  AGENCIA       MEDIUM  cpc$ 0.67  yoy -27%
+  navieras en colon                                     20  AGENCIA       LOW     cpc$ 0.76  yoy -45%
+  agencias maritimas en panama                          10  AGENCIA       MEDIUM  cpc$ 1.21  yoy -1%
+  agencias navieras panamá                              10  AGENCIA       UNKNOWN cpc$ 0.00  yoy 175%
+  servicio logistico del puerto de balboa               10  INFO_CANAL    UNKNOWN cpc$ 0.00  yoy -54%
+  servicios portuarios panama                           10  AGENCIA       LOW     cpc$ 0.00  yoy -8%
+
+-- TOP SERVICIO
+  agente naviero                                       210  AGENCIA       LOW     cpc$ 0.00  yoy -21%
+  trasiego de combustible                              210  BUNKER        LOW     cpc$ 0.00  yoy -11%
+  plataformas offshore                                 210  STS_OFFSHORE  LOW     cpc$ 0.00  yoy -1%
+  agencia naviera                                      170  AGENCIA       LOW     cpc$ 1.08  yoy -22%
+  combustible de barco                                 170  BUNKER        LOW     cpc$ 2.48  yoy 137%
+  contratos de fletamento                              140  CONSULT       LOW     cpc$ 0.00  yoy -41%
+  combustible para barcos                              110  BUNKER        LOW     cpc$ 0.00  yoy 98%
+  draft survey                                          90  SURVEY        LOW     cpc$ 0.00  yoy -10%
+  adriatic agencia naviera                              70  AGENCIA       LOW     cpc$ 0.00  yoy -4%
+  bomba de trasiego de combustible                      70  BUNKER        MEDIUM  cpc$ 0.78  yoy 13%
+  agencia maritima                                      50  AGENCIA       LOW     cpc$ 0.83  yoy -32%
+  combustible de los barcos                             50  BUNKER        LOW     cpc$ 0.00  yoy 73%
+  agente marítimo                                       40  AGENCIA       LOW     cpc$ 0.00  yoy -35%
+  combustible barco                                     30  BUNKER        LOW     cpc$ 0.00  yoy 119%
+  bomba para trasiego de combustible                    30  BUNKER        MEDIUM  cpc$ 0.77  yoy -14%
+  agenciamiento marítimo                                20  AGENCIA       LOW     cpc$ 0.00  yoy -33%
+  agente de carga maritimo                              20  AGENCIA       MEDIUM  cpc$ 3.62  yoy -13%
+  agencia maritima altamar ltda                         20  AGENCIA       LOW     cpc$ 0.00  yoy -28%
+  agencia naviera venezolana                            20  AGENCIA       LOW     cpc$ 1.53  yoy -12%
+  agente naviero general                                20  AGENCIA       LOW     cpc$ 0.00  yoy -35%
+  broker maritimo                                       20  CONSULT       LOW     cpc$ 4.56  yoy -30%
+  navegacion del pacifico agencia maritima              20  AGENCIA       LOW     cpc$ 0.77  yoy 24%
+  combustible de buques                                 20  BUNKER        LOW     cpc$ 0.00  yoy 92%
+  combustible para barcos de carga                      20  BUNKER        LOW     cpc$ 0.00  yoy 133%
+  perito naval                                          20  SURVEY        LOW     cpc$ 0.00  yoy -13%
+  inspección de buques                                  20  SURVEY        LOW     cpc$ 0.00  yoy -4%
+  inspección de carga                                   20  SURVEY        LOW     cpc$ 0.00  yoy -28%
+  inspector maritimo                                    20  SURVEY        LOW     cpc$ 0.00  yoy -17%
+  corredor marítimo                                     20  CONSULT       LOW     cpc$ 0.00  yoy 8%
+  agencia de carga maritima                             10  AGENCIA       UNKNOWN cpc$ 0.00  yoy 0%
+  agencias navieras en república dominicana             10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -54%
+  adriatic agencia naviera sa                           10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -63%
+  agencia internacional maritima                        10  AGENCIA       LOW     cpc$ 0.00  yoy -18%
+  agencia internacional maritima sa                     10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -54%
+  agencia maritima agunsa                               10  AGENCIA       LOW     cpc$ 0.00  yoy 15%
+  agencia maritima christophersen                       10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -%
+  agencia maritima funciones                            10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -54%
+  agencia maritima global                               10  AGENCIA       UNKNOWN cpc$ 0.00  yoy 358%
+  agencia maritima global sa                            10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -%
+  agencia maritima internacional sas                    10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -69%
+  agencia maritima navegacion del pacifico              10  AGENCIA       LOW     cpc$ 0.00  yoy -45%
+  agencia maritima one                                  10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -8%
+  agencia maritima san lorenzo                          10  AGENCIA       LOW     cpc$ 0.00  yoy -%
+  agencia maritima ultramar                             10  AGENCIA       LOW     cpc$ 0.00  yoy -2%
+  agencia naviera funciones                             10  AGENCIA       UNKNOWN cpc$ 0.00  yoy -43%
+
+-- TOP BLOG_CORE
+  puerto de balboa                                    2900  INFO_CANAL    LOW     cpc$ 0.31  yoy 7%
+  puerto de balboa panama                             2900  INFO_CANAL    LOW     cpc$ 0.31  yoy 7%
+  balboa en panama                                    1600  INFO_CANAL    LOW     cpc$ 0.79  yoy 1%
+  puerto balboa                                       1300  INFO_CANAL    LOW     cpc$ 0.01  yoy 3%
+  autoridad marítima de panamá                        1000  INFO_CANAL    LOW     cpc$ 0.05  yoy 98%
+  puerto de panama                                     880  INFO_CANAL    LOW     cpc$ 0.41  yoy -20%
+  balboa panamá                                        590  INFO_CANAL    LOW     cpc$ 0.00  yoy 6%
+  panama puerto                                        480  INFO_CANAL    LOW     cpc$ 0.61  yoy -20%
+  puerto manzanillo panama                             320  INFO_CANAL    LOW     cpc$ 0.40  yoy -22%
+  panama puerto colon                                  260  INFO_CANAL    LOW     cpc$ 1.21  yoy 5%
+  puerto de manzanillo panama                          260  INFO_CANAL    LOW     cpc$ 0.20  yoy -24%
+  puerto balboa panama                                 170  INFO_CANAL    LOW     cpc$ 0.31  yoy -13%
+  puerto colon 2000                                    170  INFO_CANAL    LOW     cpc$ 0.00  yoy 7%
+  puerto de colon panama                               170  INFO_CANAL    LOW     cpc$ 0.00  yoy 21%
+  puertos de panamá                                    140  INFO_CANAL    LOW     cpc$ 0.00  yoy 5%
+  puerto balboa panamá                                 110  INFO_CANAL    LOW     cpc$ 0.00  yoy -13%
+  puerto baru chiriqui                                 110  INFO_CANAL    LOW     cpc$ 1.45  yoy -3%
+  manzanillo panamá                                     90  INFO_CANAL    LOW     cpc$ 0.00  yoy -31%
+  puerto rodman panama                                  90  INFO_CANAL    LOW     cpc$ 0.32  yoy -7%
+  puerto baru panama                                    70  INFO_CANAL    LOW     cpc$ 1.22  yoy -26%
+  astillero balboa                                      50  INFO_CANAL    LOW     cpc$ 0.00  yoy 28%
+  cuanto cuesta cruzar el canal de panama               50  INFO_CANAL    LOW     cpc$ 1.46  yoy -46%
+  principales puertos de panamá                         50  INFO_CANAL    LOW     cpc$ 0.00  yoy -5%
+  puerto obaldia panama                                 50  INFO_CANAL    LOW     cpc$ 0.00  yoy -20%
+  cma cgm balboa                                        40  INFO_CANAL    LOW     cpc$ 0.00  yoy -78%
+  colon panama puerto                                   40  INFO_CANAL    LOW     cpc$ 0.00  yoy 62%
+  puerto caimito panama                                 40  INFO_CANAL    LOW     cpc$ 0.00  yoy 1%
+  puerto de cristóbal                                   40  INFO_CANAL    LOW     cpc$ 0.00  yoy 49%
+  puerto colon en panama                                30  INFO_CANAL    LOW     cpc$ 0.00  yoy -23%
+  fletamento por tiempo                                 20  CONSULT       LOW     cpc$ 0.00  yoy -51%
+  cuánto cuesta cruzar el canal de panamá               20  INFO_CANAL    LOW     cpc$ 0.00  yoy -8%
+  puerto maritimo de panama                             20  INFO_CANAL    LOW     cpc$ 0.94  yoy -29%
+  puertos del canal de panama                           20  INFO_CANAL    LOW     cpc$ 0.00  yoy -42%
+  gasoil marino precio                                  10  BUNKER        UNKNOWN cpc$ 0.00  yoy 22%
+  contrato de fletamento por tiempo                     10  CONSULT       LOW     cpc$ 0.00  yoy -13%
+  fletamento a tiempo                                   10  CONSULT       UNKNOWN cpc$ 0.00  yoy -49%
+  air panama puerto obaldia                             10  INFO_CANAL    UNKNOWN cpc$ 0.00  yoy -17%
+  astillero balboa panama                               10  INFO_CANAL    LOW     cpc$ 0.00  yoy 0%
+  balboa panamá puerto                                  10  INFO_CANAL    LOW     cpc$ 0.00  yoy 83%
+  canal de panama cuanto cuesta cruzar                  10  INFO_CANAL    LOW     cpc$ 0.00  yoy 0%
+  canal de panama miraflores precios                    10  INFO_CANAL    MEDIUM  cpc$ 0.00  yoy 0%
+  castillo san cristóbal san juan                       10  INFO_CANAL    LOW     cpc$ 0.00  yoy 18%
+  cuanto cuesta cruzar el canal de panamá en auto       10  INFO_CANAL    UNKNOWN cpc$ 0.00  yoy -90%
+  cuanto cuesta cruzar el canal de panamá en velero      10  INFO_CANAL    LOW     cpc$ 0.00  yoy -17%
+  cuanto cuesta cruzar un barco por el canal de panama      10  INFO_CANAL    LOW     cpc$ 0.00  yoy -31%
+
+-- TOP BLOG_GENERAL
+  canal de panama como funciona                        880  INFO_CANAL    LOW     cpc$ 0.38  yoy -16%
+  esclusa del canal de panama                          880  INFO_CANAL    LOW     cpc$ 0.39  yoy 25%
+  cómo funciona el canal de panamá                     720  INFO_CANAL    LOW     cpc$ 0.01  yoy -15%
+  esclusa de miraflores panama                         590  INFO_CANAL    LOW     cpc$ 0.52  yoy 25%
+  colon container terminal panama                      480  INFO_CANAL    LOW     cpc$ 0.00  yoy -9%
+  esclusas de gatun                                    480  INFO_CANAL    LOW     cpc$ 0.00  yoy 9%
+  canal panama esclusas                                260  INFO_CANAL    LOW     cpc$ 0.87  yoy 17%
+  esclusas del canal de panamá                         210  INFO_CANAL    LOW     cpc$ 0.00  yoy 36%
+  esclusa de panama                                    170  INFO_CANAL    LOW     cpc$ 0.14  yoy 25%
+  canal de panamá miraflores                           140  INFO_CANAL    LOW     cpc$ 1.05  yoy 87%
+  esclusas pedro miguel                                140  INFO_CANAL    LOW     cpc$ 0.00  yoy 23%
+  las esclusas del canal de panamá                     140  INFO_CANAL    LOW     cpc$ 0.39  yoy 76%
+
+-- TOP CONQUEST
+
+-- REVISAR (sin segmento, top 20):
+  colón 2000                                       480
+  obaldia panama                                   40
+  revision de contenedores                         10
+  verificacion de contenedores                     10
+  la marina mercante de panamá                     10
+  sistema portuario de panama                      10
+  tarifas portuarias en panamá                     10
+
+guardado kw_resumen.json + keyword-research-crossworld.csv

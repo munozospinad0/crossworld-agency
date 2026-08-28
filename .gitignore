@@ -1,0 +1,21 @@
+# datos crudos del keyword research (varios MB; se regeneran con research/kw_research.mjs)
+research/kw_raw_*.json
+research/kw_conceptos_*.json
+research/kw_research.log
+
+# scripts privados y material del cliente que no se publica
+research/_*.sh
+docs/company-profile-2025.pdf
+docs/page-*.png
+docs/profile.txt
+
+# next.js / node
+node_modules/
+.next/
+out/
+.vercel/
+.env
+.env.*
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

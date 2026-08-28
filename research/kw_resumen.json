@@ -1,0 +1,7049 @@
+{
+ "en_world": {
+  "crudas": 2685,
+  "conVolumen": 2606,
+  "conceptos": 2474,
+  "utiles": 1305,
+  "volumenUtil": 1498050,
+  "porSegmento": {
+   "INFO_CANAL": 1238530,
+   "CONSULT": 125610,
+   "SURVEY": 23410,
+   "AGENCIA": 62280,
+   "BUNKER": 22280,
+   "CONQUEST": 13080,
+   "STS_OFFSHORE": 9810,
+   "CLAIMS": 3050
+  },
+  "porEncaje": {
+   "BLOG_GENERAL": 1205040,
+   "SERVICIO": 239430,
+   "BLOG_CORE": 39350,
+   "CONQUEST": 13080,
+   "SERVICIO_PANAMA": 1150
+  },
+  "curvaServicios": [
+   1.23,
+   1,
+   1.18,
+   1.03,
+   0.97,
+   0.93,
+   0.96,
+   0.47,
+   1.07,
+   1.01,
+   0.97,
+   1.18
+  ],
+  "top": {
+   "SERVICIO_PANAMA": [
+    {
+     "kw": "panama canal booking",
+     "avg": 320,
+     "seg": "AGENCIA",
+     "comp": "HIGH",
+     "cpc": 2395.44,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping company",
+     "avg": 320,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 5764.22,
+     "varAnual": -23,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chandler panama",
+     "avg": 110,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 298.83,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal company",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -40,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal agent",
+     "avg": 40,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 18,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "sts panama",
+     "avg": 40,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -28,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency",
+     "avg": 30,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -11,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit agent",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "bunkering panama",
+     "avg": 20,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 3687.9,
+     "varAnual": -55,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency and services",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 3766.48,
+     "varAnual": -52,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime services panama",
+     "avg": 20,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 6,
+     "variantes": 2
+    },
+    {
+     "kw": "crew change panama",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -29,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal pre booking",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "marine fuel panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker fuel panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "mgo panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "marine surveyor panama",
+     "avg": 10,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 10,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "ship management panama",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency & services",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal booking system",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 11,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chandlers in panama",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 22,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "SERVICIO": [
+    {
+     "kw": "shipping company",
+     "avg": 40500,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 21384.94,
+     "varAnual": -49,
+     "pico": 12,
+     "variantes": 3
+    },
+    {
+     "kw": "ship chandler",
+     "avg": 12100,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 3310.99,
+     "varAnual": -7,
+     "pico": 7,
+     "variantes": 2
+    },
+    {
+     "kw": "marine survey",
+     "avg": 8100,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 14000.19,
+     "varAnual": -18,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship charterers",
+     "avg": 6600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 8223.49,
+     "varAnual": -21,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chartering",
+     "avg": 6600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 8284.77,
+     "varAnual": -21,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "vessel chartering",
+     "avg": 6600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 8284.77,
+     "varAnual": -21,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agent",
+     "avg": 5400,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 13471.03,
+     "varAnual": -33,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "ship management",
+     "avg": 5400,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 11677.1,
+     "varAnual": -33,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "port calls",
+     "avg": 5400,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 11074.46,
+     "varAnual": 12,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "ship & bunker",
+     "avg": 4400,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 17903.71,
+     "varAnual": 16,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company in dubai united arab emirates",
+     "avg": 4400,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 9119.11,
+     "varAnual": -39,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker and ship",
+     "avg": 4400,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 17903.71,
+     "varAnual": 16,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship brokering",
+     "avg": 3600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 38610.84,
+     "varAnual": -25,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship broker",
+     "avg": 3600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 38898.55,
+     "varAnual": -25,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering companies",
+     "avg": 3600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 21846.97,
+     "varAnual": -20,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "ic shipbrokers",
+     "avg": 2900,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 4233.42,
+     "varAnual": -10,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "ics shipbrokers",
+     "avg": 2900,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 4233.42,
+     "varAnual": -10,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "ship agencies",
+     "avg": 2900,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 10029.16,
+     "varAnual": -29,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agency",
+     "avg": 2900,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 10029.16,
+     "varAnual": -29,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "fuel for ship",
+     "avg": 2900,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 5802.64,
+     "varAnual": 55,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker pricing",
+     "avg": 2400,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 4582.54,
+     "varAnual": 15,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "marine fuels",
+     "avg": 2400,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 12839.56,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "all ocean maritime agency",
+     "avg": 1900,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1113.27,
+     "varAnual": 34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "all ocean maritime agency inc",
+     "avg": 1900,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1113.27,
+     "varAnual": 34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "sharaf shipping agency ssa",
+     "avg": 1900,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 8176.23,
+     "varAnual": 3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "ship to ship transfer",
+     "avg": 1900,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 30930.99,
+     "varAnual": -5,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "offshore supply boat",
+     "avg": 1900,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 31397.15,
+     "varAnual": -15,
+     "pico": 3,
+     "variantes": 2
+    },
+    {
+     "kw": "ship to ship",
+     "avg": 1900,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 30930.99,
+     "varAnual": -5,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime services",
+     "avg": 1900,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 10420.03,
+     "varAnual": -11,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agency china",
+     "avg": 1900,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 18659.94,
+     "varAnual": -27,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company in us",
+     "avg": 1900,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 16163.72,
+     "varAnual": -50,
+     "pico": 3,
+     "variantes": 2
+    },
+    {
+     "kw": "grimaldi shipping company",
+     "avg": 1600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 22788.95,
+     "varAnual": 2,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "draft survey",
+     "avg": 1600,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 2434.76,
+     "varAnual": -16,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering broker",
+     "avg": 1600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 15835.3,
+     "varAnual": 1,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "survey vessel",
+     "avg": 1600,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 6739.72,
+     "varAnual": 18,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "fleet management shipping company",
+     "avg": 1600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 5638.21,
+     "varAnual": -4,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering services",
+     "avg": 1600,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 36580.64,
+     "varAnual": -33,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "port agent",
+     "avg": 1300,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 2665.11,
+     "varAnual": -31,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "crewing agencies",
+     "avg": 1300,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1323.06,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "evergreen shipping agency corp",
+     "avg": 1300,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 29596.53,
+     "varAnual": -1,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "offshore services",
+     "avg": 1300,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 21309.47,
+     "varAnual": -15,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "agency maritime",
+     "avg": 1000,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 7595.43,
+     "varAnual": -31,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "marine shipping company",
+     "avg": 1000,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 12333.47,
+     "varAnual": -36,
+     "pico": 3,
+     "variantes": 2
+    },
+    {
+     "kw": "shipping company singapore",
+     "avg": 1000,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 7534.19,
+     "varAnual": -40,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime agent",
+     "avg": 1000,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 7652.03,
+     "varAnual": -31,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "zodiac shipping company",
+     "avg": 880,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 4065.19,
+     "varAnual": 110,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "seafarers shipping agency inc manning agency",
+     "avg": 880,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 54,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "qapla maritime consultancy services",
+     "avg": 880,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 276.79,
+     "varAnual": 7,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "cargo survey",
+     "avg": 880,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 11259.9,
+     "varAnual": -14,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company in sri lanka",
+     "avg": 880,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 1124.53,
+     "varAnual": -17,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "cargo surveyor",
+     "avg": 880,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 11259.9,
+     "varAnual": -14,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "facility shipping agency",
+     "avg": 720,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1143.95,
+     "varAnual": 16,
+     "pico": 9,
+     "variantes": 2
+    },
+    {
+     "kw": "reham shipping agency llc",
+     "avg": 720,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1436.08,
+     "varAnual": 28,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "marine warranty survey",
+     "avg": 720,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 8843.84,
+     "varAnual": -20,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "crewing agency",
+     "avg": 720,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 4362.58,
+     "varAnual": -31,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship management services",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 13011.04,
+     "varAnual": 129,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company worldwide",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 18544.81,
+     "varAnual": -30,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "crew change",
+     "avg": 720,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "diamond h marine services & shipping agency inc",
+     "avg": 590,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1680.98,
+     "varAnual": 68,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "moran shipping agencies inc",
+     "avg": 590,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -4,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "BLOG_CORE": [
+    {
+     "kw": "manzanillo panama",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5843.36,
+     "varAnual": -16,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker rates",
+     "avg": 2900,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 4737.54,
+     "varAnual": 7,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa panama port",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "port of ships",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 15769.15,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "port of balboa",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port panama",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "port of cristobal",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -27,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cristobal panama port",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -27,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal authority",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 41818,
+     "varAnual": -50,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "cristobal panama",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2249.01,
+     "varAnual": -28,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "panama maritime authority",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2452.55,
+     "varAnual": -7,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port terminal",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -19,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal fee",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2021.85,
+     "varAnual": -87,
+     "pico": 2,
+     "variantes": 3
+    },
+    {
+     "kw": "panama canal price",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2005.13,
+     "varAnual": -87,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal rates",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2005.13,
+     "varAnual": -87,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal cost",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2006.9,
+     "varAnual": -87,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "bunker cost",
+     "avg": 720,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 3273.48,
+     "varAnual": -19,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime consulting",
+     "avg": 590,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 4799.99,
+     "varAnual": -19,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "manzanillo panama port",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 26321.87,
+     "varAnual": -10,
+     "pico": 3,
+     "variantes": 2
+    },
+    {
+     "kw": "panama ship registry",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2243.9,
+     "varAnual": -16,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to go through panama canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -33,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to pass the panama canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -33,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to transit the panama canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -33,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "global maritime consultancy ltd",
+     "avg": 320,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 220.43,
+     "varAnual": 7,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -19,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "cost to go through panama canal",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 428.84,
+     "varAnual": -53,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal schedule",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6214.19,
+     "varAnual": 1,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal water levels",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 8840.89,
+     "varAnual": -56,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime survey",
+     "avg": 260,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 10092.78,
+     "varAnual": 2,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime offshore",
+     "avg": 260,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 9271.72,
+     "varAnual": 48,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship to ship transfer guide",
+     "avg": 210,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -5,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ship schedule",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6613.69,
+     "varAnual": -9,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to use the panama canal",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -51,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal crossing fee",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit fee",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal price to cross",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit schedule",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6314.87,
+     "varAnual": 15,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to cross the panama canal",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -51,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "underwater survey of ship",
+     "avg": 140,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -28,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "underwater inspection of ships",
+     "avg": 140,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -36,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "panama maritime authority website",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2266.64,
+     "varAnual": 9,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit time",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "cost of transiting the panama canal",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 283.6,
+     "varAnual": -48,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal cost per ship",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -66,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "antigua maritime agencies ltd",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime transport & agencies",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 23,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "ocimf ship to ship transfer guide",
+     "avg": 70,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -16,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime advisory",
+     "avg": 70,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 19,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit cost",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -47,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal crossing cost",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -41,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal boat schedule",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2974.69,
+     "varAnual": 3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal schedule for ships",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 5,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll cost",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -41,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll fee",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal vessel schedule",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 5,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime inspection",
+     "avg": 70,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal draft restrictions",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 19,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "panama flag registration",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2136.68,
+     "varAnual": -16,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit schedule today",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5147.83,
+     "varAnual": -66,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "BLOG_GENERAL": [
+    {
+     "kw": "panama canal panama canal",
+     "avg": 368000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4276.95,
+     "varAnual": -50,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal panama",
+     "avg": 368000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4276.95,
+     "varAnual": -50,
+     "pico": 1,
+     "variantes": 4
+    },
+    {
+     "kw": "panama canal canal",
+     "avg": 368000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4276.95,
+     "varAnual": -50,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal locks",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun locks",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun locks panama",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "locks panama",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal gates",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal water locks",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3956.17,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "canal locks",
+     "avg": 6600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 9439.84,
+     "varAnual": 5,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cocolí locks panama canal expansion",
+     "avg": 4400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal port",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 36,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal where",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 8591.69,
+     "varAnual": -47,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal building",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 10980.08,
+     "varAnual": -29,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal located",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 108.82,
+     "varAnual": -35,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "pedro miguel locks",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 6,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal facts",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21947.67,
+     "varAnual": 8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4204.37,
+     "varAnual": 404,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal how does it work",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3203.64,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama city",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3125.06,
+     "varAnual": 134,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama canal",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4082.8,
+     "varAnual": 79,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal visitors center",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4123.53,
+     "varAnual": 3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal important",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal opening",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 21,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "significance of panama canal",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -30,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal expansion",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21581.58,
+     "varAnual": -58,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "colon container terminal panama",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -14,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal expansion project",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21581.58,
+     "varAnual": -58,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal upgrade",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21581.58,
+     "varAnual": -58,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "canal shipping",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -12,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal pricing",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2006.9,
+     "varAnual": -87,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal times",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4109.88,
+     "varAnual": -22,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal description",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 96,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal where is it located",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3104.14,
+     "varAnual": -40,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "location of panama canal",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3104.14,
+     "varAnual": -40,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 7199.14,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ship",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 430.63,
+     "varAnual": -7,
+     "pico": 2,
+     "variantes": 3
+    },
+    {
+     "kw": "panama canal tickets",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "MEDIUM",
+     "cpc": 3742.86,
+     "varAnual": 6,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal us",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -76,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal today",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -49,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal new canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 7216.73,
+     "varAnual": -58,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ownership",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -90,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "new panama canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 7216.73,
+     "varAnual": -58,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "united states panama canal",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -76,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal shipping",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 430.63,
+     "varAnual": -7,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal year",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 48,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "lock system panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal information",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 19990.41,
+     "varAnual": 23,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal info",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 19990.41,
+     "varAnual": 23,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal purpose",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "information about the panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 19990.41,
+     "varAnual": 23,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "1914 panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 4,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal completed",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6580.13,
+     "varAnual": 31,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama city canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 7909.94,
+     "varAnual": -15,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "new panama canal locks",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 11501.77,
+     "varAnual": -38,
+     "pico": 1,
+     "variantes": 3
+    },
+    {
+     "kw": "panama canal locks diagram",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -20,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "canal information",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 7505.39,
+     "varAnual": -15,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3297.3,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how many ships go through the panama canal per day",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -88,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "about panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 11461.25,
+     "varAnual": -23,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "CONQUEST": [
+    {
+     "kw": "gac uae",
+     "avg": 2900,
+     "seg": "CONQUEST",
+     "comp": "MEDIUM",
+     "cpc": 2149.71,
+     "varAnual": -1,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape company",
+     "avg": 1600,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "gac panama",
+     "avg": 1300,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 458.8,
+     "varAnual": 17,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "logo gac",
+     "avg": 1000,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 15229.07,
+     "varAnual": 76,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "norton lilly panama",
+     "avg": 480,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2224.37,
+     "varAnual": 12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac south africa",
+     "avg": 480,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 814.55,
+     "varAnual": 7,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac website",
+     "avg": 390,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 1258.94,
+     "varAnual": 16,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "gac global",
+     "avg": 390,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 3180.43,
+     "varAnual": 161,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "gac agent",
+     "avg": 320,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 8074.13,
+     "varAnual": 4,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "gac europe",
+     "avg": 320,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4926.46,
+     "varAnual": 31,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac jordan",
+     "avg": 320,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4826.05,
+     "varAnual": 37,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "cb fenton",
+     "avg": 260,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -1,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistics dubai",
+     "avg": 260,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4255.3,
+     "varAnual": -22,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "gac group dubai",
+     "avg": 260,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4255.3,
+     "varAnual": -22,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "gac news",
+     "avg": 260,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2359.46,
+     "varAnual": 9,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape panama",
+     "avg": 210,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "gac marine llc abu dhabi",
+     "avg": 170,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 3764.1,
+     "varAnual": -6,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "leth agencies",
+     "avg": 140,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -25,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "gac world",
+     "avg": 140,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 30,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen agency",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2673.34,
+     "varAnual": -6,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen ship agency",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2673.34,
+     "varAnual": -6,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen panama",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 15138.87,
+     "varAnual": -6,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "adimar shipping inc",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 24,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping and logistics",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 237,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac ship agency",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 6813.65,
+     "varAnual": -6,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping company",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2696.65,
+     "varAnual": 47,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "wallenius wilhelmsen logistics panama",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4244.3,
+     "varAnual": -9,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wallenius wilhelmsen panama",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4244.3,
+     "varAnual": -9,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping agents",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 6813.65,
+     "varAnual": -6,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac company saudi arabia",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 902.85,
+     "varAnual": 16,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape service",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 1017.11,
+     "varAnual": -25,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "boyd steamship",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac middle east",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 5825.38,
+     "varAnual": 26,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac contact number",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 6543.72,
+     "varAnual": 25,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "gac dubai office",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 6792.02,
+     "varAnual": 188,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape shipping company",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 59,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistic",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -2,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape agency",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen ships service ships agency",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 47,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "orca ships agents",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping dubai",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2135.81,
+     "varAnual": -46,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping malaysia",
+     "avg": 40,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "crossworld maritime agency",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama ship service",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -15,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "gac contact",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 10028.04,
+     "varAnual": 39,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac marine logistics",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 18474.35,
+     "varAnual": 43,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistics bahrain",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 922.72,
+     "varAnual": 30,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping india",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 3156.84,
+     "varAnual": 9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac support",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 50,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape shipping agency",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 8,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "pacific shipping agency",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 6,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "adimar shipping",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 26,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac freight",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 32,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping singapore",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 206121.3,
+     "varAnual": 1,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac dubai contact number",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 8810.8,
+     "varAnual": 9,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping qatar",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape shipping singapore",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 2,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen port services wps",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "associated steamship agents",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "cross world agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -32,
+     "pico": 2,
+     "variantes": 1
+    }
+   ]
+  }
+ },
+ "en_pa_us": {
+  "crudas": 2541,
+  "conVolumen": 2339,
+  "conceptos": 2178,
+  "utiles": 1087,
+  "volumenUtil": 617680,
+  "porSegmento": {
+   "INFO_CANAL": 567690,
+   "CONSULT": 24340,
+   "SURVEY": 6230,
+   "AGENCIA": 9940,
+   "CONQUEST": 3290,
+   "BUNKER": 3470,
+   "STS_OFFSHORE": 1490,
+   "CLAIMS": 1230
+  },
+  "porEncaje": {
+   "BLOG_GENERAL": 556100,
+   "SERVICIO": 44720,
+   "CONQUEST": 3290,
+   "BLOG_CORE": 12700,
+   "SERVICIO_PANAMA": 870
+  },
+  "curvaServicios": [
+   1.85,
+   0.88,
+   1.03,
+   0.9,
+   0.78,
+   0.78,
+   0.83,
+   0.39,
+   0.84,
+   0.82,
+   0.81,
+   2.08
+  ],
+  "top": {
+   "SERVICIO_PANAMA": [
+    {
+     "kw": "panama canal booking",
+     "avg": 260,
+     "seg": "AGENCIA",
+     "comp": "HIGH",
+     "cpc": 1052.75,
+     "varAnual": -39,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping company",
+     "avg": 210,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 8063.96,
+     "varAnual": -13,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chandler panama",
+     "avg": 90,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 298.83,
+     "varAnual": -19,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal company",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -39,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "sts panama",
+     "avg": 40,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -26,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal agent",
+     "avg": 30,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 79,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal transit agent",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency and services",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 3766.48,
+     "varAnual": -45,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "crew change panama",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal pre booking",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "bunkering panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 3684.66,
+     "varAnual": -51,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "marine fuel panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -42,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker fuel panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -25,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "mgo panama",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "marine surveyor panama",
+     "avg": 10,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 5,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "ship management panama",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -47,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama shipping agency & services",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime services panama",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal booking system",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chandlers in panama",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -24,
+     "pico": 4,
+     "variantes": 1
+    }
+   ],
+   "SERVICIO": [
+    {
+     "kw": "shipping company",
+     "avg": 12100,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 38100.3,
+     "varAnual": -73,
+     "pico": 12,
+     "variantes": 3
+    },
+    {
+     "kw": "marine survey",
+     "avg": 2900,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 22467.87,
+     "varAnual": -3,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chandler",
+     "avg": 1900,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 14746.37,
+     "varAnual": 46,
+     "pico": 7,
+     "variantes": 2
+    },
+    {
+     "kw": "port calls",
+     "avg": 1600,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 36,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering companies",
+     "avg": 1300,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 31724.95,
+     "varAnual": 9,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering broker",
+     "avg": 880,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 14708.18,
+     "varAnual": 3,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "marine fuels",
+     "avg": 880,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 20354.94,
+     "varAnual": -20,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "ship brokering",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 61243.01,
+     "varAnual": -24,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship charterers",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 6620.9,
+     "varAnual": -20,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship broker",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 61243.01,
+     "varAnual": -24,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship chartering",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 6620.9,
+     "varAnual": -20,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "vessel chartering",
+     "avg": 720,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 6620.9,
+     "varAnual": -20,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agent",
+     "avg": 590,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 26950.55,
+     "varAnual": -20,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "evergreen shipping agency corp",
+     "avg": 590,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 39786.09,
+     "varAnual": -3,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "chartering services",
+     "avg": 590,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 42818.04,
+     "varAnual": -45,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "moran shipping agencies inc",
+     "avg": 480,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "offshore supply boat",
+     "avg": 480,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 69732.8,
+     "varAnual": -10,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "ship management",
+     "avg": 480,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 8490.16,
+     "varAnual": -52,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime services",
+     "avg": 480,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 6,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company in us",
+     "avg": 480,
+     "seg": "CONSULT",
+     "comp": "MEDIUM",
+     "cpc": 25536.93,
+     "varAnual": -65,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "ship & bunker",
+     "avg": 480,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 17,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker and ship",
+     "avg": 480,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 17,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "fuel for ship",
+     "avg": 390,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -24,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "condition surveys",
+     "avg": 320,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 488,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "ship agencies",
+     "avg": 320,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 78103.16,
+     "varAnual": -30,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agency",
+     "avg": 320,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 78103.16,
+     "varAnual": -30,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "grimaldi shipping company",
+     "avg": 260,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 41384.64,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cargo claims",
+     "avg": 260,
+     "seg": "CLAIMS",
+     "comp": "LOW",
+     "cpc": 38857.86,
+     "varAnual": -33,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agency china",
+     "avg": 260,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 56090.53,
+     "varAnual": -23,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "petroleum inspection",
+     "avg": 210,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 183.05,
+     "varAnual": -22,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "marine shipping company",
+     "avg": 210,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 37334.96,
+     "varAnual": -26,
+     "pico": 6,
+     "variantes": 2
+    },
+    {
+     "kw": "bunker pricing",
+     "avg": 210,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -31,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company worldwide",
+     "avg": 210,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 48694.25,
+     "varAnual": -46,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "marine surveyor certification",
+     "avg": 170,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 14050.6,
+     "varAnual": 4,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "certified marine surveyors",
+     "avg": 170,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 14050.6,
+     "varAnual": 4,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "port agent",
+     "avg": 140,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship to ship transfer",
+     "avg": 140,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 187772.22,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "ship to ship",
+     "avg": 140,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 187772.22,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "offshore services",
+     "avg": 140,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 9694.71,
+     "varAnual": -27,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "marine agents",
+     "avg": 140,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 26727.68,
+     "varAnual": -45,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "marine inspection",
+     "avg": 140,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 82536.73,
+     "varAnual": -6,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "yacht surveyor",
+     "avg": 140,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 17342.34,
+     "varAnual": 19,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "crewing agencies",
+     "avg": 110,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 4123.85,
+     "varAnual": -25,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "husbandry shipping",
+     "avg": 110,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -29,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "vessel husbandry",
+     "avg": 110,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -29,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "survey vessel",
+     "avg": 110,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping company in dubai united arab emirates",
+     "avg": 110,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 44464.26,
+     "varAnual": -30,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "inspection vessel",
+     "avg": 110,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 16132.38,
+     "varAnual": -32,
+     "pico": 9,
+     "variantes": 2
+    },
+    {
+     "kw": "chinese shipping agent",
+     "avg": 90,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 35892.3,
+     "varAnual": 2,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping agents near me",
+     "avg": 90,
+     "seg": "AGENCIA",
+     "comp": "HIGH",
+     "cpc": 35138.47,
+     "varAnual": -43,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "loss control survey",
+     "avg": 90,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "cargo damage",
+     "avg": 90,
+     "seg": "CLAIMS",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 60,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "offshore supply boat companies",
+     "avg": 90,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 29996.85,
+     "varAnual": -12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "shipping consultant",
+     "avg": 90,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 54724.49,
+     "varAnual": -67,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "international shipping agent",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 28086.53,
+     "varAnual": -19,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agency maritime",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -29,
+     "pico": 9,
+     "variantes": 2
+    },
+    {
+     "kw": "draft survey",
+     "avg": 70,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "boat insurance claims",
+     "avg": 70,
+     "seg": "CLAIMS",
+     "comp": "LOW",
+     "cpc": 18214.66,
+     "varAnual": -46,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "best shipping agent",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 164,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "inspection ship",
+     "avg": 70,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 9,
+     "variantes": 2
+    }
+   ],
+   "BLOG_CORE": [
+    {
+     "kw": "port of balboa",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port panama",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal authority",
+     "avg": 720,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 41818,
+     "varAnual": -39,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "manzanillo panama",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5843.36,
+     "varAnual": -15,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "port of ships",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker cost",
+     "avg": 480,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 3118.65,
+     "varAnual": -19,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama maritime authority",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa panama port",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -19,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -19,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cristobal panama",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -30,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to go through panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to pass the panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to transit the panama canal",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 16940.41,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal fee",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1040.79,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 3
+    },
+    {
+     "kw": "panama canal price",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1039.87,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal rates",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1039.87,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal cost",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1040.79,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "port of cristobal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cristobal panama port",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "bunker rates",
+     "avg": 260,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "cost to go through panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -57,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal schedule",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6471.7,
+     "varAnual": 3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "manzanillo panama port",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3528.86,
+     "varAnual": -19,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama ship registry",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -11,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal water levels",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 8840.89,
+     "varAnual": -60,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ship schedule",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6613.69,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to use the panama canal",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -55,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime consulting",
+     "avg": 90,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 3780.1,
+     "varAnual": -29,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit schedule",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6314.87,
+     "varAnual": 37,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "how much does it cost to cross the panama canal",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -51,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa port terminal",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -39,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal crossing fee",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit fee",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal price to cross",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "cost of transiting the panama canal",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal boat schedule",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2974.69,
+     "varAnual": 8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal schedule today",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3284.79,
+     "varAnual": -1,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll cost",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -31,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime survey",
+     "avg": 50,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 15,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit time",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -24,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal transit cost",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit schedule today",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5147.83,
+     "varAnual": -66,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal schedule for ships",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal vessel schedule",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal cost per ship",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -73,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "cristobal panama canal",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 28,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal miraflores locks schedule",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6743.53,
+     "varAnual": -42,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal toll calculator",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 95,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal delays",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -46,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal draft restrictions",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 122,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal crossing cost",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal passage cost",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -52,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal passage fee",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -52,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime inspection",
+     "avg": 20,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -25,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "antigua maritime agencies ltd",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "farasia maritime agencies",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -39,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "maritime transport & agencies",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -42,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "ocean and general maritime agencies ltd",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -63,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "offshore maritime companies",
+     "avg": 10,
+     "seg": "STS_OFFSHORE",
+     "comp": "HIGH",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "BLOG_GENERAL": [
+    {
+     "kw": "panama canal panama canal",
+     "avg": 165000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4713.27,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal panama",
+     "avg": 165000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4713.27,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 4
+    },
+    {
+     "kw": "panama canal canal",
+     "avg": 165000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4713.27,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal locks",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun locks",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun locks panama",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "locks panama",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal gates",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal water locks",
+     "avg": 3600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4331.61,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "canal locks",
+     "avg": 2900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 51,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal building",
+     "avg": 2900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 12514.77,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal port",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 219,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal where",
+     "avg": 2400,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 10648.45,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "cocolí locks panama canal expansion",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -19,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal located",
+     "avg": 1900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "pedro miguel locks",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 14,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal facts",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21947.67,
+     "varAnual": 11,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3960.06,
+     "varAnual": 564,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama city",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2606.33,
+     "varAnual": 135,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal how does it work",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3203.64,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal visitors center",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "MEDIUM",
+     "cpc": 4115.56,
+     "varAnual": -2,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal important",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -26,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "significance of panama canal",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -26,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "miraflores locks panama canal",
+     "avg": 720,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2951.36,
+     "varAnual": 64,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal opening",
+     "avg": 720,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 54,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal description",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 127,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "colon container terminal panama",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal expansion",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21465.3,
+     "varAnual": -64,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal expansion project",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21465.3,
+     "varAnual": -64,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal upgrade",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 21465.3,
+     "varAnual": -64,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal tickets",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "MEDIUM",
+     "cpc": 3681.35,
+     "varAnual": -2,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal pricing",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1040.79,
+     "varAnual": -92,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal completed",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 6580.13,
+     "varAnual": 50,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal year",
+     "avg": 390,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 77,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal today",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -50,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal where is it located",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3613.86,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal purpose",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "location of panama canal",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3613.86,
+     "varAnual": -34,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "1914 panama canal",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 31,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "canal shipping",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal information",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 12729.97,
+     "varAnual": 57,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal info",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 12729.97,
+     "varAnual": 57,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal us",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -72,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal new canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -60,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ownership",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -94,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "new panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -60,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal overview",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 77,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "information about the panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 12729.97,
+     "varAnual": 57,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "united states panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -72,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "panama city canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 9316.36,
+     "varAnual": -24,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "benefit of panama canal",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 34,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal transit",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 8953.67,
+     "varAnual": -96,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "lock system panama canal",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 11,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "new panama canal locks",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 11501.77,
+     "varAnual": -38,
+     "pico": 1,
+     "variantes": 3
+    },
+    {
+     "kw": "panama canal locks diagram",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "panama canal ship",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 11,
+     "variantes": 3
+    },
+    {
+     "kw": "creation of the panama canal",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 48563.32,
+     "varAnual": 27,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "panama canal shipping",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "gatun panama canal",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5054.88,
+     "varAnual": -18,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "how many ships go through the panama canal per day",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -36,
+     "pico": 1,
+     "variantes": 1
+    }
+   ],
+   "CONQUEST": [
+    {
+     "kw": "gac panama",
+     "avg": 1300,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 460.85,
+     "varAnual": 21,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "norton lilly panama",
+     "avg": 390,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 2224.37,
+     "varAnual": 12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape panama",
+     "avg": 210,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -9,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "cb fenton",
+     "avg": 210,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 5,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape company",
+     "avg": 170,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -7,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "adimar shipping inc",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 26,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac website",
+     "avg": 90,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 19,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen panama",
+     "avg": 70,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -16,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "wallenius wilhelmsen logistics panama",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4244.3,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wallenius wilhelmsen panama",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 4244.3,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "boyd steamship",
+     "avg": 50,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "orca ships agents",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac agent",
+     "avg": 30,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -6,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac ship agency",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "panama ship service",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 3,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping agents",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac uae",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 3975.81,
+     "varAnual": -8,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac global",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 100,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "logo gac",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 53,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac news",
+     "avg": 20,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 9,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "crossworld maritime agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 10,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistic",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping company",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape shipping agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -25,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "pacific shipping agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen ship agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen ships service ships agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -77,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "leth agencies",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "adimar shipping",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 15,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "associated steamship agents",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "cross world agency",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -25,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "wilhelmsen ships service panama",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 22,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistics dubai",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -62,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac europe",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac south africa",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping and logistics",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -43,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac freight",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac company saudi arabia",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping dubai",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac middle east",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 15,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac contact number",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 53,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac world",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac dubai office",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac group dubai",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -62,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping singapore",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "gac contact",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac marine logistics",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 12,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "gac dubai contact number",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -39,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "gac delivering your strategy",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 129,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac jordan",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 10,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistics bahrain",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac logistics park dubai",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac marine llc abu dhabi",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 53,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping greece",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping india",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -39,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "gac shipping qatar",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "gac support",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 10,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "inchcape service",
+     "avg": 10,
+     "seg": "CONQUEST",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 10,
+     "pico": 1,
+     "variantes": 1
+    }
+   ]
+  }
+ },
+ "es_latam": {
+  "crudas": 343,
+  "conVolumen": 272,
+  "conceptos": 233,
+  "utiles": 205,
+  "volumenUtil": 23010,
+  "porSegmento": {
+   "INFO_CANAL": 20250,
+   "AGENCIA": 1190,
+   "BUNKER": 860,
+   "STS_OFFSHORE": 210,
+   "CONSULT": 250,
+   "SURVEY": 240,
+   "CLAIMS": 10
+  },
+  "porEncaje": {
+   "BLOG_CORE": 14300,
+   "BLOG_GENERAL": 5990,
+   "SERVICIO": 2610,
+   "SERVICIO_PANAMA": 110
+  },
+  "curvaServicios": [
+   0.96,
+   1,
+   1.16,
+   1.11,
+   1.14,
+   0.93,
+   0.96,
+   0.53,
+   1.22,
+   1.22,
+   1.01,
+   0.75
+  ],
+  "top": {
+   "SERVICIO_PANAMA": [
+    {
+     "kw": "agencias navieras en panamá",
+     "avg": 30,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 1858.36,
+     "varAnual": -30,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "navieras en panamá",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 2741.72,
+     "varAnual": -27,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "navieras en colon",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 3111.38,
+     "varAnual": -45,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "agencias maritimas en panama",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 4941.05,
+     "varAnual": -1,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencias navieras panamá",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 175,
+     "pico": 3,
+     "variantes": 2
+    },
+    {
+     "kw": "servicio logistico del puerto de balboa",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "servicios portuarios panama",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 6,
+     "variantes": 2
+    }
+   ],
+   "SERVICIO": [
+    {
+     "kw": "agente naviero",
+     "avg": 210,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -21,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "trasiego de combustible",
+     "avg": 210,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -11,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "plataformas offshore",
+     "avg": 210,
+     "seg": "STS_OFFSHORE",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -1,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera",
+     "avg": 170,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 4436.5,
+     "varAnual": -22,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible de barco",
+     "avg": 170,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 10169.63,
+     "varAnual": 137,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "contratos de fletamento",
+     "avg": 140,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -41,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible para barcos",
+     "avg": 110,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 98,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "draft survey",
+     "avg": 90,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -10,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "adriatic agencia naviera",
+     "avg": 70,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -4,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "bomba de trasiego de combustible",
+     "avg": 70,
+     "seg": "BUNKER",
+     "comp": "MEDIUM",
+     "cpc": 3187.67,
+     "varAnual": 13,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima",
+     "avg": 50,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 3422.11,
+     "varAnual": -32,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible de los barcos",
+     "avg": 50,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 73,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agente marítimo",
+     "avg": 40,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible barco",
+     "avg": 30,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 119,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "bomba para trasiego de combustible",
+     "avg": 30,
+     "seg": "BUNKER",
+     "comp": "MEDIUM",
+     "cpc": 3173.6,
+     "varAnual": -14,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agenciamiento marítimo",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -33,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agente de carga maritimo",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 14836.94,
+     "varAnual": -13,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima altamar ltda",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -28,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera venezolana",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 6271.54,
+     "varAnual": -12,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "agente naviero general",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "broker maritimo",
+     "avg": 20,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 18700.15,
+     "varAnual": -30,
+     "pico": 9,
+     "variantes": 2
+    },
+    {
+     "kw": "navegacion del pacifico agencia maritima",
+     "avg": 20,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 3148.01,
+     "varAnual": 24,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible de buques",
+     "avg": 20,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 92,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "combustible para barcos de carga",
+     "avg": 20,
+     "seg": "BUNKER",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 133,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "perito naval",
+     "avg": 20,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 11,
+     "variantes": 1
+    },
+    {
+     "kw": "inspección de buques",
+     "avg": 20,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -4,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "inspección de carga",
+     "avg": 20,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -28,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "inspector maritimo",
+     "avg": 20,
+     "seg": "SURVEY",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "corredor marítimo",
+     "avg": 20,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 8,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia de carga maritima",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "agencias navieras en república dominicana",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "adriatic agencia naviera sa",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -63,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia internacional maritima",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia internacional maritima sa",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "agencia maritima agunsa",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 15,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima christophersen",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima funciones",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima global",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 358,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima global sa",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima internacional sas",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -69,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima navegacion del pacifico",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -45,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima one",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "agencia maritima san lorenzo",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia maritima ultramar",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -2,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera funciones",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -43,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera latinoamericana",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 11642.96,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera que es",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -21,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencia naviera zanders",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": null,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "agenciamiento portuario",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agencias navieras en punto fijo",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -40,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "agente aduanero maritimo",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "HIGH",
+     "cpc": 24629.37,
+     "varAnual": -39,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "agente de aduanas maritimo",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 38,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "agente de carga maritima y terrestre",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "agente de carga terrestre",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "MEDIUM",
+     "cpc": 6998.19,
+     "varAnual": -8,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "agente maritimo definicion",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -59,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agente maritimo que es",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "agente marítimo funciones",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -31,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "agentes del transporte maritimo",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -54,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "ami agencia maritima internacional",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -49,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "canopus agencia maritima",
+     "avg": 10,
+     "seg": "AGENCIA",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 2,
+     "variantes": 1
+    }
+   ],
+   "BLOG_CORE": [
+    {
+     "kw": "puerto de balboa",
+     "avg": 2900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1272.94,
+     "varAnual": 7,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de balboa panama",
+     "avg": 2900,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1272.94,
+     "varAnual": 7,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa en panama",
+     "avg": 1600,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3223.13,
+     "varAnual": 1,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto balboa",
+     "avg": 1300,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 33.77,
+     "varAnual": 3,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "autoridad marítima de panamá",
+     "avg": 1000,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 191.8,
+     "varAnual": 98,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de panama",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1701,
+     "varAnual": -20,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "balboa panamá",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 6,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "panama puerto",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2499.35,
+     "varAnual": -20,
+     "pico": 3,
+     "variantes": 3
+    },
+    {
+     "kw": "puerto manzanillo panama",
+     "avg": 320,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1637.87,
+     "varAnual": -22,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "panama puerto colon",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4957.43,
+     "varAnual": 5,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "puerto de manzanillo panama",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 840.04,
+     "varAnual": -24,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto balboa panama",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1273.95,
+     "varAnual": -13,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto colon 2000",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 7,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de colon panama",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 21,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "puertos de panamá",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 5,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto balboa panamá",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 7,
+     "variantes": 2
+    },
+    {
+     "kw": "puerto baru chiriqui",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5938.34,
+     "varAnual": -3,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "manzanillo panamá",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -31,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto rodman panama",
+     "avg": 90,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1308.11,
+     "varAnual": -7,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto baru panama",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4987.82,
+     "varAnual": -26,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "astillero balboa",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 28,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "cuanto cuesta cruzar el canal de panama",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 5996.06,
+     "varAnual": -46,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "principales puertos de panamá",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -5,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto obaldia panama",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -20,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "cma cgm balboa",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -78,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "colon panama puerto",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 62,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto caimito panama",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de cristóbal",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 49,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto colon en panama",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -23,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "fletamento por tiempo",
+     "avg": 20,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -51,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "cuánto cuesta cruzar el canal de panamá",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 12,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto maritimo de panama",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3869.1,
+     "varAnual": -29,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "puertos del canal de panama",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -42,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "gasoil marino precio",
+     "avg": 10,
+     "seg": "BUNKER",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": 22,
+     "pico": 2,
+     "variantes": 2
+    },
+    {
+     "kw": "contrato de fletamento por tiempo",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "fletamento a tiempo",
+     "avg": 10,
+     "seg": "CONSULT",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -49,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "air panama puerto obaldia",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "astillero balboa panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 3
+    },
+    {
+     "kw": "balboa panamá puerto",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 83,
+     "pico": 6,
+     "variantes": 3
+    },
+    {
+     "kw": "canal de panama cuanto cuesta cruzar",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama miraflores precios",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "MEDIUM",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "castillo san cristóbal san juan",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 18,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "cuanto cuesta cruzar el canal de panamá en auto",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -90,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "cuanto cuesta cruzar el canal de panamá en velero",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -17,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "cuanto cuesta cruzar un barco por el canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -31,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto maritimo panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2826.93,
+     "varAnual": -24,
+     "pico": 2,
+     "variantes": 4
+    },
+    {
+     "kw": "puerto almirante panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -13,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto colon container terminal",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -32,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de balboa almacenaje",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto de contenedores en colón",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "puerto obaldia panamá",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 26,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "puerto panama pacifico",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -22,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "puertos de contenedores en panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -16,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "puertos en colon panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -18,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "puertos internacionales de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 1,
+     "pico": 4,
+     "variantes": 1
+    }
+   ],
+   "BLOG_GENERAL": [
+    {
+     "kw": "canal de panama como funciona",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1568.95,
+     "varAnual": -16,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusa del canal de panama",
+     "avg": 880,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1598.23,
+     "varAnual": 25,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "cómo funciona el canal de panamá",
+     "avg": 720,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 44.8,
+     "varAnual": -15,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusa de miraflores panama",
+     "avg": 590,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2139.82,
+     "varAnual": 25,
+     "pico": 4,
+     "variantes": 2
+    },
+    {
+     "kw": "colon container terminal panama",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas de gatun",
+     "avg": 480,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 9,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "canal panama esclusas",
+     "avg": 260,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 3581.08,
+     "varAnual": 17,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas del canal de panamá",
+     "avg": 210,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 36,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusa de panama",
+     "avg": 170,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 576.72,
+     "varAnual": 25,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panamá miraflores",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4311.15,
+     "varAnual": 87,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas pedro miguel",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 23,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "las esclusas del canal de panamá",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1583.63,
+     "varAnual": 76,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "nombre de las esclusas del canal de panamá",
+     "avg": 140,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 76,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas panama",
+     "avg": 110,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 4503.97,
+     "varAnual": 18,
+     "pico": 5,
+     "variantes": 3
+    },
+    {
+     "kw": "canal de panama horarios de visita",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1665.06,
+     "varAnual": 19,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "como funcionan las esclusas del canal de panamá",
+     "avg": 70,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 152.31,
+     "varAnual": -5,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "nuevas esclusas del canal de panamá",
+     "avg": 50,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -7,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama agua clara",
+     "avg": 40,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -12,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "agua clara canal de panama",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 15,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama esclusas de miraflores",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -24,
+     "pico": 11,
+     "variantes": 2
+    },
+    {
+     "kw": "esclusa miraflores panama",
+     "avg": 30,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 1665.79,
+     "varAnual": -22,
+     "pico": 1,
+     "variantes": 2
+    },
+    {
+     "kw": "canal de panama esclusa miraflores",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 2748,
+     "varAnual": 19,
+     "pico": 10,
+     "variantes": 2
+    },
+    {
+     "kw": "como funcionan las esclusas del canal de panama",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 19,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "compuertas canal de panama",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 24,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas del canal de panamá ampliado",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 19,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas nuevas del canal de panama",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 9,
+     "variantes": 2
+    },
+    {
+     "kw": "funcionamiento de las esclusas del canal de panamá",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 45,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "las esclusas de panamá",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 76,
+     "pico": 8,
+     "variantes": 1
+    },
+    {
+     "kw": "que es el canal de panama y como funciona",
+     "avg": 20,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -56,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama aguas claras",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 20,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama compuertas",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 9,
+     "variantes": 1
+    },
+    {
+     "kw": "canal de panama nuevas esclusas",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 7,
+     "pico": 2,
+     "variantes": 1
+    },
+    {
+     "kw": "colon container terminal almacenaje",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 0,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "colon container terminal telefonos",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 33,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "como funciona canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -2,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "como funciona el canal de panamá cuando pasan los barcos",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -35,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "como funciona el canal de panamá resumen",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -29,
+     "pico": 3,
+     "variantes": 1
+    },
+    {
+     "kw": "como funciona el sistema de esclusas del canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -1,
+     "pico": 7,
+     "variantes": 1
+    },
+    {
+     "kw": "dimensiones de las esclusas del canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 4,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusa miraflores canal de panama panama city",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -80,
+     "pico": 10,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas canal panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 5,
+     "variantes": 2
+    },
+    {
+     "kw": "esclusas de panama nuevas",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "UNKNOWN",
+     "cpc": 0,
+     "varAnual": -67,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "esclusas del canal de panama horarios",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 900.61,
+     "varAnual": -16,
+     "pico": 1,
+     "variantes": 1
+    },
+    {
+     "kw": "funcionamiento esclusas canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 50,
+     "pico": 5,
+     "variantes": 1
+    },
+    {
+     "kw": "para que sirven las esclusas del canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": -8,
+     "pico": 6,
+     "variantes": 1
+    },
+    {
+     "kw": "sistema de esclusas canal de panama",
+     "avg": 10,
+     "seg": "INFO_CANAL",
+     "comp": "LOW",
+     "cpc": 0,
+     "varAnual": 8,
+     "pico": 4,
+     "variantes": 1
+    }
+   ],
+   "CONQUEST": []
+  }
+ }
+}

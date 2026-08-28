@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross World Agency · Sistema de diseño v0</title>
+<meta name="description" content="Tokens, tipografía, componentes y mock del hero del nuevo sitio de Cross World Agency. Dirección visual para aprobación antes de construir.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f5f7f9; --surface:#ffffff; --ink:#0e1620; --ink-2:#182634; --text:#2b3640; --muted:#66727f; --line:#dbe1e7; --line-strong:#c5ced7;
+  --accent:#1f4fd8; --accent-ink:#173fae; --accent-soft:#e6ecfb; --accent-soft-2:#f0f4fd;
+  --on-dark:#eef2f6; --on-dark-muted:#a9b6c3; --dark-line:rgba(255,255,255,.12);
+  --ok:#1d7a4d; --ok-soft:#e3f3ea; --warn:#9a6300; --warn-soft:#fff3d6; --err:#b42318; --err-soft:#fde8e6;
+  --r:12px; --r-sm:8px; --max:1240px;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --shadow-1:0 1px 2px rgba(14,22,32,.06),0 8px 24px -12px rgba(14,22,32,.18);
+  --shadow-2:0 2px 6px rgba(14,22,32,.08),0 24px 48px -20px rgba(31,79,216,.28);
+  --ease-out:cubic-bezier(.16,1,.3,1);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--paper);color:var(--text);font:400 1.0625rem/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3,h4{color:var(--ink);margin:0;font-weight:600;letter-spacing:-0.02em}
+h1{font-size:clamp(2.25rem,4.6vw,3.9rem);line-height:1.04;font-weight:700}
+h2{font-size:clamp(1.65rem,2.6vw,2.25rem);line-height:1.12;margin-bottom:.35em}
+h3{font-size:1.2rem;line-height:1.3;letter-spacing:-0.01em;margin:1.6rem 0 .5rem}
+p{margin:.6em 0}.muted{color:var(--muted)}.mono{font-family:var(--mono);font-size:.86em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(18px,4vw,40px)}
+section{padding:clamp(48px,6vw,80px) 0;border-top:1px solid var(--line)}
+.section-head{max-width:70ch;margin-bottom:1.6rem}.section-head p{color:var(--muted)}
+.nav{position:sticky;top:0;z-index:20;height:64px;background:rgba(245,247,249,.72);backdrop-filter:blur(18px) saturate(160%);-webkit-backdrop-filter:blur(18px) saturate(160%);border-bottom:1px solid rgba(14,22,32,.06)}
+.nav .wrap{display:flex;align-items:center;gap:22px;height:64px}
+.brand{display:flex;align-items:center;gap:12px;color:var(--ink);font-weight:600;white-space:nowrap}
+.brand-mark{width:30px;height:30px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:#fff;font-family:var(--mono);font-size:.8rem}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.78rem;line-height:1.1}
+.nav-links{display:flex;gap:4px;margin-left:auto;overflow-x:auto;scrollbar-width:none}.nav-links::-webkit-scrollbar{display:none}
+.nav-links a{color:var(--text);font-size:.9rem;padding:6px 10px;border-radius:999px;white-space:nowrap}.nav-links a:hover{background:var(--accent-soft);text-decoration:none;color:var(--accent-ink)}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 40px}@media (max-width:820px){.cols{grid-template-columns:1fr}}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);margin:1rem 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem}th,td{text-align:left;vertical-align:top;padding:10px 14px;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--ink);background:var(--accent-soft-2);font-size:.85rem;white-space:nowrap}tr:last-child td{border-bottom:0}
+.note{border-left:3px solid var(--accent);background:var(--accent-soft-2);padding:14px 18px;border-radius:0 var(--r-sm) var(--r-sm) 0;margin:1rem 0}
+
+/* header of the styleguide */
+.head{padding:clamp(40px,6vw,72px) 0 clamp(28px,4vw,40px);background:linear-gradient(180deg,#fff,var(--paper))}
+.head .lead{font-size:1.15rem;max-width:64ch;color:var(--text)}
+.meta{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:1rem;font-family:var(--mono);font-size:.8rem;color:var(--muted)}.meta b{color:var(--ink);font-weight:500}
+
+/* swatches */
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:1rem 0}
+.sw{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.sw i{display:block;height:72px}.sw div{padding:10px 12px;font-family:var(--mono);font-size:.76rem;color:var(--muted)}
+.sw div b{display:block;font-family:var(--sans);font-size:.9rem;font-weight:600;color:var(--ink)}
+
+/* type scale */
+.type-row{display:grid;grid-template-columns:150px 1fr;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--line)}
+.type-row .k{font-family:var(--mono);font-size:.76rem;color:var(--muted)}
+.t-display{font-size:clamp(2.25rem,4.5vw,4rem);line-height:1.05;letter-spacing:-0.025em;font-weight:700;color:var(--ink)}
+.t-h1{font-size:clamp(2rem,3.6vw,3rem);line-height:1.08;letter-spacing:-0.02em;font-weight:700;color:var(--ink)}
+.t-h2{font-size:clamp(1.65rem,2.6vw,2.25rem);line-height:1.12;letter-spacing:-0.02em;font-weight:600;color:var(--ink)}
+.t-h3{font-size:1.25rem;line-height:1.3;letter-spacing:-0.01em;font-weight:600;color:var(--ink)}
+.t-lead{font-size:1.2rem;line-height:1.5}
+.t-body{font-size:1.0625rem;line-height:1.6;max-width:65ch}
+.t-small{font-size:.9rem;line-height:1.5;color:var(--muted)}
+.t-data{font-family:var(--mono);font-size:.9rem;color:var(--ink)}
+
+/* scale bars */
+.scale{display:flex;align-items:flex-end;gap:10px;margin:1rem 0;flex-wrap:wrap}
+.scale div{background:var(--accent-soft);border:1px solid var(--accent);border-radius:4px;display:grid;place-items:end center;font-family:var(--mono);font-size:.7rem;color:var(--accent-ink);padding-bottom:3px}
+.radii{display:flex;gap:16px;flex-wrap:wrap;margin:1rem 0}
+.radii div{width:110px;height:72px;border:1.5px solid var(--accent);background:var(--accent-soft-2);display:grid;place-items:center;font-family:var(--mono);font-size:.74rem;color:var(--accent-ink)}
+.shadows{display:flex;gap:20px;flex-wrap:wrap;margin:1rem 0}
+.shadows div{width:170px;height:90px;background:var(--surface);border-radius:var(--r);display:grid;place-items:center;font-family:var(--mono);font-size:.74rem;color:var(--muted)}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;padding:11px 18px;border-radius:999px;font-weight:500;font-size:.98rem;border:1px solid transparent;cursor:pointer;transition:transform .12s var(--ease-out),background .15s;font-family:var(--sans);line-height:1.2}
+.btn:hover{background:var(--accent-ink);text-decoration:none}.btn:active{transform:scale(.98)}
+.btn:focus-visible{outline:3px solid rgba(31,79,216,.35);outline-offset:2px}
+.btn.ghost{background:transparent;color:var(--accent-ink);border-color:var(--line-strong)}.btn.ghost:hover{background:var(--accent-soft)}
+.btn.dark{background:var(--on-dark);color:var(--ink)}.btn.dark:hover{background:#fff}
+.btn.ghost-dark{background:rgba(255,255,255,.06);color:var(--on-dark);border-color:var(--dark-line);backdrop-filter:blur(10px)}.btn.ghost-dark:hover{background:rgba(255,255,255,.12)}
+.btn[aria-disabled="true"]{opacity:.45;pointer-events:none}
+.btn .spin{width:14px;height:14px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:sp .8s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:.6rem 0}
+.chip{font-family:var(--mono);font-size:.74rem;padding:4px 10px;border-radius:999px;background:var(--line);color:var(--text);white-space:nowrap}
+.chip.ok{background:var(--ok-soft);color:var(--ok)}.chip.now{background:var(--accent-soft);color:var(--accent-ink)}.chip.warn{background:var(--warn-soft);color:var(--warn)}.chip.err{background:var(--err-soft);color:var(--err)}
+
+/* cards */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:1rem 0}@media (max-width:900px){.grid3{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:transform .2s var(--ease-out),box-shadow .2s var(--ease-out)}
+.card:hover{transform:translateY(-1px);box-shadow:var(--shadow-1)}
+.card img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
+.card .body{padding:18px 20px}.card h4{margin:0 0 6px;font-size:1.05rem}.card p{margin:0;font-size:.94rem;color:var(--text)}
+.card .more{display:inline-block;margin-top:12px;font-size:.92rem;font-weight:500}
+.port{background:var(--ink);color:var(--on-dark);border-radius:var(--r);padding:20px 22px;font-family:var(--mono);font-size:.84rem;line-height:1.65}
+.port h4{color:#fff;font-family:var(--sans);font-size:1.1rem;margin:0 0 10px;letter-spacing:-0.01em}
+.port dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 16px;margin:0}.port dt{color:var(--on-dark-muted)}.port dd{margin:0;color:#fff}
+.cred{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px}
+.cred .badge{width:72px;height:72px;border-radius:10px;background:var(--accent-soft-2);border:1px solid var(--line);display:grid;place-items:center;font-family:var(--mono);font-size:.72rem;text-align:center;color:var(--accent-ink);font-weight:500;line-height:1.2}
+.cred b{display:block;color:var(--ink)}.cred span{font-size:.88rem;color:var(--muted)}
+.quote{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px 28px}
+.quote p{font-size:1.3rem;line-height:1.35;letter-spacing:-0.01em;color:var(--ink);font-weight:500;margin:0 0 12px;max-width:40ch}
+.quote cite{font-style:normal;font-size:.9rem;color:var(--muted)}
+
+/* forms */
+.form{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px;display:grid;gap:16px;max-width:720px}
+.f2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}@media (max-width:640px){.f2{grid-template-columns:1fr}}
+label{display:block;font-size:.9rem;font-weight:500;color:var(--ink);margin-bottom:6px}
+.help{font-size:.82rem;color:var(--muted);margin-top:5px}
+.input{width:100%;font:inherit;font-size:1rem;padding:11px 13px;border:1px solid var(--line-strong);border-radius:var(--r-sm);background:#fff;color:var(--ink);transition:border-color .15s,box-shadow .15s}
+.input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(31,79,216,.18)}
+.input.err{border-color:var(--err);box-shadow:0 0 0 3px rgba(180,35,24,.12)}
+.err-msg{font-size:.82rem;color:var(--err);margin-top:5px}
+.input.mono{font-family:var(--mono);letter-spacing:.04em}
+.steps{display:flex;gap:8px;align-items:center;font-family:var(--mono);font-size:.78rem;color:var(--muted)}
+.steps b{color:var(--accent-ink);font-weight:500}.steps i{flex:1;height:2px;background:var(--line);border-radius:2px}.steps i.on{background:var(--accent)}
+.success{border:1px solid #bfe3cf;background:var(--ok-soft);border-radius:var(--r);padding:16px 18px;color:#134a30}
+.success b{display:block;color:#0f3d27;font-size:1.05rem;margin-bottom:4px}
+
+/* HERO MOCK (dark, one deliberate theme block) */
+.hero{position:relative;background:var(--ink);color:var(--on-dark);border-radius:var(--r);overflow:hidden;min-height:560px;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,6fr);isolation:isolate}
+.hero .copy{padding:clamp(28px,4vw,56px);display:flex;flex-direction:column;justify-content:center;gap:18px;z-index:2}
+.hero h1{color:#fff;font-size:clamp(2rem,3.8vw,3.4rem)}
+.hero .sub{color:var(--on-dark-muted);font-size:1.12rem;max-width:44ch;margin:0}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
+.hero .img{position:relative;min-height:320px}
+.hero .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 45%}
+.hero .img::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,var(--ink) 0%,rgba(14,22,32,.35) 28%,rgba(14,22,32,0) 60%);z-index:1}
+.hero-nav{display:flex;align-items:center;gap:20px;padding:16px clamp(28px,4vw,56px);position:absolute;top:0;left:0;right:0;z-index:3;background:linear-gradient(180deg,rgba(14,22,32,.55),transparent)}
+.hero-nav .b{display:flex;align-items:center;gap:10px;color:#fff;font-weight:600}
+.hero-nav .links{display:flex;gap:18px;margin-left:auto;font-size:.92rem;color:var(--on-dark)}
+.hero-nav .links span{opacity:.9}
+.hero-nav .links .cta{margin-left:8px;padding:8px 14px;border-radius:999px;background:var(--accent);color:#fff;font-weight:500}
+@media (max-width:900px){.hero{grid-template-columns:1fr}.hero .img{order:-1;min-height:240px}.hero .img::before{background:linear-gradient(0deg,var(--ink) 0%,rgba(14,22,32,.2) 60%,rgba(14,22,32,0) 100%)}.hero-nav .links span{display:none}}
+.strip{display:flex;flex-wrap:wrap;gap:10px 26px;padding:14px 22px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);font-family:var(--mono);font-size:.8rem;color:var(--ink);margin-top:14px;align-items:center}
+.strip span{white-space:nowrap}.strip .dot{color:var(--accent)}
+
+/* wireframe */
+.wire{display:grid;gap:10px;margin:1rem 0}
+.wf{border:1.5px dashed var(--line-strong);border-radius:var(--r-sm);padding:12px 14px;background:var(--surface);font-family:var(--mono);font-size:.78rem;color:var(--muted);display:grid;gap:6px}
+.wf b{color:var(--ink);font-family:var(--sans);font-size:.92rem;font-weight:600}
+.wf .boxes{display:grid;gap:8px}
+.wf .bx{border:1px solid var(--line);border-radius:6px;background:var(--paper);min-height:34px;display:grid;place-items:center;padding:6px;text-align:center}
+.wf .bx.img{background:repeating-linear-gradient(135deg,#e9edf2 0 6px,#f3f5f8 6px 12px)}
+.wf .bx.dark{background:var(--ink);color:var(--on-dark)}
+.c2{grid-template-columns:1fr 1fr}.c3{grid-template-columns:repeat(3,1fr)}.c4{grid-template-columns:repeat(4,1fr)}.c7{grid-template-columns:2fr 1fr 1fr 1fr 1fr 1fr 1fr}
+.split{grid-template-columns:7fr 5fr}
+@media (max-width:700px){.c3,.c4,.c7,.split,.c2{grid-template-columns:1fr}}
+
+/* motion demo */
+.motion-demo{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:1rem 0}
+.motion-demo div{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;font-size:.9rem;animation:rise .7s var(--ease-out) both}
+.motion-demo div:nth-child(2){animation-delay:.08s}.motion-demo div:nth-child(3){animation-delay:.16s}.motion-demo div:nth-child(4){animation-delay:.24s}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@media (max-width:760px){.motion-demo{grid-template-columns:1fr 1fr}}
+footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Secciones">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">CW</span><span>Cross World Agency<small>Sistema de diseño v0 · ECUS</small></span></a>
+    <div class="nav-links"><a href="#lectura">Lectura</a><a href="#color">Color</a><a href="#tipo">Tipografía</a><a href="#escalas">Escalas</a><a href="#componentes">Componentes</a><a href="#hero">Hero</a><a href="#wireframe">Wireframe</a><a href="#movimiento">Movimiento</a><a href="index.html">← Plan</a></div>
+  </div>
+</nav>
+
+<header class="head">
+  <div class="wrap">
+    <h1>Sistema de diseño v0</h1>
+    <p class="lead">La dirección visual del nuevo sitio, en tokens y componentes reales, para aprobarla antes de construir. Todo lo que ves aquí es lo que se convierte en Tailwind v4 y componentes de Next.js en la semana 1.</p>
+    <div class="meta"><span><b>Lectura</b> B2B marítimo, trust-first premium, náutico-editorial</span><span><b>Diales</b> variancia 6 · movimiento 5 · densidad 4</span><span><b>Fuentes</b> Geist + Geist Mono</span><span><b>Acento</b> cobalto #1F4FD8</span><span><b>Iconos</b> Phosphor</span></div>
+  </div>
+</header>
+
+<section id="lectura">
+  <div class="wrap">
+    <div class="section-head"><h2>Lectura del brief y principios</h2><p>Cómo se decidió el lenguaje visual y qué no vamos a hacer.</p></div>
+    <div class="cols">
+      <div>
+        <p><b>Lectura:</b> rediseño total de un sitio B2B de servicios marítimos para gerentes de operaciones, claims handlers y traders. Compradores exigentes que juzgan la seriedad en 5 segundos. El lenguaje es "trust-first premium" con carácter náutico-editorial: mucho aire, fotografía real de operación, datos en monoespaciada, un solo acento que viene del ancla azul del logo.</p>
+        <p><b>Un tema por página:</b> las páginas de contenido son claras. El hero de la home y el pie son el único bloque oscuro, como decisión de composición (no se alternan bloques claro/oscuro a lo largo de la página).</p>
+        <p><b>Craft:</b> una escala de radios (12 px tarjetas, 8 px inputs, píldora para botones y chips), una paleta, una familia tipográfica, una familia de iconos, cero emojis, sombras teñidas con el fondo, ningún valor al azar.</p>
+      </div>
+      <div>
+        <p><b>No hacemos:</b> héroes centrados sobre gradientes morados, tres tarjetas iguales en fila, etiqueta pequeña en mayúsculas sobre cada sección, guiones largos, marquesinas múltiples, capturas falsas hechas con divs, fotos de stock de apretones de manos, brillos neón, negro puro, blanco puro.</p>
+        <p><b>Movimiento (siempre motivado):</b> aparición escalonada al entrar en viewport, pila pegajosa de 4 pasos para el proceso del port call, parallax sutil del agua en el hero (se apaga con reduced motion), elevación de 1 px en hover. Springs críticamente amortiguados, interrumpibles, feedback en pointerdown.</p>
+        <p><b>Accesibilidad:</b> contraste AA en todo (AAA en cuerpo), foco visible de 3 px, objetivos táctiles de 44 px, reduced motion, reduced transparency (la barra translúcida pasa a sólida).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="color">
+  <div class="wrap">
+    <div class="section-head"><h2>Color</h2><p>Neutros fríos y un solo acento. Los valores son los tokens de Tailwind (<span class="mono">@theme</span>).</p></div>
+    <h3>Neutros y superficies</h3>
+    <div class="swatches">
+      <div class="sw"><i style="background:#0e1620"></i><div><b>ink</b>#0E1620 · hero, pie, fichas de puerto</div></div>
+      <div class="sw"><i style="background:#182634"></i><div><b>ink-2</b>#182634 · superficies oscuras elevadas</div></div>
+      <div class="sw"><i style="background:#2b3640"></i><div><b>text</b>#2B3640 · cuerpo</div></div>
+      <div class="sw"><i style="background:#66727f"></i><div><b>muted</b>#66727F · secundario (AA sobre papel)</div></div>
+      <div class="sw"><i style="background:#c5ced7"></i><div><b>line-strong</b>#C5CED7 · bordes de inputs</div></div>
+      <div class="sw"><i style="background:#dbe1e7"></i><div><b>line</b>#DBE1E7 · divisores</div></div>
+      <div class="sw"><i style="background:#f5f7f9;border-bottom:1px solid #dbe1e7"></i><div><b>paper</b>#F5F7F9 · fondo de página</div></div>
+      <div class="sw"><i style="background:#ffffff;border-bottom:1px solid #dbe1e7"></i><div><b>surface</b>#FFFFFF · tarjetas y formularios</div></div>
+    </div>
+    <h3>Acento y estados</h3>
+    <div class="swatches">
+      <div class="sw"><i style="background:#1f4fd8"></i><div><b>accent</b>#1F4FD8 · CTAs, enlaces, marcas</div></div>
+      <div class="sw"><i style="background:#173fae"></i><div><b>accent-ink</b>#173FAE · hover y texto sobre claro</div></div>
+      <div class="sw"><i style="background:#e6ecfb"></i><div><b>accent-soft</b>#E6ECFB · fondos de chip y hover</div></div>
+      <div class="sw"><i style="background:#1d7a4d"></i><div><b>ok</b>#1D7A4D · éxito</div></div>
+      <div class="sw"><i style="background:#9a6300"></i><div><b>warn</b>#9A6300 · aviso</div></div>
+      <div class="sw"><i style="background:#b42318"></i><div><b>error</b>#B42318 · error de formulario</div></div>
+    </div>
+    <div class="note">Sobre oscuro: texto <span class="mono">#EEF2F6</span>, secundario <span class="mono">#A9B6C3</span>, líneas <span class="mono">rgba(255,255,255,.12)</span>. El acento se usa igual en ambos temas; sobre oscuro los botones primarios pueden ir en claro (<span class="mono">on-dark</span>) para no competir con la foto.</div>
+  </div>
+</section>
+
+<section id="tipo">
+  <div class="wrap">
+    <div class="section-head"><h2>Tipografía</h2><p>Geist para todo lo editorial, Geist Mono para lo operativo (IMO, coordenadas, toneladas, fechas, números de solicitud). Tracking negativo al crecer, leading que se aprieta en display y se abre en cuerpo.</p></div>
+    <div class="type-row"><span class="k">display · 36 a 64 px · 700 · -0.025em · 1.05</span><span class="t-display">Ship agency at the Panama Canal.</span></div>
+    <div class="type-row"><span class="k">h1 · 32 a 48 px · 700 · -0.02em · 1.08</span><span class="t-h1">Panama Canal transit agent and husbandry services</span></div>
+    <div class="type-row"><span class="k">h2 · 26 a 36 px · 600 · -0.02em · 1.12</span><span class="t-h2">How a port call works with us</span></div>
+    <div class="type-row"><span class="k">h3 · 20 px · 600 · -0.01em · 1.3</span><span class="t-h3">What we deliver and when</span></div>
+    <div class="type-row"><span class="k">lead · 19 px · 400 · 1.5</span><span class="t-lead">Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.</span></div>
+    <div class="type-row"><span class="k">body · 17 px · 400 · 1.6 · 65ch</span><span class="t-body">Our surveyor attends the bunkering, witnesses sampling and sounding, and signs the report your underwriter will read. If there is a shortfall, the same team drafts the letter of protest within the hour.</span></div>
+    <div class="type-row"><span class="k">small · 14.4 px · muted</span><span class="t-small">Last reviewed 28 August 2026 · Source: Panama Canal Authority, OP Notice N-7-2026</span></div>
+    <div class="type-row"><span class="k">data · Geist Mono 14.4 px</span><span class="t-data">IMO 5785507 · RBS TOWER 9-902 · 08°58'N 079°31'W · MGO 0.10% S · DRAFT 15.24 m · CW-20260915-014</span></div>
+  </div>
+</section>
+
+<section id="escalas">
+  <div class="wrap">
+    <div class="section-head"><h2>Espaciado, radios, sombras</h2><p>Base 4 px. Secciones a 56 a 96 px. Contenedor de 1240 px. Breakpoints 640 / 768 / 1024 / 1280.</p></div>
+    <div class="scale">
+      <div style="width:4px;height:16px"></div><div style="width:8px;height:24px"></div><div style="width:12px;height:32px"></div><div style="width:16px;height:40px">4</div><div style="width:24px;height:48px">6</div><div style="width:32px;height:56px">8</div><div style="width:48px;height:64px">12</div><div style="width:64px;height:72px">16</div><div style="width:96px;height:80px">24</div>
+    </div>
+    <div class="radii"><div style="border-radius:8px">8 px inputs</div><div style="border-radius:12px">12 px tarjetas</div><div style="border-radius:999px">píldora botones</div></div>
+    <div class="shadows"><div style="box-shadow:var(--shadow-1)">shadow-1 (hover)</div><div style="box-shadow:var(--shadow-2)">shadow-2 (destacado)</div><div style="border:1px solid var(--line)">borde (por defecto)</div></div>
+    <p class="muted">Las sombras van teñidas con el fondo (grafito o cobalto), nunca negro puro. Por defecto las tarjetas se separan con borde y aire; la sombra aparece solo en hover o en el elemento destacado.</p>
+  </div>
+</section>
+
+<section id="componentes">
+  <div class="wrap">
+    <div class="section-head"><h2>Componentes</h2><p>Con todos sus estados: normal, hover, activo, foco, deshabilitado, cargando, error y éxito.</p></div>
+
+    <h3>Botones</h3>
+    <div class="row"><a class="btn" href="#">Request a port call</a><a class="btn ghost" href="#">WhatsApp duty officer</a><a class="btn" aria-disabled="true" href="#">Deshabilitado</a><a class="btn" href="#"><span class="spin"></span> Sending request</a></div>
+    <div class="row" style="background:var(--ink);padding:16px 18px;border-radius:var(--r)"><a class="btn dark" href="#">Request a port call</a><a class="btn ghost-dark" href="#">WhatsApp duty officer</a></div>
+    <p class="muted">Una etiqueta por intención en todo el sitio. Respuesta en pointerdown (escala 0.98), foco visible de 3 px, altura mínima 44 px.</p>
+
+    <h3>Chips de estado</h3>
+    <div class="row"><span class="chip ok">ISO 9001:2015 vigente</span><span class="chip now">PDA en 24 h</span><span class="chip warn">Calado restringido</span><span class="chip err">Slot no disponible</span><span class="chip">Balboa · Pacífico</span></div>
+
+    <h3>Tarjeta de servicio (con imagen real)</h3>
+    <div class="grid3">
+      <a class="card" href="#"><img src="assets/canal-transit.jpg" alt="Tránsito por las esclusas del Canal de Panamá visto desde cubierta"><div class="body"><h4>Ship agency &amp; Canal transit</h4><p>Nomination to FDA, both sides of the Canal.</p><span class="more">Learn more →</span></div></a>
+      <a class="card" href="#"><img src="assets/oil-terminal.jpg" alt="Terminal petrolero al atardecer"><div class="body"><h4>Bunkering &amp; oil operations</h4><p>MGO and ULSD in Panama, CIF or FOB, with quantity verified.</p><span class="more">Learn more →</span></div></a>
+      <a class="card" href="#"><img src="assets/port-cranes.jpg" alt="Grúas de un terminal de contenedores"><div class="body"><h4>Marine surveys</h4><p>Independent surveys with reports your underwriter will accept.</p><span class="more">Learn more →</span></div></a>
+    </div>
+    <p class="muted">Imágenes de ejemplo tomadas del material actual del cliente (company profile y sitio). Se reemplazan por la sesión de fotos.</p>
+
+    <h3>Ficha de puerto (mono sobre grafito) y credencial</h3>
+    <div class="cols">
+      <div class="port"><h4>Port of Balboa · Pacific side</h4><dl><dt>Operator</dt><dd>Panama Ports Company</dd><dt>Anchorage</dt><dd>Pacific anchorage, 08°53'N 079°30'W</dd><dt>Bunker</dt><dd>MGO, VLSFO by barge</dd><dt>Distance to locks</dt><dd>Miraflores 6 nm</dd><dt>Duty officer</dt><dd>+507 6266-4242</dd><dt>Data reviewed</dt><dd>2026-08-28</dd></dl></div>
+      <div style="display:grid;gap:12px"><div class="cred"><div class="badge">ISO<br>9001</div><div><b>ISO 9001:2015 · Quality management</b><span>Certificate by IAS/IAF · Scope: ship agency, husbandry, surveys · Valid to (fecha)</span></div></div><div class="cred"><div class="badge">ACP</div><div><b>Panama Canal Authority authorized agent</b><span>Licensed to execute Canal transits · Agency code (número)</span></div></div><div class="cred"><div class="badge">IMO<br>5785507</div><div><b>IMO company number</b><span>Cross World Agencies, S.A. · RUC 1675308-1-680680 DV 34</span></div></div></div>
+    </div>
+
+    <h3>Testimonio</h3>
+    <div class="quote"><p>"They had the surveyor on board at Cristóbal four hours after our email. The report closed the dispute."</p><cite>Operations Manager, ship management company, Athens (ejemplo de formato; los testimonios reales se piden con permiso)</cite></div>
+
+    <h3>Formulario "Request a port call" (paso 1 de 2)</h3>
+    <div class="form">
+      <div class="steps"><b>1 Vessel</b><i class="on"></i><span>2 Services &amp; contact</span><i></i></div>
+      <div class="f2">
+        <div><label for="v1">Vessel name</label><input class="input" id="v1" value="MV Pacific Meridian"></div>
+        <div><label for="v2">IMO number</label><input class="input mono err" id="v2" value="978654"><div class="err-msg">IMO numbers have 7 digits. Check the last digit.</div></div>
+        <div><label for="v3">Vessel type</label><input class="input" id="v3" value="Bulk carrier"></div>
+        <div><label for="v4">ETA (local time, UTC-5)</label><input class="input mono" id="v4" value="2026-09-15 06:00"><div class="help">We plan boarding from your ETA. You can update it later.</div></div>
+        <div><label for="v5">LOA · beam · draft (m)</label><input class="input mono" id="v5" value="229.0 · 32.2 · 12.8"></div>
+        <div><label for="v6">Ports</label><input class="input" id="v6" value="Balboa, Cristóbal (transit northbound)"></div>
+      </div>
+      <div class="row"><a class="btn" href="#">Continue to services</a><a class="btn ghost" href="#">Save draft</a><span class="muted" style="font-size:.86rem">Draft saved in this browser</span></div>
+      <div class="success"><b>Request CW-20260915-014 received.</b>The duty officer has it and will reply 24/7. A confirmation was sent to ops@example.com. If it is urgent, call +507 6266-4242.</div>
+    </div>
+  </div>
+</section>
+
+<section id="hero">
+  <div class="wrap">
+    <div class="section-head"><h2>Mock del hero de la home</h2><p>Asimétrico, oscuro, con la foto a sangre y un solo CTA primario. Copy A del copy deck. La barra translúcida se funde con la foto.</p></div>
+    <div class="hero">
+      <div class="hero-nav"><div class="b"><span class="brand-mark">CW</span>Cross World Agency</div><div class="links"><span>Services</span><span>Who we serve</span><span>Canal guide</span><span>Ports</span><span>About</span><span>Insights</span><span class="cta">Request a port call</span></div></div>
+      <div class="copy">
+        <h1>Ship agency, marine surveys and bunkering at the Panama Canal.</h1>
+        <p class="sub">Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.</p>
+        <div class="cta"><a class="btn dark" href="#">Request a port call</a><a class="btn ghost-dark" href="#">WhatsApp duty officer</a></div>
+      </div>
+      <div class="img"><img src="assets/canal-transit.jpg" alt="Buque entrando a las esclusas del Canal de Panamá"></div>
+    </div>
+    <div class="strip"><span>AMP licensed</span><span class="dot">·</span><span>Panama Canal Authority authorized agent</span><span class="dot">·</span><span>IMO 5785507</span><span class="dot">·</span><span>ISO 9001 · 14001 · 45001 · 22000</span><span class="dot">·</span><span>Since 2010</span></div>
+    <p class="muted">La foto de ejemplo es del company profile del cliente (lleva su marca antigua sobreimpresa). La definitiva sale de la sesión de fotos: tránsito visto desde cubierta, luz de mañana, sin texto.</p>
+  </div>
+</section>
+
+<section id="wireframe">
+  <div class="wrap">
+    <div class="section-head"><h2>Wireframe de la home</h2><p>Las 10 secciones en orden, con su familia de layout. Ninguna familia se repite.</p></div>
+    <div class="wire">
+      <div class="wf"><b>1 · Hero asimétrico (oscuro)</b><div class="boxes split"><div class="bx dark" style="min-height:90px">H1 + 20 palabras + 2 CTAs</div><div class="bx img" style="min-height:90px">foto a sangre</div></div></div>
+      <div class="wf"><b>2 · Franja de credenciales (única marquesina)</b><div class="boxes"><div class="bx">AMP · ACP · IMO · ISO ×4 · 2010</div></div></div>
+      <div class="wf"><b>3 · Servicios (bento 7, foto en 3)</b><div class="boxes c7"><div class="bx img" style="min-height:70px">Agency + foto</div><div class="bx">Surveys</div><div class="bx img">Bunker</div><div class="bx">Fuel</div><div class="bx img">STS</div><div class="bx">Claims</div><div class="bx">Consulting</div></div></div>
+      <div class="wf"><b>4 · Cómo funciona un port call (pila pegajosa)</b><div class="boxes c4"><div class="bx">Nomination</div><div class="bx">PDA &lt; 24 h</div><div class="bx">Boarding &amp; transit</div><div class="bx">FDA</div></div></div>
+      <div class="wf"><b>5 · Ambos lados del Canal (fichas mono)</b><div class="boxes c2"><div class="bx dark">Balboa · Pacific · duty phone</div><div class="bx dark">Cristóbal · Atlantic · duty phone</div></div></div>
+      <div class="wf"><b>6 · El capitán (split invertido)</b><div class="boxes split"><div class="bx img" style="min-height:70px">foto</div><div class="bx">bio 3 líneas + credenciales</div></div></div>
+      <div class="wf"><b>7 · A quién servimos (4 con foto)</b><div class="boxes c4"><div class="bx img">Owners</div><div class="bx img">Charterers</div><div class="bx img">P&amp;I</div><div class="bx img">Fleets</div></div></div>
+      <div class="wf"><b>8 · Prueba (cita a ancho completo + logos)</b><div class="boxes"><div class="bx">testimonio</div><div class="bx">logos con permiso</div></div></div>
+      <div class="wf"><b>9 · Insights (3 últimos)</b><div class="boxes c3"><div class="bx">post</div><div class="bx">post</div><div class="bx">post</div></div></div>
+      <div class="wf"><b>10 · CTA final + Nominate (oscuro)</b><div class="boxes c2"><div class="bx dark">Request a port call</div><div class="bx dark">bloque copiable</div></div></div>
+    </div>
+    <p class="muted">Móvil: todo colapsa a una columna, el hero pone la foto arriba con degradado, la barra pasa a menú, WhatsApp queda como botón flotante discreto.</p>
+  </div>
+</section>
+
+<section id="movimiento">
+  <div class="wrap">
+    <div class="section-head"><h2>Movimiento</h2><p>Solo lo que comunica algo. Este bloque entra escalonado al cargar (jerarquía). En el sitio real lo hace Motion con springs y <span class="mono">useReducedMotion</span>.</p></div>
+    <div class="motion-demo"><div><b>Entrada</b><br>opacidad + 18 px, 0.7 s, easing out expo, escalonado 80 ms</div><div><b>Hover</b><br>1 px de elevación + sombra teñida, 200 ms</div><div><b>Pulsación</b><br>escala 0.98 en pointerdown, 120 ms</div><div><b>Pila pegajosa</b><br>4 pasos, cada tarjeta se reduce a 0.92 cuando llega la siguiente</div></div>
+    <div class="tbl"><table><thead><tr><th>Interacción</th><th>Spring (Motion)</th><th>Reduced motion</th></tr></thead><tbody>
+      <tr><td>Aparición de sección</td><td>bounce 0 · duration 0.5</td><td>solo opacidad 200 ms</td></tr>
+      <tr><td>Menú y hojas</td><td>bounce 0.15 · duration 0.35 (solo si hubo gesto)</td><td>cross-fade</td></tr>
+      <tr><td>Parallax del hero</td><td>8 a 12 px con useScroll + useTransform</td><td>desactivado</td></tr>
+      <tr><td>Botones</td><td>scale 0.98 en pointerdown, vuelve con bounce 0</td><td>igual (no vestibular)</td></tr>
+    </tbody></table></div>
+  </div>
+</section>
+
+<footer><div class="wrap">Cross World Agency · Sistema de diseño v0 · 28 de agosto de 2026 · ECUS Agency · <a href="index.html">volver al plan</a></div></footer>
+</body>
+</html>

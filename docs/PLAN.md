@@ -1,7 +1,8 @@
 # Cross World Agency · Plan maestro del sitio web
 
 **Cliente:** Cross World Agency, S.A. (Panamá) · Capitán Guillermo A. Peña G. · contacto vía Irene (ECUS)
-**Fecha:** 28 de agosto de 2026 · **Versión:** 1.1 (planeación ampliada: página por página, adquisición, embudo, marca, operación, costos, listas de seguimiento, roadmap semanal, checklist de lanzamiento) · **Responsable:** ECUS Agency (Daniel Muñoz)
+**Fecha:** 28 de agosto de 2026 · **Versión:** 1.2 · **Responsable:** ECUS Agency (Daniel Muñoz)
+**Documentos hermanos:** [Especificación técnica](ESPECIFICACION-TECNICA.md) (stack, rutas, modelo de contenido, formularios, tabla de leads, webhook al CRM, analítica, SEO técnico, seguridad, CI, pruebas, migración) · [Contenido v0](CONTENIDO-v0.md) (borradores de home, 7 servicios, about, guía del Canal con cifras oficiales de la ACP, correos, anexo de Google Ads, outreach, LinkedIn) · [Sistema de diseño v0](design-system.html) (tokens, tipografía, componentes con estados, mock del hero, wireframe de la home) · [Competidores](competidores.md)
 **Repositorio:** `munozospinad0/crossworld-agency` · **Página de avances:** GitHub Pages (`/docs`) · **Producción:** Vercel Pro
 
 > Este documento es la fuente de verdad del proyecto: qué vamos a construir, por qué, para quién, con qué stack, cómo se mide y en qué orden. Todo lo que no esté aquí no existe. Se actualiza en cada fase.
@@ -725,3 +726,25 @@ SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Mar
 10. ¿Membresías: Cámara Marítima de Panamá, BIMCO, IIMS? ¿Cobertura ITIC?
 11. ¿Los certificados ISO están vigentes y podemos publicar número y fecha?
 12. ¿Quién del equipo va a publicar en Keystatic y en LinkedIn? ¿Quién revisa técnicamente los textos?
+
+---
+
+## 26. Registro de riesgos
+
+| Riesgo | Prob. | Impacto | Mitigación | Dueño |
+|---|---|---|---|---|
+| Insumos del cliente tardan (fotos, SLA, puertos, permisos) | Alta | Medio | Construir con el company profile y placeholders marcados; nada bloquea el build; reunión de arranque en S1 | ECUS + Irene |
+| No hay acceso al dominio o al hosting | Media | Alto | Pedirlo en S1; identificar registrador por WHOIS; plan B: subdominio temporal en Vercel para previews | Irene |
+| Cifras del Canal desactualizadas al publicar | Media | Alto (credibilidad) | Toda cifra con fuente y fecha; revisión trimestral en calendario; disclaimer | ECUS + Guillermo |
+| Conflicto de interés percibido (survey + venta de combustible) | Media | Medio | Nota de independencia en la página; surveyor tercero a pedido; SOS Resilience como línea separada | Guillermo |
+| Confusión de marca con Cross Roads Agencies | Alta | Medio | GBP, schema, campaña de marca, contenido firmado, PR | ECUS |
+| Spam en formularios | Alta | Bajo | Turnstile, rate limit, honeypot, validación de IMO | ECUS |
+| Leads sin respuesta a tiempo | Media | Alto | Alertas a 2 h y 4 h, WhatsApp de guardia, SLA visible solo si se cumple | Irene + Guillermo |
+| Push de GitHub bloqueado por permisos en alguna sesión | Media | Bajo | Daniel corre el push o ajusta permisos; scripts listos | Daniel |
+| Adimar/PSS copian el ángulo bilingüe | Baja | Medio | Ventaja de credenciales y autor real; velocidad de lanzamiento | ECUS |
+| Certificados ISO vencidos o no publicables | Baja | Alto | Confirmar vigencia en S1; alerta 60 días antes; mostrar solo lo vigente | Guillermo |
+
+## 27. Bitácora de versiones del plan
+- **v1.0 · 27-ago-2026:** plan inicial (secciones 0 a 14), keyword research, competidores, repo y página de avances.
+- **v1.1 · 28-ago-2026:** secciones 15 a 25 (página por página, copy deck, adquisición, embudo, marca, operación, presupuesto, listas, roadmap semanal, checklist, preguntas).
+- **v1.2 · 28-ago-2026:** especificación técnica, contenido v0 con cifras oficiales de la ACP (tarifas y OP Notice N-7-2026), sistema de diseño v0 con mock del hero, mapa de 301 real (7 URLs del sitio viejo), registro de riesgos.

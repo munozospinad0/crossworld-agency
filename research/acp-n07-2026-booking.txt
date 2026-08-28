@@ -1,0 +1,2078 @@
+OP NOTICE TO SHIPPING N-7-2026
+
+
+
+
+                Panama Canal
+                Transit Reservation
+                System
+January 1, 2026
+
+
+
+
+OP NOTICE TO SHIPPING N-7-2026
+To: Shipping Agents, Owners and Operators
+Subject: Panama Canal Transit Reservation System
+
+
+1. Effective Date and Cancellation
+      This Notice cancels OP Notice to Shipping No. N-7-2025 and will be effective on
+the date of issue. A revised Notice will be issued in January of each year or when
+otherwise required.
+
+2. Purpose and Scope
+          A. This Notice incorporates the Panama Canal Transit Reservation System in
+accordance with the Regulation on Navigation in Panama Canal Waters (ACP Navigation
+Regulations) and with additional provisions included in the related manual of procedures.
+            B. The rules presented in this Notice constitute, section by section, the
+regulations related to the matter in the ACP Navigation Regulations and are followed by
+policies, procedures, and practices of the Canal Authority. In the event of any conflict in
+the rules printed in this Notice and the provisions published in the ACP Navigation
+Regulations, the latter shall govern.
+
+3. Booking through the Transit Reservation System
+   Application
+      The Transit Reservation System (Booking) Application is an efficient electronic
+information exchange between the ACP information system and the customers’ systems,
+which enables the collection, administration, and validation of data. The Booking
+Application allows local shipping agents to manage their booking transactions on-line, and
+allows other interested parties, such as charterers, owners or operators, to access
+booking transactions as a query only.
+
+      Booking requests, requests for Daylight Transits, Late Arrivals, Just-in-Time
+                                PANAMA CANAL AUTHORITY (ACP)
+                                  Vice Presidency for Operations
+                                   Building 729, Balboa-Ancon
+                                        Panama, Panama
+                                       www.pancanal.com
+OP Notice to Shipping N-7-2026                                    Panama Canal Transit Reservation System
+
+
+
+
+ transits, Transit in Advance, Substitutions, Swaps, Change in Booking Dates, and
+Cancellations are received through the Booking Application. Competition results and Slot
+Availability Reports are also available in this application. Registered agents have access
+to this application at any time, once the ACP provides each registered agent with a
+username and password to log onto the Booking Application.
+
+      The ACP Help Desk provides 24-hour service to address difficulties pertaining to
+the Booking Application.
+
+       The following are the points of contact for systems support:
+       •   Support ....................................................... Tel. 272-5554
+       •   Help Desk ……………………………………. Tel. 272-7777
+
+
+4. Transit Booking Information on the Internet
+        A section on the Panama Canal internet page is                                     available at
+https://pancanal.com/en/maritime-services/vessel-eta-and-transit-booking/                    with    the
+following information on the current status of the Transit Booking System:
+       • Booking Slots Available – Web Page
+       • Customer Ranking
+      The Customer Ranking Report is updated and posted at the beginning of each
+month, while the Slots Availability is continuously updated, every time a slot is awarded.
+
+      The Booking Slots Available – Web Page site has been designed to provide
+information on reserved slots and slot availability for the next 90 days for regulars, supers,
+and Neopanamax vessels, and information between 366 and 730 days for commercial
+passenger vessels.
+
+5. Access to the ACP Vessel Information System
+      In compliance with ACP and international security requirements, access to the Vessel
+Information system is regulated.
+
+        All requests to transit the Panama Canal or anchor in Canal waters carry implicit
+authorization for the ACP to disclose information regarding the vessel and its estimated time
+of arrival (ETA) to those entities duly registered with the ACP to provide services to said
+vessels.
+
+        The Vessel Information system is only available, with the limitations and restrictions
+established in the contract, and based on the nature of the activity performed, to the
+following:
+
+
+
+                                                       ii
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+       1. Shipping agencies registered with the ACP;
+       2. Port terminals located within or adjacent to Panama Canal waters;
+       3. Government entities with maritime or protection responsibilities;
+       4. Banks recognized and approved by the ACP as guarantors for tolls and other
+           marine services.
+
+       Access to vessel’s arrival information, with the limitations and restrictions
+established by the ACP, will be available to:
+      1. Established entities providing services to vessels in Panama Canal waters;
+      2. Established entities domiciled in the Republic of Panama providing legal
+         services within the realm of maritime transportation and commerce.
+
+       Authorization to access the EVTMS requires signing a contract with the ACP wherein
+the terms and conditions required of the subscriber are defined. This contract includes the
+established tariff, as well as confidentiality restrictions regarding the use of information
+obtained through this system. Non-compliance with the terms and conditions of this contract,
+including non-payment of the tariff in a timely manner, may result in the suspension of
+access to this service.
+
+       Information regarding the documentation required to obtain access to the vessel
+information system is stated in the attachment. Requests for access may be submitted
+electronically to operationservices@pancanal.com or delivered to:
+
+                      Shipping Customer Service Management Office
+                      Panama Canal Authority
+                      Building 729, Balboa
+                      Republic of Panama
+
+6. Customer Code Issuance and Consolidation Procedures
+       ACP requires that a Customer Code be provided to every vessel’s visit to transit the
+Panama Canal, except for yachts and government vessels. However, these vessels will
+not be allowed to substitute their reserved slot, or swap with other vessels if a customer
+code has not been assigned.
+
+The Customer Code provided by the vessel agent for a vessel’s visit must be the
+Customer Code that belongs to the company responsible for each transit during that visit.
+Providing a Customer Code belonging to an entity that does not represent, own, operate,
+or charter the transiting vessel is prohibited. Therefore, the customer code provided must
+belong to:
+       1. The owner of the vessel transiting the Canal, or
+
+
+
+
+                                              iii
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+          2. The operator of the vessel transiting the Canal, or
+          3. The company that charters a vessel transiting the Canal.
+       ACP provides several systems and reports, which are readily available to verify
+Customer Codes that were reported for each vessel's visit, such as: Daily Information
+Report, Arrivals Report, Vessel’s Visit Itineraries Screen, and the Vessel Schedule Report.
+In addition, the Agent/Customer Summary report, available through EVTMS, provides a
+summary of all transiting vessels represented by local shipping agents that are logged in.
+This report contains information for the last 60 days.
+
+         An important factor in the competition to obtain reserved transit slots is the
+utilization of the Customer Code, which can affect customer ranking. Customer Code
+procedures require proof of ownership, contractual chartering or majority stock ownership
+of a shipping company and these prerequisites are available at: https://pancanal.com/wp-
+content/uploads/2022/03/customer-code-issuance-and-consolidation-procedures-
+revjan_2022.pdf
+
+        The Customer Code provided by the vessel´s agent must belong to the company
+responsible for each transit within that visit, be it the vessel’s owner, charterer or operator.
+In this regard, and to maintain the integrity of the booking system, vessels will not be
+allowed to change customer codes once the visit has been created, unless a written
+justification is submitted and approved by the Vice President for Operations.
+
+       Customer Codes that are not used in a five-year period may be deactivated by the
+ACP Customer Services Unit. Customers who wish to reinstate a code that has been
+deactivated are required to send a written request in this regard to the Shipping Customer
+Service Management Office.
+
+      For your reference, the last revision of the Customer Code Issuance and
+Consolidation Procedure, which was promulgated for your strict compliance, may be
+accessed       through      the     following     link:      https://pancanal.com/wp-
+content/uploads/2022/03/customer-code-issuance-and-consolidation-procedures-
+revjan_2022.pdf
+
+
+
+
+Boris Moreno Vásquez
+Vice President for Operations
+
+
+
+
+                                               iv
+OP Notice to Shipping N-7-2026                       Panama Canal Transit Reservation System
+
+
+
+
+ RULES AND PROVISIONS CONCERNING THE PANAMA CANAL
+TRANSIT RESERVATION SYSTEM
+
+ACP REGULATION ON NAVIGATION IN PANAMA CANAL WATERS
+ARTICLE 20
+Applicability and scope
+Subject to the limitations imposed by Articles II and VI of the 1977 Treaty concerning the
+Permanent Neutrality and Operation of the Panama Canal, between the United States and
+the Republic of Panama, and subject to compliance with the provisions of this part, the
+Panama Canal Transit Reservation System allows vessels, including commercial
+passenger vessels, desiring to transit the Canal, to reserve transit slots in advance of
+arrival to Canal waters and be moved through the Canal on pre-assigned dates.
+
+ARTICLE 9
+Definitions
+        1. Transit Reservation. Service offered by the Authority whereby it guarantees that
+transit will start on a specific date, requested by the vessel, which is subject to an
+additional fee.
+
+       2. Passenger Vessel. A vessel that principally transports passengers and runs on
+fixed published schedules. The capacity of this type of vessel is normally over 12
+passengers.
+
+       3. Ordinary Transit. Transit of a vessel without a transit reservation, which is
+scheduled for the date and time determined by the Authority based on its order of arrival,
+the Canal’s capacity and any limitations that the vessel might have.
+
+       4. Required Arrival Time. Date and time established by ACP as the deadline by
+which a vessel booked for transit must arrive to retain its scheduled transit.
+
+       5. Just-in-Time (JIT) Transit. A service which allows a booked vessel to arrive at a
+pre-established time confirmed by the Authority.
+        6. Transit in Advance (TIA). A service confirmed by ACP which allows a booked
+vessel to transit on a date prior to its booking date
+
+       7. Net Zero Slot. A booking slot in the Neopanamax Locks dedicated to vessels
+committed to Low Carbon emissions.
+        8. Authorized Vessel Agent. A party authorized by the owner or operator to
+represent the vessel before the Authority to create visits, request services and commit
+before the Authority to pay the fees for the services it requests, or which are generated as
+a result of the visit of the vessels that it represents.
+
+
+
+                                             1
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+ The Authority shall assign an agency code to recognize as an Authorized Shipping Agent
+the party who requests representation of a vessel before the Authority and who has
+complied with the requirements established by the Authority for such purposes.
+
+           9. Vessel Classification. For purposes of these rules, vessels are classified as
+Neopanamax when they are over 107 feet (32.61 meters) in beam or over 966 feet
+(294.44 meters) in length; supers when they are 91 feet (27.74 meters) in beam or over
+but no more than 107 feet (32.61 meters) in beam, and length overall not exceeding 966
+feet (294.44 meters); and regulars when they are under 91 feet (27.74 meters) in beam. If
+a vessel is approved for transit through the Panamax locks with dimensions exceeding the
+maximum limits mentioned above, the vessel will be considered a super for purposes of
+determining the applicable booking and other fees.
+
+        10. Required Arrival Times/Neopanamax and Panamax Plus. The required arrival
+time for TIA and booked Neopanamax and Panamax Plus vessels is 2200 hours of the
+day prior to their booked date. For Neopanamax LNG carriers, the required arrival time is
+0200 hours of their booked date. Neopanamax commercial passenger vessels are exempt
+from this requirement, if they arrive with enough time to maintain their schedule.
+Submarines and “high-value transit” vessels may be instructed by the ACP to arrive past
+the required arrival for operational and/or security reasons.
+
+           11. Required Arrival Times/Supers and regular vessels with restrictions. The
+required arrival time for TIA, booked supers and regular vessels transiting under
+restrictions is 0200 hours of the day of their booking. Commercial passenger vessels are
+exempt from this requirement, if they arrive with enough time to maintain their schedule.
+Submarines and “high-value transit” vessels may be instructed by the ACP to arrive past
+the required arrival for operational and/or security reasons.
+
+           12. Required Arrival Times/Regular vessels without restrictions. The required
+arrival time for TIA and booked regular vessels without transit restrictions, is 1400 hours of
+the day of transit. Commercial passenger vessels are exempt from this requirement, if
+they arrive with enough time to maintain their schedule. Submarines and other “high-value
+transit” vessels may be instructed by the ACP to arrive past the required arrival for
+operational and/or security reasons.
+
+          13. Required Arrival Time/Just-In-Time Transits. Vessels that have been
+awarded the JIT transit service shall arrive at a Canal terminal by the time confirmed by
+the Authority.
+
+          14. Arrival Time. For purposes of these rules, a vessel booked for transit will be
+deemed to have arrived at a Canal terminal when an ACP signal station establishes radio
+contact with the vessel and:
+            A. The vessel is visually sighted by the signal station; or
+
+
+
+
+                                               2
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+           B. The vessel is identified on ACP radar by location, speed, and course at a
+           distance of not more than 8 nautical miles (13.6 kilometers) from the sea buoy
+           on the Pacific side or from the breakwater entrance on the Atlantic side.
+
+         In case a southbound vessel is departing from a port in Manzanillo Bay, the
+vessel establishes radio contact with the ACP Cristobal Signal Station and reports its
+position as it passes the East Breakwater entrance on a southbound course. The ACP
+Port Entry Coordinator confirms the vessel’s position through visual sighting or by radar. A
+vessel in this situation must arrive at the Canal breakwater entrance with sufficient time for
+its scheduled pilot pick-up. If the vessel fails to do this, the reserved transit slot may be
+canceled.
+
+         Vessels in all three size categories (Neopanamax, Super and Regular) will be
+required to be ready for transit by or before their required arrival time. Exceptions will be
+approved on a case-by-case basis upon request, based on the booked vessels and the
+vessel mix in the schedule. Customers requesting approval for a later ready time for
+transit must submit their request via e-mail to Planner@pancanal.com no later than 48
+hours prior to the required arrival time.
+
+ARTICLES 19 AND 28
+Booked Transits
+
+        1. The specific daily order of vessels, as well as the mix of vessels transiting the
+Canal, whether booked or not, shall be determined by the ACP. Except as provided
+herein, a booked vessel may transit prior to its reserved transit date, if the transit
+advancement has been approved by the ACP, or if the ACP determines that assigning the
+vessel an earlier transit slot promotes operational efficiency.
+      2. Notwithstanding assignment of an earlier reserved transit slot by the ACP, all
+booked vessels will be charged the prescribed booking fee.
+       3. Swapping and substitution of reserved transit slots between or among booked
+vessels will be permitted only on conditions specified by the ACP.
+
+
+ARTICLES 22 AND 23
+Booking periods; allocation of reserved slots
+       1. Only vessel agents may request reserved transits during the following booking
+periods:
+      Special Period: Commercial Passenger Vessels - 730 to 366 days prior to the
+requested transit date.
+
+
+
+
+                                              3
+OP Notice to Shipping N-7-2026                                                 Panama Canal Transit Reservation System
+
+
+
+
+           Normal Periods:
+               A. First Period - For the Panamax locks, from 90 to 15 days prior to the
+                  requested transit date. For the Neopanamax locks, from 90 to 31 days prior
+                  to the requested transit date.
+               B. Period 1.a - For Neopanamax locks only, from 30 to 15 days prior to the
+                  requested transit date.
+               C. Second Period - From 14 to 8 days prior to the requested transit date.
+
+               D.      Third Period - From 7 to 2 days prior to the requested transit date.
+
+Note: The third period closes at 1500 hours during weekdays, weekends and holidays.
+
+       2. The number of reserved transit slots available throughout the booking periods
+may be adjusted by the ACP, commensurate with the safe and efficient operation of the
+Canal.
+       3. Booked vessels will be allowed to change dates, request substitutions and
+swaps between 365 and 91 days prior to any booking date, even without an open booking
+period.
+
+ARTICLE 22
+       1. Transit Slot Allocations. During normal operating conditions, the authorized
+reserved transit slots available per day will be allocated among the Long-Term Slot
+Allocation methodology (LoTSA), booking periods and size of vessels as set forth in the
+following table:
+
+
+
+
+Note: unused slots from one period are carried over to the following period.
+*includes the “conditioned” slot.
+
+
+
+        2. Passenger Vessel Allocations. From 730 to 366 days prior to the requested
+transit date, one slot for neopanamax, three slots for supers and two slots for regulars
+from the 1st booking period will be available exclusively for commercial passenger vessels.
+These slots will be awarded through competition when the special period opens and on a
+first-come, first-served basis after the competition has closed. Upon the expiration of this
+special period, unused slots will be carried over to the 1st booking period. No distinction
+will be made between commercial passenger vessels and other vessels when assigning
+
+
+
+
+                                                                    4
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+  any remaining reserved transit slots in any of the remaining booking periods. The
+booking slot for neopanamax commercial passenger vessels requesting a turn-around
+transit will be limited to one (1) per day. The vessel’s agent shall inform the ACP that they
+are requesting a turn-around transit when creating or updating their visit in the Maritime
+Service Portal, prior to submitting their booking request. Failure to provide this information
+may result in the cancellation of the vessel’s booking, as well as the application of
+corresponding charges.
+Any slot not allocated during the Special Booking Period for Neopanamax will be carried
+over to Booking Period 2. Any slot from the Special Booking Period that becomes
+available from 366 to 15 days prior to the booking date will be carried over to Period 2.
+        3. Panamax Plus Vessels. Panamax vessels with drafts greater than 12.04 m
+(39.5 feet) TFW (also known as panamax plus vessels) are currently not allowed to
+participate in the ordinary booking application process. Nevertheless, they may be
+allowed to participate in the auction for a slot in the neopanamax locks when determined
+by the ACP. Panamax Plus will be limited to one (1) vessel per transit date.
+
+        4. Long Term Slot Allocation Methodology (LoTSA): Through the LoTSA method,
+ACP will offer transit booking slot packages to various market segments, which will include
+a specific number of weekly or monthly slots for an specific period of time previously
+established by ACP, for northbound and/or southbound transits. A specific number of
+slots from the Neopanamax daily offer will be allocated through the LoTSA method, for a
+predetermined number of slots per week, beginning with week one and extending through
+week 26 or 52 per year. Each week spans from Sunday to Saturday.
+
+These packages and their characteristics will be announced through the Panama Canal
+webpage (www.pancanal.com) and will be allocated to the highest bidders through a
+SEALED BID AUCTION. If two or more customers submit a bid for the same amount, the
+tiebreaker will be based on the order in which the bids were received in the Panama Canal
+Auction System.
+
+The amount of the sealed bid refers to the maximum amount the customer is willing to pay
+for each slot included in the package, with a base amount defined in the LoTSA Terms
+and Conditions.
+
+Slots not allocated through the LoTSA method will be carried over to Booking Period 2.
+
+The terms and conditions for the LoTSA initiative is available in the following link: Long-
+term-slot_Terms-and-conditions-2.0_Revision-1.pdf (pancanal.com)
+
+       5. First Period for Neopanamax vessels. No booking slots are available during this
+period.
+
+       6. Booking Period 1.a for Neopanamax Vessels. During Booking Period 1.a, up to
+three (3) slots may be offered daily. The direction of these slots will depend on the slots
+
+
+
+                                              5
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+ allocated in previous periods and through LoTSA method. Only booking requests for full
+container, LNG, LPG, and vehicle carrier / RoRo vessels will be accepted. A maximum of
+two (2) of these slots may be allocated to LNG vessels. During the tiebreaker competition
+at the beginning of the period (between 0900 and 0930 hours), full container vessels shall
+have priority when allocating the first two (2) slots offered during the tiebreaker
+competitions for this booking period. If there are still slots available, they may be assigned
+to vessels from LNG, LPG, and vehicle carrier/RoRo vessels market segments in that
+same priority order, based on customer ranking. LNG vessels will be the first choice when
+allocating the third slot followed by LPG, full container vessels and vehicle carrier/RoRo.
+Vessels with HML=D will not be allowed to request a booking slot during Booking Period
+1A.
+Priority will also be given to full container vessels when assigning slots carried over from
+Period 1 and slots that are cancelled or become available due to other reasons.
+Slots that are not awarded during the tiebreaker competitions will become available to any
+interested full container, LNG, LPG, and vehicle carriers/RoRo vessels on a first come-first
+served basis for the remainder of the period.
+
+Note: One weekly slot from Booking Period 1A will be allocated to the NetZero initiative.
+Consequently, once this slot is awarded, the total number of slots available for competition
+in Booking Period 1A will be reduced for the specific booking date on which the vessel
+awarded the NetZero slot is scheduled to transit.
+
+       7. Second Period for Neopanamax Vessels. During the 2nd Booking Period, up two
+(2) slots will be made available to vessels from all market segments as well as any
+remaining slot from LoTSA, in addition to any unused slots that are carried over from
+previous periods. Full container vessels shall have priority over vessels from other market
+segments when assigning such slots during the tiebreaker competitions.
+
+If, by the end of Booking Period 1A there are less than three LoTSA slots registered for
+any booking date, the unused slots will be added to Booking Period 2.
+
+After the 2nd period tiebreaker competition, any remaining slots will become available to
+interested vessels from any market segment, on a first-come, first-served basis. Unused
+booking slots from the 2nd booking period will be carried over to the 3rd booking period.
+
+The “conditioned slot” offered during the 2nd booking period (regardless of direction), may
+only be assigned to vessels with a High Mast Lighting (HML) designator “C” that meet the
+following criteria:
+
+A.   Full container vessels with a length overall (LOA) of less than 335.28 meters (1,100
+     feet), beam less than 43.28 meters (142 feet), and deep draft less than 13.72 meters
+     (45 feet), Tropical Fresh Water (TFW); or
+
+
+
+
+                                              6
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+ B.    Vessels with precaution designator of PD-1 or PD-2 (excluding full container
+      vessels) with a beam of 36.58 meters (120 feet) or less, and with a length overall
+      (LOA) of 259.08 meters (850 feet) or less; or
+
+C.    Other vessel types with a length overall (LOA) of less than 304.8 meters (1,000 feet),
+      beam of less than 41.15 meters (135 feet), and deep draft of less than 13.72 meters
+      (45 feet) Tropical Fresh Water (TFW).
+
+Full containers shall have priority over vessels from other market segments when
+assigning the conditioned slot.
+
+After the Neopanamax 2nd period tiebreaker competition, if the conditioned slot has not
+been allocated, the slot will be offered through a special auction to Panamax Plus or
+Neopanamax vessel during Booking Period 2. If the slot was not awarded through this
+auction, it will be carried over to Booking Period 3. The minimum bid amount for the
+auction will be as per the Official Maritime Tariff.
+
+All Neopanamax vessels classified with an HML of "C" that request a booking slot during
+the 2nd period tiebreaker competition will be included in the conditioned slot tiebreaker
+competition. Any vessel with an awarded conditioned slot will forfeit its booking if its HML
+code is changed and a forfeiture fee will be assessed. Additionally, vessels with an
+awarded booking slot obtained during the second booking period that declare a transit
+condition to avoid being assigned an HML of “C” will forfeit its booking slot. ACP may
+request supporting documentation from the customer to validate any changes in the transit
+condition that makes a modification in the HML previously assigned.
+
+The following table summarizes the slot allocation and priorities per booking period for the
+Neopanamax locks:
+
+
+
+
+                                             7
+OP Notice to Shipping N-7-2026                                         Panama Canal Transit Reservation System
+
+
+
+
+               SPECIAL
+                               PERIOD 1
+               PERIOD                                 PERIOD 1.A                    PERIOD 2                PERIOD 3
+                               (90 TO 31
+               (730 TO                              (30 TO 15 DAYS)              (14 TO 8 DAYS)           (7 TO 2 DAYS)
+                                 DAYS)
+              366 DAYS)
+ Number
+                   1                2                        2                           2                       1
+ of slots
+ Slot         Passenger      Full container     1st & 2nd slots are           Priority to full           All slots are
+ allocation   vessels only   vessels only       assigned in the following     containers, then           allocated to the
+ priority     based on       based on           order: Priority to full       vessels from any           highest bidder
+              ranking.       ranking.           containers; followed by       market segment             through auctions.
+                             At the moment,     LNG, LPG and car              based on customer
+                             there are no       carriers / RoRo based on      ranking.
+                             slots available    customer ranking.
+                             during the first   3rd slot is assigned in the   Conditioned slot (if
+                             Booking Period.    following order: LNG,         available): priority to
+                                                LPG, full containers and      full containers; then by
+                                                car carriers / RoRo           customer ranking.
+                                                based on customer
+                                                ranking.                      Any additional slots:
+                                                .                             full containers,
+                                                                              followed by vessels
+                                                Any additional slots: full    from any market
+                                                containers, followed by       segment based on
+                                                vessels from LNG, LPG         customer ranking.
+                                                and car carriers / RoRo
+                                                market segments based
+                                                on ranking.
+
+
+
+In case there are more than three LoTSA slots registered for any booking date, the
+additional slots to reach the maximum of six slots per booking date will be reduced from
+Booking Period 1A, 2 or 3, depending on the time the LoTSA slots are registered.
+
+        8. Slot Reallocation for Neopanamax Vessels. Booking Slots that become
+available in any booking period (except Period 3) due to booked neopanamax vessels
+transiting prior to their reserved date, may be offered in the same manner as when the slot
+becomes available due to cancellations or changes in booking date, either through
+competition (regular or special), or first-come, first-served after the competition. Slots that
+become available during Period 3, may be offered through auctions only.
+
+     9. Neopanamax LNG Vessels. A maximum of two (2) slots may be allocated to
+LNG vessels per day through the normal booking process.
+
+       10. Net Zero Slot Allocation: A Neopanamax weekly slot from Booking Period 1A
+may be offered to vessels that meet the requirements of this slot through a competition to
+be held from 0800 to 0830 on the opening date of Booking Period 1A for the Sunday of
+the transit week offered.
+
+
+
+
+                                                           8
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+        To participate in the Net Zero Slot competition, customers must submit their
+requests through the Transit Reservation (Booking) System including the intended transit
+day of the week.
+
+      Once this slot is awarded, the total number of slots available for competition in
+Booking Period 1A will be reduced for the same booking date on which the vessel
+awarded the NetZero slot is scheduled to transit.
+
+     Vessels awarded a NetZero Slot will be charged the Transit Reservation-
+Neopanamax Vessel fee indicated in the Maritime Services Tariff.
+
+       Vessels with an awarded NetZero Slot will have the following benefits:
+
+           • Choice of transit date withing the offered week
+
+           • Guaranteed 24 hours in transit time
+
+           • Just in Time (JIT) service included
+
+           • Swap and Substitutions will be allowed among vessels that have the same
+              characteristics used when the slot was allocated
+
+       The requirements to participate in the NetZero competition, vessels must be
+registered as dual-fuel and capable of operating on at least one fuel with an approximate
+well-to-wake (WtW) carbon intensity of 75 gCO₂(e)/MJ or lower.
+
+      Dual fuel engines such as dual LNG-fuel, dual LPG-fuel, dual methanol fuel and
+dual ammonia fuel will qualify to compete for the NetZero Slot program.
+
+        First-time transit vessels will not be eligible to compete for the NetZero slot, as they
+must first undergo inspection by Panama Canal Admeasurement Unit. This inspection
+typically takes place upon the vessel´s initial arrival in Canal waters, prior to its maiden
+transit.
+
+       The allocation of the NetZero Slot will be based on the following order of criteria:
+
+         a. Cargo Condition: Laden vessels will be considered before ballast vessels.
+
+       b. Capacity: Vessels with a higher Panama Canal Universal Measurement
+System (PCUMS) tonnage will be considered ahead of those with lower tonnage.
+
+         c. Economic Contribution: This criterion will serve as the tiebreaker in the event
+of a tie in PCUMS tonnage. Vessels with the highest combined payment of tolls, marine
+services, booking and auction fees from their most recent transit will be considered first.
+
+
+
+
+                                               9
+OP Notice to Shipping N-7-2026                          Panama Canal Transit Reservation System
+
+
+
+
+        11. Last Minute Transit Reservation: Provide an option to vessels that are unable
+to obtain a booking slot through regular means and arrive at Canal waters without a
+reservation. This option allows the Canal to assign a slot to such vessels depending on
+vessel mix and Canal capacity.
+
+     A. The ACP may offer the Last-Minute Transit Reservation service to the following
+      vessels:
+
+       a. Vessels from all market segments and categories including dead tows.
+
+       b. Vessels that have already arrived at Canal waters.
+
+       c. Vessels ready to transit.
+
+       d. Vessels that have tried at least one of the following actions within the last seven
+       days from the new offered booking date:
+
+           ▪ Vessels that have forfeited the booking slot and are unable to obtain a new
+           booking date in the following seven days from the forfeited booking date; or
+
+           ▪ Vessels that have tried to obtain a booking slot during any booking period and
+           through an auction for a transit date; or
+
+           ▪ Vessels that tried to obtain a transit booking slot through at least two auctions.
+
+    B. The booking slot may be offered between 4 to 2 days prior to the transit date based
+    on the Canal Capacity and vessel mix constraints within the transit schedule.
+
+    C. This service will not be available to vessels that will transit with a Vessel
+    Scheduling fee.
+
+    D. Once the slot is allocated the vessel is committed to paying the Last-Minute
+    Reservation fee based on the vessel size as per Official Maritime Tariff.
+
+    E. In the event the vessel with a Last-Minute Reservation is unable to initiate its transit
+    due to any reason attributable to the vessel, the Last-Minute Reservation fee will be
+    applied based on the vessel size as per Official Maritime Tariff.
+
+    F. In the event the vessel with a Last-Minute Reservation is unable to complete its
+    transit due to any reason attributable to the vessel, the vessel will be rescheduled to
+    the earliest available transit date without requiring a new reservation.
+
+    G. In the event of cancellation with a Last-Minute Reservation, where the vessel is
+    unable to initiate or complete its transit due to any reason attributable to the ACP, the
+    vessel will be rescheduled to the earliest available transit date without requiring a new
+    reservation.
+
+
+
+                                               10
+OP Notice to Shipping N-7-2026                          Panama Canal Transit Reservation System
+
+
+
+
+  H. Vessels with a Last-Minute Reservation will be required to arrive at the first set of
+ locks not later than 2359 hours of the booking date.
+
+  I. This fee is not applicable to passenger vessels, vessels from the Intra- maritime
+ cluster, vessels of war and auxiliary vessels from the United States and the Republic of
+ Panama.
+
+  J. Vessels offered a Last-Minute Transit Reservation via email will be required to submit
+ a booking request through the Transit Reservation (Booking) System. 3654-A (OP-I)
+ Scheduling and Last-Minute Services Rules and Procedures
+
+  K. In case there are two or more vessels that meet the requirements for the Last-Minute
+ Transit Reservation, the slot will be assigned based on the following order:
+
+       a. Vessel with the earliest forfeited booking date.
+
+       b. Vessel with the earliest arrival time that has a forfeited booking slot.
+
+       c. Vessel with the earliest arrival date/time that tried to obtain a booking slot in any
+       booking period and through auction or tried to obtain the booking slot by
+       participating in two auctions
+
+    12.Vessel Scheduling Fee: Allows to accommodate vessels that cannot be booked
+through the ordinary reservation system but require coordination with the Canal to be
+scheduled for transit. This service is not available to passenger vessels, vessels from the
+Intra-maritime cluster, and vessels of war and auxiliary vessels from the United States and
+the Republic of Panama.
+
+    A. The ACP charges the Vessel Scheduling fee to the following vessels:
+
+       a. Small craft vessels (less than 125 feet in length), small vessels as defined in the
+       toll rates including rallies, among others.
+
+       b. Tandem vessels.
+
+       c. Neopanamax, Supers and Regular vessels with special configurations.
+
+      d. Military or auxiliary vessels from countries other than the United States of
+      America or the Republic of Panama.
+
+       e. Vessels with less than the minimum required speed from all market segment and
+       categories.
+
+       f. Vessels with full daylight restriction from all market segments and categories.
+
+       g. Other vessels announced by the ACP.
+
+
+
+                                               11
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+B. This fee is not applicable to passenger vessels, vessel of war and auxiliary vessels
+from the United States and the Republic of Panama.
+
+C. In the event a vessel is scheduled through the Vessel Scheduling Service the following
+rules apply:
+
+       a. The Vessel Scheduling Fee will be applied based on the vessel size as per the
+         Official Maritime Tariff in case of a cancellation or is unable to initiate its transit
+         due to any reason attributable to the vessel.
+
+       b. The vessel will be re-scheduled to the earliest available transit date without any
+         extra scheduling fee in case the vessel is unable to complete its transit due to any
+         reason attributable to the vessel.
+
+       c. The vessel will be re-scheduled to the earliest available transit date without any
+         extra scheduling fee in case the vessel is unable to initiate or complete its transit
+         due to any reason attributable to the ACP.
+
+D. In case there are two or more vessels that meet the requirements for the Vessel
+Scheduling Service, the slot assignment will prioritize vessels ready to transit with the
+earliest arrival date/time that meet the requirements of the available slot based on the
+Canal Capacity and vessel mix restrictions within the transit schedule.
+
+The following restrictions apply to the Vessel Scheduling Fee and the Last-Minute
+Reservation:
+
+       A.    Vessels will not be allowed to request swaps, substitution, Transit in Advance
+             (TIA), Just in Time (JIT) service or Same Date Transit Fee.
+
+       B.    Vessels will not have a maximum In Transit Time (ITT) threshold.
+
+       C.    The Vessel will be charged once the vessel arrives at the first set of locks.
+
+        13.Transit in Advance: The ACP may offer a transit date advancement of two days
+or more to booked vessels from all market segments and vessel categories (Neopanamax,
+Super or Regular) based on booking date, Panama Canal ETA/arrival, vessel mix, Canal
+capacity and other operational factors. Once accepted by the vessel and the service is
+offered, the corresponding transit date advancement fee will be applied as per Official
+Maritime Tariff. The transit date advancement will have a 14-day limitation between the
+booked date and transit date and may be offered or requested between 10 and 2 days
+prior to the intended transit date. If the booked vessel with a transit date advancement
+approved by the ACP swaps booking with another vessel, the transit date advancement
+will be transferred to the other vessel involved in the swap.
+
+Booked full container vessels may request a transit date advancement two days or more
+prior to the intended transit date. This request shall be submitted between 0700 hours and
+
+
+
+                                              12
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+ 1000 hours within the days allowed. Requests submitted after 1000 or before 0700 hours
+will not be accepted nor processed. Full container vessels with an approved transit date
+advancement request shall have priority over a vessel that was offered a transit date
+advancement when scheduling the transit advancement.
+
+All booked full container vessels transit date advancement requests received between
+0700 and 1000 hours will be considered as received at the same time. When two or more
+requests are received on the same day for the same transit date, or to determine which
+vessel the transit date advancement will be offered to, the assignment of the slot will be
+based on the following order:
+
+          A. Vessel with the earliest booking date.
+
+          B. Vessel having a port call at any terminal in Canal waters or adjacent to them
+          prior to transit.
+
+          C. Vessel having a port call at any terminal in Canal waters or adjacent to them
+          after transit.
+
+          D. Vessel with the earliest ETA/arrival
+
+A maximum of one (1) TIA slot may be offered per day to Neopanamax vessels, two (2)
+for supers, and of these, no more than one (1) slot per direction. Similarly, two (2) for
+Regular vessels, and of these, no more than one (1) slot per direction. Nevertheless,
+based on the vessel mix and the capacity, the ACP may offer additional TIA slots.
+
+Whenever there is more than one vessel with a transit date advancement request
+approved for the same date and if for any reason the ACP is not able to provide the
+service to all vessels, the order to determine the vessel(s) that will maintain the transit
+date advancement will be the same order used to assign the transit date advancement
+slot. The same condition will apply whenever two or more vessels accept a transit date
+advancement offer.
+
+In reference to the Transit Date Advancement, the service will be considered as having
+been provided once the vessel arrives at the first set of locks on the approved date for the
+Transit date Advancement, regardless of the In-transit-time (ITT).
+
+Vessels from all three categories with an approved Transit Date Advancement will have
+the following arrival time requirements:
+
+            A. For Neopanamax and Panamax Plus vessels, the required arrival time is
+            2200 hours of the day prior to the Transit Date Advancement. For Neopanamax
+            LNG carriers, the required arrival time is 0200 hours of the day of the Transit
+            Date Advancement.
+
+
+
+
+                                             13
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+               B. For Supers and Regular vessels with restrictions, the required arrival
+             time is 0200 hours of the day of the Transit Date Advancement.
+
+              C. For Regular vessels without restrictions, the required arrival time is 1400
+             hours of the day of the Transit Date Advancement.
+Vessels that requires to be approved a ready time later than the required arrival time after
+being awarded a booking slot through auction of a Transit Advance (TIA) slot, and the 48
+hours deadline to submit the request has been reached by the time the auction or TIA slot
+was allocated, the vessel will be allowed to submit the request via email to
+Planner@pancanal.com no later than one hour form the slot allocation time.
+Vessels that fail to arrive at the Canal terminal by the required arrival time will be
+assessed as a forfeiture fee and may elect to maintain their Transit Date Advancement by
+requesting the late arrival option, subject to the payment of an additional fee as per Official
+Maritime Tariff. A Transit Date Advancement may be canceled without charge or may
+waive assessment of a penalty fee if the vessel’s late arrival was due to the reasons
+mentioned in article 30 of the Regulation on Navigation in Panama Canal waters.
+
+        14.Just-In-Time (JIT) Transit Slot Allocation. A maximum of four (4) JIT booking
+slots may be offered per day to supers, and of these, no more than two (2) slots may be
+allocated to vessels transiting in the same direction. Similarly, a maximum of two (2) JIT
+booking slots may be offered per day to regulars transiting without restrictions, one per
+direction. For the Neopanamax locks, a maximum of one JIT slot may be offered per
+direction. At the opening of a booking period, requests for JIT slots will be assigned to
+vessels that are awarded the booking slots during the tie-breaker competition for that
+period. After the tie-breaker competition, all the remaining JIT slots will become available
+to any interested booked vessel. If a booking cancellation of a vessel with a confirmed JIT
+transit service occurs prior to 1100 hours of the closing day of the third period, the JIT slot
+that becomes available may be awarded, in the order in which the requests for the JIT
+service are received. JIT slots that become available due to cancellations after 1100 hours
+will not be reassigned.
+
+            A. Requests for JIT for all vessel categories shall be received between 10 days
+        and 96 hours prior to booking date to be considered for vessels that obtained a
+        slot during booking periods 1 and 2, and no later than 1400 hours 3 days prior to
+        the booking date for vessels that obtain a slot during booking period 3.
+
+            B. Booking cancellation by vessels that have been awarded the JIT: the vessel
+        will be assessed the JIT charge in addition to the booking cancellation fee.
+        C. Change date for a booked vessel with JIT: the vessel will be assessed the JIT
+        charge in addition to the change-in-date fee.
+
+          D. Vessels with an approved JIT transit service also have the option to request
+          the same day transit service due to late arrival.
+
+
+
+
+                                              14
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+           E. All JIT requests are subject to ACP evaluation prior to approval.
+
+          F. The JIT transit service is subject to an additional fee, as per the published
+             Official Maritime Tariff.
+
+Note: The Authority may reduce the amount of JIT slots offered daily or suspend the
+service entirely, to ensure the safety and efficiency of the operation. Nevertheless,
+vessels that have already been confirmed a JIT transit slot will be honored.
+
+       15. Allocation of Slots to Regular Vessels up to 300 feet in length: The procedure
+by which the additional slots for regular vessels up to 300 feet in length are allocated
+during the third period has been suspended until further notice.
+
+      16. Allocation of Slots through the Auction Process: Auctioned slots will only be
+offered during the 3rd Booking Period for all vessel categories, but the Neopanamax
+Conditioned slot may be offered through auction the day after the 2 nd Booking Period tie-
+breaker competition if it was not allocated during the competition. Booking slots that
+become available during booking period 3, or that are carried over from Booking Period 2
+due to cancellations, changes in date, early transit of booked vessels, or other reasons,
+may be offered through an extraordinary auction process. The base or initial amount of
+each auction for all vessel categories is indicated in the Official Maritime Tariff.
+
+An additional slot for the Neopanamax locks may be offered through a “Special
+Neopanamax Auction” process. The dates and conditions under which this slot may be
+offered will depend on several variables, including vessel mix and other factors. Vessels
+awarded this slot may be subject to an In-Transit-Time (ITT) of 36 hours or less. This
+auction will normally be announced with at least one day advance notice. Panamax Plus
+vessels may be allowed to participate in the special auction.
+
+Vessels that have been awarded a slot through the auction process are not allowed to
+participate in subsequent auctions for the same booking date.
+
+ The ACP will notify vessel agents when there is a possibility of a slot to be auctioned.
+
+ Since these auctioned slots may require that interested vessels meet certain conditions
+ such as transit direction and/or vessel restrictions, these conditions will be announced
+ when the auction is published.
+
+ The auctioned slot will be subject to the following terms and conditions:
+
+A. A Customer Code and the amount of the bid will be the only information required to
+place a bid.
+
+B. A different username is required for each Customer Code that participates in the
+auction. The system will validate the username and the Customer Code used to place the
+initial bid and will create a key with this information. After the first bid is entered, the
+
+
+
+                                             15
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+ system will automatically propagate this Customer Code for every subsequent bid in the
+bidding screen window.
+
+C. The daily auctions will normally open not earlier than 1400 hours on the day prior to the
+opening day of the 3rd period. The closing time will be determined when the auction
+details are published.
+D. The auction closing time will automatically be extended by two minutes should a higher
+valid bid be received within the last two minutes of the closing time. These automatic
+extensions will continue until no higher valid bid is received during the last two minutes of
+the current closing time.
+E. The initial or base price for the auctioned slot will depend on the vessel category, as
+per Official Maritime Tariff. The minimum acceptable bid increment shall be $1,000 USD,
+and any bid increment shall be in multiples of $1,000 USD for all vessel categories.
+F. The auctioned slot will be awarded to the customer who submits the highest bid during
+the auction period. If two or more customers submit the same amount at the time the
+auction closes, the slot will be awarded to the bid that was received first. Proxy bids have
+precedence over manual bids when the same amount is placed by two or more
+participants, provided that the proxy bid was placed prior to the manual bid.
+G. Vessels awarded the auctioned slot have the same options as other booking slots,
+such as requesting late arrival transit, swaps, substitutions, and change-in-transit-date.
+H. If the auction for any vessel category closes without interested vessels, this slot may be
+auctioned to other vessel categories. The criteria that participating vessels must meet to
+be awarded the slot will be notified when the auction is published.
+I. Any auction (daily or extraordinary) that is not awarded between seven and four days
+prior to the transit date, may be offered again through auction, four days prior to the transit
+date. In the Panamax Locks, if the auctioned slots are not awarded, they may be offered
+to other vessel categories (supers or regulars), three days prior to the transit date. The
+ACP will determine the conditions under which the slots will be offered, based on the
+vessel mix and other operational factors, and will be announced when the auction is
+published.
+J. If a cancellation of a slot occurs during or after the auction process, the cancelled slot
+will be offered through an extraordinary auction process.
+K. A tug and barge unit or an ITB may be awarded a booking slot through an auction
+process, therefore, the larger of the two units will pay the winning bid, while the smaller will
+be required to pay its normal applicable booking fee. They will be allowed to participate in
+auctions after conditions for transit have been determined and approval for transit has
+been given by the Canal Port Captain. In addition, the 24-hour In-Transit Time will not
+apply to tug and barge units that obtain a booking slot.
+
+
+
+
+                                              16
+OP Notice to Shipping N-7-2026                               Panama Canal Transit Reservation System
+
+
+
+
+ L. Information provided by users during the auction process will remain strictly
+confidential. Once the auction is closed, the complete information with all the placed bids
+will be published and displayed in the bidding history.
+
+M. The ACP Auction System is available at:
+https://auction.pancanal.com/Auction/APRegistrationRequired.asp
+
+       17.Unused Slots. Upon expiration of a booking period, if a reserved transit slot
+allocated to that booking period was not used, for whatever reason, the slot will be
+assigned to vessels seeking reserved transits in the booking period(s) that follow(s).
+
+        18.Transit Condition Changes – Panamax Locks. When, due to operational
+factors, sustained Canal capacity is expected to be reduced, a corresponding reduction in
+the number of available reserved transit slots may be ordered by the Canal Authority, as
+set forth in the following table:
+
+                                        EST. CAPACITY
+            CONDITION                                        SUPERS       REGULARS        TOTAL
+                                        (panamax locks)
+
+ 1. Normal operations                      24 or over           20             6            26
+
+ 1.a. Reduction in capacity without
+ lane outages (for example: culvert
+                                              22                16             6            22
+ outages or lockages with
+ restrictions)
+
+ 2. Significant reduction in capacity
+                                              16                13             3            16
+ (for example, lane outages)
+
+ 3. Backlog of 90 or more vessels
+ awaiting transit at both Canal
+                                              N/A               11             3            14
+ terminals for at least 2 days or due
+ to other operational factors
+ 4. Severe reduction in Canal
+ capacity (slides, vessel accidents
+                                              N/A               0              0             0
+ or other unforeseen
+ circumstances)
+ 5. Reduction in capacity due to
+ implementation of water                      20                16             4            20
+ conservation measures
+
+
+
+        19. Other Conditions. The ACP may invoke Condition 3, 4, 5, or a distribution of
+slots different from the table above due to specific situations, to maintain a safe and
+efficient operation of the Canal.
+
+
+
+
+                                                        17
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+     20. Notice of Changes. Whenever transit conditions are to be upgraded to a less
+  restrictive condition, Canal authorities will, when feasible, give vessel agents at least
+  two-day advance notice.
+
+         21. Same Direction Transits/Neopanamax. During normal conditions, no more
+  than four (4) Neopanamax vessels may be booked for transit in the northbound
+  direction, and of these, no more than one (1) with daylight restriction. Similarly, no more
+  than four (4) Neopanamax vessels may be booked for transit in the southbound
+  direction, and of these, no more than one (1) with daylight restriction. Slots sold during
+  Booking Period 3 and the conditioned slot will be excluded from this limitation. The
+  maximum number of slots that may be allocated to LNG vessels will be two (2) per day
+  (regardless of restriction), either two in the northbound direction, or one northbound and
+  one southbound. Full-daylight restricted vessels are not allowed to book their transit.
+  The maximum number of slots for “daylight-restricted” vessels combined with LNG
+  vessels allowed is three (3) per day, as summarized below:
+
+         A.     Two northbound LNG vessels and one daylight-restricted vessel (either
+         northbound or southbound);
+
+         B.      One northbound LNG vessel, one southbound LNG vessel, and one
+         daylight-restricted vessel (either northbound or southbound);
+
+         C.      One daylight-restricted northbound vessel, one daylight southbound
+         vessel, and one LNG vessel (either northbound or southbound).
+
+NOTE: In case an LNG vessel has a HML = D or HML = M, is considered as a “double”
+restriction.
+
+From the maximum of four Neopanamax slots per direction that may be offered within all
+booking periods (including LoTSA slots but including Booking Period 3 and the conditions
+slot):
+    • Whenever there are one or more slots available per direction within this limitation,
+       one slot per direction may be offered during the Booking period 1A.
+    • In case there is no slot available in one direction within the direction limitation, the
+       two slots may be offered in the opposite direction.
+    • Vessels with HML = D or HML = M will not be allowed to request booking slot
+       during Booking Period 1A.
+
+       22.Same Direction Transits/Supers. During normal conditions, no more than ten
+supers may be booked for transit in each direction and, of these, no more than four (4)
+with daylight restrictions per direction. The combined number of daylight restricted vessels
+shall not exceed eight (8) vessels. Nevertheless, depending on the vessel mix, whenever
+all slots in one direction have been allocated during the Second Period Competition and
+
+
+
+
+                                              18
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+ there are still slots available in the opposite direction, an additional slot may be allocated
+to interested vessels in the direction with no slot availability.
+
+The number of daily slots that may be awarded to each customer (per customer code) is
+two (2) per booking date, in the Panamax Locks. Slots awarded through the auction
+process are excluded from this limitation.
+
+The following rules will apply to the Panamax Locks:
+
+           A. Slots awarded in Period 1 will not be taken into consideration for the two daily
+           booking slots limitation.
+
+           B. Customers that are awarded a slot during Period 2 tiebreaker competition
+           may not be assigned a slot for another vessel during the tiebreaker competition
+           for the following day.
+
+           C. Customers that are awarded two slots during Period 2 competitions may not
+           be assigned a slot for another vessel during subsequent special competitions
+           held during Period 2.
+
+           D. Slots that cannot be allocated during Period 2 competitions may be assigned
+           to customers that have already obtained slots for other vessels in Period 2, in
+           which case the slot will be allocated based on the Customer Ranking.
+
+           E. If there are no other interested vessels during the tiebreaker or special
+           competitions, these slots may be assigned to any vessel, regardless of
+           customer code based on the Customer Ranking.
+
+              Note: During periods of reduced capacity without lane outages, the limits per
+direction or restriction, as well as the number of JIT transit slots, shall be determined by
+the Authority, commensurate with the safe and efficient operation of the Canal.
+
+           F. During Conditions 1.a. and 5, no more than eight supers may be booked for
+           transit per direction and of these, no more than four with daylight restrictions.
+           The combined number of daylight restricted vessels shall not exceed eight
+           vessels.
+
+           G. During Conditions 2 and 3, no more than six supers may be booked for transit
+           in the same direction and, of these, no more than four with daylight restrictions.
+            The number of daylight restricted vessels shall not exceed six, and the number
+           of JIT transit slots may not exceed one per direction.
+
+
+
+
+                                              19
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+            H. Exceptions to the limits may only be made with the express authorization
+             from the Vice President for Operations, or his designee, and only in such
+             cases where the operational efficiency is not compromised.
+
+       23. Same Direction Transits/Regular Vessels. During normal conditions, no more
+than three (3) regular vessels may be booked for transit per direction, and of these, no
+more than one (1) may be allocated to vessels transiting with restrictions per direction, i.e.,
+clear-Cut, daylight hours, or daylight hours in the Cut. The total number of regular vessels
+with restrictions may not exceed two (2)
+
+        Note: During periods of reduced capacity without lane outages, the limits per
+direction or restriction, as well as the number of JIT transit slots, shall be determined by
+the Authority, commensurate with the safe and efficient operation of the Canal.
+
+              A. During Condition 1.a., no more than three regular vessels may be booked
+              for transit in the same direction. Of the five slots available, no more than one
+              per direction may be allocated to a regular vessel transiting under restrictions,
+              i.e., clear-Cut, daylight hours or daylight hours in the Cut.
+
+              B. During Condition 2, no more than two regular vessels may be booked for
+              transit in the same direction. Of the three slots available, no more than one
+              may be allocated to a regular vessel transiting under restrictions, i.e., clear-
+              Cut, daylight hours, or daylight hours in the Cut. The number of JIT slots
+              offered to regular vessels transiting without restrictions will remain at one per
+              direction.
+
+              C. During Condition 3, no more than two regular vessels will be booked for
+              transit in the same direction. Of the three slots available, no more than one
+              may be allocated to a regular vessel transiting under restrictions, i.e., clear-
+              Cut, daylight hours, or daylight hours in the Cut. The number of JIT slots
+              offered to regular vessels transiting without restrictions will remain at one per
+              direction.
+
+              D. During Condition 5, no more than two regular vessels will be booked for
+              transit in the same direction. Of the four regular slots available, no more than
+              two may be allocated to a regular vessel transiting under restrictions, i.e.,
+              clear-Cut, daylight hours, or daylight hours in the Cut. The number of JIT
+              slots offered to regular vessels transiting without restrictions will remain at
+              one per direction.
+
+            E. Exceptions to the limits may only be made with the express authorization
+             from the Executive Vice President for Operations, or his designee, and only in
+             those cases whereby the operational efficiency is not compromised.
+
+
+
+
+                                              20
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+         24. No Re-Assignments. Once a vessel is assigned a reserved transit slot, that
+slot will not be re-assigned to any other vessel unless the vessel’s agent subsequently
+cancels the reserved transit or as permitted herein, the vessel is substituted or swaps its
+reserved transit slot with another vessel booked for transit, or the vessel transits earlier
+than its booked date.
+
+ARTICLE 23
+        1. Dead Tows and handline transits. Dead tows such as tug and barges, and
+vessels with certain transit restrictions such as full-daylight restricted vessels, may be
+allowed to book their transits, if they are approved for transit by the ACP. Small craft
+(vessels up to 125 feet in length) transiting as handlines, are not required to reserve their
+transit.
+
+       2. Warships, Auxiliary Vessels, and other Government-Owned Vessels: The
+Panama Canal Authority (ACP) will assign transit slots to vessels of war, auxiliary, and
+other government-owned vessels, if such vessels are unable to obtain a slot for the
+intended transit date through the ordinary booking procedures. The assignment of a slot
+for a particular date will depend on several factors, including transit capacity, number of
+booked vessels, and vessel mix. The slot assigned will be in addition to the reserved slots
+regularly offered through the normal booking procedures. The corresponding booking fee
+based on vessel category will be assessed as indicated in the Official Maritime Tariff. The
+ACP may require vessels to provide documentation that corroborates the subject vessel is
+owned or operated by a particular nation’s government and is not engaged in any
+commercial activity. Vessel representatives are encouraged to provide information
+regarding the vessel’s ETA at least 96 hours prior to arrival. indicated in the Official
+Maritime Tariff.
+       3. Payment Authorization. To participate in the Transit Reservation System, the
+vessel agent must furnish the ACP a letter containing the names and sample signatures of
+persons designated to authorize payment of the vessel's transit costs (including booking
+fees).
+        4. Booking Form. To request a reserved transit slot, the vessel agent must
+complete a Request for Transit Booking by using the available system or other acceptable
+means as determined by the Authority, as email or personally delivered to Maritime
+Operations, Building 729, Balboa, from 0700 to 2130 hours.
+         5. Processing Requests. Requests for reservations at the beginning of any
+booking period will be received daily beginning at 0900 hours (except for Booking Period 3
+which begins at 0700), but processing will not begin until after 0930 hours. Except as
+established in paragraph (f) of the Tie-Breaker Criteria established below, all requests
+received between 0900 and 0930 hours will be treated as having been received at the
+same time. Thereafter, requests will be processed in the order they are received. After
+0930 hours, the order of preference for requests logged simultaneously is by electronic
+means, followed by requests delivered personally. If, for whatever reason, a vessel agent
+
+
+
+                                             21
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+ wishes to withdraw from a competition after having submitted a booking request during
+competition, shall notify the ACP Booking office in writing (booking@pancanal.com) prior
+to the closing time of the competition.
+          6. Tie-Breaker Criteria. If, at the time processing begins, transit reservation
+requests exceed the number of available reserved transit slots for any given period,
+assignment of available slots to vessels competing for reserved transits will be made in
+the following order of preference:
+              A. Customers with the highest ranking of Panama Canal business. This
+              ranking will be determined based on the weighted average of the ranking of
+              total transits (40%) and tolls paid (60%) during the preceding 12-month
+              period, which ends the last day of the month preceding the month prior to the
+              transit request (i.e. if the transit request is made in December, the last day of
+              the 12-month period would be October 31). Vessels that comply with the
+              Green Connection Initiative requirements will be credited with the
+              corresponding percentage points in the transit portion of their customer
+              ranking, depending on the requirements that the vessels meet, as determined
+              by the Environmental Recognition Program.
+
+The customer ranking will be calculated and published each month by the ACP Billing
+System.
+
+Shipping agencies must ensure that the Customer Codes are included in all ETA
+messages, as discrepancies with the Customer Code reported in the Booking Request
+may invalidate the request.
+       Note: It is important that the Customer Code provided for each vessel’s visit is
+correct. After completion of a vessel’s visit, agents and customers are granted a 30-day
+grace period to request corrections to the Customer Code provided in the vessel’s visit, so
+that the correct code is credited for the transit.
+
+If two or more vessels with the same customer code are competing for a reserved slot, the
+vessel agent may request priority for a particular vessel over other vessels with the same
+customer code. In the Neopanamax locks, vessels must belong to the same market
+segment. The request for priority for a particular vessel will be applied after the winners
+during the competition have been determined. The agent must send the written request to
+the ACP Booking office (booking@pancanal.com) prior to the closing time of the
+competition.
+
+Non-compliance with the Customer Code procedure by providing incorrect, false, or
+deficient information to the ACP constitutes a violation of the Maritime Regulations for the
+Operation of the Panama Canal and may result in fines ranging from $100 to $1,000,000.
+The application of sanctions does not preclude the ACP from cancelling previously
+approved consolidation of customer codes and may also result in the loss of the number
+of transits that have been credited to the offending customer.
+
+
+
+                                              22
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+  To ensure transparency in the use of the Customer Codes, the ACP submits an
+electronically generated notification to customers whenever an ETA or Ship Due
+transaction has been created or a customer code of an existing ETA or Ship Due is
+modified in the Panama Canal Service Portal. A response is only required if the customer
+code is being used without authorization. Random verification of customer codes used in
+booking applications may also be done to ensure the proper use of the customer codes.
+Canal customers shall maintain their official electronic mail addresses up to date by
+contacting     the   Shipping      Customer    Service     Management        Office   at:
+customerservice@pancanal.com
+
+              B. Vessels in the order of frequency they transited booked during the
+              preceding 12-month period, which ends the last day of the month preceding
+              the month of the transit request;
+              C. Vessels in the order of frequency they transited, whether booked or not,
+              during the preceding 12-month period, which ends the last day of the month
+              preceding the month of the transit request;
+              D. Vessels in the order of their most recent transit, whether booked or not;
+              E. Vessels which, on at least the two previous consecutive days, requested,
+              but failed to obtain reserved transit slots because they did not win under the
+              preceding tie-breaker criteria.
+              F. Vessels in the order in which booking requests are received.
+
+      7. Incomplete Booking Request Forms. Transit booking request forms that are
+ incomplete (including not furnishing the vessel´s ETA), not signed by the vessel´s agent
+ (when required), or personally delivered to someone other than the designated booking
+ coordinator, cannot be processed. Failure of the vessel agent to provide complete and
+ accurate information required by the ACP when requesting transit bookings may result in
+ rejection of the booking request or cancellation of the vessel's reserved transit slot.
+       8. Acknowledgments. Vessel agents will be furnished acknowledgments of receipt
+ of transit booking requests as soon as possible following receipt.
+       9.Notifications. Notification of approval or disapproval of a transit booking request
+  will be furnished to the vessel agent once the request is processed.
+      10. Substitutions. A vessel already booked may only be substituted by another
+  non-booked vessel, subject to the following conditions:
+               A. Both vessels are registered with the same customer code, vessels with a
+                   LotSA are exempted from this limitation;
+               B. Both vessels are transiting in the same direction;
+               C. Vessels with an HML=M will not be allowed to participate in a substitution:
+
+
+
+                                              23
+OP Notice to Shipping N-7-2026                           Panama Canal Transit Reservation System
+
+
+
+
+                D. The new vessel must be within the same vessel classification
+               (Neopanamax, super or regular) and be subject to the same or lesser transit
+               restrictions as the original one. Vessels with a LoTSA slot are exempted
+               from the same or lesser transit restriction limitation. In addition, between
+               Neopanamax vessels, both vessels must belong to the same market
+               segment; and
+               E. The request for substitution shall be received by the ACP Integrated
+               Operations Control Center at least 24 hours or more prior to the required
+               arrival time of the booked vessel.
+Substitutions will incur a charge, in accordance with the following table:
+
+                                     SUBSTITUTION TABLE
+                                  Notice Period Substitution Fee
+             (In advance of required arrival time) (Based on the vessel’s regular booking fee)
+                                 Over 30 days       $500.00 (administrative charge)
+                            Over 14 to 30 days      20% of booking fee
+                             Over 7 to 14 days      40% of booking fee
+                              Over 4 to 7 days      60% of booking fee
+                                4 days or less      80% of booking fee
+
+
+        The booking fee applied to the substituting vessel will be the original reservation
+tariff assigned at the time the slot was obtained or awarded to the vessels involved in the
+substitution, in accordance with the current booking rates.
+       If the requested substitution involves a booked vessel approved for the JIT transit
+service, the new vessel will not retain the JIT transit. If interested, the JIT transit shall be
+requested once the substitution is approved.
+      11. Swapping. Swapping of reserved transit slots between two booked vessels is
+allowed, subject to the following conditions:
+               A. Both vessels must be booked for transit within 21 days of each other;
+               B. Both vessels must be transiting in the same direction;
+               C. Vessels with an HML=M will not be allowed to participate in a swap:
+               D. Both vessels must be within the same vessel classification
+               (Neopanamax, super or regular) and be subject to the same transit
+               restrictions and arrival requirements. Vessels with a LoTSA slot are
+               exempted from the same transit restriction limitation. In addition, between
+               Neopanamax vessels, both vessels must belong to the same market
+               segment;
+
+
+
+                                               24
+OP Notice to Shipping N-7-2026                          Panama Canal Transit Reservation System
+
+
+
+
+               E. Both vessels are registered with the same customer code, vessels with a
+               LoTSA are exempted from this limitation;
+               F. A request for swapping must be received by an ACP Booking
+               Coordinator no later than 24 hours prior to the earliest required arrival time of
+               the vessels involved in the swap. Such request may be made in writing;
+               G. The booking fee applied to both vessels will be the booking fee applicable
+               to the vessels involved in the swapping, in accordance with the current
+               booking rates; and
+               H. Vessels are permitted to swap their reserved transit slot up to five times
+               per booking per visit. The swapping fee to be applied will be according to
+               the following table:
+
+                   Notice Period
+            (In advance of required arrival         SWAPPING FEE
+           time)
+                  Over 14 days                      Included in the reservation tariff
+                  14 days or less                   1% of the reservation tariff
+
+       The payment shall be made once the swap is approved by the ACP.
+
+                I. For swaps involving two booked vessels with JIT transit service, or
+                involving one vessel with JIT, each JIT must be requested once the swap is
+                approved, regardless of whether the JIT transit service was previously
+                approved.
+
+       12. Swaps and Substitutions between Alliance Members. For the Neopanamax
+locks, swapping and substitutions of booking slots between container vessels of alliance
+members will be allowed, under the following conditions:
+
+            A. Both vessels must be of the same type and must belong to the containership
+            segment.
+
+            B. Both vessels must be Neopanamax vessels.
+
+            C. Both vessels must be transiting in the same direction.
+
+            D. For swaps, vessels must have similar transit restrictions, and for substitution,
+            the new vessel must have similar or lesser transit restrictions.
+
+            E. Both vessel customers must belong to services under the same alliance.
+
+
+
+                                               25
+OP Notice to Shipping N-7-2026                             Panama Canal Transit Reservation System
+
+
+
+
+            F. The booking date of the vessels involved in the swap or substitution must be
+            within the effective date of the services and of the alliance.
+
+Vessel agents or shipping lines interested in having vessels involved in swaps and
+substitutions within alliance members shall send documentation regarding the alliance
+agreement to operationservices@pancanal.com. The ACP may request additional
+information from shipping lines to verify their membership in the alliance. It is important
+that vessel agents register in the Maritime Service Portal the corresponding liner service
+for each vessel’s visit prior to submitting the request for swap or substitution.
+Any changes to the members of established alliances, changes in the effective dates,
+customer consolidations or deactivations, shall be presented to ACP in a timely manner to
+update our records.
+The provisions established herein may be either modified or suspended at any time at the
+discretion of the ACP, to guarantee operational efficiency.
+       13. Change in booking date. A change in booking date will be allowed without
+charge, if it is requested 60 days or more prior to the reserved arrival date. The booking
+fee applied will be in accordance with the booking rates applicable at the time the change
+is requested. Vessels with an HML=M will not be allowed to request a change in booking
+date.
+The tariff to be applied to vessels when requesting changes to the reservation date will be
+in accordance with the following table:
+
+                          CHANGE RESERVATION DATE TABLE
+                                   Notice Period      Change reservation date Fee
+              (In advance of required arrival time)   (Based on the vessel’s booking fee)
+                              60 days or more         No charge
+            Over 21 days to less than 60 days         60% of booking fee
+                            Over 7 to 21 days         70% of booking fee
+                             Over 4 to 7 days         80% of booking fee
+                                4 days or less        100% booking fee
+
+14. Charges for daylight transit. Only non-daylight-restricted passenger vessels, military
+and other non-commercial government-owned vessels, and yachts may request the
+daylight transit service, if they have been booked. The daylight transit fee is $30,000.00,
+as per the ACP Official Maritime Tariff. For purposes of this option, a daylight transit is a
+transit in which the passage through two sets of locks and Gaillard Cut is accomplished
+during daylight hours. The required arrival time for a vessel that is booked with a daylight
+transit is 0200 hours.
+
+
+
+
+                                                 26
+OP Notice to Shipping N-7-2026                               Panama Canal Transit Reservation System
+
+
+
+
+    The cancellation of a daylight transit request will incur a charge, in accordance with the
+following table:
+
+                         DAYLIGHT TRANSIT CANCELLATION TABLE
+
+                                 Notice Period Cancellation Fee
+            (in advance of required arrival time) (based on the vessel’s regular booking fee)
+
+                                  Over 60 days         No charge
+                             Over 21 to 60 days        40% of booking fee
+                       Over 72 hours to 21 days        60% of booking fee
+                                 36 to 72 hours        80% of booking fee
+                            Less than 36 hours         100% booking fee
+
+
+The cancellation fees applicable to a daylight transit for regular passenger vessels will be
+based on an arrival time of 1400 hours.
+
+ARTICLE 26
+Passenger and Full Container vessel preference
+        Commercial passenger vessels shall be given preference over other vessels in
+transiting, provided they have been booked, and to the extent that such treatment does
+not impair the safe and efficient operation of the Canal. Additionally, full container vessels
+may be given preference in transiting, provided they have been booked, and to the extent
+that such treatment does not impair the safe and efficient operation of the Canal.
+
+
+ARTICLE 23
+(Regulation to Set Tolls, Rates and Fees for the Transit of Vessels through the Canal, and
+Rendering Related Services and Complementary Activities, Articles 1 and 4, Panama Canal
+Authority Official Maritime Services Tariff, series 1050)
+Booking and other fees
+      The booking fee for reserving a transit slot for a vessel shall be in accordance with
+the Panama Canal Authority Official Maritime Tariff.
+      The fee for the Just-In-Time transit service will be in accordance with the Official
+Maritime Tariff.
+      The Transit date advancement fee will be applied to booked vessels with an
+approved Transit in Advance service. In the event the vessel with a transit date
+advancement approved by the ACP cancels, is unable to initiate or complete its transit
+due to any reason attributable to the vessel, changes its booking date to a later date or to
+a date prior to the transit advancement date, the transit date advancement fee will be
+applied according to Official Maritime Tariff.
+
+
+
+                                                  27
+OP Notice to Shipping N-7-2026                          Panama Canal Transit Reservation System
+
+
+
+
+      Vessels that cancel the transit date advancement will be assessed the transit date
+advancement fee. Similarly, vessels that cancel their booking after the transit date
+advancement has been approved will also be assessed the transit advancement fee.
+      The High Demand surcharge (for Neopanamax locks only): surcharge to be applied
+to vessels that acquire a booking for the day determined as “high demand” by the ACP.
+The rules for the application of the high demand surcharge are:
+
+               A. Vessels that reserved for a date not identified as high demand but are
+               offered or request transit advancement to a day of high demand: the “high
+               demand” surcharge will be applied in addition to the “transit date
+               advancement” charge.
+
+               B. Vessels that reserve for the day of high demand but subsequently are
+               offered or request transit advancement to a day not identified as high
+               demand will not be assessed the high demand surcharge since the vessel
+               will be pay the transit advancement charge.
+
+               C. Vessels that reserve for the day of high demand but do not transit due to
+               deficiency or condition: the “high demand” surcharge will be applied in
+               addition to the booking forfeiture fee. This surcharge will not be applied if the
+               vessel does not transit on the day of high demand due to reasons not
+               attributable to the vessel.
+
+               D. Vessels that cancel their booking for the day of high demand, with less
+               than 96 hours from the required arrival time will be assessed the high
+               demand surcharge in addition to the regular cancellation fee.
+
+               E. Swaps between vessels where one of the vessels reserved for the day of
+               high demand: the “high demand” surcharge will be applied to the vessel that
+               is assigned the booking for the day of high demand.
+
+               F. Vessels that obtain a booking for a day not identified as of high demand
+               but later elect to change their booking to a day identified as “high demand”
+               will pay the high demand surcharge, in addition to any other charges that
+               may apply.
+
+               G. Vessels that reserve for a day identified as “high demand” after the
+               booking was awarded will not be assessed the high demand surcharge.
+
+      I. Payments. Booking fees shall be paid or secured in the same manner as tolls
+and other vessel charges prescribed by the ACP Official Tariff.
+
+
+
+
+                                               28
+OP Notice to Shipping N-7-2026                                        Panama Canal Transit Reservation System
+
+
+
+
+       II. All Vessels Included. Except as otherwise provided in the rules, all vessels
+booked for transit, including commercial passenger vessels, shall pay for booking and
+other prescribed fees inherent to transiting the Canal.
+      III. The booking fees are based on vessel dimensions, in accordance with the
+following table:
+
+
+                                          BOOKING FEE TABLE
+PANAMAX LOCKS
+
+Regulars: vessels with less than 27.74 m (91 feet) in beam                                             $12,000
+
+Supers: Vessels with a LOA of 294.44 m (966 feet) or less, and a maximum
+                                                                                                       $50,000
+beam of 32.61 m (107 feet)
+
+NEOPANAMAX LOCKS
+
+Vessels with beam greater than 32.61 m (107 feet), or
+vessels with LOA greater than 294.44 m (966 feet)                                                      $100,000
+
+
+Note: vessels that exceed 32.61m (107 feet) in beam or 294.44m (966 feet) in LOA that are approved for transit
+ through the panamax locks will be assessed the corresponding booking fee for supers. Vessels with panamax locks
+ dimensions that due to configuration or special conditions are required to transit through the Neopanamax locks will be
+ assessed the booking fee for Neopanamax locks.
+
+
+
+
+ARTICLE 26
+Passenger and Full Container vessels preference
+Commercial passenger vessels shall be given preference over other vessels in transiting,
+provided they have been booked, and to the extent that such treatment does not impair
+the safe and efficient operation of the Canal. Additionally, full container vessels may be
+given preference in transiting, provided they have been booked, and to the extent that
+such treatment does not impair the safe and efficient operation of the Canal.
+
+
+ARTICLES 24 AND 32
+Rescheduling
+
+         1. Except as otherwise provided and without the booked vessel being assessed a
+penalty fee, the vessel agent may request cancellation of a vessel's reserved transit slot
+and reschedule the vessel for ordinary transit or, alternatively, request assignment of an
+alternate reserved transit slot, in the following situations:
+
+
+
+
+                                                           29
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+               A. If for whatever reason the ACP cancels the transit of a vessel booked for
+             transit that is otherwise ready to proceed as scheduled; or
+             B. If for whatever reason the ACP delays the transit of a booked vessel to the
+             point where it may prevent the vessel’s arrival on time for a second transit on
+             a later date that has been reserved before the delay of the first transit
+             occurred.
+          2. A vessel booked for transit will be deemed to have transited the Canal on its
+reserved transit date if the vessel arrives at the first set of locks at either Canal terminal
+prior to 2400 hours that day and her In-Transit Time (ITT) is 24 hours or less, or as
+determined by the ACP. Vessels with booking slots awarded through the Long-Term Slot
+Allocation (LoTSA) Methodology will maintain the 18-hour ITT rule. The ITT begins when
+the vessel arrives at the first set of locks at either Canal terminal and ends when the
+vessel departs the last set of locks at the opposite terminal. No booking fee will be
+charged if, due to events that are beyond the control of the booked vessel as determined
+by the ACP, the ITT exceeds 24 hours (or 36 hours for vessels booked through certain
+special auctions). This provision shall not apply in the case of a turn-around transit in
+which the vessel begins and completes its transit in the same terminal of the Canal, or in
+the case of dead tows and other full-daylight restricted vessels.
+
+         3. Turn-Around Transits Excluded. ACP Navigation Regulation, Article 17, shall
+only apply where, during the course of a scheduled transit, a vessel booked for transit
+arrives the first set of locks at either Canal terminal and departs the last set of locks at the
+opposite Canal terminal. This rule shall not apply to a "turn-around" transit where, during
+a scheduled transit, a vessel booked for transit arrives and departs the same set of locks
+at either Canal terminal.
+
+
+ARTICLE 28
+        The Authority may transit a booked vessel prior to its reserved transit date, if
+such transit does not impair the safe and efficient operation of the Canal. In these
+cases, the vessel will be deemed to have transited the Canal in compliance with the ITT
+if the vessel departs the last set of locks prior to 2400 hours of the reserved transit date.
+
+ARTICLE 29
+(Panama Canal Authority Official Maritime Tariff)
+Cancellations
+       1. A vessel agent may cancel the transit reservation by providing advance notice,
+through a cancellation request form, as prescribed by the Canal Authority. In such a case,
+and except as otherwise provided, a cancellation fee will be charged. The amount of the
+fee will depend on the notice period (days or hours) received by the Authority in advance
+of the vessel's required arrival time according to the following table:
+
+
+
+                                              30
+OP Notice to Shipping N-7-2026                            Panama Canal Transit Reservation System
+
+
+
+
+                                 BOOKING CANCELLATION TABLE
+                              Notice Period
+                                                Cancellation Fee
+              (In advance of required arrival
+                                                (based on the regular booking fee)
+                                       time)
+                           Over 90 days          50% of booking fee
+                      over 21 to 90 days         60% of booking fee
+                       over 7 to 21 days         70% of booking fee
+                             4 to 7 days         80% of booking fee
+             Less than 4 days (96 hours)         100% booking fee
+
+The fees applicable to booking cancellations for passenger vessels and vessels who have
+been awarded a JIT transit service are determined based on an arrival time of 0200 hours
+for vessels with restrictions and an arrival of 1400 hours for vessels without restrictions.
+
+      The fees applicable for cancellation of auctioned slots will be the corresponding
+percentage of the winning bid based on the advance notice.
+       2. Booking cancellation requests will not be accepted if received after the vessel’s
+required arrival time or if the vessel is already underway for transit.
+
+       3 Booking slots that become available during all the booking periods (except
+Booking Period 3) due to cancellations, changes in booking dates, or other reasons, will
+be offered through special competitions, in the following manner:
+
+           A. A notification will be sent by the ACP by email to local registered vessel
+           agents.
+
+           B. Booking requests for slots offered in the “special competition” will be
+           received from 0900 to 0930 hours of the day following the date of publication;
+           however, processing will not begin earlier than 0930 hours.
+
+           C. The procedure utilized during the “special competition” for the allocation of
+           the available slots will be the same as the procedure utilized to allocate slots
+           during the regular tie-breaker competition.
+
+           D. Any booking request received prior to the opening of the “special
+           competition”, will not be accepted.
+
+           E. Any booking request received after the cancellation or the change in transit
+           date takes place, but before the opening of the “special competition,” will not be
+
+
+
+
+                                                 31
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+            accepted. For these requests to be considered, they must be re-submitted
+           during the “special competition” period.
+
+           F. If there are no vessels interested in the slot offered during the “special
+           competition,” the slot will then become available on a first come-first served
+           basis for the remainder of the period.
+
+           G. If a cancellation or a change in date occurs on the last day of Period 1 or
+           Period 1.a., the slot that becomes available will be carried over to the following
+           period and will be offered through the normal competition process.
+
+           H. All times referenced are local times.
+
+     4. All slots that become available due to cancellations or other reasons during the 3rd
+period will be offered through the auction process. Slots that are carried over from Period
+2 to Period 3 will also be offered through auctions.
+      5. Super and regular vessels that have requested a booking slot for a particular date
+and were rejected due to unavailability of slots (during any booking period except Period
+3), and subsequently obtain a slot for an alternate date, will be allowed to change to the
+original date without being assessed a cancellation fee, provided that they participate in the
+tiebreaker competition for the slot; and that the reservation for the alternate date was
+awarded in the same booking period, but prior to the slot for the original date becoming
+available.
+
+      6. Neopanamax vessels that have requested a booking slot for a particular date and
+were rejected due to unavailability of slots during any booking period (except Period 3),
+and subsequently obtain a slot for an alternate date, will be allowed to change to the
+original date without being assessed a fee for the change, provided that they participate in
+the tiebreaker competition for the slot; and that the reservation for the alternate date was
+awarded prior to the slot for the original date becoming available.
+
+     7. Vessels from all three vessel categories whose booking requests for a particular
+date were rejected due to unavailability of slots during any booking period except Period 3
+and subsequently obtain a slot for an alternate date through the auction process, may
+change to the original date requested without being assessed an additional fee. In such
+cases, the booking fee to be applied to the vessel will be based on the winning amount
+during the auction.
+       8. Vessels from all three vessel categories that obtain a slot for a particular date
+through the auction process and subsequently obtain a slot for an earlier date also through
+the auction process, will not be assessed a fee for the change to the new date, if the vessel
+was rejected for that date in previous periods due to unavailability of slots. The booking
+fee to be applied to the vessel will be based on the highest of the two winning bids.
+Otherwise, the vessel shall pay the corresponding cancellation fee based on the auction
+amount during the auction.
+
+
+
+                                              32
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+      9. Vessels from all three vessel categories that have requested a booking slot for a
+particular date and were rejected due to unavailability of slots during any booking period
+(except Period 3), and subsequently obtain an ordinary slot for an alternate date, will be
+allowed to change to the original date without being assessed a fee for the change, if the
+slot for the original date is acquired through the auction process during Booking Period 3.
+
+    10. Booking Cancellation Surcharges: For booking cancelations more than 2 days prior
+to the vessel’s booking date, the cancelation fee published in the official Maritime Tariff
+will be applied.
+Vessels that cancel their booking with less than 2 days from the required arrival date and
+time, and do not arrive at Canal waters for transit within 7 days of the booked date, will be
+assessed the cancellation surcharge as per Official Maritime Tariff, in addition to the
+regular cancellation fee. Otherwise, the cancellation surcharge will not be assessed.
+
+The surcharges mentioned in the previous paragraphs shall not apply when the reason for
+the vessel´s late arrival or cancellation of the reservation is due to a medical or
+humanitarian emergency, fortuitous event or force majeure, as stated in Article 31 of the
+Maritime Regulations for the Operation of the Panama Canal.
+
+Cancellations due to substitutions and changes in booking dates will not incur in the
+above-mentioned surcharges.
+
+
+11. Reservation Date Changes for Gatun Recreational Facilities: Changes in the
+reservation dates for the use of Gatun Recreational Facilities will incur in a cancellation
+charge. The amount to be charged will depend on the advance notification of the
+cancellation, in accordance with the ACP’s Official Tariff.
+
+
+12. Cancellation Form. To cancel a transit booking, the vessel agent must complete a
+Request for Transit Booking Cancellation by using the available system as determined by
+the Authority. The transit booking cancellation request (ACP form 4633) may also be
+personally delivered to Transit Planning and Booking Section, Building 729, Balboa.
+13. Advance Cancellation Notice. The amount of the cancellation fee to be assessed will
+be determined by the date and time of reception by the ACP´s Transit Planning and
+Booking Section of the cancellation notice.
+
+
+
+
+                                             33
+OP Notice to Shipping N-7-2026                          Panama Canal Transit Reservation System
+
+
+
+
+ ARTICLE 30
+Penalties
+
+        1. The reserved transit slot or TIA of a vessel booked for transit will be cancelled by
+the ACP and the vessel will be penalized by way of forfeiture of the prescribed booking
+fee, or the applicable minimum fee, whichever is greater, in the following situations:
+
+             A. When a Neopanamax vessel (excluding LNG carriers) or Panamax Plus
+             does not arrive at a Canal terminal by 2200 hours of the previous day of its
+             booking or TIA date;
+
+             B. When a Neopanamax LNG carrier has been booked for transit and does not
+             arrive at Canal terminal by 0200 hours of its booking or TIA date;
+
+             C. When a super or a regular vessel that is subject to transit restrictions (clear-
+             Cut, clear-Cut daylight hours) has been booked for transit and does not arrive
+             at a Canal terminal by 0200 hours of its booking or TIA date;
+
+             D. When a regular vessel that is not subject to transit restrictions has been
+             booked for transit and does not arrive at a Canal terminal by 1400 hours of its
+             booking or TIA date;
+
+             E. When a vessel booked for transit arrives on time but cannot or, at the
+             vessel operator's election, does not transit as scheduled despite the readiness
+             of Canal authorities to proceed; or
+
+             F. When a vessel booked for transit with a JIT service does not arrive at the
+             established arrival time or arrives on time but cannot transit as scheduled
+             despite the readiness of Canal authorities to proceed.
+
+        2. Vessels booked for transit or TIA that fail to arrive by their required arrival time
+may elect to transit on the day of their booking when re-scheduling is possible without
+adversely affecting other vessels, subject to an additional fee. The applicable fee for late
+arrivals will be determined by the vessel’s actual arrival time, in accordance with the
+following table:
+
+                           LATE ARRIVAL PENALTY FEE TABLE
+         Late Arrival (based on vessel’s required Additional Fee (based on the
+                                        arrival time) vessel’s regular booking fee)
+    Up to one (1) hour after the required arrival time 25% of booking fee
+          More than one (1) hour and up to 2 hours 50% of booking fee
+                             More than two (2) hours 100% booking fee
+                                    Just-In-time (JIT) 50% of booking fee
+
+
+
+
+                                               34
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+         3. Just-In-Time booked vessels that fail to arrive by their required arrival time may
+elect to transit on the day of their booking, when re-scheduling is possible without
+adversely affecting other vessels, subject to payment of an additional fee. The applicable
+fee for late arrivals of JIT vessels will be 50% of their corresponding booking fee based on
+vessels dimensions.
+
+        4. Vessels allocated through the auction process that fail to arrive by their required
+arrival time may elect to transit on the day of their booking, when re-scheduling is possible
+without adversely affecting other vessels, subject to payment of an additional fee. The
+additional fee for late arrival of vessels allocated through the auction process will be a
+percentage of their regular booking fee based on dimensions and not based on the
+amount awarded in the auction process.
+
+        5. Canal authorities may cancel the vessel’s booking without charge or may waive
+assessment of a penalty fee if the vessel’s late arrival was due to a medical or
+humanitarian emergency, force majeure or fortuitous event arising between the vessel’s
+last port and its arrival at Canal waters that could not have been reasonably predicted in
+advance. Likewise, the vessel’s booking may be cancelled without charge if the vessel
+arrives on time but cannot transit due to force majeure or a fortuitous event that could not
+have been anticipated or prevented by the vessel. In either case, the vessel shall present
+in a timely manner, acceptable proof that substantiates the reason for late arrival or
+inability to transit.
+
+       6. Failure of the vessel agent to provide complete and accurate information
+required by the Authority when requesting transit bookings may result in rejection of the
+booking request or cancellation of the vessel's reserved transit slot.
+
+        7. When a vessel's reserved transit slot is canceled, and unless otherwise
+directed by the vessel agent, the ACP will re-schedule the vessel for ordinary transit.
+
+       Waiver Criteria. The Authority must be able to independently verify the event that
+allegedly caused late arrival or the vessel’s transit to be cancelled. Heavy seas and bad
+weather conditions routinely encountered by vessels at sea, or delays at port or while at
+anchor are not considered extraordinary phenomenon or events of major proportions so
+as to justify waiver of assessment of penalty fees. The decision of the Canal Authority
+shall be final.
+
+ARTICLE 33
+Temporary suspension of the Transit Reservation System
+
+         1. The ACP may temporarily suspend the Transit Reservation System, in whole
+or in part, and for an indefinite period of time, when it is determined that such action is
+necessary to ensure continued safe and efficient operation of the Canal.
+
+
+
+
+                                              35
+OP Notice to Shipping N-7-2026                        Panama Canal Transit Reservation System
+
+
+
+
+           2. No penalty or fee will be levied against any booked vessel whose reserved
+transit slot is canceled because of a temporary suspension of the Transit Reservation
+System.
+
+ADDITIONAL PROVISIONS
+
+           To facilitate the efficient operation of the Transit Reservation System, the ACP
+may establish additional policies and procedures, define additional terms, and issue
+clarifications and interpretations consistent with the provisions of this Notice to Shipping.
+Further implementation, clarifications or interpretations will be published and distributed to
+Canal customers through Advisories to Shipping or other appropriate means as
+determined by the ACP.
+
+
+
+
+                                             36
+OP Notice to Shipping N-7-2026                         Panama Canal Transit Reservation System
+
+
+
+
+                                       Table of changes
+Revision      Date                               Revision Description
+                         Article 22
+                         2. Passenger Vessel Allocations
+                         6. Booking Period 1.a for Neopanamax Vessels
+                         7. Second Period for Neopanamax Vessels. During the 2nd Booking
+                         Period.
+   1        1-July-25    12. Transit in Advance
+                         20. Same Direction Transits/Neopanamax.
+                         Article 23
+                         10. Substitutions
+                         11. Swaping
+
+                         Article 9
+                         7. NetZero Slot
+                         14. Arrival Time
+                         Articles 22 and 23
+                         1. Normal Periods
+                         Article 22
+                         2. Passenger Vessel Allocation
+                         4. Long Term Slot Allocation Methodology
+                         5. First Period for Neopanamax vessels
+                         6. Booking Period 1.a for Neopanamax Vessels
+                         7. Second Period for Neopanamax Vessels.
+   2
+            1-January-   10. Net Zero Slot Allocation.
+                26       13. Transit in Advance.
+                         21. Same Direction Transits/Neopanamax
+                         23. Same Direction Transits/Regular Vessels
+                         Article 23
+                         4. Booking Form
+                         5. Processing Requests
+                         7. Incomplete Booking Request Forms
+                         12. Swaps and Substitutions between Alliance Members
+                         14. Charges for daylight transit
+                         Article 29
+                         12. Cancellation Form
+                         13. Advance Cancellation Notice
+
+
+
+
+                                              37
+

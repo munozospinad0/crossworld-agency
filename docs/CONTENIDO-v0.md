@@ -218,7 +218,19 @@ Security charge $165 (under 3,000 PC/UMS) or $1,250 · Inspection $120 (small ve
 
 ---
 
-## 10. LinkedIn: 10 primeros posts y newsletter
+## 10. Google Business Profile (y Bing Places, Apple Business Connect)
+
+- **Nombre:** Cross World Agency (tal como en el sitio; no "Cross World Agencies S.A." en el nombre visible salvo que la marca elegida sea esa).
+- **Categoría principal:** Shipping agency (Agencia naviera). **Secundarias:** Marine surveyor, Shipping company, Logistics service, Consultant.
+- **Dirección:** RBS Tower, piso 9, oficina 902, Calle Ramón H. Jurado, Punta Paitilla, Ciudad de Panamá. **Área de servicio:** Panamá (Balboa, Cristóbal, Colón, Manzanillo). **Horario:** 24 horas, 7 días.
+- **Teléfono principal:** +507 6266-4242 · **Sitio:** https://crossworldagency.com · **Cita/Formulario:** /en/request-port-call
+- **Descripción (EN, 750 caracteres máx.):** Cross World Agency is a Panama Canal Authority authorized ship agency and marine survey company based in Panama City, licensed by the Panama Maritime Authority since 2010. We handle Canal transits, husbandry and port calls at Balboa and Cristóbal, marine and bunker surveys, marine claims, ship-to-ship operations and marine fuel supply. ISO 9001, 14001, 45001 and 22000 certified. A captain leads every port call. Available 24/7 in English and Spanish.
+- **Descripción (ES):** Cross World Agency es una agencia naviera autorizada por la Autoridad del Canal de Panamá y empresa de inspecciones marítimas con sede en Ciudad de Panamá, con licencia de la Autoridad Marítima de Panamá desde 2010. Atendemos tránsitos por el Canal, husbandry y escalas en Balboa y Cristóbal, inspecciones marítimas y de bunker, reclamos marítimos, operaciones ship-to-ship y suministro de combustible marino. Certificados ISO 9001, 14001, 45001 y 22000. Un capitán dirige cada escala. Disponibles 24/7 en inglés y español.
+- **Servicios a cargar (con descripción corta):** Panama Canal transit agency · Husbandry services · Crew change coordination · Marine surveys · Bunker surveys · Draft surveys · Pre-purchase inspections · Marine claims handling · Ship-to-ship operations · Marine fuel supply (MGO, ULSD) · Maritime consulting.
+- **Atributos:** Identifica como empresa dirigida por (a decidir) · Idiomas: inglés, español · Citas en línea: sí.
+- **Fotos:** logo, portada (tránsito), oficina, equipo, capitán, certificados, operación (mín. 10). **Publicaciones:** 2 al mes (misma nota que LinkedIn). **Preguntas y respuestas:** cargar 8 preguntas frecuentes con respuesta oficial. **Reseñas:** pedir 5 en el primer mes a socios y clientes con enlace corto; responder todas en 48 h.
+
+## 11. LinkedIn: 10 primeros posts y newsletter
 
 1. Por qué un capitán revisa cada PDA (foto en el puente). 2. Qué pasa en las 96 horas antes de un tránsito (lista). 3. Peajes 2026 en una tabla (con fuente). 4. Bunker survey: la foto del sello de la muestra. 5. Caso: escala en Cristóbal con cambio de tripulación en 6 horas (anonimizado). 6. Las 4 ISO y qué significa cada una para un armador. 7. Balboa vs Cristóbal: dónde tomar bunker. 8. LoTSA en 5 frases. 9. Lo que un claims handler debe pedir a su corresponsal en Panamá. 10. El lanzamiento del sitio: qué cambia para nuestros clientes.
 **Newsletter "Panama Canal Brief" (mensual, EN/ES):** 1) avisos ACP del mes · 2) calado y niveles · 3) bunker en Panamá (dato con fuente) · 4) un consejo del capitán · 5) un caso · CTA al formulario.

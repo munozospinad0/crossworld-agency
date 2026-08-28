@@ -3,8 +3,11 @@ research/kw_raw_*.json
 research/kw_conceptos_*.json
 research/kw_research.log
 
-# scripts privados y material del cliente que no se publica
+# scripts privados, QA temporal y material del cliente que no se publica
 research/_*.sh
+research/_kw_qa*
+research/acp-n07-2026-booking.pdf
+research/assets/
 docs/company-profile-2025.pdf
 docs/page-*.png
 docs/profile.txt

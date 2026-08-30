@@ -15,7 +15,7 @@
   --accent:#1f4fd8; --accent-ink:#173fae; --accent-soft:#e6ecfb; --accent-soft-2:#f0f4fd;
   --on-dark:#eef2f6; --on-dark-muted:#a9b6c3; --dark-line:rgba(255,255,255,.12);
   --ok:#1d7a4d; --ok-soft:#e3f3ea; --warn:#9a6300; --warn-soft:#fff3d6; --err:#b42318; --err-soft:#fde8e6;
-  --r:12px; --r-sm:8px; --max:1240px;
+  --r:12px; --r-sm:8px; --max:1320px;
   --sans:"Geist",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --mono:"Geist Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
   --shadow-1:0 1px 2px rgba(14,22,32,.06),0 8px 24px -12px rgba(14,22,32,.18);
   --shadow-2:0 2px 6px rgba(14,22,32,.08),0 24px 48px -20px rgba(31,79,216,.28);
@@ -227,12 +227,12 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
 <section id="tipo">
   <div class="wrap">
     <div class="section-head"><h2>Tipografía</h2><p>Geist para todo lo editorial, Geist Mono para lo operativo (IMO, coordenadas, toneladas, fechas, números de solicitud). Tracking negativo al crecer, leading que se aprieta en display y se abre en cuerpo.</p></div>
-    <div class="type-row"><span class="k">display · 36 a 64 px · 700 · -0.025em · 1.05</span><span class="t-display">Ship agency at the Panama Canal.</span></div>
+    <div class="type-row"><span class="k">display · 36 a 64 px · 700 · -0.025em · 1.05</span><span class="t-display">Ship agency and marine surveys at the Panama Canal.</span></div>
     <div class="type-row"><span class="k">h1 · 32 a 48 px · 700 · -0.02em · 1.08</span><span class="t-h1">Panama Canal transit agent and husbandry services</span></div>
     <div class="type-row"><span class="k">h2 · 26 a 36 px · 600 · -0.02em · 1.12</span><span class="t-h2">How a port call works with us</span></div>
     <div class="type-row"><span class="k">h3 · 20 px · 600 · -0.01em · 1.3</span><span class="t-h3">What we deliver and when</span></div>
     <div class="type-row"><span class="k">lead · 19 px · 400 · 1.5</span><span class="t-lead">Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.</span></div>
-    <div class="type-row"><span class="k">body · 17 px · 400 · 1.6 · 65ch</span><span class="t-body">Our surveyor attends the bunkering, witnesses sampling and sounding, and signs the report your underwriter will read. If there is a shortfall, the same team drafts the letter of protest within the hour.</span></div>
+    <div class="type-row"><span class="k">body · 17 px · 400 · 1.6 · 65ch</span><span class="t-body">Our surveyor attends the bunkering, witnesses sampling and sounding, and writes the report in the format your underwriter expects. If there is a shortfall, we prepare the letter of protest for the Master's signature before the barge disconnects.</span></div>
     <div class="type-row"><span class="k">small · 14.4 px · muted</span><span class="t-small">Last reviewed 28 August 2026 · Source: Panama Canal Authority, OP Notice N-7-2026</span></div>
     <div class="type-row"><span class="k">data · Geist Mono 14.4 px</span><span class="t-data">IMO 5785507 · RBS TOWER 9-902 · 08°58'N 079°31'W · MGO 0.10% S · DRAFT 15.24 m · CW-20260915-014</span></div>
   </div>
@@ -240,7 +240,7 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
 
 <section id="escalas">
   <div class="wrap">
-    <div class="section-head"><h2>Espaciado, radios, sombras</h2><p>Base 4 px. Secciones a 56 a 96 px. Contenedor de 1240 px. Breakpoints 640 / 768 / 1024 / 1280.</p></div>
+    <div class="section-head"><h2>Espaciado, radios, sombras</h2><p>Base 4 px. Secciones a 56 a 96 px. Contenedor de 1320 px (token único <span class="mono">--container-max</span>). Breakpoints 640 / 768 / 1024 (la navegación completa se muestra desde 1024) / 1280.</p></div>
     <div class="scale">
       <div style="width:4px;height:16px"></div><div style="width:8px;height:24px"></div><div style="width:12px;height:32px"></div><div style="width:16px;height:40px">4</div><div style="width:24px;height:48px">6</div><div style="width:32px;height:56px">8</div><div style="width:48px;height:64px">12</div><div style="width:64px;height:72px">16</div><div style="width:96px;height:80px">24</div>
     </div>
@@ -265,15 +265,15 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
     <h3>Tarjeta de servicio (con imagen real)</h3>
     <div class="grid3">
       <a class="card" href="#"><img src="assets/canal-transit.jpg" alt="Tránsito por las esclusas del Canal de Panamá visto desde cubierta"><div class="body"><h4>Ship agency &amp; Canal transit</h4><p>Nomination to FDA, both sides of the Canal.</p><span class="more">Learn more →</span></div></a>
-      <a class="card" href="#"><img src="assets/oil-terminal.jpg" alt="Terminal petrolero al atardecer"><div class="body"><h4>Bunkering &amp; oil operations</h4><p>MGO and ULSD in Panama, CIF or FOB, with quantity verified.</p><span class="more">Learn more →</span></div></a>
-      <a class="card" href="#"><img src="assets/port-cranes.jpg" alt="Grúas de un terminal de contenedores"><div class="body"><h4>Marine surveys</h4><p>Independent surveys with reports your underwriter will accept.</p><span class="more">Learn more →</span></div></a>
+      <a class="card" href="#"><img src="assets/oil-terminal.jpg" alt="Terminal petrolero al atardecer"><div class="body"><h4>Marine fuel supply</h4><p>MGO and ULSD arranged in Panama, quantity verified by an independent surveyor.</p><span class="more">Learn more →</span></div></a>
+      <a class="card" href="#"><img src="assets/port-cranes.jpg" alt="Grúas de un terminal de contenedores"><div class="body"><h4>Marine surveys</h4><p>Independent surveys, reported in the format underwriters and P&amp;I clubs expect.</p><span class="more">Learn more →</span></div></a>
     </div>
     <p class="muted">Imágenes de ejemplo tomadas del material actual del cliente (company profile y sitio). Se reemplazan por la sesión de fotos.</p>
 
     <h3>Ficha de puerto (mono sobre grafito) y credencial</h3>
     <div class="cols">
       <div class="port"><h4>Port of Balboa · Pacific side</h4><dl><dt>Operator</dt><dd>Panama Ports Company</dd><dt>Anchorage</dt><dd>Pacific anchorage, 08°53'N 079°30'W</dd><dt>Bunker</dt><dd>MGO, VLSFO by barge</dd><dt>Distance to locks</dt><dd>Miraflores 6 nm</dd><dt>Duty officer</dt><dd>+507 6266-4242</dd><dt>Data reviewed</dt><dd>2026-08-28</dd></dl></div>
-      <div style="display:grid;gap:12px"><div class="cred"><div class="badge">ISO<br>9001</div><div><b>ISO 9001:2015 · Quality management</b><span>Certificate by IAS/IAF · Scope: ship agency, husbandry, surveys · Valid to (fecha)</span></div></div><div class="cred"><div class="badge">ACP</div><div><b>Panama Canal Authority authorized agent</b><span>Licensed to execute Canal transits · Agency code (número)</span></div></div><div class="cred"><div class="badge">IMO<br>5785507</div><div><b>IMO company number</b><span>Cross World Agencies, S.A. · RUC 1675308-1-680680 DV 34</span></div></div></div>
+      <div style="display:grid;gap:12px"><div class="cred"><div class="badge">ISO<br>9001</div><div><b>ISO 9001:2015 · Quality management</b><span>Certified by AQC Middle East LLC, accredited by IAS · Scope: management, chartering, administration and operation of ships · Valid to (fecha)</span></div></div><div class="cred"><div class="badge">ACP</div><div><b>Authorized by the Panama Canal Authority</b><span>AMP-licensed ship agency · Agency code (número)</span></div></div><div class="cred"><div class="badge">IMO<br>5785507</div><div><b>IMO company number</b><span>Cross World Agencies, S.A. · RUC 1675308-1-680680 DV 34</span></div></div></div>
     </div>
 
     <h3>Testimonio</h3>
@@ -302,13 +302,14 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
     <div class="hero">
       <div class="hero-nav"><div class="b"><span class="brand-mark">CW</span>Cross World Agency</div><div class="links"><span>Services</span><span>Who we serve</span><span>Canal guide</span><span>Ports</span><span>About</span><span>Insights</span><span class="cta">Request a port call</span></div></div>
       <div class="copy">
-        <h1>Ship agency, marine surveys and bunkering at the Panama Canal.</h1>
-        <p class="sub">Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.</p>
+        <h1>Ship agency and marine surveys at the Panama Canal.</h1>
+        <p class="sub">Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.</p>
         <div class="cta"><a class="btn dark" href="#">Request a port call</a><a class="btn ghost-dark" href="#">WhatsApp duty officer</a></div>
       </div>
       <div class="img"><img src="assets/canal-transit.jpg" alt="Buque entrando a las esclusas del Canal de Panamá"></div>
     </div>
-    <div class="strip"><span>AMP licensed</span><span class="dot">·</span><span>Panama Canal Authority authorized agent</span><span class="dot">·</span><span>IMO 5785507</span><span class="dot">·</span><span>ISO 9001 · 14001 · 45001 · 22000</span><span class="dot">·</span><span>Since 2010</span></div>
+    <div class="strip"><span>AMP-licensed ship agency</span><span class="dot">·</span><span>Authorized by the Panama Canal Authority</span><span class="dot">·</span><span>IMO company number 5785507</span><span class="dot">·</span><span>ISO 9001 · 14001 · 45001</span><span class="dot">·</span><span>Since 2010</span></div>
+    <p class="muted">Sin animación de entrada en el hero ni en la franja: un elemento con opacidad 0 no cuenta como LCP y un reveal de 0,7 s lo retrasa por diseño. ISO 22000 no va en la franja: su alcance es inspección de carga alimentaria y se muestra en /certifications con su alcance textual.</p>
     <p class="muted">La foto de ejemplo es del company profile del cliente (lleva su marca antigua sobreimpresa). La definitiva sale de la sesión de fotos: tránsito visto desde cubierta, luz de mañana, sin texto.</p>
   </div>
 </section>

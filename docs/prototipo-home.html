@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cross World Agency · Home prototype</title>
-<meta name="description" content="Ship agency, marine surveys and bunkering at the Panama Canal. Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.">
+<meta name="description" content="Ship agency and marine surveys at the Panama Canal. Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.">
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -177,49 +177,56 @@ footer a:hover{color:#fff}
 .wa{display:none;position:fixed;right:16px;bottom:16px;z-index:40;background:#fff;color:var(--ink);border:1px solid var(--line-strong);border-radius:999px;padding:12px 16px;font-weight:500;font-size:.95rem;box-shadow:var(--shadow-1);align-items:center;gap:8px}
 @media (max-width:1024px){.wa{display:inline-flex}}
 .proto{position:fixed;left:12px;bottom:12px;z-index:40;font-family:var(--mono);font-size:.7rem;color:var(--muted);background:rgba(245,247,249,.9);border:1px solid var(--line);padding:5px 9px;border-radius:999px}
+.skip{position:absolute;left:-999px;top:8px;z-index:50;background:#fff;color:var(--ink);padding:10px 14px;border-radius:999px;border:1px solid var(--line-strong)}
+.skip:focus{left:12px}
+.marq .pause{position:absolute;right:12px;top:50%;transform:translateY(-50%);font:500 .78rem var(--sans);background:var(--surface);border:1px solid var(--line-strong);border-radius:999px;padding:5px 10px;cursor:pointer;color:var(--ink)}
+.marq{position:relative}.marq.paused ul{animation-play-state:paused}
 </style>
 </head>
 <body>
 
+<a class="skip" href="#content">Skip to content</a>
 <nav class="nav" id="nav" aria-label="Main">
   <div class="wrap">
-    <a class="brand" href="#top"><span class="mark">CW</span>Cross World Agency</a>
+    <a class="brand" href="#top"><span class="mark" aria-hidden="true">CW</span>Cross World Agency</a>
     <div class="links">
-      <a href="#services">Services</a><a href="#who">Who we serve</a><a href="#insights">Canal guide</a><a href="#ports">Ports</a><a href="#captain">About</a><a href="#insights">Insights</a>
+      <a href="#services">Services</a><a href="#who">Who we serve</a><a href="#ports">Ports</a><a href="#captain">About</a><a href="#insights">Insights</a>
     </div>
     <a class="btn cta" href="#request">Request a port call</a>
-    <a class="lang" href="#" title="Español (prototype: EN only)">EN · ES</a>
-    <button class="burger" type="button" aria-label="Menu">Menu</button>
+    <a class="lang" href="#" hreflang="es" lang="es" title="Español (prototipo: solo EN)">Español</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mobile-menu" onclick="this.setAttribute('aria-expanded',this.getAttribute('aria-expanded')==='true'?'false':'true')">Menu</button>
   </div>
 </nav>
 
 <header class="hero" id="top">
   <div class="copy">
-    <h1 class="rv">Ship agency, marine surveys and bunkering at the Panama Canal.</h1>
-    <p class="sub rv d1">Licensed by the Panama Maritime Authority and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.</p>
-    <div class="cta rv d2"><a class="btn light" href="#request">Request a port call</a><a class="btn ghost-dark" href="#request">WhatsApp duty officer</a></div>
+    <h1>Ship agency and marine surveys at the Panama Canal.</h1>
+    <p class="sub">Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.</p>
+    <div class="cta"><a class="btn light" href="#request">Request a port call</a><a class="btn ghost-dark" href="https://wa.me/507XXXXXXXX?text=Cross%20World%20duty%20officer%3A%20" title="Número de guardia a confirmar">WhatsApp duty officer</a></div>
   </div>
   <div class="img"><img id="heroimg" src="assets/canal-transit.jpg" alt="Vessel entering the locks of the Panama Canal, seen from the deck" fetchpriority="high"></div>
 </header>
 
-<div class="marq" aria-label="Credentials">
+<section class="marq" id="credentials" aria-label="Credentials">
   <ul>
-    <li>Panama Maritime Authority licensed</li><li>Panama Canal Authority authorized agent</li><li>IMO 5785507</li><li>ISO 9001:2015</li><li>ISO 14001:2015</li><li>ISO 45001:2018</li><li>ISO 22000:2018</li><li>Since 2010</li><li>Balboa · Cristóbal</li>
-    <li>Panama Maritime Authority licensed</li><li>Panama Canal Authority authorized agent</li><li>IMO 5785507</li><li>ISO 9001:2015</li><li>ISO 14001:2015</li><li>ISO 45001:2018</li><li>ISO 22000:2018</li><li>Since 2010</li><li>Balboa · Cristóbal</li>
+    <li>AMP-licensed ship agency</li><li>Authorized by the Panama Canal Authority</li><li>IMO company number 5785507</li><li>ISO 9001:2015</li><li>ISO 14001:2015</li><li>ISO 45001:2018</li><li>Since 2010</li><li>Balboa and Cristóbal</li>
+    <li aria-hidden="true">AMP-licensed ship agency</li><li aria-hidden="true">Authorized by the Panama Canal Authority</li><li aria-hidden="true">IMO company number 5785507</li><li aria-hidden="true">ISO 9001:2015</li><li aria-hidden="true">ISO 14001:2015</li><li aria-hidden="true">ISO 45001:2018</li><li aria-hidden="true">Since 2010</li><li aria-hidden="true">Balboa and Cristóbal</li>
   </ul>
-</div>
+  <button class="pause" type="button" aria-pressed="false" onclick="var m=this.parentNode;m.classList.toggle('paused');this.setAttribute('aria-pressed',m.classList.contains('paused'));this.textContent=m.classList.contains('paused')?'Play':'Pause'">Pause</button>
+</section>
 
+<main id="content">
 <section id="services">
   <div class="wrap">
-    <div class="sh rv"><h2>What we do at both ends of the Canal</h2><p>Seven services, one accountable team. Nominate us for the transit and the survey, the fuel and the claim are the same phone call.</p></div>
+    <div class="sh rv"><h2>What we do at both ends of the Canal</h2><p>Seven services, one accountable team for the port call, and independent surveyors for the evidence.</p></div>
     <div class="bento">
       <a class="cell img wide rv" href="#"><img src="assets/canal-transit.jpg" alt=""><h3>Ship agency &amp; Canal transit</h3><p>Nomination to FDA, both sides of the Canal.</p><span class="go">Learn more →</span></a>
-      <a class="cell rv d1" href="#"><h3>Marine surveys</h3><p>Independent surveys with reports your underwriter will accept.</p><span class="go">Learn more →</span></a>
-      <a class="cell img rv d2" href="#"><img src="assets/oil-terminal.jpg" alt=""><h3>Bunker surveys &amp; claims</h3><p>The surveyor who measured the fuel handles the dispute.</p><span class="go">Learn more →</span></a>
-      <a class="cell rv" href="#"><h3>Bunkering &amp; oil operations</h3><p>MGO and ULSD in Panama, CIF or FOB, with quantity verified.</p><span class="go">Learn more →</span></a>
+      <a class="cell rv d1" href="#"><h3>Marine surveys</h3><p>Independent surveys, reported in the format underwriters and P&amp;I clubs expect.</p><span class="go">Learn more →</span></a>
+      <a class="cell img rv d2" href="#"><img src="assets/oil-terminal.jpg" alt=""><h3>Bunker surveys &amp; claims support</h3><p>We measure, sample and document so the claim stands on evidence.</p><span class="go">Learn more →</span></a>
+      <a class="cell rv" href="#"><h3>Marine fuel supply</h3><p>MGO and ULSD arranged in Panama, quantity verified by an independent surveyor.</p><span class="go">Learn more →</span></a>
       <a class="cell img rv d1" href="#"><img src="assets/port-cranes.jpg" alt=""><h3>Ship-to-ship &amp; offshore</h3><p>STS and terminal operations planned, attended and documented.</p><span class="go">Learn more →</span></a>
-      <a class="cell rv d2" href="#"><h3>Marine claims</h3><p>Evidence preserved in the first 24 hours.</p><span class="go">Learn more →</span></a>
-      <a class="cell rv d3" href="#"><h3>Consulting &amp; brokerage</h3><p>Chartering, projects and advice from a working captain.</p><span class="go">Learn more →</span></a>
+      <a class="cell rv d2" href="#"><h3>Marine claims support</h3><p>Attendance and evidence preserved in the first 24 hours, under your club's instructions.</p><span class="go">Learn more →</span></a>
+      <a class="cell rv d3" href="#"><h3>Consulting &amp; audits</h3><p>ISM preparation, projects and advice from a working captain.</p><span class="go">Learn more →</span></a>
     </div>
   </div>
 </section>
@@ -229,9 +236,9 @@ footer a:hover{color:#fff}
     <div class="sh rv"><h2>How a port call works with us</h2><p>Four steps, each with what you receive and when.</p></div>
     <div class="stack">
       <div class="step"><div class="n"><b>1</b>Step</div><div><h3>Nomination</h3><p>Send vessel particulars, ETA and the services you need. We confirm receipt with a request number and the duty officer takes it from there.</p></div><span class="when">Immediately</span></div>
-      <div class="step"><div class="n"><b>2</b>Step</div><div><h3>Proforma disbursement account</h3><p>Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, so there are no surprises in the FDA.</p></div><span class="when">Within 24 h (to confirm)</span></div>
+      <div class="step"><div class="n"><b>2</b>Step</div><div><h3>Proforma disbursement account</h3><p>Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, with the agency fee as one line.</p></div><span class="when">Same working day (to confirm)</span></div>
       <div class="step"><div class="n"><b>3</b>Step</div><div><h3>Boarding and transit</h3><p>Our officer boards at the anchorage and coordinates the Authority, pilots, tugs, linehandlers, crew changes and supplies. One WhatsApp thread, one daily update.</p></div><span class="when">Throughout the call</span></div>
-      <div class="step"><div class="n"><b>4</b>Step</div><div><h3>Final disbursement account</h3><p>FDA with vouchers for every line. If a survey or a claim came up during the call, its report travels with it.</p></div><span class="when">Within 15 days (to confirm)</span></div>
+      <div class="step"><div class="n"><b>4</b>Step</div><div><h3>Final disbursement account</h3><p>Reconciled line by line against the PDA, every third-party charge with its voucher, variances explained. If a survey came up during the call, its report travels with it.</p></div><span class="when">Within 30 days (to confirm)</span></div>
     </div>
   </div>
 </section>
@@ -241,9 +248,9 @@ footer a:hover{color:#fff}
     <div class="sh rv"><h2>Both sides of the Canal</h2><p>Duty officers on the Pacific and the Atlantic side, and every Panamanian port in between.</p></div>
     <div class="ports">
       <div class="port rv"><h3>Port of Balboa<span class="side">Pacific</span></h3><dl><dt>Operator</dt><dd>Panama Ports Company</dd><dt>Anchorage</dt><dd>Pacific anchorage</dd><dt>Bunker</dt><dd>MGO, VLSFO by barge</dd><dt>To the locks</dt><dd>Miraflores</dd><dt>Duty officer</dt><dd>+507 6266-4242</dd></dl></div>
-      <div class="port rv d1"><h3>Port of Cristóbal<span class="side">Atlantic</span></h3><dl><dt>Operator</dt><dd>Panama Ports Company</dd><dt>Anchorage</dt><dd>Cristóbal anchorage</dd><dt>Bunker</dt><dd>MGO, VLSFO by barge</dd><dt>To the locks</dt><dd>Gatún / Agua Clara</dd><dt>Duty officer</dt><dd>+507 383-0128</dd></dl></div>
+      <div class="port rv d1"><h3>Port of Cristóbal<span class="side">Atlantic</span></h3><dl><dt>Operator</dt><dd>Panama Ports Company</dd><dt>Anchorage</dt><dd>Cristóbal anchorage</dd><dt>Bunker</dt><dd>MGO, VLSFO by barge</dd><dt>To the locks</dt><dd>Gatún / Agua Clara</dd><dt>Attendance</dt><dd>+507 (to confirm) · boarding officer resident in Colón or boarding partner (to confirm)</dd></dl></div>
     </div>
-    <div class="more-ports rv d2"><span>Colón</span><span>Manzanillo (MIT)</span><span>PSA Panama</span><span>Rodman</span><span class="muted">Port data reviewed 2026-08-28 · to confirm with operations</span></div>
+    <div class="more-ports rv d2"><span>Manzanillo (MIT)</span><span>CCT</span><span>Bahía Las Minas</span><span>PSA Panama (Rodman)</span><span>Taboguilla · Melones</span><span>Vacamonte</span><span class="muted">Sample port data, 2026-08-28 · only the ports we actually serve will be published</span></div>
   </div>
 </section>
 
@@ -252,7 +259,7 @@ footer a:hover{color:#fff}
     <img class="rv" src="assets/captain.jpg" alt="Captain Guillermo A. Peña at the Cross World office in Panama City">
     <div class="rv d1">
       <h2>A captain answers the phone.</h2>
-      <p>Captain Guillermo A. Peña has commanded and inspected vessels for decades (years to confirm). He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and signs every survey report that leaves this office.</p>
+      <p>Captain Guillermo A. Peña has commanded and inspected vessels for (years to confirm). He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and reviews every survey report that leaves this office.</p>
       <blockquote>"When you call at three in the morning, you speak with someone who has stood a bridge watch."</blockquote>
       <div class="creds"><span>ISM Code Internal Auditor · ABSG</span><span>Seafarers Training Center</span><span>Maersk Training Centre</span><span>NFPA · TEEX</span></div>
       <p style="margin-top:18px"><a class="btn ghost" href="#">About Cross World</a></p>
@@ -274,19 +281,19 @@ footer a:hover{color:#fff}
 
 <section class="proof">
   <div class="wrap">
-    <p class="quote rv">"They had the surveyor on board at Cristóbal four hours after our email. The report closed the dispute."</p>
-    <p class="rv d1">Operations Manager, ship management company, Athens. Sample testimonial: real quotes are published only with written permission.</p>
+    <p class="quote rv">"Their surveyor was on board at Cristóbal the same day. The report gave our club what it needed."</p>
+    <p class="rv d1"><b>Sample testimonial</b> (format only). Real quotes are published with written permission, with name, role and company; better still, principals willing to take a reference call.</p>
     <div class="partners rv d2"><b>Partners and representation</b><span>Andrew Moore &amp; Associates</span><span>Sabatino Pizzolante</span><span>Victoria Corporation</span><span>EcoGreen</span><span>White Glacier</span><span class="muted">Venezuela · Brazil · Aruba · Greece</span></div>
   </div>
 </section>
 
 <section id="insights">
   <div class="wrap">
-    <div class="sh rv"><h2>Insights from the Canal</h2><p>Guides signed by the captain, with figures from the Panama Canal Authority and a visible review date.</p></div>
+    <div class="sh rv"><h2>Insights from the Canal</h2><p>Guides written by our operations team and reviewed by the captain, with figures from the Panama Canal Authority and a visible review date.</p></div>
     <div class="posts">
-      <a class="post rv" href="#"><span class="k">Panama Canal · guide</span><h3>Panama Canal transit cost and tolls 2026: what shipowners actually pay</h3><p>Tolls by segment, fixed tariff, reservation fees and the auction, with ACP sources.</p><span class="a">Capt. Guillermo Peña · planned Sep 2026</span></a>
-      <a class="post rv d1" href="#"><span class="k">Bunker · guide</span><h3>Bunker survey in Panama: how to avoid a quantity or quality dispute</h3><p>BDN vs. soundings, MARPOL samples, letters of protest and time bars.</p><span class="a">Capt. Guillermo Peña · planned Nov 2026</span></a>
-      <a class="post rv d2" href="#"><span class="k">Ports · guide</span><h3>Port of Balboa: terminal, anchorage, bunkering and services</h3><p>What to expect on the Pacific side and how to plan the call.</p><span class="a">Capt. Guillermo Peña · planned Oct 2026</span></a>
+      <a class="post rv" href="#"><span class="k">Panama Canal · guide</span><h3>Panama Canal transit cost, tolls and booking: the 2026 guide for shipowners and operators</h3><p>What a transit costs, layer by layer, with two worked PDA examples and the ACP tariff linked.</p><span class="a">Reviewed by Capt. Guillermo A. Peña · planned Oct 2026</span></a>
+      <a class="post rv d1" href="#"><span class="k">Agency · guide</span><h3>PDA walkthrough: a Panamax bulk carrier and a product tanker, line by line</h3><p>Every line of a proforma disbursement account explained, and what to check in the FDA.</p><span class="a">Reviewed by Capt. Guillermo A. Peña · planned Oct 2026</span></a>
+      <a class="post rv d2" href="#"><span class="k">Bunker · guide</span><h3>Bunker dispute at Balboa or Cristóbal: the first 24 hours</h3><p>BDN vs. soundings, MARPOL samples, letter of protest and time bars.</p><span class="a">Reviewed by Capt. Guillermo A. Peña · planned Dec 2026</span></a>
     </div>
   </div>
 </section>
@@ -298,35 +305,36 @@ footer a:hover{color:#fff}
       <p class="sub rv d1">Send the vessel particulars and ETA. You get a request number now and an itemized PDA from the duty officer.</p>
       <div class="mini rv d2" id="mini">
         <form onsubmit="event.preventDefault();document.getElementById('mini').classList.add('sent')">
-          <div class="f2"><div><label for="q1">Vessel name</label><input id="q1" required placeholder="MV …"></div><div><label for="q2">IMO number</label><input id="q2" class="mono" inputmode="numeric" pattern="\d{7}" required placeholder="7 digits"></div></div>
+          <div class="f2"><div><label for="q1">Vessel name</label><input id="q1" name="vessel" required autocomplete="off" placeholder="MV …"></div><div><label for="q2">IMO number</label><input id="q2" name="imo" class="mono" inputmode="numeric" pattern="\d{7}" required aria-describedby="q2-help" placeholder="7 digits"><small id="q2-help">7 digits; we validate the check digit.</small></div></div>
           <div class="f2" style="margin-top:12px"><div><label for="q3">ETA (local)</label><input id="q3" class="mono" required placeholder="2026-09-20 06:00"></div><div><label for="q4">Work email</label><input id="q4" type="email" required placeholder="ops@company.com"></div></div>
           <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px"><button class="btn light" type="submit">Request a port call</button><small>Prototype: the real form has two steps and sends a confirmation email.</small></div>
         </form>
-        <div class="ok"><b>Request CW-20260915-014 received.</b> The duty officer has it and will reply 24/7. A confirmation was sent to your email. If it is urgent, call +507 6266-4242.</div>
+        <div class="ok" role="status"><b>Request CW-20260915-014 received.</b> The duty officer has it and will reply 24/7. A confirmation was sent to your email. If it is urgent, call +507 6266-4242.</div>
       </div>
     </div>
     <div class="nominate rv d1">
-      <button class="btn ghost-dark copy-btn" type="button" onclick="navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('nom').innerText);this.textContent='Copied'">Copy</button>
+      <button class="btn ghost-dark copy-btn" type="button" aria-live="polite" onclick="navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('nom').innerText);this.textContent='Copied'">Copy</button>
       <h3>Nominate Cross World</h3>
-      <div id="nom">Cross World Agencies, S.A.<br>RUC 1675308-1-680680 DV 34 · IMO 5785507<br>Panama Canal Authority authorized agent (code: to confirm)<br>RBS Tower, 9th floor, office 902, Paitilla, Panama City, Panama<br>operations@crossworldagency.com (to confirm)<br>+507 6266-4242 · +507 383-0128</div>
-      <p style="margin:14px 0 0;font-family:var(--sans);font-size:.9rem;color:var(--on-dark-muted)">Paste this block in your nomination message to the charterer or the Authority.</p>
+      <div id="nom">Cross World Agencies, S.A. (Cross World Agency)<br>RUC 1675308-1-680680 DV 34 · IMO company number 5785507<br>AMP-licensed ship agency, authorized by the Panama Canal Authority (agency code: to confirm)<br>RBS Tower, 9th floor, office 902, Calle Ramón H. Jurado, Paitilla, Panama City, Panama<br>operations@crossworldagency.com (to confirm)<br>+507 6266-4242 · +507 383-0128</div>
+      <p style="margin:14px 0 0;font-family:var(--sans);font-size:.9rem;color:var(--on-dark-muted)">Paste this block in your nomination message to the charterer or the Authority. Bank details are issued only on the PDA and confirmed by phone with your duty officer; we never change bank details by email.</p>
     </div>
   </div>
 </section>
+</main>
 
 <footer>
   <div class="wrap">
     <div class="fgrid">
-      <div><h4>Cross World Agency</h4><p style="margin:0;max-width:40ch">Ship agency, marine surveys, bunker and claims at the Panama Canal. Licensed by the AMP and the Panama Canal Authority since 2010.</p><p class="mono" style="font-size:.82rem;margin-top:10px">RBS Tower 9-902 · Paitilla · Panama City<br>+507 6266-4242 · +507 383-0128</p></div>
-      <div><h4>Services</h4><ul><li><a href="#">Ship agency &amp; Canal transit</a></li><li><a href="#">Marine surveys</a></li><li><a href="#">Bunker surveys &amp; claims</a></li><li><a href="#">Bunkering &amp; oil operations</a></li><li><a href="#">Ship-to-ship &amp; offshore</a></li><li><a href="#">Marine claims</a></li><li><a href="#">Consulting &amp; brokerage</a></li></ul></div>
-      <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Certifications</a></li><li><a href="#">Ports</a></li><li><a href="#">Panama Canal guide</a></li><li><a href="#">Resources</a></li><li><a href="#">Insights</a></li><li><a href="#">Contact</a></li></ul></div>
-      <div><h4>Nominate</h4><ul><li><a href="#request">Request a port call</a></li><li><a href="#">WhatsApp duty officer</a></li><li><a href="#">Ethics channel</a></li><li><a href="#">Español</a></li></ul></div>
+      <div><h4>Cross World Agency</h4><p style="margin:0;max-width:40ch">Ship agency and independent marine surveys at the Panama Canal. AMP-licensed and authorized by the Panama Canal Authority since 2010.</p><p class="mono" style="font-size:.82rem;margin-top:10px">RBS Tower 9-902 · Paitilla · Panama City<br>+507 6266-4242 · +507 383-0128</p></div>
+      <div><h4>Services</h4><ul><li><a href="#">Ship agency &amp; Canal transit</a></li><li><a href="#">Marine surveys</a></li><li><a href="#">Bunker surveys &amp; claims support</a></li><li><a href="#">Marine fuel supply</a></li><li><a href="#">Ship-to-ship &amp; offshore</a></li><li><a href="#">Marine claims support</a></li><li><a href="#">Consulting &amp; audits</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Certifications</a></li><li><a href="#">Compliance &amp; KYC pack</a></li><li><a href="#">Ports</a></li><li><a href="#">Panama Canal guide</a></li><li><a href="#">Insights</a></li><li><a href="#">Contact</a></li></ul></div>
+      <div><h4>Nominate</h4><ul><li><a href="#request">Request a port call</a></li><li><a href="https://wa.me/507XXXXXXXX" title="Número de guardia a confirmar">WhatsApp duty officer</a></li><li><a href="#">Ethics channel</a></li><li><a href="#" hreflang="es" lang="es">Español</a></li></ul></div>
     </div>
-    <div class="legal"><span>© 2026 Cross World Agencies, S.A.</span><a href="#">Privacy</a><a href="#">Terms</a><span>Canal figures are referential and sourced from the Panama Canal Authority.</span></div>
+    <div class="legal"><span>© 2026 Cross World Agencies, S.A.</span><a href="#">Privacy</a><a href="#">Standard Trading Conditions</a><span>Canal figures are referential and sourced from the Panama Canal Authority.</span></div>
   </div>
 </footer>
 
-<a class="wa" href="#request">WhatsApp duty officer</a>
+<a class="wa" href="https://wa.me/507XXXXXXXX" title="Número de guardia a confirmar">WhatsApp duty officer</a>
 <span class="proto">Prototype v0 · 28 Aug 2026 · sample images</span>
 
 <script>

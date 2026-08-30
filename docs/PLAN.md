@@ -1,7 +1,7 @@
 # Cross World Agency · Plan maestro del sitio web
 
 **Cliente:** Cross World Agency, S.A. (Panamá) · Capitán Guillermo A. Peña G. · contacto vía Irene (ECUS)
-**Fecha:** 28 de agosto de 2026 · **Versión:** 1.2 · **Responsable:** ECUS Agency (Daniel Muñoz)
+**Fecha:** 28 de agosto de 2026 · **Versión:** 1.3 (auditada: 80 hallazgos de tres revisiones independientes, comercial, técnica y editorial, aplicados; ver §27) · **Responsable:** ECUS Agency (Daniel Muñoz)
 **Documentos hermanos:** [Especificación técnica](ESPECIFICACION-TECNICA.md) (stack, rutas, modelo de contenido, formularios, tabla de leads, webhook al CRM, analítica, SEO técnico, seguridad, CI, pruebas, migración) · [Contenido v0](CONTENIDO-v0.md) (borradores de home, 7 servicios, about, guía del Canal con cifras oficiales de la ACP, correos, anexo de Google Ads, outreach, LinkedIn) · [Sistema de diseño v0](design-system.html) (tokens, tipografía, componentes con estados, mock del hero, wireframe de la home) · [Prototipo navegable de la home](prototipo-home.html) (las 10 secciones con el copy real, imágenes de ejemplo y el movimiento definido) · [Competidores](competidores.md) · Keyword research en Excel: `research/KEYWORD RESEARCH - Cross World Agency - ago 2026.xlsx`
 **Repositorio:** `munozospinad0/crossworld-agency` · **Página de avances:** GitHub Pages (`/docs`) · **Producción:** Vercel Pro
 
@@ -38,7 +38,7 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
 | Contenido | Plantilla "industrial manufacturing" sin editar: productos de engranajes y cadenas, "Since 1995", "10+ awards", contadores en 0. Cero mención de agencia naviera, Canal, inspecciones o bunker. | **Crítica** (reputación) |
 | Datos de contacto | No hay teléfono, email ni dirección visibles. El banner dice "scheduled maintenance". | **Crítica** (conversión) |
 | Idiomas | Solo inglés, sin hreflang. Sus mercados ES (Venezuela, Colombia, flotas atuneras) no tienen versión. | Alta |
-| SEO on-page | Título "About - Cross world agency"; sin meta descriptions reales; sin schema; sin sitemap curado; fotos de stock genéricas. | Alta |
+| SEO on-page | Títulos "Home - Cross world agency" / "About - Cross world agency"; sin meta description; schema de Yoast (WebSite, Organization, Person) envolviendo contenido equivocado; `html lang="es"` con texto en inglés; sin analítica; Lorem Ipsum y "Click edit button to change this text" en About; fotos de stock genéricas. | Alta |
 | Confianza | No muestra ISO, licencias AMP/ACP, IMO, capitán, socios, ni clientes. Todo eso existe en el company profile y no está en la web. | Alta |
 | Tecnología | WordPress con tema comercial; `/wp-content/uploads/`; CTA "Take Action" duplicado; copyright 2026. | Media |
 | Diseño | Genérico, sin identidad, no comunica operación marítima. | Media |
@@ -61,9 +61,9 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
   - *Bunker claims:* overconsumption, voyage underperformance, post-bunker dispute.
   - *Marine claims:* dry cargo container, reefer container, steel out-turn, railroad/trucking, P&I crew personal injury, ports & terminals, charterers' liability, PE & HHG.
   - *Technical surveys:* pre-purchase inspections, tank corrosion assessment, P&I vessel condition, hatch cover integrity (ultrasonic), load/stow/securing, ISM audits, pollution & safety advisory, marine expeditors & loss control, project cargo warranty & risk management.
-- **Certificaciones:** ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, ISO 22000:2018 (emitidas por IAS / IAF). Capitán Guillermo Peña: ISM Code Internal Auditor (ABSG Consulting Venezuela), Seafarers Training Center, NFPA / Texas Engineering Extension Service, Maersk Training Centre.
-- **Socios y clientes mostrados:** Andrew Moore & Associates S.A., Victoria Corporation, Sabatino Pizzolante (servicios marítimos y comerciales), EcoGreen, White Glacier.
-- **Visión:** ser reconocidos por clientes y armadores nacionales e internacionales como la agencia naviera más confiable del Caribe.
+- **Certificaciones:** ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, ISO 22000:2018, **certificadas por AQC Middle East LLC**, organismo acreditado por IAS (miembro del IAF); IAS e IAF son acreditación, no emisor. Alcances textuales de los certificados (página 7 del profile): ISO 9001 "management, chartering, administration, operation of ships: general cargo ships, tankers, bulk carriers, tug vessels and barges"; **ISO 22000 "food cargo inspections of agricultural origin, bulk food cargo certifier"** (inocuidad alimentaria: no va en el hero, se muestra en /certifications con su alcance). Número y vigencia de cada certificado: confirmar. Capitán Guillermo Peña: ISM Code Internal Auditor (ABSG Consulting Venezuela), Seafarers Training Center, NFPA / Texas Engineering Extension Service, Maersk Training Centre.
+- **Socios y clientes mostrados (6 logos en la página 8):** Andrew Moore & Associates S.A., Victoria Corporation, Sabatino Pizzolante (servicios marítimos y comerciales; corresponsal P&I en Venezuela), EcoGreen, White Glacier y un sexto sello dorado (identificar).
+- **Visión (textual del profile):** "to be recognized by national and international renowned clients and shipowners as the most reliable shipping agency because of the excellence of our services"; la "Future Vision" (página 9) añade consolidarse como agencia líder en el Caribe.
 - **Contacto:** RBS Tower, piso 9, oficina 902, Paitilla, Panamá · +507 6266-4242 · +507 383-0128 · +507 6842-8902 · gpena@crossworldagency.com · agencycrossworld@gmail.com.
 
 **Lo que hay que confirmar con Irene/Guillermo antes de escribir contenido final:** ver sección 13 (checklist de insumos).
@@ -73,9 +73,9 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
 ## 3. Mercado y competencia
 
 ### 3.1 Contexto del mercado (2026)
-- El Canal operó **6.288 tránsitos entre octubre 2025 y marzo 2026** (+224 interanual), 34-37 tránsitos diarios y picos de 40+, con calado pleno de 50 pies para Neopanamax tras recuperarse los niveles de agua. Ingresos del año fiscal en el orden de USD 5.700 millones.
-- **Ventas de bunker en Panamá: 427.985 t en julio 2026 (+10,5% interanual)**, con Balboa y Cristóbal concentrando más del 90% del tráfico regional de abastecimiento. El mercado de bunker survey y de disputas de calidad/cantidad crece con él.
-- La crisis de Ormuz de 2026 disparó exportaciones energéticas de EE.UU. por el Canal (LNG, LPG, productos): más tanqueros = más demanda de agentes, STS y surveys de petróleo. Justo el perfil de Cross World.
+- El Canal operó **6.288 tránsitos entre octubre 2025 y marzo 2026** (+224 interanual), 34-37 tránsitos diarios y picos de 40+, con calado pleno de 50 pies para Neopanamax tras recuperarse los niveles de agua (Port Technology International y Global Maritime Hub citando a la ACP, abr-2026). Ingresos del año fiscal en el orden de USD 5.700 millones (The Rio Times, 2026; confirmar contra el informe anual de la ACP).
+- **Ventas de bunker en Panamá: 427.985 t en julio 2026 (+10,5% interanual)** (Manifold Times con datos de la AMP, ago-2026); Balboa y Cristóbal concentran la mayor parte del abastecimiento (Panama Ship Service; confirmar cifra). El mercado de bunker survey y de disputas de calidad/cantidad crece con él.
+- La crisis de Ormuz de 2026 disparó exportaciones energéticas de EE.UU. por el Canal (LNG, LPG, productos) (gCaptain, 2026): más tanqueros = más demanda de agentes, STS y surveys de petróleo. Justo el perfil de Cross World.
 
 ### 3.2 Quién compite por los mismos clientes
 | Competidor | Tipo | Qué hace bien en web | Búsquedas de marca/mes |
@@ -88,7 +88,7 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
 | **Adimar Shipping** | Local mediano | **La máquina de contenido**: 1.179 posts en el sitemap, un post por día en agosto 2026 escrito por un redactor (no marino), todos "2026 guide". Tiene 8 de los primeros resultados para "Panama Canal transit quote / PDA" y domina "husbandry services Panama". Hub del Canal con FAQ, webcams, clima y proyecciones diarias de espera con suscripción. | 90 |
 | **Panama Ship Service** | Sitio hermano de Adimar (surveys y reparaciones) | 1.054 posts con la misma cadencia. Su página de Surveys es lo más cercano a educación de bunker survey en el mercado (tolerancias, ROB, muestreo), pero vendido como línea de taller, no como protección del reclamo. "Bunker Detective" como nombre memorable. | 20-30 |
 | **Boyd Steamship** | Local histórico (1909) | El kit de autoservicio más completo: 11 calculadoras de tránsito por tipo de carga, reporte diario de tráfico, portal de estados de cuenta, "respuesta en 2 horas 24/7", tarifa "all inclusive", cobertura P&I de ITIC como señal de confianza. Presentación débil. | 50 |
-| **Leth Agencies** | Regional (canales: Suez, Panamá, Turquía) | "Panama Analytics": estadísticas diarias de la subasta de slots por segmento, buscador de próximo slot, calado vigente. 15 PDFs sin formulario. BIMCO y MACN. Inchcape es accionista mayoritario desde 2024. | 140 |
+| **Leth Agencies** | Regional (canales: Suez, Panamá, Turquía) | "Panama Analytics": estadísticas diarias de la subasta de slots por segmento, buscador de próximo slot, calado vigente. 15 PDFs sin formulario. BIMCO y MACN. Inchcape es accionista mayoritario desde enero de 2024 (anuncio de Leth). | 140 |
 | **Orca Ships Agents** | Local | Lidera con la licencia: H1 "Panama Canal Authorized Agent", "Authorized by Panama Maritime Authority". Directorio de terminales petroleros. WhatsApp y VHF 12/16. | 30-40 |
 | **24 Marine** | Surveyor independiente (Panamá, EE.UU., Canadá, Venezuela) | El mejor modelo para nuestras páginas de survey y claims: "Why it matters / Scope / Who it's for (owners, insurers, charterers, P&I) / Deliverables / FAQ". Único con schema `Service`/`Offer`, 37 logos de clientes, testimonios y video real. | n/d |
 
@@ -99,7 +99,7 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
 (Informe completo con perfil de cada competidor, taxonomía, CTAs, contenidos y ficha técnica: `docs/competidores.md`.)
 
 ### 3.3 Lo que nadie hace bien (nuestras oportunidades)
-1. **Nadie combina agencia + surveys + bunker + claims bajo un solo capitán.** Los globales son agencias; los surveyors son surveyors. Cross World puede vender "un solo responsable para todo el port call", con la credibilidad de un capitán que audita ISM.
+1. **Nadie tiene agencia y surveyors independientes bajo un mismo techo, con un capitán que revisa cada informe.** Los globales son agencias; los surveyors son surveyors. Cross World puede vender "un solo equipo para la escala y surveyors independientes para la evidencia". Ojo (auditoría comercial): el valor de un survey es su independencia, así que el mensaje nunca es "el mismo surveyor maneja la disputa" ni "el mismo equipo mide el combustible que vende"; surveys = independientes, claims = soporte al reclamo bajo instrucciones del club o del abogado, combustible = línea separada con surveyor tercero.
 2. **Español casi inexistente.** Ninguno de los locales tiene sitio bilingüe serio. Los mercados de Venezuela, Colombia, Ecuador (atuneros) y Centroamérica buscan en español ("agencia naviera panamá", "agente naviero", "trasiego de combustible", "puerto de balboa" 2.900/mes).
 3. **Transparencia de proceso.** Nadie explica qué pasa desde que mandas el ETA hasta que el buque sale: PDA, booking, documentación ACP, inspecciones, FDA. Una guía paso a paso con tiempos es contenido que Google y la IA premian.
 4. **Educación de bunker survey y disputas.** Con las ventas de bunker creciendo 10%, "cómo evitar una disputa de bunker en Panamá" no tiene un dueño en la SERP.
@@ -107,21 +107,23 @@ Auditoría hecha el 27-ago-2026 sobre la home y `/about/`.
 6. **Reclamos marítimos y trabajo de corresponsal P&I.** Ninguna agencia panameña tiene página de claims (GAC solo a nivel grupo). Aseguradores, clubes y abogados buscan un corresponsal local con surveyors propios: pilar sin competencia.
 7. **Ship-to-ship y comercialización de combustible.** Leth lo menciona en una línea; nadie tiene página. Cross World lo presenta como líneas propias, con lenguaje claro de independencia (survey y comercialización en equipos separados) para evitar conflicto de interés percibido.
 8. **Solicitud estructurada + proceso visible.** Todos usan formularios genéricos. Un formulario de port call con datos del buque (IMO, LOA, manga, calado, carga, ETA, servicios, tipo de principal) y una línea de tiempo pública (nominación → PDA en 24 h → documentos de pre-arribo → abordaje → tránsito → FDA en X días) con un PDA de muestra es único en el mercado.
-9. **Credenciales que nadie iguala.** Cuatro ISO (los demás muestran solo 9001 o ninguna), IMO 5785507, licencia AMP, código de agencia ACP y un capitán auditor ISM firmando las guías. Es el bloque de confianza del sitio.
+9. **Credenciales que nadie iguala, bien presentadas.** ISO 9001, 14001 y 45001 con organismo certificador y alcance textual (los demás muestran solo 9001 o ninguna), ISO 22000 en /certifications con su alcance real, IMO company number 5785507, licencia AMP, autorización ACP, y un capitán auditor ISM que revisa las guías (byline honesto: "escrito por el equipo de operaciones, revisado por el capitán"). Nombres y credenciales reales de los surveyors (formación, membresías IIMS/NAMS/SCMS, equipo de medición). Es el bloque de confianza del sitio.
 10. **Herramientas ligeras.** Leth (analítica de subasta), Boyd (calculadoras), Wilhelmsen (calculadora de peajes) y Adimar (proyección de espera) tienen una cada uno. Un widget bilingüe "Estado del Canal hoy" (espera por segmento, calado vigente, próximo slot, con fuente ACP) y un glosario compiten sin una gran construcción. Fase 2.
 
 ### 3.4 Posicionamiento propuesto
-**Ángulo:** la única agencia del Canal de Panamá que combina agencia de tránsito y husbandry licenciada con surveyors certificados y manejo de reclamos en casa, bajo un solo equipo responsable con cuatro ISO, en inglés y español, para Latinoamérica y el Mediterráneo. No competimos por antigüedad (1909, 1916, 1925 ya están tomados) ni por escala (GAC, Wilhelmsen): competimos por credenciales, integración, atención senior (contesta un capitán) y velocidad.
+**Ángulo:** la agencia del Canal de Panamá con licencia AMP y autorización ACP que tiene surveyors independientes en casa y un capitán auditor ISM revisando cada informe, con ISO 9001, 14001 y 45001, en inglés y español, para Latinoamérica primero (Venezuela, Colombia, Ecuador, Centroamérica, flotas atuneras, traders con STS) y el Mediterráneo después. No competimos por antigüedad (1909, 1916, 1925 ya están tomados) ni por escala (GAC, Wilhelmsen): competimos por credenciales, atención senior (contesta un capitán), transparencia (PDA de muestra, honorario en una línea, FDA conciliada) y velocidad.
+
+**Regla de independencia (auditoría comercial, no negociable en el copy):** surveys = independientes; claims = soporte al reclamo bajo instrucciones del club, el corresponsal o el abogado (nunca "manejamos la disputa"); combustible = línea separada (SOS Resilience) con surveyor tercero en toda entrega que se comercialice; "bunkering" no va en el H1.
 
 **Líneas de trabajo (a refinar con Irene):**
-- EN: *Licensed at the Canal. Certified on board. Accountable for the claim.*
-- EN: *Agency, surveys and claims at both ends of the Panama Canal. One team, one number, 24/7.*
-- ES: *Agencia, inspecciones y reclamos en el Canal de Panamá. Un solo equipo, una sola llamada, 24/7.*
-- ES: *Agencia naviera, inspecciones y bunker en el Canal de Panamá, bajo el mando de un capitán.*
+- EN: *Licensed at the Canal. Certified on board. Independent on the evidence.*
+- EN: *One team for the port call. Independent surveyors for the evidence. 24/7.*
+- ES: *Un solo equipo para la escala. Surveyors independientes para la evidencia. 24/7.*
+- ES: *Agencia naviera e inspecciones marítimas en el Canal de Panamá, bajo el mando de un capitán.*
 
-**Jerarquía de CTAs en la home:** primario "Request a PDA in 24 hours" (formulario estructurado), secundario "WhatsApp duty officer", terciario "Nominate Cross World" (bloque copiable con datos de la agencia y código ACP).
+**Jerarquía de CTAs en la home:** primario "Request a port call" (formulario estructurado), secundario "WhatsApp duty officer", terciario "Nominate Cross World" (bloque copiable con razón social, RUC, IMO company number, código ACP y contactos; los datos bancarios solo en la PDA y confirmados por teléfono).
 
-Pilares de mensaje: (1) licencia AMP + ACP y 15 años de tránsitos; (2) un capitán al frente, auditor ISM, con 4 ISO; (3) cobertura total del port call: agencia, surveys, claims, combustible; (4) red propia en Brasil, Aruba, Grecia y Venezuela; (5) 24/7 con respuesta de PDA en menos de 24 horas (SLA a confirmar con Guillermo).
+Pilares de mensaje: (1) licencia AMP y autorización ACP desde 2010 (16 años); (2) un capitán al frente, auditor ISM, con ISO 9001, 14001 y 45001; (3) un solo equipo para la escala y surveyors independientes para la evidencia (agencia + surveys en casa; claims como soporte; combustible como línea aparte); (4) red propia en Brasil, Aruba, Grecia y Venezuela (firmas a confirmar); (5) 24/7 con PDA el mismo día hábil para tránsitos estándar (SLA a confirmar con Guillermo) y FDA conciliada línea por línea.
 
 Lo que NO vamos a decir: nada que no controlemos (ver regla de anuncios de Daniel): no prometemos tiempos de tránsito ni precios del Canal, solo los comunicamos con fuente.
 
@@ -145,7 +147,7 @@ Volúmenes = búsquedas/mes, pasada indicada. CPC en USD (convertido de COP a ~4
 | Bunkering & oil operations | bunkering panama | 10-20 | LOW | marine fuel panama 10 · bunker fuel panama 10 · mgo panama 10 · marine fuels 880-2.400 · fuel for ship 390-2.900 (+55%) · ES: combustible de barco 170 (+137%), combustible para barcos 110 (+98%), trasiego de combustible 210 |
 | Ship-to-ship & offshore | sts panama | 40 | LOW | ship to ship transfer 140-1.900 · ship to ship transfer guide 210 · offshore services 140-1.300 · maritime offshore 260 (+48%) · ES: plataformas offshore 210 |
 | Marine claims | cargo claims | 260 | LOW | marine claims · container damage claims · charterers liability claims · p&i claims handling |
-| Consulting & brokerage | maritime consulting | 90-590 | LOW | ship broker 720-3.600 · chartering broker 880-1.600 · chartering services 590-1.600 · maritime services panama 10-20 · ship management panama 10 · ES: contratos de fletamento 140, agente naviero 210, agencia naviera 170 |
+| Consulting & audits (página de soporte, sin objetivo SEO propio) | maritime consulting panama | 10-90 | LOW | maritime services panama 10-20 · ship management panama 10 · ES: agente naviero 210, agencia naviera 170. Las keywords globales de brokerage (ship broker 3.600, chartering broker 1.600) se descartan: traen tráfico que no convierte. |
 | Home / marca | panama shipping company | 210-320 | LOW | shipping agency panama · agencias navieras en panamá 30 · navieras en panamá 20 · agencias marítimas en panamá 10 · crossworld maritime agency 30 · cross world agency 10 |
 
 **B. Guías y blog (intención informativa, imán de tráfico y de citas de IA)**
@@ -204,7 +206,7 @@ Objetivo: cuando alguien pregunte a ChatGPT, Perplexity, Gemini o Copilot *"ship
 3. **Contenido citable:** respuestas directas, datos con fuente, listas y tablas, definiciones ("A protecting agent is..."), y la comparativa "how to choose a ship agent in Panama".
 4. **Frescura:** las guías del Canal se revisan cada trimestre (peajes, calado, slots cambian) con fecha visible.
 5. **Presencia fuera del sitio:** notas en medios marítimos (Mundo Marítimo, Panamá América, Ship & Bunker si hay dato), LinkedIn del capitán con artículos, respuestas en foros del sector. La IA cita lo que ve repetido en fuentes que ya confía.
-6. **Medición:** sondeo mensual de 12 preguntas en 4 motores (ChatGPT, Perplexity, Gemini, Claude) registrando si citan `crossworldagency.com`. Meta: 0 → 4 de 12 en 6 meses.
+6. **Medición:** sondeo mensual de 12 preguntas en 4 motores (ChatGPT, Perplexity, Gemini, Claude) registrando si citan `crossworldagency.com`. Meta: 0 → 8 de 48 en 6 meses. Es un indicador secundario: la cita en IA se gana con lo mismo que gana el SEO clásico (entidad consistente, contenido con fuente), no necesita presupuesto ni fase propia.
 
 ### 5.4 Local SEO
 - Google Business Profile como "Shipping agency" en RBS Tower, Paitilla, con fotos reales, horario 24/7, servicios cargados, y flujo de reseñas de clientes y socios.
@@ -218,31 +220,33 @@ Objetivo: cuando alguien pregunte a ChatGPT, Perplexity, Gemini o Copilot *"ship
 Idiomas: `/en` (principal, x-default) y `/es`. Navegación de una sola línea, máximo 6 ítems + CTA.
 
 ```
-/                                  → redirige por idioma del navegador a /en o /es
+/                                  → 308 fijo a /en (Google desaconseja redirigir por idioma; aviso "¿Prefieres español?" en cliente)
 /en
-├── /services                      Hub de servicios (6 bloques)
-│   ├── /ship-agency-panama-canal-transit   Agencia, tránsitos, husbandry, crew change, booking/PDA, protecting agent
-│   ├── /marine-surveys                     Draft, petroleum, precompra, condición P&I, escotillas ultrasonido, ISM, loss control
-│   ├── /bunker-surveys-and-claims          BSIS, on/off hire, cantidad/calidad, disputas, sobreconsumo
-│   ├── /bunkering-and-oil-operations       MGO/ULSD, suministro a flotas, CIF/FOB, SOS Resilience
+├── /services                      Hub de servicios (7 bloques)
+│   ├── /ship-agency-panama-canal-transit   Agencia, tránsitos, husbandry, crew change, booking/PDA, protecting agent, PDA de muestra
+│   ├── /marine-surveys                     Draft, petróleo, precompra, condición P&I, escotillas ultrasonido, ISM, loss control (independientes)
+│   ├── /bunker-surveys-and-claims-support  BSIS, on/off hire, cantidad/calidad, expediente de reclamo, sobreconsumo
+│   ├── /marine-fuel-supply                 MGO/ULSD vía proveedores físicos licenciados, CIF/FOB, SOS Resilience, surveyor tercero
 │   ├── /ship-to-ship-and-offshore          STS, terminales, plataformas, petcoke
-│   ├── /marine-claims                      Carga, contenedores, reefer, acero, P&I, charterers
-│   └── /maritime-consulting-and-brokerage  Chartering, proyectos, asesoría
+│   ├── /marine-claims-support              Atención bajo instrucciones de clubes, corresponsales, aseguradores y abogados
+│   └── /maritime-consulting-and-audits     ISM, manuales, informes técnicos, proyectos (página de soporte)
 ├── /who-we-serve                   4 páginas por tipo de cliente (cómo compran, qué necesitan, qué entregamos)
 │   ├── /shipowners-and-managers · /charterers-and-traders · /pandi-clubs-and-insurers · /fishing-fleets-and-regional-operators
 ├── /panama-canal-transit-guide     Pilar: costo/peajes, booking, requisitos, calado, tiempos, rol del agente
 ├── /resources                      Hub: avisos ACP, calado vigente, checklists, PDA de muestra, glosario EN/ES, "Estado del Canal hoy" (fase 2)
-├── /ports                          Hub de puertos
-│   ├── /balboa · /cristobal · /colon · /manzanillo · /psa-panama · /rodman   (solo los que atienden)
+├── /ports                          Hub de puertos (solo los que atienden de verdad; "Colón" no es un puerto y PSA = Rodman)
+│   ├── Atlántico: /cristobal (PPC) · /manzanillo (MIT) · /cct · /bahia-las-minas (terminales de hidrocarburos)
+│   ├── Pacífico: /balboa (PPC) · /psa-panama-rodman · /taboguilla-melones (terminales) · /vacamonte (flota pesquera)
 ├── /about                          Historia, capitán, equipo, red (BR/AW/GR/VE), socios, canal de ética
-├── /certifications                 ISO 9001/14001/45001/22000, licencias AMP/ACP, IMO, credenciales del capitán
+├── /certifications                 ISO 9001/14001/45001 (+22000 con su alcance real), licencia AMP, autorización ACP, IMO company number, credenciales del capitán y de los surveyors
+├── /compliance                     Sanciones (OFAC, UE, Reino Unido, ONU), KYC/AML, antisoborno, canal de ética, KYC pack descargable, SOS Resilience (nombre legal, licencia, titularidad)
 ├── /insights                       Blog (categorías: Panama Canal · Surveys · Bunker · Claims · Company)
 │   └── /insights/[slug]
 ├── /contact                        Formulario "Request a port call / quote" + WhatsApp + teléfonos 24/7 + mapa
 ├── /request-port-call              Formulario largo (buque, IMO, ETA, puertos, servicios) → PDA
-├── /privacy · /terms
-/es  (espejo con slugs en español: /servicios, /agencia-naviera-transito-canal-de-panama, /inspecciones-maritimas, /guia-transito-canal-de-panama, /puertos, /nosotros, /certificaciones, /blog, /contacto, /solicitar-port-call)
-/llms.txt · /llms-full.txt · /sitemap.xml · /robots.txt · /rss.xml
+├── /privacy · /terms (Standard Trading Conditions, modelo FONASBA/ITIC, ley panameña; enlazadas en PDA, FDA y correos)
+/es  (espejo con slugs en español: /servicios, /agencia-naviera-transito-canal-de-panama, /inspecciones-maritimas, /guia-transito-canal-de-panama, /puertos, /nosotros, /certificaciones, /cumplimiento, /blog, /contacto, /solicitar-port-call)
+/llms.txt · /llms-full.txt · /sitemap.xml · /robots.txt · /en/rss.xml · /es/rss.xml · /<clave-indexnow>.txt
 ```
 
 Reglas: cada página de servicio tiene su propio H1, resumen de 2 líneas, secciones "Qué incluye / Qué entregamos / Puertos / Cómo empezar", FAQ y CTA. Sin páginas de puerto "de relleno": solo las que realmente atienden y cada una con contenido único (terminal, operador, restricciones, bunker disponible, distancia al Canal).
@@ -283,7 +287,7 @@ Reglas: cada página de servicio tiene su propio H1, resumen de 2 líneas, secci
 - **C4 (Should)** Como visitante desde ChatGPT/Perplexity, quiero llegar a una página que responda exactamente lo que pregunté, para no rebotar. *Criterios:* cada guía tiene TL;DR, definiciones y pasajes citables; `llms.txt` publicado.
 
 **Épica D · Operación del sitio (Guillermo, Irene, ECUS)**
-- **D1 (Must)** Como Guillermo, quiero editar textos y publicar un post desde una pantalla sencilla, para no depender de nadie. *Criterios:* Keystatic en `/keystatic` con login por GitHub; campos con ayudas; vista previa; publicación = commit + deploy automático en < 3 min.
+- **D1 (Must)** Como Guillermo, quiero editar textos y publicar un post desde una pantalla sencilla, para no depender de nadie. *Criterios:* Keystatic en `/keystatic` con login por GitHub (post-lanzamiento); campos con ayudas; vista previa; publicar = PR automático que se fusiona solo cuando pasa el CI (la rama `main` sigue protegida), deploy en minutos.
 - **D2 (Must)** Como Irene, quiero ver de dónde vienen las solicitudes (página, idioma, campaña) y cuántas hay por semana, para decidir la pauta. *Criterios:* GA4 con eventos por tipo de formulario; panel semanal (Looker Studio o el pipeline de reportes ECUS); cada lead con `utm_*`, `gclid`, `fbclid` y página de origen guardados.
 - **D3 (Must)** Como ECUS, quiero previews por cada cambio y rollback en un clic, para no romper producción. *Criterios:* Vercel preview por PR; producción solo desde `main`; checks (build, lint, Lighthouse CI, Playwright) obligatorios.
 - **D4 (Should)** Como Irene, quiero que cada lead entre también al CRM/WhatsApp del sistema de ventas ECUS, para darle seguimiento. *Criterios:* webhook con payload documentado; reintentos; sin duplicados.
@@ -311,14 +315,14 @@ Reglas: cada página de servicio tiene su propio H1, resumen de 2 líneas, secci
 
 ### 8.2 Sistema visual
 - **Paleta:** base de neutros fríos (grafito profundo `#0E1620` para superficies oscuras, papel `#F5F7F9` para claras, gris humo para texto secundario) y **un solo acento: cobalto `#1F4FD8`** (heredado del ancla azul del logo), reservado para CTAs, enlaces y marcas de estado. Modo claro por defecto para las páginas de contenido, hero y pie oscuros; **un solo tema por página**, sin alternar bloques claro/oscuro.
-- **Tipografía:** **Geist** (display y cuerpo, vía `next/font`, pesos 400/500/600) + **Geist Mono** para datos. Escala: display `clamp(2.25rem, 4.5vw, 4rem)` con `letter-spacing -0.02em`, `line-height 1.05`; cuerpo 1.0625rem / 1.6.
+- **Tipografía:** **Geist** (display y cuerpo, vía `next/font`, pesos 400/500/600/700) + **Geist Mono** para datos. Escala: display `clamp(2.25rem, 4.5vw, 4rem)` con `letter-spacing -0.025em`, `line-height 1.05`; cuerpo 1.0625rem / 1.6. Contenedor `--container-max: 1320px` (token único en `@theme`).
 - **Fotografía:** imágenes reales de operación (tránsito visto desde el buque, esclusas, bunkering, capitán en puente, oficina en RBS Tower). Mientras llegan: placeholders con seeds descriptivos, nunca ilustraciones inventadas. Lista de tomas necesarias en sección 13.
 - **Layout:** hero asimétrico (texto izquierda, imagen a sangre derecha), secciones alternando familias distintas (split, bento con imágenes reales, lista de proceso en sticky-stack, tabla de puertos, testimonio a ancho completo, franja de logos única). Contenedor `max-w-[1320px]`, `min-h-[100dvh]` en el hero.
-- **Movimiento (motivado):** aparición escalonada de secciones al entrar en viewport (jerarquía), proceso del port call en pila pegajosa de 4 pasos (narrativa), agua del hero con desplazamiento sutil y parallax de 8-12 px (atmósfera; se apaga con `prefers-reduced-motion`), hover en tarjetas con elevación de 1 px y sombra teñida. Nada infinito salvo la franja de logos.
+- **Movimiento (motivado):** aparición escalonada de secciones al entrar en viewport (jerarquía), proceso del port call en pila pegajosa de 4 pasos (narrativa), agua del hero con desplazamiento sutil y parallax de 8-12 px (atmósfera; se apaga con `prefers-reduced-motion`), hover en tarjetas con elevación de 1 px y sombra teñida. Nada infinito salvo la franja de credenciales (única marquesina de la página; los logos de socios van estáticos). Sin animación de entrada por encima del pliegue: el hero y la franja cargan quietos para no retrasar el LCP.
 - **Componentes clave:** barra translúcida con CTA "Request port call"; tarjeta de servicio con imagen; "ficha de puerto" con datos en mono; formulario de port call en 2 pasos con estados de carga/error/éxito reales; bloque de credencial (ISO/licencia) con imagen y vigencia; bio del capitán; tarjeta de post con autor y fecha de revisión; switch de idioma.
 
 ### 8.3 Voz y copy
-Directa, técnica sin jerga innecesaria, en primera persona del plural. Español neutro (sin voseo). Sin superlativos vacíos ("elevate", "seamless", "world-class"). Cada titular ≤ 8 palabras; cada subtítulo ≤ 25. Un solo CTA por intención en toda la página ("Request a port call" / "Solicitar port call").
+Directa, técnica sin jerga innecesaria, en primera persona del plural. Español neutro (sin voseo). Sin superlativos vacíos ("elevate", "seamless", "world-class"). Cada titular ≤ 10 palabras; cada subtítulo ≤ 25. Un solo CTA por intención en toda la página; las etiquetas canónicas son las 7 de §16. Prohibido: "Report a claim" (nadie reporta un reclamo por formulario), "reports your underwriter will accept" (no podemos prometer aceptación), "toll guarantees" (salvo que exista facilidad de garantía con la ACP), "no surprises", "within the hour".
 
 ---
 
@@ -331,14 +335,14 @@ Directa, técnica sin jerga innecesaria, en primera persona del plural. Español
 | Movimiento | **Motion** (`motion/react`) con springs; sin GSAP salvo que haga falta un pin | Interrumpible, `useReducedMotion`, aislado en client leaves. |
 | Iconos | **Phosphor Icons** (`@phosphor-icons/react`), `weight="regular"`, una sola familia | Consistencia; nada dibujado a mano. |
 | i18n | **next-intl** con rutas `/en` y `/es`, mensajes en JSON y contenido MDX por idioma | hreflang y switch sin recargar. |
-| Contenido / CMS | **Keystatic** (modo GitHub) + MDX: colecciones `services`, `ports`, `posts`, `cases`, `team`, `certifications`; singletons `site`, `contact` | Editor visual en `/keystatic`, guarda en el repo (sin base de datos ni costo), historial en git, deploy automático. Guillermo/Irene publican; nosotros revisamos por PR si queremos. |
-| Formularios | Server Actions + **Zod** + **Resend** (email transaccional) + **Cloudflare Turnstile** (anti-spam) + webhook a WhatsApp/CRM ECUS | Sin backend aparte; validación en servidor; leads guardados también en Vercel Postgres/Neon (tabla `leads`) para no perder ninguno si falla el email. |
-| Analítica | **GA4 + GTM** (eventos: `port_call_request`, `survey_request`, `fuel_quote`, `whatsapp_click`, `phone_click`, `email_click`, `profile_download`, `language_switch`, `guide_read_75`) + **Vercel Web Analytics** + **Speed Insights** + **Search Console** + **Bing Webmaster** | Medible de extremo a extremo con atribución (utm, gclid, fbclid, referrer) guardada en cada lead. |
-| SEO | `app/sitemap.ts`, `app/robots.ts`, `metadata` API, JSON-LD por plantilla, `llms.txt`, RSS, redirects 301 en `next.config.ts`, IndexNow | Todo generado desde el contenido, sin plugins. |
+| Contenido / CMS | MDX + JSON en el repo desde el día 1 (colecciones y singletons definidos en la especificación técnica §4). **Keystatic** (modo GitHub con ramas `content/*` y PR automático) se activa **después del lanzamiento** | Editor visual en `/keystatic`, guarda en el repo (sin base de datos ni costo), historial en git. Guillermo/Irene publican; `main` sigue protegida. |
+| Formularios | Server Actions + **Zod 4** + **Resend** + **Cloudflare Turnstile** (en el paso 2) + adjuntos por **subida directa a Vercel Blob privado** (el límite de Vercel es 4,5 MB por request) + tabla `leads` en **Neon** + `outbox` con reintentos + webhook firmado al CRM ECUS | Sin backend aparte; validación en servidor; idempotencia por `submissionId`; el usuario recibe su número al instante y los correos/webhook salen después (`after()`); ningún lead se pierde si falla el correo o la base. |
+| Analítica | **GA4 + GTM** (lista canónica de eventos en `lib/analytics.ts`, referenciada en §11 y en la especificación §6) + Consent Mode v2 por región + **Vercel Web Analytics** + **Speed Insights** + **Search Console** + **Bing Webmaster** | Medible de extremo a extremo con atribución (utm, gclid, fbclid, referrer) guardada en cada lead; Enhanced Conversions for Leads para las etapas offline. |
+| SEO | `app/sitemap.ts`, `app/robots.ts` (un solo grupo), `metadata` API, JSON-LD por plantilla, `llms.txt` + `llms-full.txt` generado, RSS por idioma, redirects 308 en `next.config.ts` y 410 en `proxy.ts`, IndexNow, `opengraph-image.tsx` por segmento | Todo generado desde el contenido, sin plugins. |
 | Calidad | ESLint + Prettier + TypeScript strict · **Playwright** (smoke de formularios, i18n, 404) · **Lighthouse CI** con presupuesto (perf ≥ 95, a11y ≥ 95) · `axe` en CI | Bloquea merge si baja la calidad. |
-| Hosting | **Vercel Pro** (team `munozospinad0s-projects`): producción desde `main`, previews por PR, dominio `crossworldagency.com` + `www`, Edge Network, imagen optimizada, protección de deploy | Ya pagado; sin cron sub-diario (rompe el deploy en Hobby, en Pro no, pero no hace falta). |
+| Hosting | **Vercel Pro** (team `munozospinad0s-projects`): producción desde `main`, previews por PR con "Shareable links" para Irene, dominio `crossworldagency.com` (apex primario) + `www`, Edge Network, imagen optimizada, WAF con rate limiting, cron horario para `outbox` | Ya pagado. Plan B: `preview.crossworldagency.com` con `noindex` si el DNS no llega a tiempo. |
 | Repositorio | **GitHub `munozospinad0/crossworld-agency`** (público, requisito de Pages en plan free) · Pages sirve `/docs` (esta planeación y el tablero de avances) | Compartir avances con Irene con un link; sin secretos en el repo (variables en Vercel). |
-| Dominio / correo | DNS a Vercel (A/CNAME), mantener MX del correo actual; SPF/DKIM/DMARC para Resend con subdominio `mail.crossworldagency.com` | No romper el correo de gpena@. |
+| Dominio / correo | DNS a Vercel (valores del panel del proyecto), MX del correo actual intactos; Resend en el subdominio **`send.crossworldagency.com`** (nunca `mail.`, que suele ser el host IMAP/webmail); DMARC en el apex con `p=none` desde T-7 y `quarantine` a los 60 días; `operations@` creado en S1 | No romper el correo de gpena@. |
 
 **Estructura del repo (propuesta):**
 ```
@@ -358,26 +362,25 @@ tests/                           Playwright
 
 ## 10. Blog / centro de contenidos ("Insights")
 
-**Objetivo:** ser la referencia práctica sobre operar un buque en Panamá, firmada por un capitán. **Cadencia:** 2 piezas/mes en inglés + su versión en español (traducción humana, no literal), revisión trimestral de las guías pilar. **Autor principal:** Capitán Guillermo Peña (bio con credenciales, foto real, LinkedIn). **Formato estándar:** TL;DR de 3 líneas → respuesta directa → desarrollo con subtítulos H2 por pregunta → tabla/lista → FAQ visible → "Cómo podemos ayudar" (CTA único) → fecha de publicación y de última revisión → fuentes.
+**Objetivo:** ser la referencia práctica sobre operar un buque en Panamá, revisada por un capitán. **Cadencia realista:** 1 pieza al mes en inglés + su versión en español (traducción humana, no literal), más **alertas ACP el mismo día** en LinkedIn y correo (Norton Lilly y GAC publican los avisos el mismo día; un resumen mensual llega viejo), y revisión trimestral de las guías pilar. **Autoría honesta (E-E-A-T):** ECUS redacta; el capitán revisa en una llamada mensual de 30 minutos; byline *"Written by the Cross World operations team. Reviewed by Capt. Guillermo A. Peña, Master Mariner, ISM internal auditor. Last reviewed {fecha}."* Nunca firmar como autor lo que no escribió. **Formato estándar:** TL;DR de 3 líneas → respuesta directa → desarrollo con subtítulos H2 por pregunta → tabla/lista → FAQ visible → "Cómo podemos ayudar" (CTA único) → fecha de publicación y de última revisión → fuentes.
 
 ### Calendario editorial · primeros 6 meses (24 piezas, EN+ES)
 | Mes | Pieza pilar / post | Cluster de keywords | Tipo |
 |---|---|---|---|
-| Sep (pre-lanzamiento) | Panama Canal transit cost and tolls 2026: what shipowners actually pay | fee/price/rates/cost 880 · how much... 480 · toll 320 | Pilar |
-| Sep | How to choose a ship agent in Panama (and the 12 questions to ask) | conquest 2.500 · panama shipping agency | Comparativa |
-| Oct | Booking a Panama Canal transit: slots, pre-booking, PDA and what your agent does | booking 320 · schedule 260 · pre booking | Pilar |
-| Oct | Port of Balboa: terminal, anchorage, bunkering and services (2026) | port of balboa 1.900 · ES 2.900 | Guía de puerto |
-| Nov | Port of Cristóbal and Colón: what to expect on the Atlantic side | cristobal 1.600 · colón | Guía de puerto |
-| Nov | Bunker survey in Panama: how to avoid a quantity or quality dispute | bunker survey · dispute · BDN | Guía técnica |
-| Dic | Draft survey explained: method, tolerances and the report you should receive | draft survey 1.600 | Guía técnica |
-| Dic | Bunker prices in Panama: what moves them (monthly data with source) | bunker rates 2.900 · cost 720 | Dato + fuente |
-| Ene | Panama Canal draft restrictions, water levels and transit time in 2027 | draft restrictions · water levels 260 · transit time 90 | Actualización |
-| Ene | Crew change in Panama: rules, ports, visas and timing | crew change panama | Guía operativa |
+| Sep a Oct (se redacta antes; **es la página** `/panama-canal-transit-guide`, no un post) | Panama Canal transit cost, tolls and booking: the 2026 guide for shipowners and operators (componentes del costo + dos ejemplos de PDA reales, sin tarifario propio) | fee/price/rates/cost 880 · how much 480 · toll 320 · booking 320 · schedule 260 | Pilar (página) |
+| Oct (lanzamiento) | PDA walkthrough: a Panamax bulk carrier and a product tanker, line by line | pda · panama canal transit quote | Guía operativa (prioridad 1 para el comprador) |
+| Oct | Owner's nominated, charterer's nominated and protecting agent at the Panama Canal: which one you need | protecting agent · husbandry agent | Guía de decisión |
+| Nov | Crew change in Panama: nationalities that need a visa, agent's guarantee letter, immigration lead time, Tocumen transfers, Canal-waters transfers per the ACP notice in force | crew change panama | Guía operativa (alto valor) |
+| Nov | PCSOPEP and the authorized person: what the ACP requires before the locks open | pcsopep | Guía de cumplimiento |
+| Dic | Bunker dispute at Balboa or Cristóbal: the first 24 hours (BDN vs soundings, samples, letter of protest, time bars) | bunker survey · dispute · BDN | Guía técnica |
+| Dic | Booking and LoTSA explained in 5 steps | booking 320 · lotsa | Guía |
+| Ene | Port of Balboa and Port of Cristóbal: what to expect on each side (una guía por lado) | port of balboa 1.900 · cristobal 1.600 · ES 2.900 | Guías de puerto |
+| Ene | Draft survey explained: method, tolerances and the report you should receive | draft survey 1.600 | Guía técnica |
+| Feb | Bunker market in Panama: volumes (AMP data), grades, Balboa vs Cristóbal, delivery windows (sin precios: son datos licenciados de Platts o Ship & Bunker) | bunker rates 2.900 · cost 720 | Dato + fuente |
 | Feb | Pre-purchase inspection checklist for bulk carriers and tankers | condition surveys 320 (+488%) · pre purchase | Checklist |
-| Feb | Ship-to-ship transfers in Panama: procedure, mooring master, surveys | sts panama 40 · STS guide 210 | Guía técnica |
-| + ES | Cómo funciona el Canal de Panamá para armadores y operadores · Puerto de Balboa · Autoridad Marítima de Panamá: qué hace y cómo tramitar · Cuánto cuesta cruzar el Canal · Agencia naviera en Panamá: qué debe incluir el servicio · Trasiego y suministro de combustible marino en Panamá | 880 · 2.900 · 1.000 · 50-70 · 30 · 210 | Versiones ES |
+| + ES (50 % del outreach es en español) | Cómo cotizar un tránsito por el Canal (PDA) · Agente naviero autorizado por la ACP: qué debe incluir el servicio · Cambio de tripulación en Panamá · Inspección de bunker y reclamos en Balboa y Cristóbal · Puerto de Balboa · Autoridad Marítima de Panamá: qué hace y cómo tramitar | 30 · 210 · long tail · 2.900 · 1.000 | Versiones ES |
 
-Piezas evergreen de respaldo: "Panama ship registry: why so many vessels fly the Panamanian flag" (480), "Port of Manzanillo (MIT) guide" (3.600), "What a protecting agent does (and when you need one)", "ISM internal audit: what we check", "Cargo claims in Panama: first 24 hours".
+Piezas evergreen de respaldo: "Port of Manzanillo (MIT) guide" (3.600), "Ship-to-ship transfers at Panama anchorages: procedure, mooring master, surveys" (STS guide 210), "ISM internal audit: what we check", "Cargo claims in Panama: first 24 hours", "How to choose a ship agent in Panama (12 questions)" (comparativa). Descartadas: "Panama ship registry" (lo tramitan abogados residentes, no convierte) y "Cómo funciona el Canal" como pieza propia (trae estudiantes y turistas; se cubre dentro de la guía pilar).
 
 Reglas: nunca publicar sin fuente en cifras; nunca prometer tiempos del Canal; cada pieza enlaza a 2 servicios y a 2 guías; imágenes propias o con licencia; sin em-dashes.
 
@@ -385,22 +388,26 @@ Reglas: nunca publicar sin fuente en cifras; nunca prometer tiempos del Canal; c
 
 ## 11. Medición: qué se mide, cómo y qué es "bien"
 
-**Norte:** solicitudes cualificadas por mes (port call, survey, cotización de combustible) y su costo de adquisición.
+**Norte:** nominaciones al mes e ingreso por FDA por canal. Las solicitudes cualificadas son el indicador adelantado. **"Cualificada"** = buque con nombre e IMO, ETA real y principal identificable. La línea base válida para las metas es el volumen real de hoy (tránsitos, escalas y surveys por año, por tipo de principal y país), que se pide en la reunión de arranque (§25, pregunta 15).
 
 | Métrica | Herramienta | Línea base | Meta 3 meses | Meta 6 meses |
 |---|---|---|---|---|
-| Solicitudes cualificadas / mes | Formularios → GA4 + tabla `leads` | 0 (el sitio no tiene formulario) | 6 | 15 |
-| Tasa de conversión (solicitud / sesión) | GA4 | n/d | 1,5% | 2,5% |
-| Clics orgánicos / mes | Search Console | ~0 | 300 | 1.200 |
-| Keywords objetivo en top 3 (de 25) | Search Console + sondeo manual | 0 | 8 | 18 |
-| Citas en motores de IA (12 prompts × 4 motores) | Script mensual | 0/48 | 6/48 | 16/48 |
+| Nominaciones / mes atribuibles al sitio o al outreach | CRM | (pregunta 15) | 1 | 2 a 3 |
+| Solicitudes cualificadas / mes | Formularios → GA4 + tabla `leads` | 0 (el sitio no tiene formulario) | 2 a 3 | 5 a 8 |
+| Tasa de conversión (solicitud / sesión) | GA4 | n/d | 0,3% | 0,8% |
+| Registro en plataformas de DA (DA-Desk u otras que pidan los principales) | Manual | no | sí | sí |
+| KYC packs enviados / PDAs comparativas emitidas | CRM | 0 | 10 / 5 | 25 / 15 |
+| Tasa de respuesta del outreach | CRM | n/d | 8% | 8% |
+| Clics orgánicos / mes | Search Console | ~0 | 150 | 600 |
+| Keywords objetivo en top 5 (de 25, las de competencia LOW) | Search Console + sondeo manual | 0 | 6 | 10 |
+| Citas en motores de IA (12 prompts × 4 motores, indicador secundario) | Script mensual | 0/48 | 3/48 | 8/48 |
 | Core Web Vitals (móvil, p75) | Speed Insights + PSI | n/d | LCP < 2,0 s · INP < 150 ms · CLS < 0,05 | igual |
-| Lighthouse móvil (perf/a11y/SEO) | Lighthouse CI en cada PR | n/d | ≥ 95 / 95 / 100 | igual |
-| Tiempo de respuesta a solicitudes | Marca de tiempo en `leads` | n/d | < 4 h (24/7) | < 2 h |
-| Posts publicados / mes | Keystatic | 0 | 2 + 2 ES | 2 + 2 ES |
-| Reseñas en Google Business Profile | GBP | 0 | 5 | 12 |
+| Lighthouse móvil (perf/a11y/SEO), JS propio ≤ 150 KB gzip, terceros aparte | Lighthouse CI en cada PR | n/d | ≥ 95 / 95 / 100 | igual |
+| Tiempo de primera respuesta a solicitudes | Marca de tiempo en `leads` | n/d | < 4 h (24/7) | < 2 h solo si hay guardia nocturna real |
+| Piezas publicadas / mes | Repo / Keystatic | 0 | 1 + 1 ES + alertas ACP | 1 + 1 ES + alertas ACP |
+| Reseñas en Google Business Profile | GBP | 0 | 3 | 5 |
 
-**Eventos GA4 (nombres fijos, no se cambian nunca):** `port_call_request`, `survey_request`, `fuel_quote_request`, `contact_submit`, `whatsapp_click`, `phone_click`, `email_click`, `profile_download`, `language_switch`, `guide_read_75`, `cta_click` (con `cta_id`), `form_error` (con `field`). Todos con `page_path`, `locale`, `utm_*`, `gclid`, `fbclid`, `referrer` como parámetros.
+**Eventos GA4:** la lista canónica vive en `lib/analytics.ts` (tipada) y se documenta en la especificación técnica §6; este plan no la copia para que no derive. Las etapas offline (`qualified`, `nomination`) no son eventos GA4: se importan a Google Ads (Enhanced Conversions for Leads + `gclid`).
 
 **Cada lead guarda:** timestamp, tipo, campos del formulario, página, idioma, `utm_*`, `gclid`, `fbclid`, referrer, user agent, estado de envío del email/webhook, tiempo hasta primera respuesta (lo marca quien responde desde el CRM).
 
@@ -412,12 +419,14 @@ Reglas: nunca publicar sin fuente en cifras; nunca prometer tiempos del Canal; c
 
 | Fase | Semanas | Entregables | Criterio de "hecho" |
 |---|---|---|---|
-| **0 · Planeación** | 27-29 ago | Este plan, keyword research, competidores, repo + GitHub Page de avances | Irene aprueba el plan y el posicionamiento |
-| **1 · Fundaciones** | 1-2 sep → 12 sep | Repo Next.js 16 + Tailwind v4 + Motion + next-intl + Keystatic; sistema de diseño (tokens, tipografía, componentes); home, hub de servicios, contacto y formulario de port call funcionando con emails y leads guardados; deploy en Vercel (preview) | Home con Lighthouse ≥ 95, formulario probado de punta a punta, preview compartida |
-| **2 · Contenido y confianza** | 15-26 sep | 7 páginas de servicio (EN), about, certificaciones, 4-6 puertos, casos; traducción ES completa; schema y hreflang; imágenes reales (o placeholders marcados) | Todas las páginas con contenido real revisado por Guillermo; ES revisado |
-| **3 · Contenidos y SEO/GEO** | 29 sep → 10 oct | Blog con Keystatic, 4 primeras piezas (2 pilares EN + ES), `llms.txt`, sitemap, robots, OG, RSS; Playwright + Lighthouse CI; auditoría de accesibilidad; GA4/GTM/Search Console/Bing configurados | Checklist SEO técnico 100%; eventos verificados en GA4 DebugView |
-| **4 · Migración y lanzamiento** | 13-17 oct | Mapa de 301, DNS a Vercel, `www`, HSTS; GBP, Bing Places, directorios; envío de sitemap; monitoreo 72 h | Producción en crossworldagency.com sin errores 4xx/5xx; GSC sin problemas de cobertura |
-| **5 · Crecimiento** | desde oct, mensual | 2+2 piezas/mes, revisión trimestral de guías, sondeo de IA, reporte mensual, pauta (Google Search de marca + LinkedIn si Irene lo decide) | KPIs de la sección 11 |
+| **0 · Planeación** | 27 a 29 ago | Este plan, keyword research, competidores, sistema de diseño, especificación técnica, contenido v0, repo + GitHub Page de avances | Irene aprueba el plan y el posicionamiento |
+| **0.5 · Página puente (72 h)** | 31 ago a 2 sep | Una sola página en el dominio actual (o subdominio en Vercel con redirección): razón social, licencia AMP, autorización ACP, 7 servicios en una línea, teléfonos por lado, WhatsApp, correo corporativo, dirección, "nuevo sitio en octubre". Deja de mostrar "Roller Chain Drives" mientras arranca el outreach | Página puente en línea |
+| **1 · Fundaciones** | 31 ago a 11 sep | Repo Next.js 16 + Tailwind v4 + Motion + next-intl; sistema de diseño (tokens, tipografía, componentes); home, hub de servicios, contacto y formulario de port call funcionando con adjuntos, emails, `outbox` y leads guardados; GSC y Bing verificados sobre el sitio actual; `operations@` creado; preview en Vercel con enlace compartible | Home con Lighthouse ≥ 95, formulario probado de punta a punta, preview compartida |
+| **2 · Contenido y confianza** | 14 a 25 sep | 7 páginas de servicio (EN, copy congelado el 18 sep), about, certificaciones, compliance, 2 puertos (Balboa, Cristóbal), PDA de muestra; traducción ES en paralelo por traductor; schema y hreflang; imágenes reales (o placeholders marcados) | Todas las páginas con contenido real revisado por Guillermo; ES revisado |
+| **3 · SEO/GEO técnico y calidad** | 28 sep a 9 oct | Guía pilar del Canal (con los dos ejemplos de PDA), `llms.txt`, sitemap, robots, OG, RSS por idioma, 308/410; Playwright, axe y Lighthouse CI; GA4/GTM con Consent Mode, Search Console y Bing | Checklist técnico 100%; eventos verificados en GA4 DebugView |
+| **4 · Migración y lanzamiento (MVP)** | 12 a 16 oct | DNS a Vercel (apex primario + `www`), envío de sitemaps, IndexNow, GBP, campañas de Google Ads listas en pausa, monitoreo 72 h, comunicado. **Alcance del MVP:** home, 7 servicios, about, certificaciones, compliance, contacto, request-port-call, Balboa y Cristóbal, guía pilar, privacidad y términos, todo EN+ES, formularios, GA4 básico, 308/410, GBP | Producción en crossworldagency.com sin 4xx/5xx; GSC sin problemas de cobertura |
+| **4.5 · Post-lanzamiento** | noviembre | Who we serve, resources, casos, blog + Keystatic con PR automático, Enhanced Conversions y conversiones offline, dashboard ECUS, directorios y plataformas de DA, PR marítimo | Todo lo que no bloquea el lanzamiento, ya en producción |
+| **5 · Crecimiento** | desde nov, mensual | 1+1 piezas/mes + alertas ACP el mismo día, revisión trimestral de guías, sondeo de IA, reporte mensual, pauta (Google Search de marca y exactas + LinkedIn ABM) | KPIs de la sección 11 |
 
 Riesgos y mitigación: (1) insumos del cliente tardan → arrancamos con contenido derivado del profile y placeholders marcados, nada bloquea el build; (2) acceso al dominio/DNS → pedirlo en la semana 1; (3) fotos → shot list clara y una sesión de 2 horas; (4) el permiso de git push puede bloquearse en algunas sesiones → alternativa: Daniel corre el push o ajusta permisos.
 
@@ -430,14 +439,17 @@ Riesgos y mitigación: (1) insumos del cliente tardan → arrancamos con conteni
 2. Logo en vector (AI/SVG/PDF) del ancla y del wordmark; si no existe, se redibuja.
 3. Lista definitiva de servicios y **puertos que sí atienden**; SLA real de respuesta (¿PDA en < 24 h? ¿surveyor en < 4 h?).
 4. Números oficiales para la web: WhatsApp Business, teléfono 24/7, email de solicitudes.
-5. Permiso escrito para mostrar logos de socios/clientes (Andrew Moore, Sabatino Pizzolante, Victoria Corp., EcoGreen, White Glacier) y para publicar los certificados ISO con su vigencia.
+5. Permiso escrito para mostrar logos de socios/clientes (Andrew Moore, Sabatino Pizzolante, Victoria Corp., EcoGreen, White Glacier y el sexto) y para publicar los certificados ISO con número, alcance y vigencia.
+6. **Registro en plataformas de DA (DA-Desk y las que pidan los principales)** y el **KYC pack** (Registro Público, licencia AMP, autorización ACP, ISO con alcance, póliza de responsabilidad profesional, W-8BEN-E, referencia bancaria): sin esto, un manager mediano no puede nominar aunque quiera.
+7. Cómo se pagan los peajes: ¿facilidad de garantía o crédito con la ACP, o fondos por adelantado? ¿Banco que recibe USD desde Europa y Asia sin problemas de corresponsalía? Condiciones generales de contratación vigentes y póliza (ITIC u otra).
+8. Quién aborda físicamente en el Atlántico (oficial residente en Colón, socio de lanchas), y si hay escucha VHF real. Decide el texto de "both sides of the Canal".
 
 **Mejoran mucho el resultado:**
-6. **Sesión de fotos (shot list):** capitán en el puente y en muelle; equipo en la oficina (RBS Tower); tránsito visto desde cubierta; esclusas; una operación de bunkering/survey (con EPP); fachada/vista de Paitilla; certificados enmarcados. Formato horizontal 3:2 y vertical 4:5, mínimo 3.000 px.
-7. 3-5 historias reales de port calls o surveys (tipo de buque, puerto, qué pasó, cómo se resolvió, tiempo).
-8. Testimonios de 2-3 clientes o socios (2 líneas, nombre y cargo).
-9. Cuenta de Google (para GBP, GA4, Search Console) y LinkedIn de la empresa y del capitán.
-10. Datos de SOS Resilience Holding: ¿se muestra como marca aparte o como línea de negocio?
+9. **Sesión de fotos (shot list):** capitán en el puente y en muelle; equipo en la oficina (RBS Tower); tránsito visto desde cubierta; esclusas; una operación de bunkering/survey (con EPP); fachada/vista de Paitilla; certificados enmarcados. Formato horizontal 3:2 y vertical 4:5, mínimo 3.000 px.
+10. 3-5 historias reales de port calls o surveys (tipo de buque, puerto, qué pasó, cómo se resolvió, tiempo) y 2 o 3 principales dispuestos a atender una llamada de referencia (vale más que un testimonio).
+11. Testimonios de 2-3 clientes o socios (2 líneas, nombre y cargo).
+12. Cuenta de Google (para GBP, GA4, Search Console) y LinkedIn de la empresa y del capitán.
+13. Datos de SOS Resilience Holding: nombre legal, licencia de comercialización de hidrocarburos, titularidad; ¿suministro físico propio o trading?; ¿se muestra como marca aparte con su propio contacto?
 
 ---
 
@@ -458,13 +470,13 @@ Convenciones: **H1** único por página · **Resumen** de 2 líneas bajo el H1 (
 ### 15.1 Home (`/en`, `/es`)
 - **Objetivo:** que un ops manager, un claims handler o un trader entienda en 5 segundos qué hacemos, dónde y por qué confiar, y pida un port call.
 - **Keyword:** panama shipping company · panama shipping agency · ES agencia naviera panamá.
-- **H1:** *Ship agency, marine surveys and bunkering at the Panama Canal.* (ES: *Agencia naviera, inspecciones y bunker en el Canal de Panamá.*)
+- **H1:** *Ship agency and marine surveys at the Panama Canal.* (ES: *Agencia naviera e inspecciones marítimas en el Canal de Panamá.*)
 - **Secciones (en orden):**
-  1. **Hero asimétrico:** H1 + subtítulo de 20 palabras ("Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim, 24/7.") + CTA primario "Request a port call" + secundario "WhatsApp duty officer" + imagen a sangre (tránsito visto desde cubierta).
-  2. **Franja de credenciales (única marquesina):** AMP · ACP authorized agent · IMO 5785507 · ISO 9001 · 14001 · 45001 · 22000 · Since 2010.
-  3. **Servicios (bento 7 celdas con imagen real en 3 de ellas):** título, 1 línea, enlace. Orden: Ship agency & Canal transit · Marine surveys · Bunker surveys & claims · Bunkering & oil operations · STS & offshore · Marine claims · Consulting & brokerage.
-  4. **Cómo funciona un port call (pila pegajosa de 4 pasos):** Nomination → PDA within 24 h → Boarding & transit → FDA. Cada paso con qué recibe el cliente y en cuánto tiempo (SLA a confirmar).
-  5. **Ambos lados del Canal (ficha de puertos en mono):** Balboa (Pacífico) y Cristóbal (Atlántico) con teléfono de guardia de cada lado, más Manzanillo, Colón, PSA, Rodman.
+  1. **Hero asimétrico (sin animación de entrada, por el LCP):** H1 + subtítulo ("Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.") + CTA primario "Request a port call" + secundario "WhatsApp duty officer" + imagen a sangre (tránsito visto desde cubierta).
+  2. **Franja de credenciales (única marquesina, con pausa accesible y copia `aria-hidden`):** AMP-licensed ship agency · Authorized by the Panama Canal Authority · IMO company number 5785507 · ISO 9001 · 14001 · 45001 · Since 2010 · Balboa and Cristóbal. (ISO 22000 no: su alcance es inspección de carga alimentaria.)
+  3. **Servicios (bento 7 celdas con imagen real en 3 de ellas):** título, 1 línea, enlace. Orden: Ship agency & Canal transit · Marine surveys · Bunker surveys & claims support · Marine fuel supply · STS & offshore · Marine claims support · Consulting & audits.
+  4. **Cómo funciona un port call (pila pegajosa de 4 pasos):** Nomination → PDA (mismo día hábil / 24 h, a confirmar) → Boarding & transit → FDA conciliada (30 días, a confirmar). Cada paso con qué recibe el cliente y en cuánto tiempo.
+  5. **Ambos lados del Canal (ficha de puertos en mono):** Balboa (Pacífico) y Cristóbal (Atlántico) con teléfono de guardia de cada lado y la nota real de atención en el Atlántico (oficial residente o socio de abordaje), más los puertos que sí atienden (Manzanillo, CCT, Bahía Las Minas, PSA-Rodman, terminales del Pacífico, Vacamonte; confirmar).
   6. **El capitán (split):** foto real, 3 líneas de bio, credenciales ISM/ABSG/Maersk Training, enlace a About. Es la sección E-E-A-T.
   7. **A quién servimos (4 tarjetas con foto):** Shipowners & managers · Charterers & traders · P&I clubs & insurers · Fishing fleets & regional operators.
   8. **Prueba (testimonio a ancho completo + logos de socios).** Solo con permiso.
@@ -496,11 +508,11 @@ Cada una con el mismo esqueleto, contenido 100% propio (mínimo 600 palabras EN,
 |---|---|---|---|
 | ship-agency-panama-canal-transit | Panama Canal transit agent and husbandry services | panama canal transit agent · panama canal agent | Request a port call |
 | marine-surveys | Marine surveys and inspections in Panama | marine surveyor panama · draft survey · condition survey | Request a surveyor |
-| bunker-surveys-and-claims | Bunker surveys and bunker dispute handling | bunker survey · bunker quality dispute · on/off hire | Request a bunker surveyor |
-| bunkering-and-oil-operations | Marine fuel supply and oil operations in Panama | bunkering panama · marine fuel panama · MGO | Request a fuel quote |
-| ship-to-ship-and-offshore | Ship-to-ship transfers and offshore support | sts panama · ship to ship transfer | Plan an STS operation |
-| marine-claims | Marine claims handling and P&I correspondent support | cargo claims · marine claims · P&I | Report a claim |
-| maritime-consulting-and-brokerage | Maritime consulting, chartering and brokerage | maritime consulting · ship broker · chartering | Talk to the captain |
+| bunker-surveys-and-claims-support | Bunker surveys and bunker claims support in Panama | bunker survey · bunker quality dispute · on/off hire | Request a surveyor |
+| marine-fuel-supply | Marine fuel supply in Panama | bunkering panama · marine fuel panama · MGO | Request a fuel quote |
+| ship-to-ship-and-offshore | Ship-to-ship transfers and offshore support in Panama | sts panama · ship to ship transfer | Request a port call |
+| marine-claims-support | Marine claims support in Panama for clubs, insurers and lawyers | cargo claims · marine claims · P&I | Request attendance |
+| maritime-consulting-and-audits | Maritime consulting, ISM audits and project support | maritime consulting panama | Request a port call |
 
 ### 15.4 Who we serve (4 páginas)
 - **Objetivo:** hablarle a cada comprador en su idioma. **Estructura:** H1 ("For shipowners and managers") · qué les preocupa (3 puntos) · qué hacemos por ellos (mapa a servicios) · cómo trabajamos con ellos (comunicación, reportes, facturación, moneda, horarios) · documentos que reciben · casos · CTA propio. **Schema:** WebPage + BreadcrumbList.
@@ -513,8 +525,9 @@ Cada una con el mismo esqueleto, contenido 100% propio (mínimo 600 palabras EN,
 ### 15.6 Resources (`/resources`)
 - Enlaces oficiales ACP (booking, avisos, advisories), calado vigente (dato + fecha), checklists descargables (pre-arribo, bunker survey, crew change), PDA de muestra, glosario EN/ES (60 términos), "Estado del Canal hoy" (fase 2, con fuente). Cada descarga = evento `resource_download`.
 
-### 15.7 Puertos (`/ports` + 4 a 6 páginas)
-- **Por puerto:** H1 ("Port of Balboa: ship agency, surveys and bunkering") · ficha en mono (operador, terminales, lado del Canal, coordenadas, fondeaderos, calado, bunker disponible, distancia a las esclusas) · qué hacemos ahí · particularidades (restricciones, horarios, autoridad) · contacto de guardia de ese lado · FAQ · CTA. **Schema:** Place + Service. Contenido único por puerto; datos con fecha.
+### 15.7 Puertos (`/ports`; 2 páginas en el MVP, el resto en la fase 4.5, solo los que atienden de verdad)
+- **Lista real (auditoría comercial):** Atlántico: Cristóbal (PPC), Manzanillo (MIT), CCT, Bahía Las Minas (terminales de hidrocarburos), fondeadero de Cristóbal. Pacífico: Balboa (PPC), PSA Panama (Rodman; es un solo sitio, no dos páginas), terminales de Taboguilla y Melones, Vacamonte (flota pesquera). "Colón" no es un puerto. Charco Azul y Chiriquí Grande (PTP) solo si atienden tanqueros ahí (confirmar).
+- **Por puerto:** H1 ("Port of Balboa: ship agency, surveys and bunkering") · ficha en mono (operador, terminales, lado del Canal, coordenadas, fondeaderos, calado, bunker disponible, distancia a las esclusas) · qué hacemos ahí · particularidades (restricciones, horarios, autoridad) · contacto de guardia de ese lado y nota real de atención (oficial residente o socio de abordaje) · FAQ · CTA. **Schema:** Place + Service. Contenido único por puerto; datos con fecha; coordenadas y distancias etiquetadas como muestra hasta que operaciones las confirme.
 
 ### 15.8 About (`/about`)
 - Historia con línea de tiempo (2010 licencia, hitos, ISO por año) · el capitán (bio larga, credenciales con imágenes, LinkedIn) · equipo (con permiso) · red de representación (mapa: Panamá, Venezuela, Brasil, Aruba, Grecia) · socios · valores y canal de ética · CTA. **Schema:** AboutPage + Person.
@@ -530,13 +543,15 @@ Cada una con el mismo esqueleto, contenido 100% propio (mínimo 600 palabras EN,
 - **Request port call (formulario de 2 pasos):**
   - Paso 1, buque: nombre, IMO (7 dígitos, validación), tipo de buque (lista), bandera, LOA, manga, calado, GT, carga, ETA (fecha/hora + zona), puerto(s) (multi), tránsito (sí/no, dirección), tipo de principal (owner / charterer / manager / trader / P&I / otro).
   - Paso 2, servicios y contacto: servicios (multi con los 7), notas, adjunto (PDF/JPG hasta 10 MB), nombre, empresa, cargo, email (validación MX), teléfono con código de país, idioma preferido, consentimiento de privacidad.
-  - Comportamiento: guardado de borrador en el navegador; validación inline; Turnstile invisible; envío por Server Action; respuesta en pantalla con número de solicitud (`CW-YYYYMMDD-XXX`) y SLA; email de confirmación al cliente (EN/ES) y aviso a Cross World (email + WhatsApp); guardado en tabla `leads`; webhook al CRM ECUS; evento GA4 `port_call_request` con `principal_type`, `services`, `locale`.
+  - Comportamiento: guardado de borrador en el navegador; validación inline con errores asociados al campo (`aria-invalid`, `aria-describedby`); adjunto subido directo al Blob privado (el límite de Vercel es 4,5 MB por request); Turnstile invisible **en el submit del paso 2** (el token vale 300 s y es de un solo uso) y `reset()` en cada error; `submissionId` único por formulario para que un doble clic o un reintento no dupliquen; envío por Server Action; respuesta inmediata en pantalla con número de solicitud (`CW-YYYYMMDD-NNN`, contador atómico) y SLA; después, en segundo plano (`outbox`): email de confirmación al cliente (EN/ES), aviso a Cross World (email con botón de WhatsApp; el aviso por WhatsApp Cloud API es decisión de la fase 4.5) y webhook firmado al CRM ECUS; evento GA4 `port_call_request` con `principal_type`, `services`, `locale`.
   - Estados: cargando (botón con spinner y texto), error de campo, error de red (reintento sin perder datos), éxito.
 - **Variantes cortas** dentro de cada servicio: "Request a surveyor" (tipo, puerto, fecha, contacto) y "Request a fuel quote" (producto, toneladas, puerto, fecha, contacto).
 
 ### 15.12 Legales, 404 y utilidades
-- Privacy (Ley 81 de 2019 de Panamá + GDPR para visitantes europeos), Terms, Cookie notice (solo si se usan cookies no esenciales; GA4 con consentimiento), Disclaimer de tarifas ("las cifras del Canal son referenciales y de fuente ACP").
-- 404 útil: buscador, enlaces a servicios, WhatsApp.
+- Privacy (Ley 81 de 2019 de Panamá + GDPR para visitantes europeos), **Terms = Standard Trading Conditions** (modelo FONASBA/ITIC, ley panameña, enlazadas en PDA, FDA y correos), aviso de cookies con **Consent Mode v2 por región** (opt-in en UE, Reino Unido y Suiza; aviso con opt-out en el resto), Disclaimer de tarifas ("las cifras del Canal son referenciales y de fuente ACP").
+- **`/compliance`:** política de sanciones (OFAC, UE, Reino Unido, ONU) sobre buques y contrapartes, AML/KYC, antisoborno y pagos de facilitación (MACN: confirmar), canal de ética, protección de datos, **KYC pack** descargable, identidad legal de SOS Resilience Holding. Obligatoria por la exposición a Venezuela y al trading de combustible: es lo primero que revisa el compliance de un manager o de un club.
+- **Antifraude bancario** en contacto, PDA y correos: "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email."
+- 404 útil (traducido, vía catch-all): enlaces a servicios, WhatsApp; sin buscador con backend (si acaso, filtro en cliente sobre un JSON estático).
 - `llms.txt` (índice curado con 1 línea por página), `llms-full.txt`, `sitemap.xml`, `robots.txt`, `rss.xml`, `/humans.txt` (opcional).
 
 ---
@@ -546,30 +561,30 @@ Cada una con el mismo esqueleto, contenido 100% propio (mínimo 600 palabras EN,
 **Tono:** directo, técnico sin jerga innecesaria, primera persona del plural, español neutro sin voseo. Sin superlativos vacíos ("world-class", "seamless", "elevate"), sin promesas que no controlamos (tiempos del Canal, precios), sin guiones largos.
 
 **Hero (EN):**
-- A. *Ship agency, marine surveys and bunkering at the Panama Canal.* / Licensed by the AMP and the Panama Canal Authority since 2010. One team for the transit, the survey and the claim. 24/7.
-- B. *Licensed at the Canal. Certified on board. Accountable for the claim.* / Panama Canal transit agency, marine surveys, bunkering and claims handling under one ISO-certified team led by a captain.
-- C. *Your vessel, handled by a captain.* / Transit agency, husbandry, surveys and bunker at both ends of the Panama Canal.
+- A. *Ship agency and marine surveys at the Panama Canal.* / Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.
+- B. *Licensed at the Canal. Certified on board. Independent on the evidence.* / Panama Canal transit agency, husbandry and independent marine surveys under one ISO-certified team led by a captain.
+- C. *Your vessel, handled by a captain.* / Transit agency, husbandry and independent surveys at both ends of the Panama Canal.
 
 **Hero (ES):**
-- A. *Agencia naviera, inspecciones y bunker en el Canal de Panamá.* / Licencia de la AMP y de la Autoridad del Canal desde 2010. Un solo equipo para el tránsito, la inspección y el reclamo. 24/7.
-- B. *Agencia, inspecciones y reclamos en el Canal de Panamá. Un solo equipo, una sola llamada, 24/7.*
+- A. *Agencia naviera e inspecciones marítimas en el Canal de Panamá.* / Licencia de la Autoridad Marítima de Panamá y autorización de la Autoridad del Canal desde 2010. Un solo equipo para la escala. Surveyors independientes para la evidencia. 24/7.
+- B. *Un solo equipo para la escala. Surveyors independientes para la evidencia. 24/7.*
 
 **Una línea por servicio (EN / ES):**
 - Ship agency & Canal transit: *Nomination to FDA, both sides of the Canal.* / *De la nominación a la FDA, en ambos lados del Canal.*
-- Marine surveys: *Independent surveys with reports your underwriter will accept.* / *Inspecciones independientes con informes que su asegurador acepta.*
-- Bunker surveys & claims: *The surveyor who measured the fuel handles the dispute.* / *El mismo surveyor que midió el combustible maneja la disputa.*
-- Bunkering & oil operations: *MGO and ULSD in Panama, CIF or FOB, with quantity verified.* / *MGO y ULSD en Panamá, CIF o FOB, con cantidad verificada.*
+- Marine surveys: *Independent surveys, reported in the format underwriters and P&I clubs expect.* / *Inspecciones independientes, en el formato que esperan aseguradores y clubes P&I.*
+- Bunker surveys & claims support: *We measure, sample and document so the claim stands on evidence.* / *Medimos, muestreamos y documentamos para que el reclamo se sostenga en evidencia.*
+- Marine fuel supply: *MGO and ULSD arranged in Panama, CIF or FOB, quantity verified by an independent surveyor.* / *MGO y ULSD en Panamá, CIF o FOB, con cantidad verificada por un surveyor independiente.*
 - STS & offshore: *Ship-to-ship and terminal operations planned, attended and documented.* / *Operaciones ship-to-ship y de terminal planificadas, atendidas y documentadas.*
-- Marine claims: *Evidence preserved in the first 24 hours.* / *Evidencia preservada en las primeras 24 horas.*
-- Consulting & brokerage: *Chartering, projects and advice from a working captain.* / *Fletamento, proyectos y asesoría de un capitán en activo.*
+- Marine claims support: *Attendance and evidence preserved in the first 24 hours, under your club's instructions.* / *Atención y evidencia preservada en las primeras 24 horas, bajo instrucciones de su club.*
+- Consulting & audits: *ISM preparation, projects and advice from a working captain.* / *Preparación ISM, proyectos y asesoría de un capitán en activo.*
 
-**CTAs (una etiqueta por intención, en todo el sitio):** Request a port call / Solicitar port call · WhatsApp duty officer / WhatsApp de guardia · Request a surveyor / Solicitar surveyor · Request a fuel quote / Cotizar combustible · Report a claim / Reportar un reclamo · Nominate Cross World / Nominar a Cross World.
+**CTAs canónicos (7, una etiqueta por intención, en todo el sitio):** Request a port call / Solicitar port call · WhatsApp duty officer / WhatsApp de guardia · Request a surveyor / Solicitar surveyor · Request a fuel quote / Cotizar combustible · Request attendance / Solicitar atención (claims) · Request a transit PDA / Solicitar PDA de tránsito (solo en la guía del Canal) · Nominate Cross World / Nominar a Cross World. Retiradas: "Report a claim", "Plan an STS operation", "Talk to the captain", "Request a bunker surveyor", "Request a PDA in 24 hours".
 
 **Microcopy del formulario:** "We reply 24/7. You will receive a request number and a confirmation email." · Éxito: "Request CW-20260915-014 received. The duty officer has it. If it is urgent, call +507 6266-4242." · Error de red: "Your data is safe on this screen. Check your connection and send again."
 
-**Bloque "Nominate Cross World" (copiable):** Cross World Agencies, S.A. · RUC 1675308-1-680680 DV 34 · IMO 5785507 · Panama Canal Authority authorized agent · RBS Tower, 9th floor, office 902, Paitilla, Panama City · operations@ (a confirmar) · +507 6266-4242 · +507 383-0128.
+**Bloque "Nominate Cross World" (copiable):** Cross World Agencies, S.A. (brand: Cross World Agency; el nombre legal debe coincidir exactamente con la lista de agencias de la ACP) · RUC 1675308-1-680680 DV 34 · IMO company number 5785507 · AMP-licensed ship agency, authorized by the Panama Canal Authority (agency code: a confirmar) · RBS Tower, 9th floor, office 902, Calle Ramón H. Jurado, Paitilla, Panama City · operations@ (a confirmar; **cero direcciones de Gmail** en sitio, GBP, firmas y PDAs) · +507 6266-4242 · +507 383-0128 · "Bank details are issued only on the PDA and confirmed by phone with your duty officer."
 
-**Palabras prohibidas:** world-class, seamless, elevate, unleash, next-gen, revolutionize, "since 1995", "10+ awards", cualquier promesa de tiempos del Canal o de precios de peaje.
+**Palabras y frases prohibidas:** world-class, seamless, elevate, unleash, next-gen, revolutionize, "since 1995", "10+ awards", "no surprises", "within the hour", "handles the dispute", "reports your underwriter will accept", "toll guarantees" (salvo facilidad real con la ACP), "bunkering" en el H1, cualquier promesa de tiempos del Canal o de precios de peaje, cualquier SLA no confirmado por Guillermo.
 
 ---
 
@@ -581,19 +596,22 @@ El sitio es el destino; estos son los caminos. Cada canal tiene objetivo, tácti
 |---|---|---|---|---|---|---|
 | 1 | **SEO (sección 5)** | Ser #1 en "Panamá + servicio" y capturar el clúster del Canal | Páginas de servicio, guía pilar, puertos, blog 2+2/mes, enlaces internos, Search Console | Clics orgánicos, top 3 de 25 kw | Tiempo ECUS | Fase 1 |
 | 2 | **GEO / IA** | Ser citados por ChatGPT, Perplexity, Gemini, Copilot | llms.txt, schema, respuestas directas, comparativa "how to choose a ship agent in Panama", entidad consistente, menciones en medios | Citas en 12 prompts × 4 motores | 0 | Fase 3 |
-| 3 | **Google Ads Search** | Capturar intención comercial inmediata EN/ES | Campaña 1 "Marca" (cross world agency, crossworld panama; defensa contra Cross Roads) · Campaña 2 "Panamá + servicio EN" (transit agent, ship agency panama, marine surveyor panama, bunkering panama, sts panama; exacta y frase) · Campaña 3 "ES" (agencia naviera panamá, agente naviero, inspección de bunker) · negativos: cruise, tour, jobs, salary, wikipedia, history, visitor center, yacht charter · geo: Panamá + países de armadores (GR, SG, GB, NO, DE, TR, US, CO, VE, EC, MX) · Enhanced Conversions + importación de conversiones offline (PDA enviada, nominación) como en el setup de Sandra | CPL, solicitudes cualificadas, cuota de impresión de marca ≥ 90% | USD 300 a 600 | Fase 4 (lanzamiento) |
+| 3 | **Google Ads Search** | Capturar la poca intención comercial que existe (10 a 30 búsquedas/mes por término) y defender la marca | Solo concordancia exacta. Campaña 1 "Marca" (cross world agency, crossworld panama; defensa contra Cross Roads Agencies), USD 2 a 3/día · Campaña 2 "Panamá + servicio EN", 8 a 10 exactas, USD 5 a 8/día · Campaña 3 "ES", 2 exactas, USD 3 a 4/día · geo "presencia" (nunca "presencia o interés") · maximizar clics con CPC máximo de forma permanente (nunca se llega a 30 conversiones/mes) · negativos: cruise, tour, jobs, salary, wikipedia, history, visitor center, yacht charter · Enhanced Conversions for Leads + `gclid` para las etapas offline | Solicitudes cualificadas, cuota de impresión de marca ≥ 90% | USD 300 a 430 | Fase 4 (lanzamiento) |
 | 4 | **LinkedIn orgánico** | Autoridad del capitán y de la empresa donde están los compradores | Página de empresa completa (NAP, servicios, banner con credenciales) · perfil del capitán optimizado · 2 posts/semana (avisos ACP comentados, casos, fotos de operación, cada guía nueva) · comentar en posts de P&I clubs y bunker traders · newsletter de LinkedIn mensual "Panama Canal Brief" | Seguidores, visitas al sitio desde LinkedIn, mensajes InMail recibidos | Tiempo | Fase 2 |
 | 5 | **LinkedIn Ads (ABM)** | Llegar a 200 empresas objetivo | Lista de cuentas (ship managers en Atenas, Hamburgo, Singapur, Estambul, Oslo; traders en Houston y Ginebra; P&I clubs y corresponsales; flotas atuneras en Ecuador y Panamá) · cargos: Operations Manager, Port Captain, Marine Superintendent, Claims Handler, Bunker Trader, Fleet Manager · anuncios de documento (guía del Canal) y de conversación · retargeting a visitantes del sitio | Visitas de cuentas objetivo, solicitudes | USD 300 a 500 (opcional) | Fase 5 |
 | 6 | **Directorios y listados** | Estar donde los agentes se buscan y donde la IA aprende | Lista completa en sección 22.3: ACP (verificar datos), Cámara Marítima de Panamá, BIMCO, ShipServ, Findaport, Lloyd's List Intelligence, IBIA, IIMS, Google Business Profile, Bing Places, Apple Business Connect, Kompass, Páginas Amarillas Panamá | Listados activos con NAP idéntico, reseñas | Mayoría gratis; membresías a cotizar | Fase 2 a 4 |
-| 7 | **Corresponsalía P&I** | Trabajo recurrente de clubes y aseguradores | Solicitar inclusión como corresponsal/surveyor recomendado en Panamá en los clubes del International Group (Gard, Skuld, UK P&I, NorthStandard, Steamship Mutual, West, Britannia, London P&I, Swedish Club, Japan P&I, American Club, Shipowners' Club) y en aseguradores H&M regionales · dossier de credenciales (ISO, ISM, casos) · seguimiento trimestral | Clubes que nos listan, nombramientos | Tiempo | Fase 4 |
+| 7 | **Surveys y atención para corresponsales P&I, aseguradores y abogados** | Trabajo recurrente de reclamos | Los clubes del International Group ya tienen corresponsal en Panamá hace décadas y casi nunca cambian: pedir "inclusión" no produce nada. En cambio: (a) posicionarse como surveyor y agente de atención para los corresponsales existentes (subcontratan surveys y atendencias); (b) aseguradores P&I de prima fija fuera del IG, aseguradores de casco y de carga, agentes de recobro y firmas de abogados marítimos; (c) Sabatino Pizzolante (corresponsal P&I en Venezuela) como referidor formal; (d) tarifa de atención (hora, mínimo, viáticos, informe) "disponible a solicitud" | Nombramientos por corresponsales y aseguradores | Tiempo | Fase 4.5 |
 | 8 | **Outreach directo (email + WhatsApp)** | Abrir conversaciones con decisores | Secuencia de 3 correos + 1 WhatsApp (permiso previo) a 20 cuentas/semana desde el CRM · ángulo: "próximo tránsito por Panamá" · adjunto: guía del Canal y PDA de muestra · tono de capitán a capitán | Tasa de respuesta ≥ 8%, reuniones | Tiempo | Fase 4 |
 | 9 | **Alianzas y red** | Referidos cruzados | Acuerdos con Sabatino Pizzolante (VE), Andrew Moore & Associates, Victoria Corporation, EcoGreen, White Glacier: enlaces cruzados, co-contenido, referidos con comisión clara · representación en Grecia como puerta al mercado griego | Leads referidos | Tiempo | Fase 2 |
 | 10 | **PR y medios marítimos** | Menciones que la IA y Google usan como confianza | Notas a Mundo Marítimo, Panamá América, La Prensa (economía), Ship & Bunker, Manifold Times, Splash247 con datos propios (p. ej. tiempos de espera observados, disputas de bunker evitadas) · entrevistas del capitán · comunicado de lanzamiento del sitio | Menciones/enlaces obtenidos | 0 | Fase 4 |
-| 11 | **Newsletter "Panama Canal Brief"** | Mantener a la lista tibia y volver a traer tráfico | Mensual, EN/ES, 5 ítems: avisos ACP, calado, bunker, un consejo del capitán, un caso · captura en guías y recursos (sin gate en PDFs) | Suscriptores, apertura ≥ 40% | Resend (0 a 20) | Fase 5 |
+| 11 | **Alertas ACP el mismo día + newsletter mensual "Panama Canal Brief"** | Mantener a la lista tibia y volver a traer tráfico | Alertas de avisos ACP el mismo día (LinkedIn + correo a suscriptores; Norton Lilly y GAC ya lo hacen, un resumen mensual llega viejo) · mensual EN/ES: resumen del mes, calado y niveles, mercado de bunker (volúmenes AMP), un consejo del capitán, un caso · captura en guías y recursos (sin gate en PDFs) | Suscriptores, apertura ≥ 40% | Resend (0 a 20) | Fase 4.5 |
 | 12 | **Video corto** | Prueba visual de operación | 1 video/mes de 30 a 60 s: tránsito, survey, esclusas, "qué es una PDA" · LinkedIn + YouTube + página de servicio | Vistas, tiempo en página | Teléfono + tiempo | Fase 5 |
 | 13 | **WhatsApp Business** | Conversión inmediata 24/7 | Perfil completo (catálogo de servicios, horario 24/7, dirección), respuestas rápidas EN/ES, etiquetas por etapa, mensaje de bienvenida sin promesas de tiempos · número de guardia único en todo el sitio | Conversaciones iniciadas, tiempo de primera respuesta | 0 | Fase 1 |
 | 14 | **Eventos** | Relación directa con decisores | Panama Maritime Conference & Exhibition (Cámara Marítima, verificar fecha), SMM Hamburgo (sept 2026), IBIA convention, Posidonia 2028; landing por evento con QR al formulario | Contactos calificados por evento | Viáticos (a decidir) | Fase 5 |
 | 15 | **Meta (Facebook/Instagram)** | Solo marca local y reclutamiento | No es canal de captación B2B marítima; se usa para presencia local en Panamá y retargeting de visitantes del sitio con bajo presupuesto. El paquete CAPI de ECUS se activa solo si Irene decide pautar ahí. | Alcance local | 0 a 100 | Opcional |
+| 16 | **Plataformas de DA y onboarding de proveedor** | Poder ser nominados por managers que procesan PDA/FDA en plataformas | Registro como agente en **DA-Desk** (Marcura) y en las plataformas que pidan los principales · **KYC pack** descargable y actualizado (Registro Público, licencia AMP, autorización ACP, ISO con alcance, póliza, W-8BEN-E, referencia bancaria) · perfil en Findaport y directorios que usan los ops · condiciones generales publicadas · es el canal por el que de verdad se nombra a un agente en Atenas, Singapur o Hamburgo: sin esto, el ops manager no puede nominar aunque quiera | Registro activo, KYC packs enviados, nominaciones vía plataforma | Cuotas de plataforma (a cotizar) | Bloquea el lanzamiento (§13) |
+
+**Reparto de segmentos por ingreso esperado a 12 meses (gobierna outreach y pauta):** 50 % armadores y operadores latinoamericanos en español (VE, CO, EC, PE, MX, Centroamérica, flotas atuneras) · 25 % traders y operadores de STS y surveys de petróleo · 15 % Grecia solo a través del representante griego (si es real y nombrable) · 10 % corresponsales P&I, aseguradores y abogados. Los managers de Atenas, Singapur y Hamburgo con volumen ya están con GAC, Norton Lilly, Boyd o Wilhelmsen: objetivo de 12 a 24 meses, entran por plataformas de DA y precio.
 
 **Regla de oro (de Daniel):** no prometer lo que no controlamos en ningún anuncio, formulario o mensaje. Variaciones de copy dentro del mismo anuncio, nunca un anuncio por variación.
 
@@ -608,7 +626,7 @@ El sitio es el destino; estos son los caminos. Cada canal tiene objetivo, tácti
 | Visita | Sesión en el sitio | GA4 / Vercel Analytics | Atribución utm/gclid/fbclid guardada en cookie de primera parte |
 | Lead | Formulario, WhatsApp o llamada | Tabla `leads` + CRM ECUS (hoja + Apps Script) | Email de confirmación al cliente, aviso a Cross World (email + WhatsApp), asignación por tipo de servicio, número de solicitud |
 | Contactado | Primera respuesta humana | CRM (campo `primera_respuesta`) | Recordatorio si pasan 2 h sin respuesta; escalamiento al capitán a las 4 h |
-| Calificado | Buque real, fecha real, principal identificado | CRM (etapa) | Evento GA4 `lead_qualified` (importación offline a Google Ads) |
+| Calificado | Buque con nombre e IMO, ETA real, principal identificable | CRM (etapa) | Conversión offline `qualified` a Google Ads (Enhanced Conversions for Leads + gclid); no es evento GA4 |
 | PDA enviada | Proforma emitida | CRM | Plantilla de PDA con marca; recordatorio de seguimiento a las 48 h |
 | Nominado | Cliente nos nombra agente/surveyor | CRM | Conversión offline `nomination` a Google Ads (valor estimado); ficha de port call |
 | Servicio prestado | Port call / survey / entrega hecha | CRM | Encuesta de 3 preguntas + solicitud de reseña en Google |
@@ -621,7 +639,7 @@ El sitio es el destino; estos son los caminos. Cada canal tiene objetivo, tácti
 
 **Secuencias de seguimiento (sin promesas):** lead sin respuesta nuestra a 2 h → alerta interna · lead que no contesta → recordatorio a 48 h y a 7 días, luego se archiva · PDA enviada sin decisión → seguimiento a 48 h y a 5 días · post-servicio → encuesta y reseña a los 3 días.
 
-**SLA propuestos (a confirmar con Guillermo):** primera respuesta < 2 h (24/7) · PDA < 24 h · confirmación de surveyor < 4 h · informe de survey < 48 h tras la inspección · FDA < 15 días tras la salida.
+**SLA propuestos (a confirmar con Guillermo; solo se publica lo que se cumple):** primera respuesta < 4 h (24/7), y < 2 h solo si existe guardia nocturna real · PDA el mismo día hábil para tránsitos estándar, < 24 h en los demás casos · confirmación de surveyor < 4 h · informe de survey < 48 h tras la inspección · FDA < 30 días tras la salida (las facturas de la ACP, remolcadores, lanchas y pasacables tardan 3 a 4 semanas; Wilhelmsen promete 25 días y es la referencia). Se retira "no surprises in the FDA" (promesa sobre terceros): en su lugar, "FDA conciliada línea por línea contra la PDA, cada cargo con su comprobante, diferencias explicadas".
 
 ---
 
@@ -642,7 +660,7 @@ El sitio es el destino; estos son los caminos. Cada canal tiene objetivo, tácti
 
 **Seguridad y continuidad:** 2FA en GitHub, Vercel, Google, LinkedIn, WhatsApp · secretos solo en variables de Vercel · dependencias actualizadas mensualmente (Dependabot) · backups: el contenido vive en git (historial completo) y los leads en Neon (backups diarios) + copia en la hoja del CRM · monitoreo de uptime (Vercel + checks externos) y alertas de errores · runbook de incidentes (sitio caído, formulario no envía, dominio, correo).
 
-**Legal y cumplimiento:** política de privacidad (Ley 81 de 2019 Panamá; GDPR para UE), consentimiento de cookies solo si hay no esenciales, términos, disclaimer de tarifas y tiempos del Canal, derechos de imagen de fotos, permisos de logos, canal de ética (correo dedicado).
+**Legal y cumplimiento:** política de privacidad (Ley 81 de 2019 Panamá; GDPR para UE), Consent Mode v2 por región (opt-in en UE/Reino Unido/Suiza, opt-out en el resto), **Standard Trading Conditions** como términos (modelo FONASBA/ITIC, ley panameña, enlazadas en PDA, FDA y correos), **póliza de responsabilidad profesional** (ITIC u otra; si no existe, contratarla antes de vender surveys a clubes), página `/compliance` con política de sanciones, KYC/AML, antisoborno y KYC pack, aviso antifraude bancario, disclaimer de tarifas y tiempos del Canal, derechos de imagen de fotos, permisos de logos, canal de ética (correo dedicado).
 
 **Accesibilidad:** WCAG 2.2 AA (contraste, foco, teclado, etiquetas, reduced motion, tamaños táctiles ≥ 44 px, textos alternativos con sentido).
 
@@ -659,8 +677,9 @@ El sitio es el destino; estos son los caminos. Cada canal tiene objetivo, tácti
 | Resend (email transaccional) | 0 | 0 a 20 | Gratis hasta 3.000 correos/mes |
 | Cloudflare Turnstile, Keystatic, GA4, Search Console, Bing | 0 | 0 | |
 | Neon (base de leads) | 0 | 0 a 19 | Gratis en el arranque |
-| Google Ads | 0 | 300 a 600 | Arranque con 300; escalar por CPL |
-| LinkedIn Ads (opcional, fase 5) | 0 | 300 a 500 | Solo con lista ABM lista |
+| Google Ads (solo exactas: marca + 8 a 10 términos + 2 en español) | 0 | 300 a 430 | Con 10 a 30 búsquedas/mes por término no hay dónde gastar más |
+| LinkedIn Ads (ABM, fase 4.5) | 0 | 300 a 500 | Anuncios de documento con la guía a la lista de 200 cuentas |
+| Plataformas de DA (DA-Desk u otras), membresía Cámara Marítima, ITIC, traductor para el ES | a cotizar | a cotizar | Decidir en la reunión; el traductor es lo que hace viable el cronograma |
 | Sesión de fotos | 150 a 400 | 0 | O hecha por Irene con la shot list |
 | Membresías (Cámara Marítima de Panamá, BIMCO, IIMS) | a cotizar | a cotizar | Alta visibilidad; decidir en la reunión |
 | Directorio Lloyd's List Intelligence (opcional) | a cotizar | | |
@@ -678,7 +697,7 @@ EN: panama canal transit agent · panama canal agent · ship agency panama · pa
 1. Who is a reliable ship agent for a Panama Canal transit? · 2. Recommend a marine surveyor in Balboa, Panama for a bunker survey · 3. Which companies handle P&I correspondent work in Panama? · 4. How much does it cost to transit the Panama Canal with a Panamax bulk carrier? · 5. What does a ship agent do during a Panama Canal transit? · 6. Best shipping agencies in Panama · 7. Who can arrange a ship-to-ship transfer in Panama? · 8. Bunker suppliers and bunker surveyors in Panama · 9. ¿Qué agencia naviera recomiendas en Panamá para un tránsito por el Canal? · 10. ¿Quién hace inspecciones de bunker en Balboa o Cristóbal? · 11. ¿Cuánto cuesta cruzar el Canal de Panamá con un buque tanque? · 12. Agencias marítimas certificadas ISO en Panamá.
 
 ### 22.3 Directorios y listados (checklist)
-ACP: lista de agencias navieras autorizadas (verificar datos y contacto) · Cámara Marítima de Panamá (membresía + directorio) · BIMCO (membresía de agente) · ShipServ (perfil de agente/proveedor) · Findaport / port directories (agente por puerto Balboa, Cristóbal, Manzanillo) · Lloyd's List Intelligence directory (opcional, pago) · IBIA (bunker) · IIMS o similar (surveyors) · ITIC (indemnidad profesional, si se contrata) · Google Business Profile · Bing Places · Apple Business Connect · LinkedIn Company Page · Kompass Panamá · Páginas Amarillas Panamá · Listas de corresponsales de los clubes P&I (sección 17, canal 7). Regla: mismo nombre, dirección, teléfono, descripción y URL en todos.
+**DA-Desk (Marcura) y las plataformas de DA que pidan los principales (bloquea el lanzamiento)** · ACP: lista de agencias navieras autorizadas (verificar que el nombre legal coincida exactamente) · Cámara Marítima de Panamá (membresía + directorio) · BIMCO (membresía de agente) · ShipServ (perfil de agente/proveedor) · Findaport / port directories (agente por puerto Balboa, Cristóbal, Manzanillo) · Lloyd's List Intelligence directory (opcional, pago) · IBIA (bunker) · IIMS o similar (surveyors) · ITIC (indemnidad profesional, si se contrata) · Google Business Profile · Bing Places · Apple Business Connect · LinkedIn Company Page · Kompass Panamá · Páginas Amarillas Panamá · Listas de corresponsales de los clubes P&I (sección 17, canal 7). Regla: mismo nombre, dirección, teléfono, descripción y URL en todos.
 
 ### 22.4 Eventos 2026 a 2028 (verificar fechas)
 SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Maritime Conference & Exhibition (Cámara Marítima de Panamá; próxima edición a confirmar) · CMA Shipping (Stamford, marzo 2027) · Posidonia (Atenas, junio 2028).
@@ -689,15 +708,16 @@ SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Mar
 
 | Semana | ECUS (Daniel) | Cliente (Irene / Guillermo) | Entregable visible |
 |---|---|---|---|
-| **S0 · 27 a 29 ago** | Plan, research, competidores, repo, página de avances | Leer el plan; agendar reunión | Esta página |
-| **S1 · 1 a 5 sep** | Scaffold Next.js 16, tokens y componentes base, layout, i18n, home v1, hub de servicios v1 | Reunión de arranque: aprobar posicionamiento, tagline, lista de servicios/puertos, SLA, números; entregar DNS/hosting y logo | Preview en Vercel de home + servicios |
-| **S2 · 8 a 12 sep** | Formulario de port call completo (Server Action, Resend, Turnstile, tabla leads, webhook CRM), contacto, about, certificaciones; GA4/GTM; Lighthouse CI | Sesión de fotos; permisos de logos; certificados PDF | Formulario funcionando de punta a punta |
-| **S3 · 15 a 19 sep** | 7 páginas de servicio (EN) + who we serve + puertos; schema por plantilla | Revisión técnica de textos de servicios | Sitio EN completo en preview |
-| **S4 · 22 a 26 sep** | Traducción ES completa, hreflang, guía pilar del Canal, resources, casos | Revisión del ES y de la guía; 3 casos reales; testimonios | Sitio bilingüe completo |
-| **S5 · 29 sep a 3 oct** | Keystatic, blog, 4 primeras piezas, llms.txt, sitemap, robots, OG, RSS, Playwright, a11y | Guillermo firma las guías; foto y bio | Blog vivo; checklist técnico 100% |
-| **S6 · 6 a 10 oct** | QA final, rendimiento, mapa de 301, plan de DNS, GBP y directorios preparados, CRM y dashboard listos | Cuenta de Google y LinkedIn; WhatsApp Business configurado | Candidato a lanzamiento |
-| **S7 · 13 a 17 oct** | DNS a Vercel, HSTS, envío de sitemaps, GBP publicado, campañas de Google Ads en pausa listas, monitoreo 72 h, comunicado | Anuncio en LinkedIn; pedir 5 reseñas | **Lanzamiento** |
-| **Mensual desde oct** | 2+2 piezas, reporte, pauta, sondeo de IA, outreach, directorios | Seguimiento de leads, reseñas, socios | Reporte mensual |
+| **S0 · 27 a 29 ago** | Plan, research, competidores, diseño v0, especificación, contenido v0, repo, página de avances, auditoría | Leer el plan; agendar reunión | Esta página |
+| **S1 · 31 ago a 4 sep** | **Página puente en el dominio actual (72 h)**; scaffold Next.js 16, tokens y componentes base, layout, i18n, home v1, hub de servicios v1; GSC y Bing verificados sobre el sitio actual; inventario DNS; `operations@` creado | Reunión de arranque (24 preguntas de §25): posicionamiento, tagline, servicios y puertos reales, SLA, números, atención en el Atlántico, plataformas de DA, SOS Resilience; entregar DNS/hosting y logo | Página puente en línea; preview en Vercel de home + servicios |
+| **S2 · 7 a 11 sep** | Formulario de port call completo (Blob privado, Turnstile en paso 2, `submissionId`, `outbox`, Resend, webhook CRM), contacto, about, certificaciones, compliance; GA4/GTM con Consent Mode; Lighthouse CI | Sesión de fotos; permisos de logos; certificados PDF; KYC pack reunido | Formulario funcionando de punta a punta |
+| **S3 · 14 a 18 sep** | 7 páginas de servicio (EN) + Balboa y Cristóbal + PDA de muestra; schema por plantilla; **copy EN congelado el 18 sep** | Revisión técnica de textos de servicios; registro en DA-Desk | Sitio EN del MVP completo en preview |
+| **S4 · 21 a 25 sep** | Guía pilar del Canal (componentes + dos PDAs reales), hreflang, 308/410, RSS por idioma; traductor trabajando el ES en paralelo | Revisión de la guía y de los dos ejemplos de PDA; 3 casos reales; testimonios; referencias | Guía lista; ES en curso |
+| **S5 · 28 sep a 2 oct** | ES completo integrado, llms.txt, sitemap, robots, OG, IndexNow, Playwright, axe, Lighthouse CI | Guillermo revisa y aprueba el ES y las guías; foto y bio | Sitio bilingüe del MVP; checklist técnico 100% |
+| **S6 · 5 a 9 oct** | QA final, rendimiento, mapa de 301/410 cerrado con datos de GSC, plan de DNS y plan B, GBP y directorios preparados, campañas de Google Ads listas en pausa | Cuenta de Google y LinkedIn; WhatsApp Business configurado | Candidato a lanzamiento |
+| **S7 · 12 a 16 oct** | DNS a Vercel (apex + www), envío de sitemaps, IndexNow, GBP publicado, monitoreo 72 h, comunicado | Anuncio en LinkedIn; pedir 5 reseñas | **Lanzamiento (MVP)** |
+| **Nov (fase 4.5)** | Who we serve, resources, casos, blog + Keystatic con PR automático, Enhanced Conversions y offline, dashboard ECUS, plataformas de DA y directorios, PR marítimo, HSTS `includeSubDomains`, DMARC a quarantine (día 60) | Alertas ACP con el capitán; primeras 2 piezas | Todo lo que no bloqueaba el lanzamiento |
+| **Mensual desde nov** | 1+1 piezas + alertas ACP, reporte, pauta, sondeo de IA, outreach (20 cuentas/semana), directorios | Seguimiento de leads, reseñas, socios | Reporte mensual |
 
 ---
 
@@ -708,7 +728,8 @@ SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Mar
 **Rendimiento y calidad:** Lighthouse móvil ≥ 95 perf / 95 a11y / 100 SEO en home, servicio, guía, post, contacto · LCP < 2,0 s, INP < 150 ms, CLS < 0,05 en Speed Insights · JS de la home < 150 KB · fuentes con next/font · imágenes AVIF/WebP con tamaños · sin errores de consola · Playwright verde (formularios, i18n, 404, enlaces) · axe sin violaciones críticas.
 **Conversión y medición:** formulario de port call probado en EN y ES con email real, aviso a WhatsApp, fila en `leads` y en el CRM · número de solicitud generado · Turnstile activo · eventos GA4 verificados en DebugView · Enhanced Conversions configuradas · atribución guardada · WhatsApp y teléfonos correctos en todas las páginas · GBP publicado con fotos y servicios.
 **Seguridad y legal:** HSTS, CSP, headers · 2FA en todas las cuentas · secretos solo en Vercel · privacidad, términos y disclaimer publicados · consentimiento si aplica.
-**Operación:** Keystatic funcionando con acceso de Guillermo e Irene · guía de 1 página "cómo publicar un post" · runbook de incidentes · reporte mensual programado · calendario de revisiones trimestrales.
+**Operación:** contenido editable en el repo (Keystatic con PR automático entra en la fase 4.5) · guía de 1 página "cómo publicar" · runbook de incidentes y de DNS · reporte mensual programado · calendario de revisiones trimestrales · `outbox` vacía y correos de prueba recibidos.
+**Comercial y cumplimiento:** página `/compliance` publicada con KYC pack descargable · Standard Trading Conditions en `/terms` y enlazadas en PDA/FDA · aviso antifraude bancario en contacto y PDA · PDA de muestra descargable · SLA publicados solo los confirmados · nota de independencia visible en surveys y combustible · registro en plataformas de DA iniciado · cero direcciones de Gmail · nombre legal idéntico al de la lista de la ACP · 410 verificado en rutas de WordPress y 308 en las 7 URLs viejas · RSS por idioma y clave de IndexNow servida.
 
 ---
 
@@ -726,6 +747,18 @@ SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Mar
 10. ¿Membresías: Cámara Marítima de Panamá, BIMCO, IIMS? ¿Cobertura ITIC?
 11. ¿Los certificados ISO están vigentes y podemos publicar número y fecha?
 12. ¿Quién del equipo va a publicar en Keystatic y en LinkedIn? ¿Quién revisa técnicamente los textos?
+13. ¿Facilidad de garantía o crédito con la ACP para peajes, o fondos por adelantado? ¿Banco y capacidad de recibir transferencias en USD desde Europa y Asia sin problemas de corresponsalía?
+14. ¿Quién aborda físicamente en el Atlántico, con qué lancha, y hay escucha VHF real?
+15. **Volumen real hoy:** tránsitos, escalas y surveys por año, por tipo de principal y país; los 5 clientes principales y cómo llegaron. Es la única línea base válida para las metas de §11.
+16. ¿Registro en DA-Desk u otra plataforma de DA? ¿Están en la lista de agentes aprobados de algún principal?
+17. Sanciones y KYC: ¿herramienta de screening? Exposición a Venezuela; nombre legal, licencia y titularidad de SOS Resilience Holding; ¿alineación con MACN?
+18. ¿Póliza de responsabilidad profesional (ITIC u otra), límites, y condiciones generales de contratación vigentes?
+19. Equipo de surveyors: nombres, credenciales, membresías, equipo de medición, cuántos trabajos simultáneos.
+20. Combustible: ¿suministro físico propio (barcaza, tanque) o trading? ¿En qué terminal está el producto? ¿Condiciones de crédito a flotas atuneras?
+21. ¿Dispuestos a publicar "agency fee desde USD X, all inclusive"? ¿Y una PDA de muestra real anonimizada?
+22. Representación en Grecia, Brasil, Aruba y Venezuela: firmas con nombre y contrato; ¿se pueden listar con contacto?
+23. Dos o tres principales dispuestos a atender una llamada de referencia.
+24. ¿Algún incidente o sanción previa con la ACP o la AMP que aparezca al hacer due diligence?
 
 ---
 
@@ -743,8 +776,13 @@ SMM Hamburgo (septiembre 2026) · IBIA Annual Convention (Q4 2026) · Panama Mar
 | Push de GitHub bloqueado por permisos en alguna sesión | Media | Bajo | Daniel corre el push o ajusta permisos; scripts listos | Daniel |
 | Adimar/PSS copian el ángulo bilingüe | Baja | Medio | Ventaja de credenciales y autor real; velocidad de lanzamiento | ECUS |
 | Certificados ISO vencidos o no publicables | Baja | Alto | Confirmar vigencia en S1; alerta 60 días antes; mostrar solo lo vigente | Guillermo |
+| SLA publicados que no se cumplen en la primera escala | Alta | Alto (credibilidad) | Publicar solo SLA confirmados por Guillermo; FDA 30 días; "conciliada" en vez de "sin sorpresas" | Guillermo + ECUS |
+| No estar en plataformas de DA ni tener KYC pack cuando llegue la primera nominación grande | Alta | Alto | Registro y KYC pack como bloqueadores del lanzamiento (§13) | Irene + Guillermo |
+| Cronograma optimista para una persona (30.000 palabras en dos idiomas + build) | Alta | Medio | Alcance MVP para el 16-oct, fase 4.5 en noviembre, copy EN congelado el 18-sep, traductor en paralelo | ECUS |
+| Adjuntos o formularios rotos en Vercel (límite 4,5 MB, Turnstile caducado, doble envío) | Media | Alto | Subida directa a Blob, Turnstile en el paso 2, `submissionId` idempotente, `outbox` (especificación §5) | ECUS |
 
 ## 27. Bitácora de versiones del plan
 - **v1.0 · 27-ago-2026:** plan inicial (secciones 0 a 14), keyword research, competidores, repo y página de avances.
 - **v1.1 · 28-ago-2026:** secciones 15 a 25 (página por página, copy deck, adquisición, embudo, marca, operación, presupuesto, listas, roadmap semanal, checklist, preguntas).
 - **v1.2 · 28-ago-2026:** especificación técnica, contenido v0 con cifras oficiales de la ACP (tarifas y OP Notice N-7-2026), sistema de diseño v0 con mock del hero, mapa de 301 real (7 URLs del sitio viejo), registro de riesgos.
+- **v1.3 · 28-ago-2026 (auditoría):** tres revisiones independientes (comercial marítima, técnica/SEO con verificación contra npm y documentación oficial, editorial) con 80 hallazgos aplicados. Cambios de fondo: se elimina el conflicto de interés del mensaje central (surveys independientes; claims = soporte bajo instrucciones; combustible como línea separada con surveyor tercero; "bunkering" fuera del H1); ISO certificadas por AQC Middle East LLC (IAS es acreditación) e ISO 22000 fuera del hero por su alcance real; SLA realistas (PDA mismo día / 24 h, FDA 30 días, "conciliada" en vez de "sin sorpresas"); nuevo canal 16 (plataformas de DA + KYC pack) como bloqueador; página `/compliance` (sanciones, KYC, antisoborno) y Standard Trading Conditions; puertos reales (Colón no es puerto, PSA = Rodman, se añaden terminales y Vacamonte); metas de §11 realistas y con norte en nominaciones; Google Ads solo exactas (USD 300 a 430); corresponsalía P&I reencuadrada; blog reordenado por valor para el comprador con byline honesto y cadencia 1+1; guía del Canal sin tarifario propio (componentes + dos PDAs reales + tarifario ACP enlazado); página puente en 72 h; MVP para el 16-oct y fase 4.5 en noviembre; 12 preguntas más para la reunión (13 a 24); especificación técnica v1 (subida directa a Blob privado, CSP sin nonce, sin redirección por idioma, 410 en proxy, Keystatic por PR automático, Turnstile en el paso 2, idempotencia y `outbox`, WAF rate limiting, HSTS escalonado, `send.` para Resend, Consent Mode v2 por región, JSON-LD corregido, robots de un solo grupo, `opengraph-image.tsx`, RSS por idioma, IndexNow, runbook de DNS).

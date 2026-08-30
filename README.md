@@ -1,6 +1,6 @@
 # Cross World Agency · sitio web
 
-Rediseño completo del sitio de **Cross World Agency, S.A.** (agencia naviera, inspecciones marítimas, bunker y reclamos en el Canal de Panamá). Proyecto de ECUS Agency.
+Rediseño completo del sitio de **Cross World Agencies, S.A.** (marca: Cross World Agency), agencia naviera e inspecciones marítimas independientes en el Canal de Panamá. Proyecto de ECUS Agency.
 
 - **Plan maestro y tablero de avances:** https://munozospinad0.github.io/crossworld-agency/
 - **Documento fuente del plan:** [docs/PLAN.md](docs/PLAN.md)
@@ -13,12 +13,14 @@ Rediseño completo del sitio de **Cross World Agency, S.A.** (agencia naviera, i
 
 | Fase | Estado |
 |---|---|
-| 0 · Planeación (plan, keyword research, competidores, repo, página de avances) | Hecho · 27 ago 2026 |
-| 1 · Fundaciones (Next.js 16, sistema de diseño, home, servicios, contacto, formulario, Vercel) | Pendiente |
-| 2 · Contenido y confianza (servicios, about, certificaciones, puertos, español) | Pendiente |
-| 3 · Contenidos y SEO/GEO (blog + Keystatic, schema, llms.txt, CI de calidad, analítica) | Pendiente |
-| 4 · Migración y lanzamiento (301, DNS, GBP, directorios) | Pendiente |
-| 5 · Crecimiento (2+2 piezas/mes, reporte mensual, sondeo de IA) | Pendiente |
+| 0 · Planeación (plan v1.3 auditado, keyword research, competidores, diseño v0, especificación técnica v1, contenido v0, prototipo de la home) | Hecho · 28 ago 2026 |
+| 0.5 · Página puente en el dominio actual (72 h) | Pendiente · 31 ago a 2 sep |
+| 1 · Fundaciones (Next.js 16, sistema de diseño, home, servicios, formulario, Vercel) | Pendiente · 31 ago a 11 sep |
+| 2 · Contenido y confianza (servicios, about, certificaciones, compliance, Balboa y Cristóbal, español) | Pendiente · 14 a 25 sep |
+| 3 · SEO/GEO técnico y calidad (guía del Canal, llms.txt, sitemap, CI, analítica) | Pendiente · 28 sep a 9 oct |
+| 4 · Migración y lanzamiento del MVP (308/410, DNS, GBP) | Pendiente · 12 a 16 oct |
+| 4.5 · Post-lanzamiento (who we serve, resources, blog + Keystatic, conversiones offline, dashboard, plataformas de DA) | Pendiente · noviembre |
+| 5 · Crecimiento (1+1 piezas/mes + alertas ACP, reporte mensual, outreach) | Pendiente · desde noviembre |
 
 ## Estructura
 

@@ -74,11 +74,11 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
 
       <section className="py-[clamp(48px,6vw,88px)]">
         <div className="wrap grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
-          <div className="grid gap-10">
+          <div className="grid min-w-0 gap-10">
             <div>
               <h2 className="t-h2">{t.includes}</h2>
-              <ul className="mt-4 grid list-disc gap-2 pl-5 sm:grid-cols-2">
-                {s.includes[locale].map((x) => <li key={x}>{x}</li>)}
+              <ul className="mt-4 grid list-disc gap-x-8 gap-y-2 pl-5 sm:grid-cols-2">
+                {s.includes[locale].map((x) => <li key={x} className="min-w-0 pr-2 break-words">{x}</li>)}
               </ul>
             </div>
             <div>
@@ -88,8 +88,8 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
                   <tbody>
                     {s.deliverables[locale].map((d) => (
                       <tr key={d.name} className="border-b border-line last:border-0">
-                        <td className="p-3.5 align-top">{d.name}</td>
-                        <td className="p-3.5 align-top font-mono text-[0.82rem] whitespace-nowrap text-accent-ink">{d.timing}</td>
+                        <td className="w-[58%] p-3.5 align-top">{d.name}</td>
+                        <td className="p-3.5 align-top font-mono text-[0.82rem] text-accent-ink">{d.timing}</td>
                       </tr>
                     ))}
                   </tbody>

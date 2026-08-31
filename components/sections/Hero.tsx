@@ -38,9 +38,9 @@ export async function Hero() {
             <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
           </div>
         </div>
-        <div className="mt-14 flex flex-wrap items-end justify-between gap-6 md:mt-20">
+        <div className="mt-14 flex flex-wrap items-center gap-5 md:mt-20">
           <SignalFlags className="h-6 w-auto opacity-90" />
-          <p className="m-0 font-mono text-[0.78rem] text-on-dark-muted">Balboa · Cristóbal · 24/7 · UTC-5</p>
+          <p className="m-0 font-mono text-[0.78rem] tracking-[0.08em] text-on-dark-muted">Balboa · Cristóbal · 24/7 · UTC-5</p>
         </div>
       </div>
     </header>

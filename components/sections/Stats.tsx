@@ -12,12 +12,14 @@ const stats: Stat[] = [
   {value: 24, suffix: '/7', label: {en: 'A duty officer answers, all year, in English and Spanish', es: 'Un oficial de guardia responde, todo el año, en inglés y español'}},
 ];
 
+/** Renderiza el valor final desde el servidor (bots y sin JS lo ven completo); con JS cuenta desde 0 al entrar en viewport. */
 function useCountUp(target: number, run: boolean, ms = 1400) {
-  const [v, setV] = useState(0);
+  const [v, setV] = useState(target);
   useEffect(() => {
     if (!run) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { setV(target); return; }
     let raf = 0; const t0 = performance.now();
+    setV(0);
     const tick = (now: number) => {
       const p = Math.min(1, (now - t0) / ms);
       const e = 1 - Math.pow(1 - p, 4); // ease-out quart
@@ -25,7 +27,8 @@ function useCountUp(target: number, run: boolean, ms = 1400) {
       if (p < 1) raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
+    const safety = window.setTimeout(() => setV(target), ms + 300); // si rAF no corre (pestaña en segundo plano), el valor final igual aparece
+    return () => { cancelAnimationFrame(raf); window.clearTimeout(safety); };
   }, [run, target, ms]);
   return v;
 }

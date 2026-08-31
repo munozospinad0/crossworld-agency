@@ -51,7 +51,7 @@ export default async function LocaleLayout({children, params}: {children: React.
         <NextIntlClientProvider messages={messages}>
           <a className="skip" href="#content">{t('skip')}</a>
           <Nav />
-          <main id="content" className="[&>*:first-child:not(header)]:mt-24">{children}</main>
+          <main id="content" className="pt-[92px]">{children}</main>
           <Footer />
           <WhatsAppButton />
         </NextIntlClientProvider>

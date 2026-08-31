@@ -9,7 +9,7 @@ export async function Hero() {
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
   return (
-    <header className="deep relative isolate min-h-[min(100dvh,900px)] overflow-hidden text-on-dark">
+    <header className="deep relative isolate -mt-[92px] min-h-[min(100dvh,900px)] overflow-hidden text-on-dark">
       {/* Foto a sangre con movimiento lento de cámara */}
       <div className="absolute inset-0">
         <Image

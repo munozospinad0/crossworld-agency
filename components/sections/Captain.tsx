@@ -9,7 +9,7 @@ export async function Captain() {
   return (
     <section id="captain" className="py-[clamp(72px,9vw,128px)]">
       <div className="wrap grid grid-cols-1 items-center gap-[clamp(28px,5vw,72px)] md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-        <Reveal className="shell max-w-[420px] justify-self-center md:-rotate-1 md:justify-self-start">
+        <Reveal className="shell w-full max-w-[420px] justify-self-center md:-rotate-1 md:justify-self-start">
           <div className="core relative aspect-[15/14] overflow-hidden bg-surface">
             <Image src="/images/captain.jpg" alt={`${site.captain.name}, Cross World Agency, Panama City`} fill sizes="(max-width: 768px) 90vw, 420px" quality={88} className="object-cover object-[50%_18%]" />
             <div aria-hidden="true" className="absolute inset-x-0 bottom-0 bg-[linear-gradient(0deg,rgba(11,20,32,0.85),transparent)] p-5 pt-16 text-white">

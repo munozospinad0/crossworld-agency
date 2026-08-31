@@ -36,7 +36,7 @@ export default async function RequestPortCallPage({params}: {params: Promise<{lo
                 {(t.raw('asideItems') as string[]).map((x) => <li key={x}>{x}</li>)}
               </ul>
               <div className="mt-4 grid gap-2">
-                <a className="font-mono text-[0.9rem] text-white" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.label}: {site.phones.operations.display}</a>
+                <a className="font-mono text-[0.9rem] text-white" href={`tel:${site.phones.operations.e164}`}>{c('operations')}: {site.phones.operations.display}</a>
                 <ButtonA href={whatsappHref()} variant="ghostDark" className="justify-self-start" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
               </div>
             </div>

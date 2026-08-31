@@ -24,7 +24,7 @@ export function Nav() {
 
   const dark = isHome && !scrolled && !open;
   const shell = dark
-    ? 'bg-ink/60 text-on-dark border-white/10 reduced-transparency:bg-ink'
+    ? 'bg-ink/80 text-on-dark border-white/10 reduced-transparency:bg-ink'
     : 'bg-paper/80 text-ink border-ink/5 reduced-transparency:bg-paper';
 
   const links = [
@@ -44,7 +44,7 @@ export function Nav() {
         </Link>
         <div className="ml-auto hidden items-center gap-0.5 lg:flex">
           {links.map((l) => (
-            <Link key={l.href} href={l.href} className="rounded-full px-3 py-2 text-[0.95rem] opacity-90 hover:bg-[rgba(127,140,160,0.18)] hover:opacity-100">
+            <Link key={l.href} href={l.href} className="rounded-full px-3 py-2 text-[0.95rem] hover:bg-[rgba(127,140,160,0.18)]">
               {l.label}
             </Link>
           ))}

@@ -17,7 +17,7 @@ export function LocaleSwitch({className = ''}: {className?: string}) {
       locale={other}
       hrefLang={other}
       lang={other}
-      className={`rounded-full border border-current px-3 py-1.5 font-mono text-[0.78rem] opacity-80 hover:opacity-100 ${className}`}
+      className={`rounded-full border border-current px-3 py-1.5 font-mono text-[0.8rem] hover:bg-[rgba(127,140,160,0.18)] ${className}`}
     >
       {t('switchTo')}
     </Link>

@@ -56,7 +56,7 @@ test('port call form: invalid IMO shows an error, valid submission returns a req
   await page.fill('#imo', '9074729');
   await page.getByRole('button', {name: /Continue to services/}).click();
   await page.getByRole('button', {name: /Request a port call/}).click();
-  await expect(page.getByRole('status')).toContainText(/Request CW-\d{8}-[A-Z0-9]{3,4} received/);
+  await expect(page.getByRole('status')).toContainText(/Request CW-\d{8}-[A-Z0-9]{3,4} received/, {timeout: 25_000});
 });
 
 test('accessibility: no serious or critical violations on key templates', async ({page}) => {

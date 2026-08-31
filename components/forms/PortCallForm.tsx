@@ -1,6 +1,6 @@
 'use client';
 
-import {useActionState, useEffect, useMemo, useState} from 'react';
+import {startTransition, useActionState, useEffect, useMemo, useState} from 'react';
 import {useLocale, useTranslations} from 'next-intl';
 import {submitPortCall, type FormState} from '@/app/[locale]/request-port-call/actions';
 import {track} from '@/lib/analytics';
@@ -72,7 +72,13 @@ export function PortCallForm() {
   }
 
   return (
-    <form action={action} className="grid gap-5 rounded-card border border-line bg-surface p-6" noValidate>
+    <form
+      // Se invoca la acción dentro de una transición (y no vía action={}) para que React NO reinicie
+      // los campos tras una respuesta con errores: lo escrito por el usuario se conserva.
+      onSubmit={(e) => { e.preventDefault(); const fd = new FormData(e.currentTarget); startTransition(() => action(fd)); }}
+      className="grid gap-5 rounded-card border border-line bg-surface p-6"
+      noValidate
+    >
       <input type="hidden" name="submissionId" value={submissionId} />
       <input type="hidden" name="locale" value={locale} />
       <input type="hidden" name="attribution" value={attribution} />

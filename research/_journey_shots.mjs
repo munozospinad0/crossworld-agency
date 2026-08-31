@@ -1,23 +1,25 @@
-// Captura el cruce del Canal en varios puntos del scroll, más el pie con las banderas.
+// Captura el cruce del Canal en escritorio y celular, en varios puntos del scroll.
 import {chromium} from '@playwright/test';
 
 const BASE = process.env.BASE_URL ?? 'https://crossworld-agency-git-main-munozospinad0s-projects.vercel.app';
 const browser = await chromium.launch();
-const page = await browser.newPage({viewport: {width: 1440, height: 900}});
-await page.goto(`${BASE}/en`, {waitUntil: 'networkidle'});
 
-const box = await page.locator('#crossing > div > div:nth-child(2)').boundingBox();
-const top = box.y;
-const total = box.height - 900;
-let i = 0;
-for (const f of [0.12, 0.45, 0.8]) {
-  await page.evaluate((y) => window.scrollTo(0, y), top + total * f);
-  await page.waitForTimeout(1200);
-  await page.screenshot({path: `/tmp/journey_${i}.png`});
-  i++;
+async function shots(viewport, prefix, fractions) {
+  const page = await browser.newPage({viewport});
+  await page.goto(`${BASE}/es`, {waitUntil: 'networkidle'});
+  const box = await page.locator('#crossing > div > div:nth-child(2)').boundingBox();
+  const total = box.height - viewport.height;
+  let i = 0;
+  for (const f of fractions) {
+    await page.evaluate((y) => window.scrollTo(0, y), box.y + total * f);
+    await page.waitForTimeout(1400);
+    await page.screenshot({path: `/tmp/${prefix}_${i}.png`});
+    i++;
+  }
+  await page.close();
 }
-await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-await page.waitForTimeout(1200);
-await page.screenshot({path: '/tmp/journey_footer.png'});
+
+await shots({width: 1440, height: 900}, 'j2d', [0.15, 0.55]);
+await shots({width: 390, height: 844}, 'j2m', [0.15, 0.55, 0.9]);
 await browser.close();
 console.log('ok');

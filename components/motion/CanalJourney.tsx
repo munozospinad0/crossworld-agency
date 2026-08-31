@@ -289,14 +289,14 @@ export function CanalJourney({stages, hint}: {stages: Stage[]; hint: string}) {
   return (
     <LazyMotion features={domAnimation}>
       <div ref={containerRef} style={{height: '380vh'}}>
-        <div key={geo.id} className="sticky top-[80px] flex h-[calc(100dvh-92px)] flex-col justify-center gap-3 md:gap-4">
-          <div className="min-h-0 flex-1">
+        <div key={geo.id} className="sticky top-[80px] flex h-[calc(100dvh-92px)] flex-col justify-center gap-2.5 md:gap-4">
+          <div className="min-h-0 max-h-[44dvh] flex-1 md:max-h-none">
             <Scene geo={geo} stage={stage} pts={pts} ready={ready} vesselRef={vesselRef} drawRef={drawRef} onStop={scrollToStage} />
           </div>
           <div className="mx-auto w-full max-w-[620px]">
             <ElevationProfile profRef={profRef} dotRef={profDotRef} tags={{sea: '0 m', lake: '+26 m · Gatún'}} />
           </div>
-          <div className="relative mx-auto min-h-[164px] w-full max-w-[620px] md:min-h-[172px]">
+          <div className="relative mx-auto min-h-[188px] w-full max-w-[620px] md:min-h-[172px]">
             {stages.map((s, i) => (
               <div
                 key={s.name}

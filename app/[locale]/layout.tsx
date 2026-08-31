@@ -10,6 +10,7 @@ import {routing, type Locale} from '@/i18n/routing';
 import {Nav} from '@/components/layout/Nav';
 import {Footer} from '@/components/layout/Footer';
 import {WhatsAppButton} from '@/components/layout/WhatsAppButton';
+import {AnalyticsTags} from '@/components/layout/AnalyticsTags';
 import {organizationJsonLd} from '@/lib/schema';
 import {site} from '@/content/site';
 import '../globals.css';
@@ -51,6 +52,7 @@ export default async function LocaleLayout({children, params}: {children: React.
           <WhatsAppButton />
         </NextIntlClientProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(organizationJsonLd(locale as Locale))}} />
+        <AnalyticsTags />
         <Analytics />
         <SpeedInsights />
       </body>

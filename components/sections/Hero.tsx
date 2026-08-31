@@ -13,13 +13,14 @@ export async function Hero() {
       {/* Foto a sangre con movimiento lento de cámara */}
       <div className="absolute inset-0">
         <Image
-          src="/images/canal-transit.jpg"
-          alt="Vessel entering the locks of the Panama Canal, seen from the deck"
+          src="/images/hero.jpg"
+          alt="Aerial view of a container vessel working cargo at a port terminal"
           fill
           priority
           fetchPriority="high"
           sizes="100vw"
-          className="kenburns object-cover object-[60%_45%]"
+          quality={82}
+          className="kenburns object-cover object-[62%_40%]"
         />
         <div aria-hidden="true" className="absolute inset-0 bg-[linear-gradient(90deg,rgba(11,20,32,0.96)_0%,rgba(11,20,32,0.82)_34%,rgba(11,20,32,0.35)_62%,rgba(11,20,32,0.15)_100%)]" />
         <div aria-hidden="true" className="absolute inset-x-0 bottom-0 h-40 bg-[linear-gradient(0deg,#0b1420_0%,transparent_100%)]" />

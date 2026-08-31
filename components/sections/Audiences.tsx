@@ -3,7 +3,7 @@ import {getTranslations} from 'next-intl/server';
 import {Link} from '@/i18n/navigation';
 import {Reveal} from '@/components/motion/Reveal';
 
-const images = ['/images/canal-transit.jpg', '/images/oil-terminal.jpg', '/images/port-cranes.jpg', '/images/container-terminal.jpg'];
+const images = ['/images/ship-bow.jpg', '/images/oil-terminal.jpg', '/images/port-cranes.jpg', '/images/crane.jpg'];
 
 export async function Audiences() {
   const t = await getTranslations('Home');

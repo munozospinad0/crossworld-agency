@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import {getLocale, getTranslations} from 'next-intl/server';
-import {Anchor, Ruler, Drop, GasPump, ArrowsLeftRight, Scales, ClipboardText} from '@phosphor-icons/react/dist/ssr';
 import {Link} from '@/i18n/navigation';
 import {services} from '@/content/services';
 import type {Locale} from '@/i18n/routing';
 import {Reveal} from '@/components/motion/Reveal';
+import {serviceIcons} from '@/components/brand/Icons';
 
 const withImage = new Set(['agency', 'bunker', 'sts']);
-const icons = {agency: Anchor, surveys: Ruler, bunker: Drop, fuel: GasPump, sts: ArrowsLeftRight, claims: Scales, consulting: ClipboardText} as const;
+const cardImages: Record<string, string> = {agency: '/images/canal-transit.jpg', bunker: '/images/oil-terminal.jpg', sts: '/images/ship-bow.jpg'};
 
 export async function ServicesBento() {
   const locale = (await getLocale()) as Locale;
@@ -24,7 +24,7 @@ export async function ServicesBento() {
           {services.map((s, i) => {
             const img = withImage.has(s.key);
             const wide = s.key === 'agency';
-            const Icon = icons[s.key as keyof typeof icons];
+            const Icon = serviceIcons[s.key as keyof typeof serviceIcons];
             return (
               <Reveal key={s.key} delay={(i % 4) as 0 | 1 | 2 | 3} className={`${wide ? 'lg:col-span-2' : ''}`}>
                 <Link
@@ -33,12 +33,12 @@ export async function ServicesBento() {
                 >
                   {img ? (
                     <>
-                      <Image src={s.image} alt="" fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.32,0.72,0,1)] fine-pointer:group-hover:scale-[1.04]" />
+                      <Image src={cardImages[s.key] ?? s.image} alt="" fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" className="object-cover transition-transform duration-[900ms] ease-[cubic-bezier(0.32,0.72,0,1)] fine-pointer:group-hover:scale-[1.04]" />
                       <div aria-hidden="true" className="absolute inset-0 bg-[linear-gradient(0deg,rgba(11,20,32,0.94)_0%,rgba(11,20,32,0.45)_50%,rgba(11,20,32,0.05)_100%)]" />
                     </>
                   ) : (
                     <span className="absolute top-6 left-6 grid h-11 w-11 place-items-center rounded-full bg-accent-soft-2 text-accent-ink ring-1 ring-accent/10">
-                      <Icon size={22} weight="light" />
+                      <Icon size={22} />
                     </span>
                   )}
                   <span className={`relative font-mono text-[0.72rem] tracking-[0.12em] ${img ? 'text-on-dark-muted' : 'text-muted'}`}>0{i + 1}</span>

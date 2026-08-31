@@ -5,6 +5,7 @@ import {pageMetadata} from '@/lib/seo';
 import {Hero} from '@/components/sections/Hero';
 import {CredentialStrip} from '@/components/sections/CredentialStrip';
 import {ServicesBento} from '@/components/sections/ServicesBento';
+import {Stats} from '@/components/sections/Stats';
 import {PortCallProcess} from '@/components/sections/PortCallProcess';
 import {PortsCards} from '@/components/sections/PortsCards';
 import {Captain} from '@/components/sections/Captain';
@@ -32,6 +33,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <Hero />
       <CredentialStrip />
       <ServicesBento />
+      <Stats />
       <PortCallProcess />
       <PortsCards />
       <Captain />

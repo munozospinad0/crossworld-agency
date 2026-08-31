@@ -7,21 +7,27 @@ import {site} from '@/content/site';
 export async function Captain() {
   const t = await getTranslations('Home');
   return (
-    <section id="captain" className="py-[clamp(56px,7vw,104px)]">
-      <div className="wrap grid grid-cols-1 items-center gap-[clamp(24px,4vw,56px)] md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-        <Reveal className="relative aspect-[3/2] overflow-hidden rounded-card md:aspect-[4/5]">
-          <Image src="/images/captain.jpg" alt={`${site.captain.name}, Cross World Agency, Panama City`} fill sizes="(max-width: 768px) 100vw, 42vw" className="object-cover object-[50%_20%]" />
+    <section id="captain" className="py-[clamp(72px,9vw,128px)]">
+      <div className="wrap grid grid-cols-1 items-center gap-[clamp(28px,5vw,72px)] md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+        <Reveal className="shell md:-rotate-1">
+          <div className="core relative aspect-[3/2] overflow-hidden bg-surface md:aspect-[4/5]">
+            <Image src="/images/captain.jpg" alt={`${site.captain.name}, Cross World Agency, Panama City`} fill sizes="(max-width: 768px) 100vw, 42vw" className="object-cover object-[50%_20%]" />
+            <div aria-hidden="true" className="absolute inset-x-0 bottom-0 bg-[linear-gradient(0deg,rgba(11,20,32,0.85),transparent)] p-5 pt-16 text-white">
+              <span className="block font-brand text-[0.9rem] tracking-[0.12em]">CAPT. GUILLERMO A. PEÑA</span>
+              <span className="block font-mono text-[0.72rem] text-on-dark-muted">ISM Code Internal Auditor</span>
+            </div>
+          </div>
         </Reveal>
         <Reveal delay={1}>
           <h2 className="t-h2">{t('captainTitle')}</h2>
-          <p className="mt-3">{t('captainText')}</p>
-          <blockquote className="mt-4 mb-0 max-w-[40ch] border-l-[3px] border-accent pl-4 text-[1.15rem] leading-[1.45] font-medium text-ink">“{t('captainQuote')}”</blockquote>
-          <div className="mt-4 flex flex-wrap gap-2 font-mono text-[0.78rem]">
+          <p className="mt-4 max-w-[60ch]">{t('captainText')}</p>
+          <blockquote className="mt-6 mb-0 max-w-[40ch] border-l-2 border-brand-sky pl-5 text-[clamp(1.2rem,1.8vw,1.5rem)] leading-[1.4] font-medium tracking-[-0.01em] text-ink">“{t('captainQuote')}”</blockquote>
+          <div className="mt-6 flex flex-wrap gap-2 font-mono text-[0.78rem]">
             {site.captain.credentials.map((c) => (
-              <span key={c} className="rounded-full border border-line-strong bg-surface px-2.5 py-1 text-ink">{c}</span>
+              <span key={c} className="rounded-full border border-line bg-surface px-3 py-1.5 text-ink">{c}</span>
             ))}
           </div>
-          <div className="mt-5">
+          <div className="mt-7">
             <ButtonLink href="/about" variant="ghost">{t('captainCta')}</ButtonLink>
           </div>
         </Reveal>

@@ -4,6 +4,9 @@ import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {getMessages, getTranslations, setRequestLocale} from 'next-intl/server';
 import {GeistSans} from 'geist/font/sans';
 import {GeistMono} from 'geist/font/mono';
+import {Cinzel} from 'next/font/google';
+
+const brandFont = Cinzel({subsets: ['latin'], weight: ['600'], variable: '--font-brand', display: 'swap'});
 import {Analytics} from '@vercel/analytics/next';
 import {SpeedInsights} from '@vercel/speed-insights/next';
 import {routing, type Locale} from '@/i18n/routing';
@@ -39,15 +42,16 @@ export default async function LocaleLayout({children, params}: {children: React.
   const t = await getTranslations({locale, namespace: 'Nav'});
 
   return (
-    <html lang={locale} className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html lang={locale} className={`${GeistSans.variable} ${GeistMono.variable} ${brandFont.variable}`}>
       <head>
         <script dangerouslySetInnerHTML={{__html: "document.documentElement.classList.add('js')"}} />
       </head>
       <body>
+        <div className="grain" aria-hidden="true" />
         <NextIntlClientProvider messages={messages}>
           <a className="skip" href="#content">{t('skip')}</a>
           <Nav />
-          <main id="content">{children}</main>
+          <main id="content" className="[&>*:first-child:not(header)]:mt-20">{children}</main>
           <Footer />
           <WhatsAppButton />
         </NextIntlClientProvider>

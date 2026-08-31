@@ -18,7 +18,7 @@ export function NominateBlock() {
   ];
   const text = lines.join('\n');
   return (
-    <div className="relative rounded-card border border-white/10 bg-ink-2 p-6 font-mono text-[0.84rem] leading-relaxed text-on-dark">
+    <div className="core relative bg-ink-2 p-6 font-mono text-[0.84rem] leading-relaxed text-on-dark">
       <button
         type="button"
         aria-live="polite"

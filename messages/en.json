@@ -69,6 +69,18 @@
     "copy": "Copy",
     "copied": "Copied"
   },
+  "Journey": {
+    "title": "One transit, told from the bridge",
+    "sub": "Scroll to take a vessel across the isthmus. This is what we handle at every mile.",
+    "hint": "Keep scrolling",
+    "stages": [
+      {"name": "Balboa · Pacific anchorage", "title": "Boarding and pre-transit", "text": "Our officer boards at the anchorage. Pilots, documentation and the funds for tolls are confirmed before the vessel weighs anchor."},
+      {"name": "Miraflores · Pedro Miguel", "title": "Up through the Pacific locks", "text": "Two lock flights lift the vessel about 26 metres to lake level, with linehandlers and locomotives working each chamber."},
+      {"name": "Gatún Lake", "title": "The fresh-water crossing", "text": "A long transit across the lake. The maximum authorized draft follows the lake level; your PDA states the figure in force, with its date."},
+      {"name": "Gatún · Agua Clara", "title": "Down to the Atlantic", "text": "The final flight lowers the vessel to sea level. A typical transit spends 8 to 10 hours underway in Canal waters."},
+      {"name": "Cristóbal · Atlantic", "title": "Sailing, or the next call", "text": "Bunker, surveys and crew changes on the Atlantic side if you need them, and an FDA reconciled line by line after departure."}
+    ]
+  },
   "Ports": {
     "balboa": {"name": "Port of Balboa", "side": "Pacific", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Miraflores", "duty": "Duty officer"},
     "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "duty": "Attendance", "dutyNote": "boarding officer resident in Colón or boarding partner (to confirm)"},
@@ -95,7 +107,8 @@
     "toConfirm": "(to confirm)",
     "operations": "Operations 24/7",
     "office": "Office",
-    "timezone": "All times in Panama time (UTC-5, no daylight saving)."
+    "timezone": "All times in Panama time (UTC-5, no daylight saving).",
+    "backToTop": "Back to top"
   },
   "NotFound": {
     "title": "Page not found",

@@ -3,7 +3,8 @@ import {Link} from '@/i18n/navigation';
 import {site, whatsappHref} from '@/content/site';
 import {services} from '@/content/services';
 import type {Locale} from '@/i18n/routing';
-import {AnchorMark, SignalFlags, Wordmark} from '@/components/brand/Logo';
+import {AnchorMark, Wordmark} from '@/components/brand/Logo';
+import {FlagWordmark} from '@/components/brand/FlagWordmark';
 
 export async function Footer() {
   const locale = (await getLocale()) as Locale;
@@ -20,7 +21,7 @@ export async function Footer() {
         <div>
           <div className="flex items-center gap-3"><AnchorMark size={36} onDark /><Wordmark onDark /></div>
           <p className="mt-4 mb-0 max-w-[40ch]">{t('tagline')}</p>
-          <SignalFlags className="mt-5 h-5 w-auto opacity-80" />
+          <FlagWordmark className="mt-6" />
           <p className="mt-5 font-mono text-[0.8rem] leading-relaxed">
             {site.legalName} · RUC {site.ruc}<br />IMO company number {site.imoCompanyNumber}<br />
             {site.address.street} · {site.address.street2}<br />{site.address.city}, {site.address.country}<br />

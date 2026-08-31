@@ -14,6 +14,7 @@ import {Nav} from '@/components/layout/Nav';
 import {Footer} from '@/components/layout/Footer';
 import {WhatsAppButton} from '@/components/layout/WhatsAppButton';
 import {AnalyticsTags} from '@/components/layout/AnalyticsTags';
+import {HelmProgress} from '@/components/motion/HelmProgress';
 import {organizationJsonLd} from '@/lib/schema';
 import {site} from '@/content/site';
 import '../globals.css';
@@ -54,6 +55,7 @@ export default async function LocaleLayout({children, params}: {children: React.
           <main id="content" className="pt-[92px]">{children}</main>
           <Footer />
           <WhatsAppButton />
+          <HelmProgress />
         </NextIntlClientProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(organizationJsonLd(locale as Locale))}} />
         <AnalyticsTags />

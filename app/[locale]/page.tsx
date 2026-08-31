@@ -7,6 +7,7 @@ import {CredentialStrip} from '@/components/sections/CredentialStrip';
 import {ServicesBento} from '@/components/sections/ServicesBento';
 import {Stats} from '@/components/sections/Stats';
 import {PortCallProcess} from '@/components/sections/PortCallProcess';
+import {CanalCrossing} from '@/components/sections/CanalCrossing';
 import {PortsCards} from '@/components/sections/PortsCards';
 import {Captain} from '@/components/sections/Captain';
 import {Audiences} from '@/components/sections/Audiences';
@@ -35,6 +36,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <ServicesBento />
       <Stats />
       <PortCallProcess />
+      <CanalCrossing />
       <PortsCards />
       <Captain />
       <Audiences />

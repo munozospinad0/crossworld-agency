@@ -69,6 +69,18 @@
     "copy": "Copiar",
     "copied": "Copiado"
   },
+  "Journey": {
+    "title": "Un tránsito, contado desde el puente",
+    "sub": "Haga scroll para cruzar el istmo con un buque. Esto es lo que atendemos en cada milla.",
+    "hint": "Siga bajando",
+    "stages": [
+      {"name": "Balboa · fondeadero del Pacífico", "title": "Abordaje y pretránsito", "text": "Nuestro oficial aborda en el fondeadero. Prácticos, documentación y los fondos de peajes quedan confirmados antes de levar anclas."},
+      {"name": "Miraflores · Pedro Miguel", "title": "Subida por las esclusas del Pacífico", "text": "Dos saltos de esclusas elevan el buque unos 26 metros hasta el nivel del lago, con pasacables y locomotoras trabajando cada cámara."},
+      {"name": "Lago Gatún", "title": "El cruce de agua dulce", "text": "Una travesía larga por el lago. El calado máximo autorizado sigue el nivel del lago; su PDA indica la cifra vigente, con su fecha."},
+      {"name": "Gatún · Agua Clara", "title": "Bajada al Atlántico", "text": "El último salto devuelve el buque al nivel del mar. Un tránsito típico pasa de 8 a 10 horas navegando en aguas del Canal."},
+      {"name": "Cristóbal · Atlántico", "title": "Zarpe, o la siguiente escala", "text": "Bunker, inspecciones y cambios de tripulación en el lado Atlántico si los necesita, y una FDA conciliada línea por línea tras el zarpe."}
+    ]
+  },
   "Ports": {
     "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Miraflores", "duty": "Oficial de guardia"},
     "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "duty": "Atención", "dutyNote": "oficial residente en Colón o socio de abordaje (a confirmar)"},
@@ -95,7 +107,8 @@
     "toConfirm": "(a confirmar)",
     "operations": "Operaciones 24/7",
     "office": "Oficina",
-    "timezone": "Todas las horas en hora de Panamá (UTC-5, sin horario de verano)."
+    "timezone": "Todas las horas en hora de Panamá (UTC-5, sin horario de verano).",
+    "backToTop": "Volver arriba"
   },
   "NotFound": {
     "title": "Página no encontrada",

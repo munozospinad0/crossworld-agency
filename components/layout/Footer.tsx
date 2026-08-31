@@ -13,7 +13,9 @@ export async function Footer() {
   const col = 'mb-3 font-mono text-[0.72rem] tracking-[0.14em] text-on-dark-muted uppercase';
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-ink pt-16 pb-28 text-[0.92rem] text-on-dark-muted">
-      <div aria-hidden="true" className="pointer-events-none absolute -bottom-6 left-0 font-brand text-[clamp(4rem,14vw,12rem)] leading-none font-semibold tracking-[0.06em] whitespace-nowrap text-white/[0.035] select-none">CROSS WORLD</div>
+      <svg aria-hidden="true" className="pointer-events-none absolute -bottom-4 left-0 h-[clamp(4rem,14vw,12rem)] w-auto select-none" viewBox="0 0 1200 160" preserveAspectRatio="xMinYMax meet">
+        <text x="0" y="150" fontFamily="var(--font-brand)" fontWeight="600" fontSize="160" letterSpacing="8" fill="rgba(255,255,255,0.04)">CROSS WORLD</text>
+      </svg>
       <div className="wrap relative grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3"><AnchorMark size={36} onDark /><Wordmark onDark /></div>

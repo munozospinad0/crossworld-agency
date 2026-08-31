@@ -50,13 +50,13 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <Card title={t.pacific}>
-          {site.phones.operations.label}: <a className="text-accent-ink" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a><br />{t.hours}
+          {site.phones.operations.label}: <a className="text-accent-ink underline" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a><br />{t.hours}
         </Card>
         <Card title={t.atlantic}>
           {site.phones.atlantic.display}<br />{locale === 'es' ? 'Oficial residente en Colón o socio de abordaje (a confirmar)' : 'Boarding officer resident in Colón or boarding partner (to confirm)'}
         </Card>
         <Card title={t.office}>
-          <a className="text-accent-ink" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />{t.email}: <a className="text-accent-ink" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a>{site.emails.operations.confirm ? ` ${c('toConfirm')}` : ''}
+          <a className="text-accent-ink underline" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />{t.email}: <a className="text-accent-ink underline" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a>{site.emails.operations.confirm ? ` ${c('toConfirm')}` : ''}
         </Card>
         <Card title={t.address}>
           {site.legalName}<br />{site.address.street}<br />{site.address.street2}<br />{site.address.city}, {site.address.country}<br />{c('timezone')}

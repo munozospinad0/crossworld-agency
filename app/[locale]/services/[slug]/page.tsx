@@ -138,7 +138,7 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
             <div className="rounded-card border border-line bg-surface p-5 text-[0.95rem]">
               <h2 className="text-[1.05rem]">{t.ports}</h2>
               <p className="m-0 mt-1">{s.ports[locale]}</p>
-              <p className="mt-3 mb-0 font-mono text-[0.8rem] text-muted">{c('operations')}: <a className="text-ink" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a></p>
+              <p className="mt-3 mb-0 font-mono text-[0.8rem] text-muted">{c('operations')}: <a className="text-ink underline" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a></p>
             </div>
             <div className="rounded-card border border-line bg-surface p-5 text-[0.95rem]">
               <h2 className="text-[1.05rem]">{t.related}</h2>

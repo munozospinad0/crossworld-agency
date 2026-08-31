@@ -1,0 +1,105 @@
+{
+  "Nav": {
+    "services": "Servicios",
+    "guide": "Guía del Canal",
+    "ports": "Puertos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "requestPortCall": "Solicitar port call",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "skip": "Ir al contenido",
+    "switchTo": "English"
+  },
+  "Cta": {
+    "portcall": "Solicitar port call",
+    "surveyor": "Solicitar surveyor",
+    "fuel": "Cotizar combustible",
+    "attendance": "Solicitar atención",
+    "whatsapp": "WhatsApp de guardia",
+    "nominate": "Nominar a Cross World",
+    "learnMore": "Ver más"
+  },
+  "Home": {
+    "h1": "Agencia naviera e inspecciones marítimas en el Canal de Panamá.",
+    "sub": "Licencia de la Autoridad Marítima de Panamá y autorización de la Autoridad del Canal desde 2010. Un solo equipo para la escala. Surveyors independientes para la evidencia. 24/7.",
+    "credentials": {
+      "amp": "Agencia naviera con licencia AMP",
+      "acp": "Autorizada por la Autoridad del Canal de Panamá",
+      "imo": "IMO company number 5785507",
+      "since": "Desde 2010",
+      "sides": "Balboa y Cristóbal",
+      "pause": "Pausar",
+      "play": "Reanudar",
+      "label": "Credenciales"
+    },
+    "servicesTitle": "Lo que hacemos en ambos lados del Canal",
+    "servicesSub": "Siete servicios, un solo equipo responsable de la escala y surveyors independientes para la evidencia. Nomínenos para el tránsito; la inspección y el combustible son la misma llamada.",
+    "processTitle": "Cómo funciona un port call con nosotros",
+    "processSub": "Cuatro pasos, cada uno con lo que recibe y cuándo.",
+    "process": [
+      {"n": "1", "title": "Nominación", "text": "Envíe los datos del buque, la ETA y los servicios que necesita. Confirmamos con un número de solicitud y el oficial de guardia sigue desde ahí.", "when": "Inmediato"},
+      {"n": "2", "title": "Cuenta proforma (PDA)", "text": "Peajes del Canal, tasa de reserva, tarifa fija, practicaje, remolcadores, pasacables y cada costo de terceros detallado, con el honorario de agencia en una sola línea.", "when": "El mismo día hábil (a confirmar)"},
+      {"n": "3", "title": "Abordaje y tránsito", "text": "Nuestro oficial aborda en el fondeadero y coordina Autoridad, prácticos, remolcadores, pasacables, cambios de tripulación y suministros. Un hilo de WhatsApp, un reporte diario.", "when": "Durante toda la escala"},
+      {"n": "4", "title": "Cuenta final (FDA)", "text": "Conciliada línea por línea contra la PDA, cada cargo de terceros con su comprobante y las diferencias explicadas. Si hubo una inspección durante la escala, su informe viaja con ella.", "when": "Dentro de 30 días (a confirmar)"}
+    ],
+    "portsTitle": "Ambos lados del Canal",
+    "portsSub": "Oficiales de guardia en el Pacífico y en el Atlántico, y los puertos panameños que atendemos.",
+    "portsNote": "Datos de puerto de muestra; solo se publican los puertos que realmente atendemos.",
+    "captainTitle": "Le contesta un capitán.",
+    "captainText": "El capitán Guillermo A. Peña ha comandado e inspeccionado buques durante (años a confirmar). Es auditor interno del Código ISM, formado en el Seafarers Training Center y en Maersk Training Centre, y revisa cada informe de inspección que sale de esta oficina.",
+    "captainQuote": "Cuando llama a las tres de la mañana, le contesta alguien que ha hecho guardia de puente.",
+    "captainCta": "Sobre Cross World",
+    "whoTitle": "A quién servimos",
+    "whoSub": "Distintos principales, distintas preocupaciones. Díganos quién es y le decimos cómo trabajamos con usted.",
+    "who": [
+      {"title": "Armadores y gestores", "text": "Agencia de tránsito, husbandry e inspecciones con un solo oficial responsable."},
+      {"title": "Fletadores y traders", "text": "Cantidad de bunker, atención de STS y agencia protectora."},
+      {"title": "Corresponsales P&I y aseguradores", "text": "Inspecciones de condición, atención de reclamos y evidencia preservada."},
+      {"title": "Flotas pesqueras y operadores regionales", "text": "Suministro de combustible y agencia en español, por WhatsApp."}
+    ],
+    "proofQuote": "El surveyor estaba a bordo en Cristóbal el mismo día, y el informe cerró la disputa.",
+    "proofNote": "Testimonio de muestra. Las citas reales se publican solo con permiso escrito.",
+    "partnersLabel": "Socios y representación",
+    "finalTitle": "Su próxima escala en Panamá, resuelta.",
+    "finalSub": "Envíe los datos del buque y la ETA. Recibe un número de solicitud ahora y una PDA detallada del oficial de guardia.",
+    "nominateTitle": "Nominar a Cross World",
+    "nominateHelp": "Pegue este bloque en su mensaje de nominación al fletador o a la Autoridad.",
+    "bankNote": "Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.",
+    "copy": "Copiar",
+    "copied": "Copiado"
+  },
+  "Ports": {
+    "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Miraflores", "duty": "Oficial de guardia"},
+    "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "duty": "Atención", "dutyNote": "oficial residente en Colón o socio de abordaje (a confirmar)"},
+    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)", "Taboguilla · Melones", "Vacamonte"]
+  },
+  "Footer": {
+    "tagline": "Agencia naviera, inspecciones marítimas, bunker y soporte a reclamos en el Canal de Panamá. Licencia AMP y autorización de la Autoridad del Canal desde 2010.",
+    "services": "Servicios",
+    "company": "Empresa",
+    "nominate": "Nominar",
+    "about": "Nosotros",
+    "certifications": "Certificaciones",
+    "compliance": "Cumplimiento y KYC pack",
+    "ports": "Puertos",
+    "guide": "Guía del Canal de Panamá",
+    "contact": "Contacto",
+    "ethics": "Canal de ética",
+    "privacy": "Privacidad",
+    "terms": "Condiciones generales",
+    "figures": "Las cifras del Canal son referenciales y provienen de la Autoridad del Canal de Panamá.",
+    "rights": "Todos los derechos reservados."
+  },
+  "Common": {
+    "toConfirm": "(a confirmar)",
+    "operations": "Operaciones 24/7",
+    "office": "Oficina",
+    "timezone": "Todas las horas en hora de Panamá (UTC-5, sin horario de verano)."
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "text": "La página que busca no existe o se movió. Pruebe con los servicios o contacte al oficial de guardia.",
+    "home": "Ir al inicio"
+  }
+}

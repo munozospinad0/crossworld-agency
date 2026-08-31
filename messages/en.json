@@ -1,0 +1,105 @@
+{
+  "Nav": {
+    "services": "Services",
+    "guide": "Canal guide",
+    "ports": "Ports",
+    "about": "About",
+    "contact": "Contact",
+    "requestPortCall": "Request a port call",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content",
+    "switchTo": "Español"
+  },
+  "Cta": {
+    "portcall": "Request a port call",
+    "surveyor": "Request a surveyor",
+    "fuel": "Request a fuel quote",
+    "attendance": "Request attendance",
+    "whatsapp": "WhatsApp duty officer",
+    "nominate": "Nominate Cross World",
+    "learnMore": "Learn more"
+  },
+  "Home": {
+    "h1": "Ship agency and marine surveys at the Panama Canal.",
+    "sub": "Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.",
+    "credentials": {
+      "amp": "AMP-licensed ship agency",
+      "acp": "Authorized by the Panama Canal Authority",
+      "imo": "IMO company number 5785507",
+      "since": "Since 2010",
+      "sides": "Balboa and Cristóbal",
+      "pause": "Pause",
+      "play": "Play",
+      "label": "Credentials"
+    },
+    "servicesTitle": "What we do at both ends of the Canal",
+    "servicesSub": "Seven services, one accountable team for the port call, and independent surveyors for the evidence. Nominate us for the transit; the survey and the fuel are the same phone call.",
+    "processTitle": "How a port call works with us",
+    "processSub": "Four steps, each with what you receive and when.",
+    "process": [
+      {"n": "1", "title": "Nomination", "text": "Send vessel particulars, ETA and the services you need. We confirm receipt with a request number and the duty officer takes it from there.", "when": "Immediately"},
+      {"n": "2", "title": "Proforma disbursement account", "text": "Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, with the agency fee as one line.", "when": "Same working day (to confirm)"},
+      {"n": "3", "title": "Boarding and transit", "text": "Our officer boards at the anchorage and coordinates the Authority, pilots, tugs, linehandlers, crew changes and supplies. One WhatsApp thread, one daily update.", "when": "Throughout the call"},
+      {"n": "4", "title": "Final disbursement account", "text": "Reconciled line by line against the PDA, every third-party charge with its voucher, variances explained. If a survey came up during the call, its report travels with it.", "when": "Within 30 days (to confirm)"}
+    ],
+    "portsTitle": "Both sides of the Canal",
+    "portsSub": "Duty officers on the Pacific and the Atlantic side, and the Panamanian ports we serve.",
+    "portsNote": "Sample port data; only the ports we actually serve will be published.",
+    "captainTitle": "A captain answers the phone.",
+    "captainText": "Captain Guillermo A. Peña has commanded and inspected vessels for (years to confirm). He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and reviews every survey report that leaves this office.",
+    "captainQuote": "When you call at three in the morning, you speak with someone who has stood a bridge watch.",
+    "captainCta": "About Cross World",
+    "whoTitle": "Who we serve",
+    "whoSub": "Different principals, different worries. Tell us who you are and we tell you how we work with you.",
+    "who": [
+      {"title": "Shipowners & managers", "text": "Transit agency, husbandry and surveys with one accountable officer."},
+      {"title": "Charterers & traders", "text": "Bunker quantity, STS attendance and protective agency."},
+      {"title": "P&I correspondents & insurers", "text": "Condition surveys, claims attendance and evidence preserved."},
+      {"title": "Fishing fleets & regional operators", "text": "Fuel supply and agency in Spanish, on WhatsApp."}
+    ],
+    "proofQuote": "The surveyor was on board at Cristóbal the same day, and the report closed the dispute.",
+    "proofNote": "Sample testimonial. Real quotes are published only with written permission.",
+    "partnersLabel": "Partners and representation",
+    "finalTitle": "Your next Panama call, handled.",
+    "finalSub": "Send the vessel particulars and ETA. You get a request number now and an itemized PDA from the duty officer.",
+    "nominateTitle": "Nominate Cross World",
+    "nominateHelp": "Paste this block in your nomination message to the charterer or the Authority.",
+    "bankNote": "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "Ports": {
+    "balboa": {"name": "Port of Balboa", "side": "Pacific", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Miraflores", "duty": "Duty officer"},
+    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "duty": "Attendance", "dutyNote": "boarding officer resident in Colón or boarding partner (to confirm)"},
+    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)", "Taboguilla · Melones", "Vacamonte"]
+  },
+  "Footer": {
+    "tagline": "Ship agency, marine surveys, bunker and claims support at the Panama Canal. Licensed by the AMP and authorized by the Panama Canal Authority since 2010.",
+    "services": "Services",
+    "company": "Company",
+    "nominate": "Nominate",
+    "about": "About",
+    "certifications": "Certifications",
+    "compliance": "Compliance & KYC pack",
+    "ports": "Ports",
+    "guide": "Panama Canal guide",
+    "contact": "Contact",
+    "ethics": "Ethics channel",
+    "privacy": "Privacy",
+    "terms": "Standard Trading Conditions",
+    "figures": "Canal figures are referential and sourced from the Panama Canal Authority.",
+    "rights": "All rights reserved."
+  },
+  "Common": {
+    "toConfirm": "(to confirm)",
+    "operations": "Operations 24/7",
+    "office": "Office",
+    "timezone": "All times in Panama time (UTC-5, no daylight saving)."
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or moved. Try the services or contact the duty officer.",
+    "home": "Go to the home page"
+  }
+}

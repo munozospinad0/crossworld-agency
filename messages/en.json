@@ -74,11 +74,11 @@
     "sub": "Scroll to take a vessel across the isthmus. This is what we handle at every mile.",
     "hint": "Keep scrolling",
     "stages": [
-      {"name": "Balboa · Pacific anchorage", "title": "Boarding and pre-transit", "text": "Our officer boards at the anchorage. Pilots, documentation and the funds for tolls are confirmed before the vessel weighs anchor."},
-      {"name": "Miraflores · Pedro Miguel", "title": "Up through the Pacific locks", "text": "Two lock flights lift the vessel about 26 metres to lake level, with linehandlers and locomotives working each chamber."},
-      {"name": "Gatún Lake", "title": "The fresh-water crossing", "text": "A long transit across the lake. The maximum authorized draft follows the lake level; your PDA states the figure in force, with its date."},
-      {"name": "Gatún · Agua Clara", "title": "Down to the Atlantic", "text": "The final flight lowers the vessel to sea level. A typical transit spends 8 to 10 hours underway in Canal waters."},
-      {"name": "Cristóbal · Atlantic", "title": "Sailing, or the next call", "text": "Bunker, surveys and crew changes on the Atlantic side if you need them, and an FDA reconciled line by line after departure."}
+      {"name": "Balboa · Pacific anchorage", "title": "Boarding and pre-transit", "text": "Our officer boards at the anchorage. Pilots, documentation and the funds for tolls are confirmed before the vessel weighs anchor.", "tag": "SEA LEVEL · 0 m"},
+      {"name": "Miraflores · Pedro Miguel", "title": "Up through the Pacific locks", "text": "Two lock flights lift the vessel about 26 metres to lake level, with linehandlers and locomotives working each chamber.", "tag": "LIFT · +26 m"},
+      {"name": "Gatún Lake", "title": "The fresh-water crossing", "text": "A long transit across the lake. The maximum authorized draft follows the lake level; your PDA states the figure in force, with its date.", "tag": "FRESH WATER · DRAFT BY LAKE LEVEL"},
+      {"name": "Gatún · Agua Clara", "title": "Down to the Atlantic", "text": "The final flight lowers the vessel to sea level. A typical transit spends 8 to 10 hours underway in Canal waters.", "tag": "TYPICAL TRANSIT · 8 TO 10 H"},
+      {"name": "Cristóbal · Atlantic", "title": "Sailing, or the next call", "text": "Bunker, surveys and crew changes on the Atlantic side if you need them, and an FDA reconciled line by line after departure.", "tag": "FDA · RECONCILED LINE BY LINE"}
     ]
   },
   "Ports": {

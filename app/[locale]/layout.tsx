@@ -39,6 +39,9 @@ export default async function LocaleLayout({children, params}: {children: React.
 
   return (
     <html lang={locale} className={`${GeistSans.variable} ${GeistMono.variable}`}>
+      <head>
+        <script dangerouslySetInnerHTML={{__html: "document.documentElement.classList.add('js')"}} />
+      </head>
       <body>
         <NextIntlClientProvider messages={messages}>
           <a className="skip" href="#content">{t('skip')}</a>

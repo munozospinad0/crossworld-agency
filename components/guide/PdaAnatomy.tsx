@@ -83,7 +83,7 @@ export function PdaAnatomy({locale}: {locale: 'en' | 'es'}) {
         </div>
         <div className="grid gap-4 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
           {/* el documento */}
-          <div className="rounded-[10px] border border-white/10 bg-ink-2 p-4 font-mono text-[0.8rem] md:p-5" role="tablist" aria-label={t.title}>
+          <div className="rounded-[10px] border border-white/10 bg-ink-2 p-4 font-mono text-[0.8rem] md:p-5" role="group" aria-label={t.title}>
             <div className="mb-3 border-b border-dashed border-white/15 pb-3">
               <div className="text-[0.68rem] tracking-[0.14em] text-brand-sky uppercase">{t.doc}</div>
               <div className="mt-1 text-on-dark-muted">{t.vessel}</div>
@@ -93,8 +93,7 @@ export function PdaAnatomy({locale}: {locale: 'en' | 'es'}) {
                 <li key={l.id}>
                   <button
                     type="button"
-                    role="tab"
-                    aria-selected={active === i}
+                    aria-pressed={active === i}
                     aria-controls="pda-panel"
                     onClick={() => setActive(i)}
                     className={`grid w-full grid-cols-[14px_1fr_auto] items-center gap-3 rounded-[6px] px-2 py-1.5 text-left transition-colors duration-200 ${active === i ? 'bg-white/10 text-white' : 'text-on-dark hover:bg-white/5'}`}
@@ -109,7 +108,7 @@ export function PdaAnatomy({locale}: {locale: 'en' | 'es'}) {
             <div className="mt-3 border-t border-dashed border-white/15 pt-3 text-[0.72rem] text-on-dark-muted">{t.figures}</div>
           </div>
           {/* el panel */}
-          <div id="pda-panel" role="tabpanel" className="rounded-[10px] border border-white/10 bg-white/5 p-5">
+          <div id="pda-panel" aria-live="polite" className="rounded-[10px] border border-white/10 bg-white/5 p-5">
             <span className="font-mono text-[0.68rem] tracking-[0.14em] text-brand-sky uppercase">{String(active + 1).padStart(2, '0')} · {t.who[line.who]}</span>
             <h4 className="mt-1.5 text-[1.15rem] text-white">{line.label}</h4>
             <dl className="mt-3 grid grid-cols-[max-content_1fr] gap-x-4 gap-y-1.5 font-mono text-[0.78rem]">

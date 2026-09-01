@@ -18,6 +18,7 @@ export const routing = defineRouting({
     '/compliance': {en: '/compliance', es: '/cumplimiento'},
     '/contact': {en: '/contact', es: '/contacto'},
     '/request-port-call': {en: '/request-port-call', es: '/solicitar-port-call'},
+    '/compare-your-fda': {en: '/compare-your-fda', es: '/compara-tu-fda'},
     '/privacy': {en: '/privacy', es: '/privacidad'},
     '/terms': {en: '/terms', es: '/terminos'},
   },

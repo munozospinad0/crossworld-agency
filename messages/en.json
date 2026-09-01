@@ -115,6 +115,27 @@
     "text": "The page you are looking for does not exist or moved. Try the services or contact the duty officer.",
     "home": "Go to the home page"
   },
+  "Fda": {
+    "metaTitle": "Compare your last Panama FDA, line by line",
+    "metaDescription": "Send us your last Panama Canal or port call FDA and we show you, line by line, what the same call would have cost with Cross World. No commitment.",
+    "title": "Compare your last Panama FDA",
+    "lead": "Send us the final disbursement account of your last Panama call. We rebuild it line by line, mark what we would have charged differently, and send it back. No commitment.",
+    "port": "The call was",
+    "portOptions": {"transit": "A Canal transit", "balboa": "A port call at Balboa", "cristobal": "A port call at Cristóbal", "other": "Other"},
+    "file": "Your FDA (PDF, JPG or PNG, up to 10 MB)",
+    "fileHelp": "Uploaded directly to private storage. Names of your current agent are kept confidential.",
+    "uploading": "Uploading…",
+    "uploaded": "File received. You can submit the form.",
+    "uploadsOff": "File upload is being enabled. Submit the form and reply to the confirmation email with the FDA attached.",
+    "tooBig": "The file exceeds 10 MB.",
+    "uploadFailed": "Upload failed. Try again or reply to the confirmation email with the file.",
+    "submit": "Send my FDA for comparison",
+    "sla": "You receive the comparison within 2 working days (to confirm).",
+    "howTitle": "What we do with it",
+    "howItems": ["A captain reads the FDA and checks every third-party line against the ACP tariff and the vouchers you would expect.", "We rebuild the account with our agency fee as one line and mark each difference.", "You get the comparison by email, with no obligation to nominate us."],
+    "privacyNote": "Your documents are used only for this comparison and deleted on request. Bank details are never requested here.",
+    "success": {"title": "Request {number} received.", "text": "A captain will read your FDA and reply by email. If you prefer to talk first, call {phone}."}
+  },
   "Form": {
     "metaTitle": "Request a port call or Canal transit",
     "metaDescription": "Send vessel particulars, ETA, ports and services. You receive a request number now and an itemized PDA from the duty officer.",

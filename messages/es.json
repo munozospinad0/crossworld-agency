@@ -115,6 +115,27 @@
     "text": "La página que busca no existe o se movió. Pruebe con los servicios o contacte al oficial de guardia.",
     "home": "Ir al inicio"
   },
+  "Fda": {
+    "metaTitle": "Compare su última FDA de Panamá, línea por línea",
+    "metaDescription": "Envíenos la FDA de su último tránsito o escala en Panamá y le mostramos, línea por línea, cuánto habría costado la misma escala con Cross World. Sin compromiso.",
+    "title": "Compare su última FDA de Panamá",
+    "lead": "Envíenos la cuenta final de desembolsos de su última escala en Panamá. La reconstruimos línea por línea, marcamos lo que habríamos cobrado distinto y se la devolvemos. Sin compromiso.",
+    "port": "La escala fue",
+    "portOptions": {"transit": "Un tránsito del Canal", "balboa": "Una escala en Balboa", "cristobal": "Una escala en Cristóbal", "other": "Otra"},
+    "file": "Su FDA (PDF, JPG o PNG, hasta 10 MB)",
+    "fileHelp": "Se sube directo a almacenamiento privado. Los nombres de su agente actual se mantienen confidenciales.",
+    "uploading": "Subiendo…",
+    "uploaded": "Archivo recibido. Ya puede enviar el formulario.",
+    "uploadsOff": "La carga de archivos se está habilitando. Envíe el formulario y responda al correo de confirmación con la FDA adjunta.",
+    "tooBig": "El archivo supera los 10 MB.",
+    "uploadFailed": "La subida falló. Intente de nuevo o responda al correo de confirmación con el archivo.",
+    "submit": "Enviar mi FDA para comparar",
+    "sla": "Recibe la comparación en 2 días hábiles (a confirmar).",
+    "howTitle": "Qué hacemos con ella",
+    "howItems": ["Un capitán lee la FDA y revisa cada línea de terceros contra el tarifario de la ACP y los comprobantes que debería haber.", "Reconstruimos la cuenta con nuestro honorario en una sola línea y marcamos cada diferencia.", "Recibe la comparación por correo, sin obligación de nominarnos."],
+    "privacyNote": "Sus documentos se usan solo para esta comparación y se eliminan a solicitud. Aquí nunca se piden datos bancarios.",
+    "success": {"title": "Solicitud {number} recibida.", "text": "Un capitán leerá su FDA y responderá por correo. Si prefiere hablar primero, llame al {phone}."}
+  },
   "Form": {
     "metaTitle": "Solicitar un port call o tránsito del Canal",
     "metaDescription": "Envíe los datos del buque, ETA, puertos y servicios. Recibe un número de solicitud ahora y una PDA detallada del oficial de guardia.",

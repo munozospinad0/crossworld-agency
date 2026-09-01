@@ -9,7 +9,8 @@
     "menu": "Menú",
     "close": "Cerrar",
     "skip": "Ir al contenido",
-    "switchTo": "English"
+    "switchTo": "English",
+    "language": "Idioma"
   },
   "Cta": {
     "portcall": "Solicitar port call",

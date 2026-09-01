@@ -3,7 +3,7 @@ import {Reveal} from '@/components/motion/Reveal';
 import {site} from '@/content/site';
 
 function PortCard({p, duty, dutyNote, delay}: {p: (k: string) => string; duty: string; dutyNote?: string; delay: 0 | 1}) {
-  const rows: [string, string][] = [[p('operator'), p('operatorValue')], [p('anchorage'), p('anchorageValue')], [p('bunker'), p('bunkerValue')], [p('locks'), p('locksValue')], [p('duty'), dutyNote ? `${duty} · ${dutyNote}` : duty]];
+  const rows: [string, string][] = [[p('anchorage'), p('anchorageValue')], [p('locks'), p('locksValue')], [p('duty'), dutyNote ? `${duty} · ${dutyNote}` : duty]];
   return (
     <Reveal delay={delay} className="shell-dark">
       <div className="core bg-ink-2 p-6 font-mono text-[0.86rem] leading-[1.7] text-on-dark">
@@ -13,7 +13,7 @@ function PortCard({p, duty, dutyNote, delay}: {p: (k: string) => string; duty: s
         </h3>
         <dl className="m-0 grid grid-cols-[max-content_1fr] gap-x-5 gap-y-1.5">
           {rows.map(([k, v]) => (
-            <div key={k} className="contents"><dt className="text-on-dark-muted">{k}</dt><dd className="m-0 text-white">{v}</dd></div>
+            <div key={k} className="contents"><dt className="text-on-dark-muted">{k}</dt><dd className="m-0 min-w-0 break-words text-white">{v}</dd></div>
           ))}
         </dl>
       </div>

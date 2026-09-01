@@ -44,9 +44,6 @@ export default async function LocaleLayout({children, params}: {children: React.
 
   return (
     <html lang={locale} className={`${GeistSans.variable} ${GeistMono.variable} ${brandFont.variable}`}>
-      <head>
-        <script dangerouslySetInnerHTML={{__html: "document.documentElement.classList.add('js')"}} />
-      </head>
       <body>
         <div className="grain" aria-hidden="true" />
         <NextIntlClientProvider messages={messages}>

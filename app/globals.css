@@ -56,6 +56,8 @@
 @layer base {
   :root { color-scheme: light; }
   html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+  /* clip (no hidden): recorta desbordes laterales sin crear un scroll container, para que el viewport móvil no se expanda y position:sticky siga funcionando */
+  html, body { overflow-x: clip; }
   body {
     background: var(--color-paper);
     color: var(--color-text);
@@ -85,12 +87,15 @@
   /* Superficies oscuras con profundidad */
   .deep { background: radial-gradient(120% 80% at 10% 0%, rgba(76, 141, 240, 0.22), transparent 55%), radial-gradient(80% 60% at 100% 100%, rgba(11, 46, 138, 0.35), transparent 60%), var(--color-ink); }
 
-  /* Revelado al hacer scroll: solo con JS (html.js), nunca por encima del pliegue. */
-  .js .rv { opacity: 0; transform: translate3d(0, 22px, 0); filter: blur(6px); transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out), filter 0.9s var(--ease-out); }
-  .js .rv.in { opacity: 1; transform: none; filter: blur(0); }
-  .js .rv.d1 { transition-delay: 0.07s; }
-  .js .rv.d2 { transition-delay: 0.14s; }
-  .js .rv.d3 { transition-delay: 0.21s; }
+  /* Revelado al hacer scroll: solo si el navegador ejecuta scripts (sin JS, o en navegadores
+     que no soportan la media query, el contenido queda visible), nunca por encima del pliegue. */
+  @media (scripting: enabled) {
+    .rv { opacity: 0; transform: translate3d(0, 22px, 0); filter: blur(6px); transition: opacity 0.9s var(--ease-out), transform 0.9s var(--ease-out), filter 0.9s var(--ease-out); }
+    .rv.in { opacity: 1; transform: none; filter: blur(0); }
+    .rv.d1 { transition-delay: 0.07s; }
+    .rv.d2 { transition-delay: 0.14s; }
+    .rv.d3 { transition-delay: 0.21s; }
+  }
 
   /* Marquesina de credenciales (única del sitio) */
   .mq-track { animation: mq 46s linear infinite; width: max-content; }
@@ -99,15 +104,17 @@
   /* Hero: movimiento lento de cámara (fuera del hilo principal) */
   .kenburns { animation: kenburns 26s var(--ease-in-out) infinite alternate; transform-origin: 60% 45%; will-change: transform; }
 
-  /* Ruta del Canal: se dibuja al entrar en viewport */
-  .route path.draw { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1.6s var(--ease-out) 0.2s; }
-  .rv.in .route path.draw { stroke-dashoffset: 0; }
+  /* Ruta del Canal: se dibuja al entrar en viewport (sin scripting queda dibujada) */
+  @media (scripting: enabled) {
+    .route path.draw { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1.6s var(--ease-out) 0.2s; }
+    .rv.in .route path.draw { stroke-dashoffset: 0; }
+  }
 
   .skip { position: absolute; left: -999px; top: 8px; z-index: 60; background: #fff; color: var(--color-ink); padding: 10px 14px; border-radius: 999px; border: 1px solid var(--color-line-strong); }
   .skip:focus { left: 12px; }
 
   @media (prefers-reduced-motion: reduce) {
-    .js .rv { opacity: 1; transform: none; filter: none; transition: none; }
+    .rv { opacity: 1 !important; transform: none !important; filter: none !important; transition: none !important; }
     .mq-track { animation: none !important; }
     .kenburns { animation: none; }
     .route path.draw { stroke-dashoffset: 0; transition: none; }

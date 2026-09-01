@@ -96,11 +96,11 @@ export function PdaAnatomy({locale}: {locale: 'en' | 'es'}) {
                     aria-pressed={active === i}
                     aria-controls="pda-panel"
                     onClick={() => setActive(i)}
-                    className={`grid w-full grid-cols-[14px_1fr_auto] items-center gap-3 rounded-[6px] px-2 py-1.5 text-left transition-colors duration-200 ${active === i ? 'bg-white/10 text-white' : 'text-on-dark hover:bg-white/5'}`}
+                    className={`grid w-full grid-cols-[14px_minmax(0,1fr)] items-center gap-3 rounded-[6px] px-2 py-1.5 text-left transition-colors duration-200 sm:grid-cols-[14px_minmax(0,1fr)_auto] ${active === i ? 'bg-white/10 text-white' : 'text-on-dark hover:bg-white/5'}`}
                   >
                     <i aria-hidden="true" className={`h-2 w-2 rounded-full ${whoColor[l.who]}`} />
-                    <span className="truncate">{String(i + 1).padStart(2, '0')}  {l.label}</span>
-                    <span className="text-on-dark-muted">····</span>
+                    <span className="sm:truncate">{String(i + 1).padStart(2, '0')}  {l.label}</span>
+                    <span className="hidden text-on-dark-muted sm:inline">····</span>
                   </button>
                 </li>
               ))}

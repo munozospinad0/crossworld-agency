@@ -7,6 +7,7 @@ import {site} from '@/content/site';
 import {pageMetadata} from '@/lib/seo';
 import {breadcrumbJsonLd} from '@/lib/schema';
 import {ButtonLink} from '@/components/ui/Button';
+import {PdaAnatomy} from '@/components/guide/PdaAnatomy';
 
 const ui = {
   en: {tldr: 'In short', contents: 'Contents', faq: 'Frequently asked questions', sources: 'Sources', reviewed: 'Last reviewed', byline: 'Written by the Cross World operations team. Reviewed by Capt. Guillermo A. Peña, ISM internal auditor.'},
@@ -59,6 +60,7 @@ export default async function GuidePage({params}: {params: Promise<{locale: stri
                 <h2 className="t-h2">{s.h2}</h2>
                 {s.p?.map((p) => <p key={p} className="mt-3">{p}</p>)}
                 {s.ul && <ul className="mt-4 grid list-disc gap-2 pl-5">{s.ul.map((x) => <li key={x}>{x}</li>)}</ul>}
+                {s.id === 'agent' && <div className="mt-6"><PdaAnatomy locale={locale} /></div>}
               </div>
             ))}
             <div id="faq">

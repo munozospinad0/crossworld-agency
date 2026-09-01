@@ -10,6 +10,7 @@ import {PortCallProcess} from '@/components/sections/PortCallProcess';
 import {CanalCrossing} from '@/components/sections/CanalCrossing';
 import {PortsCards} from '@/components/sections/PortsCards';
 import {Captain} from '@/components/sections/Captain';
+import {FieldReels} from '@/components/sections/FieldReels';
 import {Audiences} from '@/components/sections/Audiences';
 import {Proof} from '@/components/sections/Proof';
 import {FinalCta} from '@/components/sections/FinalCta';
@@ -39,6 +40,7 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <CanalCrossing />
       <PortsCards />
       <Captain />
+      <FieldReels />
       <Audiences />
       <Proof />
       <FinalCta />

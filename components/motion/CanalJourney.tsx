@@ -20,7 +20,6 @@ type Geo = {
   labelAnchor: ('start' | 'middle' | 'end')[];
   locks: number[];
   compass: {x: number; y: number};
-  soundings: {x: number; y: number; v: string}[];
 };
 
 // Carta horizontal (escritorio): Pacífico a la izquierda, Caribe a la derecha.
@@ -42,10 +41,6 @@ const DESKTOP: Geo = {
   labelAnchor: ['middle', 'middle', 'middle', 'middle', 'middle'],
   locks: [1, 3],
   compass: {x: 62, y: 66},
-  soundings: [
-    {x: 132, y: 262, v: '54'}, {x: 96, y: 150, v: '61'}, {x: 306, y: 112, v: '46'},
-    {x: 680, y: 300, v: '38'}, {x: 806, y: 330, v: '27'}, {x: 566, y: 236, v: '33'},
-  ],
 };
 
 // Carta vertical (celular): Pacífico abajo, Caribe arriba, como la geografía real.
@@ -67,7 +62,6 @@ const MOBILE: Geo = {
   labelAnchor: ['start', 'start', 'end', 'start', 'end'],
   locks: [1, 3],
   compass: {x: 46, y: 178},
-  soundings: [{x: 330, y: 600, v: '54'}, {x: 90, y: 626, v: '61'}, {x: 120, y: 44, v: '46'}, {x: 350, y: 40, v: '38'}],
 };
 
 // Perfil de elevación: 0 m → +26 m (lago) → 0 m
@@ -106,11 +100,6 @@ function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop}: {geo: Geo; 
 
       {geo.land.map((d) => <path key={d.slice(0, 24)} d={d} fill="url(#landA)" />)}
       {geo.coast.map((d) => <path key={d.slice(0, 24)} d={d} fill="none" stroke="rgba(76,141,240,0.14)" strokeWidth="1" />)}
-
-      {/* sondas de profundidad, como en una carta náutica */}
-      {geo.soundings.map((s) => (
-        <text key={`${s.x}-${s.y}`} x={s.x} y={s.y} fontFamily="var(--font-mono)" fontSize="9" fill="rgba(169,182,195,0.38)" fontStyle="italic">{s.v}</text>
-      ))}
 
       <ellipse cx={geo.lake.cx} cy={geo.lake.cy} rx={geo.lake.rx} ry={geo.lake.ry} fill="rgba(76,141,240,0.10)" />
       <ellipse cx={geo.lake.cx} cy={geo.lake.cy} rx={geo.lake.rx} ry={geo.lake.ry} fill="url(#lakeGlow)" opacity={stage === 2 ? 1 : 0.3} style={{transition: 'opacity 600ms cubic-bezier(0.23,1,0.32,1)'}} />

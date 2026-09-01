@@ -1,19 +1,25 @@
-/** Marca: ancla del logo original (azul cielo con contorno azul marino) + wordmark en serif de caja alta. */
+/** Marca: redibujo vectorial del logo real del cliente (escudo azul con ancla blanca y cabo) + wordmark en serif de caja alta. */
 export function AnchorMark({size = 34, className = '', onDark = false}: {size?: number; className?: string; onDark?: boolean}) {
   const navy = onDark ? '#EEF2F6' : '#0B2E8A';
-  const sky = onDark ? '#7FB0FF' : '#4C8DF0';
+  const shield = onDark ? '#2F62C8' : '#2C63CF';
+  const white = onDark ? '#FFFFFF' : '#FFFFFF';
   return (
     <svg width={size} height={size} viewBox="0 0 64 64" fill="none" aria-hidden="true" className={className}>
-      {/* corona */}
-      <circle cx="32" cy="9" r="5" stroke={navy} strokeWidth="3" />
+      {/* escudo pentagonal */}
+      <path d="M13 5h38v30L32 57 13 35z" fill={shield} stroke={navy} strokeWidth="1.6" strokeLinejoin="round" />
+      {/* arganeo */}
+      <circle cx="32" cy="12" r="4" stroke={white} strokeWidth="2.6" />
+      <circle cx="32" cy="12" r="4" stroke={navy} strokeWidth="0.6" />
       {/* cepo */}
-      <rect x="17" y="17" width="30" height="5" rx="2.5" fill={sky} stroke={navy} strokeWidth="1.5" />
+      <rect x="21" y="18.5" width="22" height="4.2" rx="2.1" fill={white} stroke={navy} strokeWidth="0.8" />
       {/* caña */}
-      <rect x="29.5" y="14" width="5" height="40" rx="2" fill={sky} stroke={navy} strokeWidth="1.5" />
+      <rect x="30.1" y="16" width="3.8" height="40" rx="1.6" fill={white} stroke={navy} strokeWidth="0.8" />
       {/* brazos con uñas */}
-      <path d="M12 34c1.5 12 9 18 20 19 11-1 18.5-7 20-19l-5 3.5c-1.5 8-7 12.5-15 13.5-8-1-13.5-5.5-15-13.5L12 34z" fill={sky} stroke={navy} strokeWidth="1.5" strokeLinejoin="round" />
-      <path d="M12 34l-3 6 8 1-2-5.5" fill={navy} />
-      <path d="M52 34l3 6-8 1 2-5.5" fill={navy} />
+      <path d="M14 38c1.6 11 8.6 17.6 18 19.4 9.4-1.8 16.4-8.4 18-19.4l-4.6 3.2c-1.6 7-6.4 11.4-13.4 12.6-7-1.2-11.8-5.6-13.4-12.6L14 38z" fill={white} stroke={navy} strokeWidth="0.9" strokeLinejoin="round" />
+      <path d="M14 38l-3.4 6.2 8.2.6-1.8-5.2z" fill={white} stroke={navy} strokeWidth="0.9" strokeLinejoin="round" />
+      <path d="M50 38l3.4 6.2-8.2.6 1.8-5.2z" fill={white} stroke={navy} strokeWidth="0.9" strokeLinejoin="round" />
+      {/* cabo enrollado en la caña */}
+      <path d="M24 27c4 3 12 3 16 0M24 33c4-3 12-3 16 0M24 33c4 3 12 3 16 0M24 39c4-3 12-3 16 0" stroke={navy} strokeWidth="1.1" strokeLinecap="round" />
     </svg>
   );
 }

@@ -39,15 +39,15 @@
     "processSub": "Cuatro pasos, cada uno con lo que recibe y cuándo.",
     "process": [
       {"n": "1", "title": "Nominación", "text": "Envíe los datos del buque, la ETA y los servicios que necesita. Confirmamos con un número de solicitud y el oficial de guardia sigue desde ahí.", "when": "Inmediato"},
-      {"n": "2", "title": "Cuenta proforma (PDA)", "text": "Peajes del Canal, tasa de reserva, tarifa fija, practicaje, remolcadores, pasacables y cada costo de terceros detallado, con el honorario de agencia en una sola línea.", "when": "El mismo día hábil (a confirmar)"},
+      {"n": "2", "title": "Cuenta proforma (PDA)", "text": "Peajes del Canal, tasa de reserva, tarifa fija, practicaje, remolcadores, pasacables y cada costo de terceros detallado, con el honorario de agencia en una sola línea.", "when": "Antes del llamado de fondos"},
       {"n": "3", "title": "Abordaje y tránsito", "text": "Nuestro oficial aborda en el fondeadero y coordina Autoridad, prácticos, remolcadores, pasacables, cambios de tripulación y suministros. Un hilo de WhatsApp, un reporte diario.", "when": "Durante toda la escala"},
-      {"n": "4", "title": "Cuenta final (FDA)", "text": "Conciliada línea por línea contra la PDA, cada cargo de terceros con su comprobante y las diferencias explicadas. Si hubo una inspección durante la escala, su informe viaja con ella.", "when": "Dentro de 30 días (a confirmar)"}
+      {"n": "4", "title": "Cuenta final (FDA)", "text": "Conciliada línea por línea contra la PDA, cada cargo de terceros con su comprobante y las diferencias explicadas. Si hubo una inspección durante la escala, su informe viaja con ella.", "when": "Tras la salida, con todos los comprobantes"}
     ],
     "portsTitle": "Ambos lados del Canal",
     "portsSub": "Oficiales de guardia en el Pacífico y en el Atlántico, y los puertos panameños que atendemos.",
-    "portsNote": "Datos de puerto de muestra; solo se publican los puertos que realmente atendemos.",
+    "portsNote": "Envíe el terminal y la ETA; el oficial de guardia confirma la atención.",
     "captainTitle": "Le contesta un capitán.",
-    "captainText": "El capitán Guillermo A. Peña ha comandado e inspeccionado buques durante (años a confirmar). Es auditor interno del Código ISM, formado en el Seafarers Training Center y en Maersk Training Centre, y revisa cada informe de inspección que sale de esta oficina.",
+    "captainText": "El capitán Guillermo A. Peña suma más de 40 años de experiencia marítima. Es auditor interno del Código ISM, formado en el Seafarers Training Center y en Maersk Training Centre, y revisa cada informe de inspección que sale de esta oficina.",
     "captainQuote": "Cuando llama a las tres de la mañana, le contesta alguien que ha hecho guardia de puente.",
     "captainCta": "Sobre Cross World",
     "whoTitle": "A quién servimos",
@@ -58,8 +58,12 @@
       {"title": "Corresponsales P&I y aseguradores", "text": "Inspecciones de condición, atención de reclamos y evidencia preservada."},
       {"title": "Flotas pesqueras y operadores regionales", "text": "Suministro de combustible y agencia en español, por WhatsApp."}
     ],
-    "proofQuote": "El surveyor estaba a bordo en Cristóbal el mismo día, y el informe cerró la disputa.",
-    "proofNote": "Testimonio de muestra. Las citas reales se publican solo con permiso escrito.",
+    "proofTitle": "Más de 40 años en el mar y en puerto, una sola mesa.",
+    "proofText": "Cross World Agencies, S.A. mantiene su licencia de agencia naviera de la AMP y la autorización de la Autoridad del Canal de Panamá desde 2010. Las inspecciones de yates y embarcaciones menores se atienden bajo nuestra marca hermana, Cross World Yacht, Marine Surveyors.",
+    "reelsTitle": "Desde el campo",
+    "reelsSub": "Clips cortos que publica nuestro equipo desde inspecciones, entregas y la oficina. Con sonido.",
+    "reelPlay": "Reproducir clip",
+    "reelPause": "Pausar clip",
     "partnersLabel": "Socios y representación",
     "finalTitle": "Su próxima escala en Panamá, resuelta.",
     "finalSub": "Envíe los datos del buque y la ETA. Recibe un número de solicitud ahora y una PDA detallada del oficial de guardia.",
@@ -82,9 +86,9 @@
     ]
   },
   "Ports": {
-    "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Miraflores", "duty": "Oficial de guardia"},
-    "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "operator": "Operador", "operatorValue": "Panama Ports Company", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO por barcaza", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "duty": "Atención", "dutyNote": "oficial residente en Colón o socio de abordaje (a confirmar)"},
-    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)", "Taboguilla · Melones", "Vacamonte"]
+    "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "locks": "A las esclusas", "locksValue": "Miraflores", "duty": "Oficial de guardia"},
+    "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "duty": "Oficial de guardia", "dutyNote": "coordinado desde la mesa de operaciones"},
+    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)"]
   },
   "Footer": {
     "tagline": "Agencia naviera, inspecciones marítimas, bunker y soporte a reclamos en el Canal de Panamá. Licencia AMP y autorización de la Autoridad del Canal desde 2010.",
@@ -130,7 +134,7 @@
     "tooBig": "El archivo supera los 10 MB.",
     "uploadFailed": "La subida falló. Intente de nuevo o responda al correo de confirmación con el archivo.",
     "submit": "Enviar mi FDA para comparar",
-    "sla": "Recibe la comparación en 2 días hábiles (a confirmar).",
+    "sla": "Recibe la comparación por correo, sin compromiso.",
     "howTitle": "Qué hacemos con ella",
     "howItems": ["Un capitán lee la FDA y revisa cada línea de terceros contra el tarifario de la ACP y los comprobantes que debería haber.", "Reconstruimos la cuenta con nuestro honorario en una sola línea y marcamos cada diferencia.", "Recibe la comparación por correo, sin obligación de nominarnos."],
     "privacyNote": "Sus documentos se usan solo para esta comparación y se eliminan a solicitud. Aquí nunca se piden datos bancarios.",
@@ -142,7 +146,7 @@
     "title": "Solicitar port call",
     "lead": "Dos pasos: el buque, y luego servicios y contacto. Recibe un número de solicitud en pantalla y una confirmación por correo; el oficial de guardia responde 24/7.",
     "asideTitle": "Qué pasa después",
-    "asideItems": ["Recibe un número de solicitud de inmediato y un correo de confirmación.", "El oficial de guardia revisa los datos y prepara la PDA.", "El mismo día hábil para tránsitos estándar, en menos de 24 horas en los demás (a confirmar).", "Los fondos se llaman antes del tránsito; la ACP los exige 48 horas antes."],
+    "asideItems": ["Recibe un número de solicitud de inmediato y un correo de confirmación.", "El oficial de guardia revisa los datos y prepara la PDA.", "Recibe la PDA antes del llamado de fondos.", "Los fondos se llaman antes del tránsito; la ACP los exige 48 horas antes."],
     "attachmentsNote": "Adjuntos (instrucciones del fletamento, certificados): responda al correo de confirmación con los archivos. La carga directa llegará pronto.",
     "bankNote": "Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.",
     "steps": {"label": "Pasos", "vessel": "Buque", "contact": "Servicios y contacto"},

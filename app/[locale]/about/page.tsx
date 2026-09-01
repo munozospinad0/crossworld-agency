@@ -23,7 +23,7 @@ export default async function AboutPage({params}: {params: Promise<{locale: stri
       aside={
         <>
           <div className="relative aspect-[4/5] overflow-hidden rounded-card">
-            <Image src="/images/captain.jpg" alt={`${site.captain.name}, Cross World Agency`} fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover object-[50%_20%]" />
+            <Image src="/images/captain-suit.jpg" alt={`Captain ${site.captain.name}, Cross World Agency`} fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover object-[50%_12%]" />
           </div>
           <div className="rounded-card border border-line bg-surface p-5 font-mono text-[0.84rem] leading-relaxed">
             {site.legalName}<br />RUC {site.ruc}<br />IMO company number {site.imoCompanyNumber}<br />{site.address.street}<br />{site.address.street2}<br />{site.address.city}, {site.address.country}

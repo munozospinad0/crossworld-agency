@@ -39,15 +39,15 @@
     "processSub": "Four steps, each with what you receive and when.",
     "process": [
       {"n": "1", "title": "Nomination", "text": "Send vessel particulars, ETA and the services you need. We confirm receipt with a request number and the duty officer takes it from there.", "when": "Immediately"},
-      {"n": "2", "title": "Proforma disbursement account", "text": "Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, with the agency fee as one line.", "when": "Same working day (to confirm)"},
+      {"n": "2", "title": "Proforma disbursement account", "text": "Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, with the agency fee as one line.", "when": "Ahead of the funds call"},
       {"n": "3", "title": "Boarding and transit", "text": "Our officer boards at the anchorage and coordinates the Authority, pilots, tugs, linehandlers, crew changes and supplies. One WhatsApp thread, one daily update.", "when": "Throughout the call"},
-      {"n": "4", "title": "Final disbursement account", "text": "Reconciled line by line against the PDA, every third-party charge with its voucher, variances explained. If a survey came up during the call, its report travels with it.", "when": "Within 30 days (to confirm)"}
+      {"n": "4", "title": "Final disbursement account", "text": "Reconciled line by line against the PDA, every third-party charge with its voucher, variances explained. If a survey came up during the call, its report travels with it.", "when": "After sailing, with every voucher"}
     ],
     "portsTitle": "Both sides of the Canal",
     "portsSub": "Duty officers on the Pacific and the Atlantic side, and the Panamanian ports we serve.",
-    "portsNote": "Sample port data; only the ports we actually serve will be published.",
+    "portsNote": "Send the terminal and the ETA; the duty officer confirms attendance.",
     "captainTitle": "A captain answers the phone.",
-    "captainText": "Captain Guillermo A. Peña has commanded and inspected vessels for (years to confirm). He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and reviews every survey report that leaves this office.",
+    "captainText": "Captain Guillermo A. Peña brings more than 40 years of maritime experience. He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and reviews every survey report that leaves this office.",
     "captainQuote": "When you call at three in the morning, you speak with someone who has stood a bridge watch.",
     "captainCta": "About Cross World",
     "whoTitle": "Who we serve",
@@ -58,8 +58,12 @@
       {"title": "P&I correspondents & insurers", "text": "Condition surveys, claims attendance and evidence preserved."},
       {"title": "Fishing fleets & regional operators", "text": "Fuel supply and agency in Spanish, on WhatsApp."}
     ],
-    "proofQuote": "The surveyor was on board at Cristóbal the same day, and the report closed the dispute.",
-    "proofNote": "Sample testimonial. Real quotes are published only with written permission.",
+    "proofTitle": "More than 40 years at sea and in port, one desk.",
+    "proofText": "Cross World Agencies, S.A. has held its AMP ship agency licence and Panama Canal Authority authorization since 2010. Yacht and small-craft surveys run under our sister brand, Cross World Yacht, Marine Surveyors.",
+    "reelsTitle": "From the field",
+    "reelsSub": "Short clips our team publishes from surveys, deliveries and the office. Sound on.",
+    "reelPlay": "Play clip",
+    "reelPause": "Pause clip",
     "partnersLabel": "Partners and representation",
     "finalTitle": "Your next Panama call, handled.",
     "finalSub": "Send the vessel particulars and ETA. You get a request number now and an itemized PDA from the duty officer.",
@@ -82,9 +86,9 @@
     ]
   },
   "Ports": {
-    "balboa": {"name": "Port of Balboa", "side": "Pacific", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Miraflores", "duty": "Duty officer"},
-    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "operator": "Operator", "operatorValue": "Panama Ports Company", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "bunker": "Bunker", "bunkerValue": "MGO, VLSFO by barge", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "duty": "Attendance", "dutyNote": "boarding officer resident in Colón or boarding partner (to confirm)"},
-    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)", "Taboguilla · Melones", "Vacamonte"]
+    "balboa": {"name": "Port of Balboa", "side": "Pacific", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "locks": "To the locks", "locksValue": "Miraflores", "duty": "Duty officer"},
+    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "duty": "Duty officer", "dutyNote": "coordinated by the operations desk"},
+    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)"]
   },
   "Footer": {
     "tagline": "Ship agency, marine surveys, bunker and claims support at the Panama Canal. Licensed by the AMP and authorized by the Panama Canal Authority since 2010.",
@@ -130,7 +134,7 @@
     "tooBig": "The file exceeds 10 MB.",
     "uploadFailed": "Upload failed. Try again or reply to the confirmation email with the file.",
     "submit": "Send my FDA for comparison",
-    "sla": "You receive the comparison within 2 working days (to confirm).",
+    "sla": "You receive the comparison by email, with no obligation.",
     "howTitle": "What we do with it",
     "howItems": ["A captain reads the FDA and checks every third-party line against the ACP tariff and the vouchers you would expect.", "We rebuild the account with our agency fee as one line and mark each difference.", "You get the comparison by email, with no obligation to nominate us."],
     "privacyNote": "Your documents are used only for this comparison and deleted on request. Bank details are never requested here.",
@@ -142,7 +146,7 @@
     "title": "Request a port call",
     "lead": "Two steps: the vessel, then services and contact. You receive a request number on screen and a confirmation by email; the duty officer replies 24/7.",
     "asideTitle": "What happens next",
-    "asideItems": ["You get a request number immediately and a confirmation email.", "The duty officer reviews the particulars and prepares the PDA.", "Same working day for standard transits, within 24 hours otherwise (to confirm).", "Funds are called ahead of transit; the ACP requires them 48 hours before."],
+    "asideItems": ["You get a request number immediately and a confirmation email.", "The duty officer reviews the particulars and prepares the PDA.", "You receive the PDA ahead of the funds call.", "Funds are called ahead of transit; the ACP requires them 48 hours before."],
     "attachmentsNote": "Attachments (charter party instructions, certificates): reply to the confirmation email with the files. Direct upload is coming soon.",
     "bankNote": "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.",
     "steps": {"label": "Steps", "vessel": "Vessel", "contact": "Services and contact"},

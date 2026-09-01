@@ -22,3 +22,7 @@ out/
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
+
+# capturas de QA y scripts privados
+research/shots/
+research/_*.py

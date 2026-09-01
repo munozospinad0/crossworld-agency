@@ -7,10 +7,10 @@ import {ports} from '@/content/ports';
 import {pageMetadata} from '@/lib/seo';
 
 const copy = {
-  en: {title: 'Ports we serve at the Panama Canal', sub: 'Balboa on the Pacific side and Cristóbal on the Atlantic side, with the terminals around them. Only the ports we actually serve are published; the rest of the list is confirmed with operations.', others: 'Also served (to confirm)', metaTitle: 'Ports: Balboa, Cristóbal and the terminals we serve', metaDesc: 'Ship agency, surveys and bunker attendance at Balboa (Pacific) and Cristóbal (Atlantic), plus Manzanillo, CCT, Bahía Las Minas, PSA Panama and Vacamonte (to confirm).'},
-  es: {title: 'Puertos que atendemos en el Canal de Panamá', sub: 'Balboa en el Pacífico y Cristóbal en el Atlántico, con los terminales a su alrededor. Solo se publican los puertos que realmente atendemos; el resto de la lista se confirma con operaciones.', others: 'También atendidos (a confirmar)', metaTitle: 'Puertos: Balboa, Cristóbal y los terminales que atendemos', metaDesc: 'Agencia naviera, inspecciones y atención de bunker en Balboa (Pacífico) y Cristóbal (Atlántico), más Manzanillo, CCT, Bahía Las Minas, PSA Panama y Vacamonte (a confirmar).'},
+  en: {title: 'Ports we serve at the Panama Canal', sub: 'Balboa on the Pacific side and Cristóbal on the Atlantic side, with the terminals around them. Send the terminal and the ETA and the duty officer confirms attendance.', others: 'Terminals around them', metaTitle: 'Ports: Balboa, Cristóbal and the terminals we serve', metaDesc: 'Ship agency, surveys and bunker attendance at Balboa (Pacific) and Cristóbal (Atlantic), and the terminals around them.'},
+  es: {title: 'Puertos que atendemos en el Canal de Panamá', sub: 'Balboa en el Pacífico y Cristóbal en el Atlántico, con los terminales a su alrededor. Envíe el terminal y la ETA y el oficial de guardia confirma la atención.', others: 'Terminales alrededor', metaTitle: 'Puertos: Balboa, Cristóbal y los terminales que atendemos', metaDesc: 'Agencia naviera, inspecciones y atención de bunker en Balboa (Pacífico) y Cristóbal (Atlántico), y los terminales a su alrededor.'},
 };
-const others = ['Manzanillo (MIT)', 'CCT', 'Bahía Las Minas', 'PSA Panama (Rodman)', 'Taboguilla · Melones', 'Vacamonte'];
+const others = ['Manzanillo (MIT)', 'CCT', 'Bahía Las Minas', 'PSA Panama (Rodman)'];
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
   const {locale} = await params;

@@ -41,14 +41,14 @@ export const services: Service[] = [
       es: 'Somos una agencia naviera con licencia de la Autoridad Marítima de Panamá y autorización de la Autoridad del Canal. Atendemos tránsitos, escalas y husbandry en Balboa, Cristóbal y los puertos panameños que servimos desde 2010. Un oficial, un hilo, de la nominación a la FDA.',
     },
     includes: {
-      en: ['Transit booking and slot strategy: booking periods, LoTSA, auctions and just-in-time', 'Pre-arrival documentation through the ACP electronic system at least 96 hours before arrival', 'PCSOPEP coordination and Panama-resident authorized person (to confirm)', 'PDA, funds call and FDA reconciled line by line', 'Boarding at anchorage, pilot and tug coordination', 'Crew changes, immigration and transport', 'Cash to master, spares and courier, provisions, fresh water, medical', 'Protecting agency when the charterer nominates another agent', "Owners' matters at both terminals"],
-      es: ['Reserva de tránsito y estrategia de slots: periodos de booking, LoTSA, subastas y just-in-time', 'Documentación de prearribo en el sistema electrónico de la ACP al menos 96 horas antes', 'Coordinación PCSOPEP y persona autorizada residente en Panamá (a confirmar)', 'PDA, llamado de fondos y FDA conciliada línea por línea', 'Abordaje en el fondeadero, coordinación de prácticos y remolcadores', 'Cambios de tripulación, migración y transporte', 'Cash to master, repuestos y courier, provisiones, agua, atención médica', 'Agencia protectora cuando el fletador nombra otro agente', 'Asuntos del armador en ambos terminales'],
+      en: ['Transit booking and slot strategy: booking periods, LoTSA, auctions and just-in-time', 'Pre-arrival documentation through the ACP electronic system at least 96 hours before arrival', 'PDA, funds call and FDA reconciled line by line', 'Boarding at anchorage, pilot and tug coordination', 'Crew changes, immigration and transport', 'Cash to master, spares and courier, provisions, fresh water, medical', 'Protecting agency when the charterer nominates another agent', "Owners' matters at both terminals"],
+      es: ['Reserva de tránsito y estrategia de slots: periodos de booking, LoTSA, subastas y just-in-time', 'Documentación de prearribo en el sistema electrónico de la ACP al menos 96 horas antes', 'PDA, llamado de fondos y FDA conciliada línea por línea', 'Abordaje en el fondeadero, coordinación de prácticos y remolcadores', 'Cambios de tripulación, migración y transporte', 'Cash to master, repuestos y courier, provisiones, agua, atención médica', 'Agencia protectora cuando el fletador nombra otro agente', 'Asuntos del armador en ambos terminales'],
     },
     deliverables: {
-      en: [{name: 'Request acknowledgement with number', timing: 'Immediately'}, {name: 'Proforma disbursement account', timing: 'Same working day for standard transits, within 24 h otherwise (to confirm)'}, {name: 'Daily update while in Canal waters', timing: 'Every day'}, {name: 'FDA reconciled against the PDA, with vouchers', timing: 'Within 30 days of sailing (to confirm)'}],
-      es: [{name: 'Acuse de recibo con número de solicitud', timing: 'Inmediato'}, {name: 'Cuenta proforma (PDA)', timing: 'El mismo día hábil para tránsitos estándar, en menos de 24 h en los demás (a confirmar)'}, {name: 'Reporte diario en aguas del Canal', timing: 'Cada día'}, {name: 'FDA conciliada contra la PDA, con comprobantes', timing: 'Dentro de 30 días de la salida (a confirmar)'}],
+      en: [{name: 'Request acknowledgement with number', timing: 'Immediately'}, {name: 'Proforma disbursement account', timing: 'Ahead of the funds call'}, {name: 'Daily update while in Canal waters', timing: 'Every day'}, {name: 'FDA reconciled against the PDA, with vouchers', timing: 'After sailing, once every voucher is in'}],
+      es: [{name: 'Acuse de recibo con número de solicitud', timing: 'Inmediato'}, {name: 'Cuenta proforma (PDA)', timing: 'Antes del llamado de fondos'}, {name: 'Reporte diario en aguas del Canal', timing: 'Cada día'}, {name: 'FDA conciliada contra la PDA, con comprobantes', timing: 'Tras la salida, con todos los comprobantes'}],
     },
-    ports: {en: 'Balboa (Pacific), Cristóbal (Atlantic) and the Panamanian ports we serve (list to confirm).', es: 'Balboa (Pacífico), Cristóbal (Atlántico) y los puertos panameños que atendemos (lista a confirmar).'},
+    ports: {en: 'Balboa (Pacific), Cristóbal (Atlantic) and the Panamanian ports we serve.', es: 'Balboa (Pacífico), Cristóbal (Atlántico) y los puertos panameños que atendemos.'},
     steps: {
       en: ['Send vessel name, IMO, ETA, direction and the services you need.', 'Receive the PDA and confirm the nomination.', 'We take it from there and keep you updated in one thread.'],
       es: ['Envíe nombre del buque, IMO, ETA, dirección y los servicios que necesita.', 'Reciba la PDA y confirme la nominación.', 'Nosotros seguimos desde ahí y le mantenemos informado en un solo hilo.'],
@@ -93,13 +93,13 @@ export const services: Service[] = [
       es: ['Draft surveys (inicial, intermedio, final) y determinación de cantidad de carga', 'Inspecciones de petróleo, crudo y productos, con ROB y ullages', 'Inspecciones de precompra y de condición', 'Inspecciones de condición para P&I', 'Integridad de tapas de escotilla con prueba ultrasónica', 'Inspecciones de carga, estiba y trincado', 'Evaluación de tanques y corrosión', 'Auditorías internas ISM', 'Loss control y expediting marítimo', 'Warranty surveys de carga de proyecto y gestión de riesgo', 'Inspecciones on-hire y off-hire (bunker y condición)'],
     },
     deliverables: {
-      en: [{name: 'Preliminary findings by WhatsApp', timing: 'Same day'}, {name: 'Full report with photos, calculations and recommendations', timing: 'Within 48 hours (to confirm)'}, {name: 'Certificates where applicable', timing: 'With the report'}, {name: 'Rate card (hourly, minimum, travel, report)', timing: 'On request'}],
-      es: [{name: 'Hallazgos preliminares por WhatsApp', timing: 'El mismo día'}, {name: 'Informe completo con fotos, cálculos y recomendaciones', timing: 'Dentro de 48 horas (a confirmar)'}, {name: 'Certificados cuando aplica', timing: 'Con el informe'}, {name: 'Tarifa (hora, mínimo, viáticos, informe)', timing: 'A solicitud'}],
+      en: [{name: 'Preliminary findings by WhatsApp', timing: 'On completion of the survey'}, {name: 'Full report with photos, calculations and recommendations', timing: 'Agreed when instructed'}, {name: 'Certificates where applicable', timing: 'With the report'}, {name: 'Rate card (hourly, minimum, travel, report)', timing: 'On request'}],
+      es: [{name: 'Hallazgos preliminares por WhatsApp', timing: 'Al terminar la inspección'}, {name: 'Informe completo con fotos, cálculos y recomendaciones', timing: 'Plazo acordado al instruir'}, {name: 'Certificados cuando aplica', timing: 'Con el informe'}, {name: 'Tarifa (hora, mínimo, viáticos, informe)', timing: 'A solicitud'}],
     },
     ports: {en: 'Balboa, Cristóbal and the anchorages and terminals we serve.', es: 'Balboa, Cristóbal y los fondeaderos y terminales que atendemos.'},
     steps: {
-      en: ['Send survey type, port, date, vessel name and your instructions.', 'We confirm availability and the surveyor assigned.', 'You receive preliminary findings the same day and the report within 48 hours (to confirm).'],
-      es: ['Envíe tipo de inspección, puerto, fecha, nombre del buque e instrucciones.', 'Confirmamos disponibilidad y el surveyor asignado.', 'Recibe hallazgos preliminares el mismo día y el informe en 48 horas (a confirmar).'],
+      en: ['Send survey type, port, date, vessel name and your instructions.', 'We confirm availability and the surveyor assigned.', 'You receive preliminary findings on completion and the full report with photos and calculations.'],
+      es: ['Envíe tipo de inspección, puerto, fecha, nombre del buque e instrucciones.', 'Confirmamos disponibilidad y el surveyor asignado.', 'Recibe hallazgos preliminares al terminar y el informe completo con fotos y cálculos.'],
     },
     why: {
       en: ['The person who reviews the report has commanded ships.', 'Surveyors and agency under one roof: attendance at Balboa or Cristóbal is one call.', '24/7.'],
@@ -143,8 +143,8 @@ export const services: Service[] = [
       es: ['Inspecciones de cantidad de bunker (entrega y reentrega)', 'Inspecciones investigativas de entrega (BSIS)', 'Inspecciones de bunker on-hire y off-hire', 'Surveyor protector y superintendente durante el bunkering', 'Custodia de muestras MARPOL y comerciales', 'Supervisión de descarga de lodos y slops', 'Investigación de sobreconsumo y bajo rendimiento de viaje', 'Preparación del expediente de reclamo y control de plazos'],
     },
     deliverables: {
-      en: [{name: 'Survey report: BDN vs. soundings, volume correction per ASTM D1250 / API MPMS Ch. 11.1, sampling per ISO 13739 and MARPOL Annex VI Reg. 18, quality against ISO 8217, sample seals and photos', timing: 'Within 48 hours (to confirm)'}, {name: 'Letter of protest prepared for the Master\'s signature', timing: 'Before the barge disconnects (to confirm)'}, {name: 'Claim file for the P&I club, the lawyer or the supplier', timing: 'With the report'}],
-      es: [{name: 'Informe: BDN vs. sondeos, corrección de volumen según ASTM D1250 / API MPMS Cap. 11.1, muestreo según ISO 13739 y MARPOL Anexo VI Reg. 18, calidad contra ISO 8217, sellos de muestras y fotos', timing: 'Dentro de 48 horas (a confirmar)'}, {name: 'Carta de protesta preparada para la firma del capitán', timing: 'Antes de que la barcaza desconecte (a confirmar)'}, {name: 'Expediente de reclamo para el club P&I, el abogado o el proveedor', timing: 'Con el informe'}],
+      en: [{name: 'Survey report: BDN vs. soundings, volume correction per ASTM D1250 / API MPMS Ch. 11.1, sampling per ISO 13739 and MARPOL Annex VI Reg. 18, quality against ISO 8217, sample seals and photos', timing: 'Agreed when instructed'}, {name: 'Letter of protest prepared for the Master\'s signature', timing: 'Before the barge disconnects'}, {name: 'Claim file for the P&I club, the lawyer or the supplier', timing: 'With the report'}],
+      es: [{name: 'Informe: BDN vs. sondeos, corrección de volumen según ASTM D1250 / API MPMS Cap. 11.1, muestreo según ISO 13739 y MARPOL Anexo VI Reg. 18, calidad contra ISO 8217, sellos de muestras y fotos', timing: 'Plazo acordado al instruir'}, {name: 'Carta de protesta preparada para la firma del capitán', timing: 'Antes de que la barcaza desconecte'}, {name: 'Expediente de reclamo para el club P&I, el abogado o el proveedor', timing: 'Con el informe'}],
     },
     ports: {en: 'Balboa and Cristóbal anchorages and the terminals we serve.', es: 'Fondeaderos de Balboa y Cristóbal y los terminales que atendemos.'},
     steps: {
@@ -185,18 +185,18 @@ export const services: Service[] = [
     metaTitle: {en: 'Marine Fuel Supply in Panama: MGO and ULSD | Cross World Agency', es: 'Suministro de combustible marino en Panamá: MGO y ULSD | Cross World Agency'},
     metaDescription: {en: 'MGO and ULSD arranged in Panama through licensed physical suppliers, CIF or FOB, for operators in Central America, the Caribbean and South America and for fishing fleets. Independent quantity verification.', es: 'MGO y ULSD en Panamá a través de proveedores físicos licenciados, CIF o FOB, para operadores de Centroamérica, el Caribe y Suramérica y para flotas pesqueras. Verificación independiente de cantidad.'},
     summary: {
-      en: 'Through SOS Resilience Holding (presentation to confirm), Cross World arranges MGO and ULSD in Panama through licensed physical suppliers, under CIF and FOB contracts, for operators in Central America, the Caribbean and South America and for fishing fleets calling at Panamanian ports. Every delivery we market is quantity-surveyed by an independent third-party surveyor.',
-      es: 'A través de SOS Resilience Holding (presentación a confirmar), Cross World gestiona MGO y ULSD en Panamá mediante proveedores físicos licenciados, bajo contratos CIF y FOB, para operadores de Centroamérica, el Caribe y Suramérica y para flotas pesqueras que recalan en puertos panameños. Cada entrega que comercializamos la verifica un surveyor independiente.',
+      en: 'Through SOS Resilience Holding, Cross World arranges MGO and ULSD in Panama through licensed physical suppliers, under CIF and FOB contracts, for operators in Central America, the Caribbean and South America and for fishing fleets calling at Panamanian ports. Every delivery we market is quantity-surveyed by an independent third-party surveyor.',
+      es: 'A través de SOS Resilience Holding, Cross World gestiona MGO y ULSD en Panamá mediante proveedores físicos licenciados, bajo contratos CIF y FOB, para operadores de Centroamérica, el Caribe y Suramérica y para flotas pesqueras que recalan en puertos panameños. Cada entrega que comercializamos la verifica un surveyor independiente.',
     },
     includes: {
-      en: ['MGO 0.10% S and ULSD (products, terminal and delivery ports to confirm)', 'Term and spot contracts, CIF or FOB', 'Supply coordination with the agency: one call for the port call and the fuel', 'Independent third-party quantity and quality verification', 'Documentation: BDN, samples, certificates', 'Credit terms for fishing fleets (to confirm)'],
-      es: ['MGO 0,10% S y ULSD (productos, terminal y puertos de entrega a confirmar)', 'Contratos a término y spot, CIF o FOB', 'Coordinación con la agencia: una sola llamada para la escala y el combustible', 'Verificación independiente de cantidad y calidad', 'Documentación: BDN, muestras, certificados', 'Condiciones de crédito para flotas pesqueras (a confirmar)'],
+      en: ['MGO 0.10% S and ULSD; grades, terminals and delivery ports quoted per request', 'Term and spot contracts, CIF or FOB', 'Supply coordination with the agency: one call for the port call and the fuel', 'Independent third-party quantity and quality verification', 'Documentation: BDN, samples, certificates'],
+      es: ['MGO 0,10% S y ULSD; grados, terminales y puertos de entrega se cotizan por solicitud', 'Contratos a término y spot, CIF o FOB', 'Coordinación con la agencia: una sola llamada para la escala y el combustible', 'Verificación independiente de cantidad y calidad', 'Documentación: BDN, muestras, certificados'],
     },
     deliverables: {
-      en: [{name: 'Quote with product, quantity, port, window and terms', timing: 'Same working day (to confirm)'}, {name: 'Delivery with BDN, sealed samples and independent survey report', timing: 'At delivery'}],
-      es: [{name: 'Cotización con producto, cantidad, puerto, ventana y condiciones', timing: 'El mismo día hábil (a confirmar)'}, {name: 'Entrega con BDN, muestras selladas e informe de surveyor independiente', timing: 'En la entrega'}],
+      en: [{name: 'Quote with product, quantity, port, window and terms', timing: 'On request'}, {name: 'Delivery with BDN, sealed samples and independent survey report', timing: 'At delivery'}],
+      es: [{name: 'Cotización con producto, cantidad, puerto, ventana y condiciones', timing: 'A solicitud'}, {name: 'Entrega con BDN, muestras selladas e informe de surveyor independiente', timing: 'En la entrega'}],
     },
-    ports: {en: 'Balboa and Cristóbal (to confirm).', es: 'Balboa y Cristóbal (a confirmar).'},
+    ports: {en: 'Panamanian ports; delivery port confirmed at quotation.', es: 'Puertos panameños; el puerto de entrega se confirma en la cotización.'},
     steps: {
       en: ['Send product, quantity in tonnes, port and delivery window.', 'Receive the quote and confirm.', 'Delivery is attended by an independent surveyor; you receive BDN, samples and report.'],
       es: ['Envíe producto, cantidad en toneladas, puerto y ventana de entrega.', 'Reciba la cotización y confirme.', 'La entrega la atiende un surveyor independiente; recibe BDN, muestras e informe.'],
@@ -211,14 +211,14 @@ export const services: Service[] = [
     },
     faq: {
       en: [
-        {q: 'Which grades are available?', a: 'MGO 0.10% S and ULSD (to confirm with the desk); other grades on request.'},
+        {q: 'Which grades are available?', a: 'MGO 0.10% S and ULSD; other grades on request. Availability is confirmed at quotation.'},
         {q: 'Who surveys the delivery?', a: 'An independent third-party surveyor, never our own team.'},
-        {q: 'What are the payment terms?', a: 'Prepayment for spot supplies; credit terms for fishing fleets and term contracts on request (to confirm).'},
+        {q: 'What are the payment terms?', a: 'Agreed at quotation, per contract.'},
       ],
       es: [
-        {q: '¿Qué grados hay disponibles?', a: 'MGO 0,10% S y ULSD (a confirmar); otros grados a solicitud.'},
+        {q: '¿Qué grados hay disponibles?', a: 'MGO 0,10% S y ULSD; otros grados a solicitud. La disponibilidad se confirma en la cotización.'},
         {q: '¿Quién inspecciona la entrega?', a: 'Un surveyor independiente, nunca nuestro propio equipo.'},
-        {q: '¿Cuáles son las condiciones de pago?', a: 'Prepago para suministros spot; crédito para flotas pesqueras y contratos a término a solicitud (a confirmar).'},
+        {q: '¿Cuáles son las condiciones de pago?', a: 'Se acuerdan en la cotización, según el contrato.'},
       ],
     },
     related: ['bunker', 'agency'],
@@ -239,14 +239,14 @@ export const services: Service[] = [
       es: 'Operaciones STS en fondeaderos y terminales de Panamá, planificadas, atendidas y documentadas: permisos ante la Autoridad, coordinación de mooring master y equipos, inspecciones antes y después de la transferencia, y el trabajo de agencia alrededor.',
     },
     includes: {
-      en: ['STS planning and permits with the Authority', 'Mooring master, fenders and hoses coordination (providers to confirm)', 'Pre- and post-transfer quantity surveys', 'Offshore platform and oil terminal support', 'Petcoke and bulk transfer attendance', 'Incident documentation'],
-      es: ['Planificación STS y permisos ante la Autoridad', 'Coordinación de mooring master, defensas y mangueras (proveedores a confirmar)', 'Inspecciones de cantidad antes y después de la transferencia', 'Soporte a plataformas offshore y terminales petroleros', 'Atención de transferencias de petcoke y graneles', 'Documentación de incidentes'],
+      en: ['STS planning and permits with the Authority', 'Mooring master, fenders and hoses coordination', 'Pre- and post-transfer quantity surveys', 'Offshore platform and oil terminal support', 'Petcoke and bulk transfer attendance', 'Incident documentation'],
+      es: ['Planificación STS y permisos ante la Autoridad', 'Coordinación de mooring master, defensas y mangueras', 'Inspecciones de cantidad antes y después de la transferencia', 'Soporte a plataformas offshore y terminales petroleros', 'Atención de transferencias de petcoke y graneles', 'Documentación de incidentes'],
     },
     deliverables: {
-      en: [{name: 'Operation plan and permits', timing: 'Before the operation'}, {name: 'Quantity survey reports, before and after', timing: 'Within 48 hours (to confirm)'}],
-      es: [{name: 'Plan de operación y permisos', timing: 'Antes de la operación'}, {name: 'Informes de cantidad antes y después', timing: 'Dentro de 48 horas (a confirmar)'}],
+      en: [{name: 'Operation plan and permits', timing: 'Before the operation'}, {name: 'Quantity survey reports, before and after', timing: 'Agreed in the operation plan'}],
+      es: [{name: 'Plan de operación y permisos', timing: 'Antes de la operación'}, {name: 'Informes de cantidad antes y después', timing: 'Según el plan de operación'}],
     },
-    ports: {en: 'Panama anchorages and the terminals we serve (to confirm).', es: 'Fondeaderos de Panamá y los terminales que atendemos (a confirmar).'},
+    ports: {en: 'Panama anchorages and terminals, per the operation plan.', es: 'Fondeaderos y terminales de Panamá, según el plan de operación.'},
     steps: {
       en: ['Send both vessels\' particulars, product, quantity and window.', 'We plan the operation, secure permits and equipment.', 'Attendance, surveys and documentation.'],
       es: ['Envíe los datos de ambos buques, producto, cantidad y ventana.', 'Planificamos la operación, permisos y equipos.', 'Atención, inspecciones y documentación.'],
@@ -257,11 +257,11 @@ export const services: Service[] = [
     },
     faq: {
       en: [
-        {q: 'Where are STS operations done in Panama?', a: 'At designated anchorages on both sides of the Canal and at terminals, subject to the Authority\'s permits (details to confirm).'},
+        {q: 'Where are STS operations done in Panama?', a: 'At designated anchorages on both sides of the Canal and at terminals, subject to the Authority\'s permits.'},
         {q: 'How long does an STS take?', a: 'It depends on product, quantity and pumping rates; the plan states the expected window.'},
       ],
       es: [
-        {q: '¿Dónde se hacen las operaciones STS en Panamá?', a: 'En fondeaderos designados a ambos lados del Canal y en terminales, sujeto a los permisos de la Autoridad (detalles a confirmar).'},
+        {q: '¿Dónde se hacen las operaciones STS en Panamá?', a: 'En fondeaderos designados a ambos lados del Canal y en terminales, sujeto a los permisos de la Autoridad.'},
         {q: '¿Cuánto dura una STS?', a: 'Depende del producto, la cantidad y el régimen de bombeo; el plan indica la ventana esperada.'},
       ],
     },
@@ -287,8 +287,8 @@ export const services: Service[] = [
       es: ['Atención de reclamos de carga: seca, reefer, acero, daños a contenedores', 'Reclamos de responsabilidad del fletador y de bunker', 'Reclamos de puertos y terminales', 'Atención de lesiones de tripulantes para P&I', 'Atención de siniestros y preservación de evidencia', 'Daños en tránsito terrestre (a solicitud)'],
     },
     deliverables: {
-      en: [{name: 'Attendance report with photos, statements and documents secured', timing: 'Within 48 hours (to confirm)'}, {name: 'Survey reports as instructed', timing: 'Per instruction'}, {name: 'Rate card', timing: 'On request'}],
-      es: [{name: 'Informe de atención con fotos, declaraciones y documentos asegurados', timing: 'Dentro de 48 horas (a confirmar)'}, {name: 'Informes de inspección según instrucciones', timing: 'Según instrucción'}, {name: 'Tarifa', timing: 'A solicitud'}],
+      en: [{name: 'Attendance report with photos, statements and documents secured', timing: 'Per instruction'}, {name: 'Survey reports as instructed', timing: 'Per instruction'}, {name: 'Rate card', timing: 'On request'}],
+      es: [{name: 'Informe de atención con fotos, declaraciones y documentos asegurados', timing: 'Según instrucción'}, {name: 'Informes de inspección según instrucciones', timing: 'Según instrucción'}, {name: 'Tarifa', timing: 'A solicitud'}],
     },
     ports: {en: 'Balboa, Cristóbal and the Panamanian ports we serve.', es: 'Balboa, Cristóbal y los puertos panameños que atendemos.'},
     steps: {
@@ -316,23 +316,23 @@ export const services: Service[] = [
     slug: {en: 'maritime-consulting-and-audits', es: 'consultoria-maritima-y-auditorias'},
     cta: 'portcall',
     image: '/images/crane.jpg',
-    imageAlt: {en: 'Captain Guillermo A. Peña at the Cross World office', es: 'Capitán Guillermo A. Peña en la oficina de Cross World'},
+    imageAlt: {en: 'Port crane at a container terminal', es: 'Grúa portuaria en un terminal de contenedores'},
     title: {en: 'Consulting & audits', es: 'Consultoría y auditorías'},
     oneLiner: {en: 'ISM preparation, projects and advice from a working captain.', es: 'Preparación ISM, proyectos y asesoría de un capitán en activo.'},
     h1: {en: 'Maritime consulting, ISM audits and project support', es: 'Consultoría marítima, auditorías ISM y soporte a proyectos'},
     metaTitle: {en: 'Maritime Consulting and ISM Audits in Panama | Cross World Agency', es: 'Consultoría marítima y auditorías ISM en Panamá | Cross World Agency'},
     metaDescription: {en: 'ISM preparation and internal audits, technical reports for owners and financiers, and project development from a working captain, with representation in Venezuela, Brazil, Aruba and Greece.', es: 'Preparación y auditorías internas ISM, informes técnicos para armadores y financiadores, y desarrollo de proyectos de un capitán en activo, con representación en Venezuela, Brasil, Aruba y Grecia.'},
     summary: {
-      en: 'ISM preparation and internal audits, technical reports and project development from a working captain and his team, with representation in Venezuela, Brazil, Aruba and Greece (firms to confirm).',
-      es: 'Preparación y auditorías internas ISM, informes técnicos y desarrollo de proyectos de un capitán en activo y su equipo, con representación en Venezuela, Brasil, Aruba y Grecia (firmas a confirmar).',
+      en: 'ISM preparation and internal audits, technical reports and project development from a working captain and his team, with representation in Venezuela, Brazil, Aruba and Greece.',
+      es: 'Preparación y auditorías internas ISM, informes técnicos y desarrollo de proyectos de un capitán en activo y su equipo, con representación en Venezuela, Brasil, Aruba y Grecia.',
     },
     includes: {
       en: ['ISM preparation and internal audits', 'Management, operation and maintenance manuals', 'Technical reports for owners and financiers', 'Feasibility and project development for industrial and maritime projects', 'Chartering support on request'],
       es: ['Preparación y auditorías internas ISM', 'Manuales de gestión, operación y mantenimiento', 'Informes técnicos para armadores y financiadores', 'Factibilidad y desarrollo de proyectos industriales y marítimos', 'Soporte de fletamento a solicitud'],
     },
     deliverables: {
-      en: [{name: 'Audit report with findings and corrective actions', timing: 'Within 5 working days (to confirm)'}, {name: 'Technical report', timing: 'As agreed'}],
-      es: [{name: 'Informe de auditoría con hallazgos y acciones correctivas', timing: 'Dentro de 5 días hábiles (a confirmar)'}, {name: 'Informe técnico', timing: 'Según acuerdo'}],
+      en: [{name: 'Audit report with findings and corrective actions', timing: 'As agreed'}, {name: 'Technical report', timing: 'As agreed'}],
+      es: [{name: 'Informe de auditoría con hallazgos y acciones correctivas', timing: 'Según acuerdo'}, {name: 'Informe técnico', timing: 'Según acuerdo'}],
     },
     ports: {en: 'Panama and, through our representation, Venezuela, Brazil, Aruba and Greece.', es: 'Panamá y, a través de nuestra representación, Venezuela, Brasil, Aruba y Grecia.'},
     steps: {
@@ -344,8 +344,8 @@ export const services: Service[] = [
       es: ['Credencial de auditor interno del Código ISM.', 'Conocimiento práctico de los puertos panameños y del Canal.', 'Informes escritos para armadores y financiadores, no para el archivo.'],
     },
     faq: {
-      en: [{q: 'Do you perform ISPS and MLC audits?', a: 'ISM internal audits are our core credential; ISPS and MLC on request (credentials to confirm).'}],
-      es: [{q: '¿Hacen auditorías ISPS y MLC?', a: 'Las auditorías internas ISM son nuestra credencial principal; ISPS y MLC a solicitud (credenciales a confirmar).'}],
+      en: [{q: 'Do you perform ISPS and MLC audits?', a: 'ISM internal audits are our core credential; ISPS and MLC on request.'}],
+      es: [{q: '¿Hacen auditorías ISPS y MLC?', a: 'Las auditorías internas ISM son nuestra credencial principal; ISPS y MLC a solicitud.'}],
     },
     related: ['agency', 'surveys'],
   },

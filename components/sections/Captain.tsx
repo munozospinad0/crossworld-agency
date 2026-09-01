@@ -11,10 +11,10 @@ export async function Captain() {
       <div className="wrap grid grid-cols-1 items-center gap-[clamp(28px,5vw,72px)] md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
         <Reveal className="shell w-full max-w-[420px] justify-self-center md:-rotate-1 md:justify-self-start">
           <div className="core relative aspect-[15/14] overflow-hidden bg-surface">
-            <Image src="/images/captain.jpg" alt={`${site.captain.name}, Cross World Agency, Panama City`} fill sizes="(max-width: 768px) 90vw, 420px" quality={88} className="object-cover object-[50%_18%]" />
+            <Image src="/images/captain.jpg" alt={`Captain ${site.captain.name} in uniform, Cross World Agency, Panama City`} fill sizes="(max-width: 768px) 90vw, 420px" quality={88} className="object-cover object-[50%_10%]" />
             <div aria-hidden="true" className="absolute inset-x-0 bottom-0 bg-[linear-gradient(0deg,rgba(11,20,32,0.85),transparent)] p-5 pt-16 text-white">
               <span className="block font-brand text-[0.9rem] tracking-[0.12em]">CAPT. GUILLERMO A. PEÑA</span>
-              <span className="block font-mono text-[0.72rem] text-on-dark-muted">ISM Code Internal Auditor</span>
+              <span className="block font-mono text-[0.72rem] text-on-dark-muted">ISM Code Internal Auditor · {site.captain.experience} years</span>
             </div>
           </div>
         </Reveal>

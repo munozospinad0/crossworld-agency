@@ -1,113 +1,146 @@
-/** Iconos náuticos propios, dibujados en vector (24x24, trazo 1.5, puntas redondeadas). Nada de librerías. */
+/**
+ * Iconos náuticos propios, dibujados en vector sobre retícula 48x48. Nada de librerías.
+ * Dos tintas: trazo principal en currentColor y detalle en var(--ico2) (el contenedor
+ * decide el acento; sin variable, cae a currentColor y el icono sigue siendo legible).
+ */
 import type {SVGProps} from 'react';
 
 type P = SVGProps<SVGSVGElement> & {size?: number};
 const base = (p: P) => ({
   width: p.size ?? 22,
   height: p.size ?? 22,
-  viewBox: '0 0 24 24',
+  viewBox: '0 0 48 48',
   fill: 'none',
   stroke: 'currentColor',
-  strokeWidth: 1.5,
+  strokeWidth: 2.4,
   strokeLinecap: 'round' as const,
   strokeLinejoin: 'round' as const,
   'aria-hidden': true,
 });
+const A = 'var(--ico2, currentColor)'; // tinta de acento
+const HAIR = 1.5; // trazo fino para detalle
 
-/** Ancla: agencia y tránsito */
-export function IconAnchor(p: P) {
+/** Buque dentro de la cámara de esclusas: agencia y tránsito del Canal */
+export function IconLocks(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <circle cx="12" cy="4.5" r="2" />
-      <path d="M12 6.5V20M8 9.5h8" />
-      <path d="M4.5 13.5C5.5 17.8 8.4 20 12 20s6.5-2.2 7.5-6.5" />
-      <path d="M4.5 13.5 3 16l3 .6M19.5 13.5 21 16l-3 .6" />
+      <path d="M6 42V20h7v22M42 42V20h-7v22" />
+      <path d="M13 26h2.5M35 26h-2.5M13 32h2.5M35 32h-2.5" strokeWidth={HAIR} />
+      <path d="M17.5 30h13l-2.2 4.6h-8.6Z" />
+      <path d="M20.5 30v-3.8h5.2V30" />
+      <path d="M27.6 30v-2.4M23 26.2v-3.2" strokeWidth={HAIR} />
+      <circle cx="23" cy="21.4" r="0.9" fill={A} stroke="none" />
+      <path d="M13 35.6c1.8-1.8 3.7-1.8 5.5 0s3.7 1.8 5.5 0 3.7-1.8 5.5 0 3.7 1.8 5.5 0" stroke={A} strokeWidth={HAIR + 0.3} />
     </svg>
   );
 }
 
-/** Marcas de calado sobre la línea de agua: inspecciones */
+/** Marcas de calado sobre la línea de flotación: inspecciones */
 export function IconDraft(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M9 3v13" />
-      <path d="M9 4.5h3M9 7.5h2M9 10.5h3M9 13.5h2" />
-      <path d="M15.5 3 19 16" />
-      <path d="M3 18.5c1.5 1.4 3 1.4 4.5 0s3-1.4 4.5 0 3 1.4 4.5 0 3-1.4 4.5 0" />
+      <path d="M19 5C15.8 17 15.8 31 19 43" />
+      <path d="M24 9.5h5.5M24 14.5h3.5M24 19.5h5.5M24 24.5h3.5" />
+      <path d="M24 33.5h5.5M24 38.5h3.5" stroke={A} strokeWidth={HAIR} />
+      <path d="M5 29.5c2.5-2.2 5-2.2 7.5 0s5 2.2 7.5 0 5-2.2 7.5 0 5 2.2 7.5 0 5-2.2 7.5 0" stroke={A} strokeWidth={HAIR + 0.3} />
     </svg>
   );
 }
 
-/** Gota con sello de muestra: inspecciones de bunker */
-export function IconDrop(p: P) {
+/** Botella de muestra sellada con precinto: inspecciones de bunker */
+export function IconSample(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M12 3.5c3.2 4.2 5.5 7.4 5.5 10.2a5.5 5.5 0 1 1-11 0C6.5 10.9 8.8 7.7 12 3.5Z" />
-      <path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5" />
-      <path d="M17.5 5.5h3M19 4v3" />
+      <path d="M20.5 6.5h7M22 6.5v4.5M26 6.5v4.5" />
+      <path d="M22 11c-3.6 1.9-5.5 5-5.5 9.5V32a4.5 4.5 0 0 0 4.5 4.5h6A4.5 4.5 0 0 0 31.5 32V20.5c0-4.5-1.9-7.6-5.5-9.5" />
+      <path d="M17 26c2.3-1.8 4.7-1.8 7 0s4.7 1.8 7 0" stroke={A} strokeWidth={HAIR + 0.3} />
+      <path d="M27.5 9.2l6.3 2.7" strokeWidth={HAIR} />
+      <path d="M33.8 11.9l4.6 2-1.6 3.7-4.6-2Z" stroke={A} strokeWidth={HAIR} />
+      <circle cx="34.9" cy="13.4" r="0.7" fill={A} stroke="none" />
     </svg>
   );
 }
 
-/** Barcaza con manguera: suministro de combustible */
+/** Barcaza de bunker con manguera al manifold: suministro de combustible */
 export function IconBarge(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M3.5 14h17l-2.2 4.2a2 2 0 0 1-1.8 1.1H7.5a2 2 0 0 1-1.8-1.1L3.5 14Z" />
-      <path d="M7 14v-3h6v3M10 11V8.5" />
-      <path d="M13 8.5h4.5a2 2 0 0 1 2 2V12" />
-      <circle cx="19.5" cy="13" r="0.4" fill="currentColor" />
+      <path d="M4.5 31.5h31.5l-3 6.4a3 3 0 0 1-2.7 1.6H10.2a3 3 0 0 1-2.7-1.6Z" />
+      <path d="M27 31.5v-6h6.5v6" />
+      <circle cx="30.2" cy="28.4" r="0.9" strokeWidth={HAIR} />
+      <path d="M9.5 31.5v-4.2a4.3 4.3 0 0 1 8.6 0v4.2" />
+      <path d="M20 31.5v-3.4h4v3.4" strokeWidth={HAIR} />
+      <path d="M22 28.1c1.5-8 8.6-10.6 13.3-7.8" stroke={A} strokeWidth={HAIR + 0.3} />
+      <path d="M35.2 20.4l3.4-1.9" />
+      <circle cx="40.8" cy="20.8" r="1" fill={A} stroke="none" />
+      <path d="M8.5 43.2c2-1.6 4-1.6 6 0M22 43.2c2-1.6 4-1.6 6 0" stroke={A} strokeWidth={HAIR} />
     </svg>
   );
 }
 
-/** Dos cascos con transferencia: ship-to-ship */
+/** Dos cascos abarloados con defensas: ship-to-ship */
 export function IconSts(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M6.5 4.5c-2 4.6-2 10.4 0 15M17.5 4.5c2 4.6 2 10.4 0 15" />
-      <path d="M9.5 9.5h5M12.5 7.5l2 2-2 2" />
-      <path d="M14.5 14.5h-5M11.5 12.5l-2 2 2 2" />
+      <path d="M6 10.5h24c5.5 0 9.5 2.1 11.5 5.25-2 3.15-6 5.25-11.5 5.25H6A1.5 1.5 0 0 1 4.5 19.5V12A1.5 1.5 0 0 1 6 10.5Z" />
+      <path d="M6 27h24c5.5 0 9.5 2.1 11.5 5.25-2 3.15-6 5.25-11.5 5.25H6A1.5 1.5 0 0 1 4.5 36v-7.5A1.5 1.5 0 0 1 6 27Z" />
+      <circle cx="14" cy="24" r="1.9" stroke={A} strokeWidth={HAIR} />
+      <circle cx="22" cy="24" r="1.9" stroke={A} strokeWidth={HAIR} />
+      <circle cx="30" cy="24" r="1.9" stroke={A} strokeWidth={HAIR} />
+      <path d="M35.5 21v6" strokeWidth={HAIR} />
+      <circle cx="12" cy="15.75" r="0.9" strokeWidth={HAIR} />
+      <circle cx="12" cy="32.25" r="0.9" strokeWidth={HAIR} />
     </svg>
   );
 }
 
-/** Balanza: reclamos */
+/** Balanza de platos con cadenas: reclamos */
 export function IconScales(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M12 4v16M8 20h8M5.5 7h13" />
-      <path d="M5.5 7 3 12.5a2.8 2.8 0 0 0 5 0L5.5 7ZM18.5 7 16 12.5a2.8 2.8 0 0 0 5 0L18.5 7Z" />
+      <path d="M24 9v25M17 40.5h14M20.5 37h7" />
+      <circle cx="24" cy="7" r="1.8" />
+      <path d="M10.5 15h27" />
+      <path d="M24 13.2l1.8 1.8-1.8 1.8-1.8-1.8Z" strokeWidth={HAIR} />
+      <path d="M10.5 15l-3.2 7.2M10.5 15l3.2 7.2M37.5 15l-3.2 7.2M37.5 15l3.2 7.2" strokeWidth={HAIR} />
+      <path d="M4.2 22.2a6.3 6.3 0 0 0 12.6 0" stroke={A} strokeWidth={HAIR + 0.3} />
+      <path d="M31.2 22.2a6.3 6.3 0 0 0 12.6 0" stroke={A} strokeWidth={HAIR + 0.3} />
+      <circle cx="10.5" cy="24.6" r="1.1" fill={A} stroke="none" />
     </svg>
   );
 }
 
-/** Bitácora con verificación: consultoría y auditorías */
+/** Bitácora abierta con verificación y cinta: consultoría y auditorías */
 export function IconLog(p: P) {
   return (
     <svg {...base(p)} {...p}>
-      <path d="M6.5 4.5h11a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1Z" />
-      <path d="M9.5 3v3M14.5 3v3" />
-      <path d="M9 13l2.2 2.2L15.5 11" />
+      <path d="M24 11.5c-4.2-2.8-9-3.6-14-2.9v27.2c5-.7 9.8.1 14 2.9M24 11.5c4.2-2.8 9-3.6 14-2.9v27.2c-5-.7-9.8.1-14 2.9M24 11.5v27.2" />
+      <path d="M13.5 17.5c2.4-.4 4.8-.3 7 .3M13.5 22.5c2.4-.4 4.8-.3 7 .3M13.5 27.5c2.4-.4 4.8-.3 7 .3" strokeWidth={HAIR} />
+      <path d="M28.5 22.5l3.4 3.4 6.1-6.6" stroke={A} strokeWidth={HAIR + 0.5} />
+      <path d="M31 38.8v5.7l2.6-2.2 2.6 2.2v-7" stroke={A} strokeWidth={HAIR} />
     </svg>
   );
 }
 
-/** Timón: marca de apoyo */
+/** Timón de doble aro con cabillas: marca de apoyo */
 export function IconHelm(p: P) {
   return (
-    <svg {...base(p)} {...p}>
-      <circle cx="12" cy="12" r="5.5" />
-      <circle cx="12" cy="12" r="1.6" />
-      <path d="M12 2.5v4M12 17.5v4M2.5 12h4M17.5 12h4M5.3 5.3l2.8 2.8M15.9 15.9l2.8 2.8M18.7 5.3l-2.8 2.8M8.1 15.9l-2.8 2.8" />
+    <svg {...base(p)} {...p} strokeWidth={2.6}>
+      <circle cx="24" cy="24" r="15" />
+      <circle cx="24" cy="24" r="12.4" strokeWidth={HAIR} />
+      <circle cx="24" cy="24" r="4.6" />
+      <circle cx="24" cy="24" r="1.5" fill="currentColor" stroke="none" />
+      <path d="M24 19.4v-7.8M24 28.6v7.8M19.4 24h-7.8M28.6 24h7.8" strokeWidth={HAIR} />
+      <path d="M20.75 20.75l-5.5-5.5M27.25 20.75l5.5-5.5M20.75 27.25l-5.5 5.5M27.25 27.25l5.5 5.5" strokeWidth={HAIR} />
+      <path d="M24 9V4.5M24 39v4.5M9 24H4.5M39 24h4.5M13.4 13.4l-3.2-3.2M34.6 13.4l3.2-3.2M13.4 34.6l-3.2 3.2M34.6 34.6l3.2 3.2" />
     </svg>
   );
 }
 
 export const serviceIcons = {
-  agency: IconAnchor,
+  agency: IconLocks,
   surveys: IconDraft,
-  bunker: IconDrop,
+  bunker: IconSample,
   fuel: IconBarge,
   sts: IconSts,
   claims: IconScales,

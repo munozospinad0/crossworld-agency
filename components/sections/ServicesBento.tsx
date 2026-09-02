@@ -5,6 +5,7 @@ import {services} from '@/content/services';
 import type {Locale} from '@/i18n/routing';
 import {Reveal} from '@/components/motion/Reveal';
 import {serviceIcons} from '@/components/brand/Icons';
+import {InstrumentChip, ChartLines} from '@/components/brand/InstrumentChip';
 
 const withImage = new Set(['agency', 'bunker', 'sts']);
 const cardImages: Record<string, string> = {agency: '/images/canal-transit.jpg', bunker: '/images/oil-terminal.jpg', sts: '/images/ship-bow.jpg'};
@@ -37,9 +38,12 @@ export async function ServicesBento() {
                       <div aria-hidden="true" className="absolute inset-0 bg-[linear-gradient(0deg,rgba(11,20,32,0.94)_0%,rgba(11,20,32,0.45)_50%,rgba(11,20,32,0.05)_100%)]" />
                     </>
                   ) : (
-                    <span className="absolute top-6 left-6 grid h-11 w-11 place-items-center rounded-full bg-accent-soft-2 text-accent-ink ring-1 ring-accent/10">
-                      <Icon size={22} />
-                    </span>
+                    <>
+                      <ChartLines className={`absolute -top-5 -right-7 h-[150px] w-[230px] text-ink opacity-[0.055] transition-transform duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] motion-reduce:transition-none fine-pointer:group-hover:translate-x-1.5 ${i % 2 ? '-scale-x-100' : ''}`} />
+                      <InstrumentChip className="absolute top-6 left-6">
+                        <Icon size={30} />
+                      </InstrumentChip>
+                    </>
                   )}
                   <span className={`relative font-mono text-[0.72rem] tracking-[0.12em] ${img ? 'text-on-dark-muted' : 'text-muted'}`}>0{i + 1}</span>
                   <h3 className={`relative text-[1.2rem] leading-tight ${img ? 'text-white' : ''}`}>{s.title[locale]}</h3>

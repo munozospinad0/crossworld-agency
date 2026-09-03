@@ -172,7 +172,7 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
               return (
                 <Reveal key={o.key} delay={(i % 4) as 0 | 1 | 2 | 3}>
                   <Link href={{pathname: '/services/[slug]', params: {slug: o.slug[locale]}}} className="core group flex h-full items-start gap-4 bg-surface p-5 transition-[transform,box-shadow] duration-500 ease-[cubic-bezier(0.32,0.72,0,1)] fine-pointer:hover:-translate-y-0.5 fine-pointer:hover:shadow-lift">
-                    <InstrumentChip className="h-12 w-12"><Icon size={22} /></InstrumentChip>
+                    <InstrumentChip><Icon size={26} /></InstrumentChip>
                     <span className="min-w-0">
                       <span className="block font-mono text-[0.68rem] tracking-[0.14em] text-muted tabular-nums">0{n}</span>
                       <span className="mt-0.5 block text-[1.02rem] leading-snug font-semibold text-ink">{o.title[locale]}</span>

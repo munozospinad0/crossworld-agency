@@ -27,9 +27,14 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
   const Card = ({title, children}: {title: string; children: React.ReactNode}) => (
-    <div className="rounded-card border border-line bg-surface p-5">
-      <h2 className="text-[1.05rem]">{title}</h2>
-      <div className="mt-2 font-mono text-[0.9rem] leading-relaxed">{children}</div>
+    <div className="shell">
+      <div className="core h-full bg-surface p-5">
+        <h2 className="flex items-center gap-3 text-[1.02rem]">
+          <span>{title}</span>
+          <span aria-hidden="true" className="h-px flex-1 bg-line" />
+        </h2>
+        <div className="mt-2.5 font-mono text-[0.88rem] leading-relaxed">{children}</div>
+      </div>
     </div>
   );
   return (
@@ -37,11 +42,13 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
       page={p}
       aside={
         <>
-          <div className="rounded-card bg-ink p-6 text-on-dark">
-            <p className="m-0">{t.form}</p>
-            <div className="mt-4 flex flex-wrap gap-3">
-              <ButtonLink href="/request-port-call" variant="light">{cta('portcall')}</ButtonLink>
-              <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+          <div className="shell-dark bg-ink">
+            <div className="core deep p-6 text-on-dark">
+              <p className="m-0 text-[1.05rem] text-white">{t.form}</p>
+              <div className="mt-4 flex flex-wrap gap-3">
+                <ButtonLink href="/request-port-call" variant="light">{cta('portcall')}</ButtonLink>
+                <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+              </div>
             </div>
           </div>
           <p className="m-0 text-[0.88rem] text-muted">{t.bank}</p>

@@ -22,8 +22,8 @@
     "learnMore": "Learn more"
   },
   "Home": {
-    "h1": "Ship agency and marine surveys at the Panama Canal.",
-    "sub": "Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010. One team for the port call. Independent surveyors for the evidence. 24/7.",
+    "h1Lines": ["Shipping agency", "Marine Surveyor and P&I Club", "Panama Canal Transit Agency"],
+    "metaDescription": "Shipping agency, marine surveyors and P&I club representation at the Panama Canal. Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010.",
     "credentials": {
       "amp": "AMP-licensed ship agency",
       "acp": "Authorized by the Panama Canal Authority",
@@ -35,32 +35,57 @@
       "label": "Credentials"
     },
     "servicesTitle": "What we do at both ends of the Canal",
-    "servicesSub": "Seven services, one accountable team for the port call, and independent surveyors for the evidence. Nominate us for the transit; the survey and the fuel are the same phone call.",
-    "processTitle": "How a port call works with us",
-    "processSub": "Four steps, each with what you receive and when.",
-    "process": [
-      {"n": "1", "title": "Nomination", "text": "Send vessel particulars, ETA and the services you need. We confirm receipt with a request number and the duty officer takes it from there.", "when": "Immediately"},
-      {"n": "2", "title": "Proforma disbursement account", "text": "Canal tolls, reservation fee, fixed tariff, pilotage, tugs, linehandlers and every third-party cost itemized, with the agency fee as one line.", "when": "Ahead of the funds call"},
-      {"n": "3", "title": "Boarding and transit", "text": "Our officer boards at the anchorage and coordinates the Authority, pilots, tugs, linehandlers, crew changes and supplies. One WhatsApp thread, one daily update.", "when": "Throughout the call"},
-      {"n": "4", "title": "Final disbursement account", "text": "Reconciled line by line against the PDA, every third-party charge with its voucher, variances explained. If a survey came up during the call, its report travels with it.", "when": "After sailing, with every voucher"}
-    ],
+    "servicesCount": "Seven services",
     "portsTitle": "Both sides of the Canal",
     "portsSub": "Duty officers on the Pacific and the Atlantic side, and the Panamanian ports we serve.",
     "portsNote": "Send the terminal and the ETA; the duty officer confirms attendance.",
-    "captainTitle": "A captain answers the phone.",
-    "captainText": "Captain Guillermo A. Peña brings more than 40 years of maritime experience. He holds the ISM Code Internal Auditor credential, trained at the Seafarers Training Center and Maersk Training Centre, and reviews every survey report that leaves this office.",
-    "captainQuote": "When you call at three in the morning, you speak with someone who has stood a bridge watch.",
+    "captainTitle": "Welcome to Cross World",
+    "captainSub": "Maritime experience, technical knowledge and commitment in every operation.",
+    "captainParagraphs": [
+      "Cross World provides survey, consulting and maritime support services backed by more than 40 years of experience in the industry. Every service is delivered under technical, independent and professional criteria, giving shipowners, operators, insurers and maritime clients reliable information for better decisions.",
+      "Our team is led by Captain Guillermo A. Peña, a maritime professional with an extensive track record in surveys, audits, operations and maritime safety."
+    ],
+    "captainCredentialsLabel": "Credentials",
+    "kickers": {"services": "What we do", "record": "Track record", "canal": "The crossing", "data": "Canal data", "ports": "Both entrances", "captain": "Who we are", "field": "From the field", "clients": "Who we serve", "proof": "Partners & reach", "fda": "Your FDA", "request": "Nominate us"},
+    "stats": [
+      {"label": "Licensed by the AMP and authorized by the ACP since", "source": "04 MAR 2010 · AMP · ACP"},
+      {"label": "ISO-certified management systems: 9001, 14001, 45001 and 22000", "source": "QUALITY · ENVIRONMENT · OH&S · FOOD SAFETY"},
+      {"label": "Sides of the Canal with duty attendance: Balboa and Cristóbal", "source": "BALBOA · CRISTÓBAL"},
+      {"label": "A duty officer answers, all year, in English and Spanish", "source": "UTC-5 · EN/ES"}
+    ],
+    "whoCta": "Describe your case",
+    "canalData": {
+      "docTitle": "Transit data sheet — Panama Canal",
+      "docRef": "OP NOTICE N-7-2026 · REV 2026-08-31",
+      "cells": [
+        {"t": "T-90 D", "value": "90", "unit": "d", "label": "The first booking period opens 90 days before the transit date; the third closes at 15:00 Panama time."},
+        {"t": "T-96 H", "value": "96", "unit": "h", "label": "Pre-arrival package through the ACP electronic system (EDCS) at least 96 hours before arrival."},
+        {"t": "T-72 H", "value": "72", "unit": "h", "label": "We call funds 72 hours ahead to leave margin for bank delays."},
+        {"t": "T-48 H", "value": "48", "unit": "h", "label": "The ACP requires payment 48 hours before transit."},
+        {"t": "REQ", "value": "400", "unit": "t", "label": "Vessels carrying 400 tonnes or more of oil need a PCSOPEP with a Panama-resident authorized person. No plan, no transit."},
+        {"t": "T-0", "value": "8–10", "unit": "h", "label": "Typical time in Canal waters once underway; waiting depends on booking and traffic."}
+      ],
+      "margin": "Our margin",
+      "sources": "Sources: ACP OP Notice N-7-2026 · ACP advisories in force",
+      "note": "Figures from the notices in force on the revision date; your PDA states each amount with its basis.",
+      "cta": "Read the transit guide"
+    },
+    "fdaCta": "Compare your FDA",
+    "fdaDoc": {"header": "Disbursement account", "sub": "Line by line", "specimen": "Specimen"},
+    "fdaLines": ["Canal tolls", "Reservation fee or auction premium", "Fixed tariff", "Security charge", "Inspection and admeasurement", "Pilotage", "Tugs", "Linehandlers", "Launches", "Agency fee (one line)", "Bank charges", "Contingency"],
+    "captainQuote": "Experience that sails with you.",
     "captainCta": "About Cross World",
     "whoTitle": "Who we serve",
     "whoSub": "Different principals, different worries. Tell us who you are and we tell you how we work with you.",
     "who": [
-      {"title": "Shipowners & managers", "text": "Transit agency, husbandry and surveys with one accountable officer."},
+      {"title": "Shipowners & ship brokers", "text": "Transit agency, husbandry and surveys."},
       {"title": "Charterers & traders", "text": "Bunker quantity, STS attendance and protective agency."},
-      {"title": "P&I correspondents & insurers", "text": "Condition surveys, claims attendance and evidence preserved."},
+      {"title": "P&I correspondents & insurers", "text": "Condition surveys, claims attendance and evidence preserved, in alliance with Global Pandi Panama."},
       {"title": "Fishing fleets & regional operators", "text": "Fuel supply and agency in Spanish, on WhatsApp."}
     ],
-    "proofTitle": "More than 40 years at sea and in port, one desk.",
-    "proofText": "Cross World Agencies, S.A. has held its AMP ship agency licence and Panama Canal Authority authorization since 2010. Yacht and small-craft surveys run under our sister brand, Cross World Yacht, Marine Surveyors.",
+    "proofTitle": "More than 40 years at sea and in port.",
+    "proofText": "Cross World Agency has held its AMP ship agency licence and Panama Canal Authority authorization since 2010. Yacht and small-craft surveys run under our sister brand, Cross World Yacht, Marine Surveyors.",
+    "representationLabel": "Representation",
     "reelsTitle": "From the field",
     "reelsSub": "Short clips our team publishes from surveys, deliveries and the office. Sound on.",
     "reelPlay": "Play clip",
@@ -75,34 +100,31 @@
     "copied": "Copied"
   },
   "Journey": {
-    "title": "One transit, told from the bridge",
-    "sub": "Scroll to take a vessel across the isthmus. This is what we handle at every mile.",
-    "hint": "Keep scrolling",
-    "stages": [
-      {"name": "Balboa · Pacific anchorage", "title": "Boarding and pre-transit", "text": "Our officer boards at the anchorage. Pilots, documentation and the funds for tolls are confirmed before the vessel weighs anchor.", "tag": "SEA LEVEL · 0 m"},
-      {"name": "Miraflores · Pedro Miguel", "title": "Up through the Pacific locks", "text": "Two lock flights lift the vessel about 26 metres to lake level, with linehandlers and locomotives working each chamber.", "tag": "LIFT · +26 m"},
-      {"name": "Gatún Lake", "title": "The fresh-water crossing", "text": "A long transit across the lake. The maximum authorized draft follows the lake level; your PDA states the figure in force, with its date.", "tag": "FRESH WATER · DRAFT BY LAKE LEVEL"},
-      {"name": "Gatún · Agua Clara", "title": "Down to the Atlantic", "text": "The final flight lowers the vessel to sea level. A typical transit spends 8 to 10 hours underway in Canal waters.", "tag": "TYPICAL TRANSIT · 8 TO 10 H"},
-      {"name": "Cristóbal · Atlantic", "title": "Sailing, or the next call", "text": "Bunker, surveys and crew changes on the Atlantic side if you need them, and an FDA reconciled line by line after departure.", "tag": "FDA · RECONCILED LINE BY LINE"}
-    ]
+    "title": "Transit the Panama Canal with Cross World",
+    "sub": "Scroll to cross the isthmus",
+    "mapLabel": "Stylised nautical chart of the Panama Canal route from Balboa to Cristóbal",
+    "sea": "Sea level · 0 m",
+    "lake": "Gatún Lake · +26 m",
+    "pacific": "Pacific Ocean",
+    "caribbean": "Caribbean Sea"
   },
   "Ports": {
-    "balboa": {"name": "Port of Balboa", "side": "Pacific", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "locks": "To the locks", "locksValue": "Miraflores", "duty": "Duty officer"},
-    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "duty": "Duty officer", "dutyNote": "coordinated by the operations desk"},
+    "balboa": {"name": "Port of Balboa", "side": "Pacific", "entrance": "Pacific entrance", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "locks": "To the locks", "locksValue": "Miraflores", "crew": "Crew changes", "crewValue": "Via Tocumen, by launch at the anchorage", "duty": "Duty officer"},
+    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "entrance": "Atlantic entrance", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "crew": "Husbandry", "crewValue": "Cristóbal, Manzanillo (MIT) and CCT", "duty": "Duty officer", "dutyNote": "coordinated by the operations desk"},
     "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)"]
   },
   "Footer": {
-    "tagline": "Ship agency, marine surveys, bunker and claims support at the Panama Canal. Licensed by the AMP and authorized by the Panama Canal Authority since 2010.",
+    "tagline": "Ship agency, marine surveys, bunker operations and P&I club representation at the Panama Canal. Licensed by the AMP and authorized by the Panama Canal Authority since 2010.",
     "services": "Services",
     "company": "Company",
     "nominate": "Nominate",
+    "compare": "Compare your FDA",
     "about": "About",
     "certifications": "Certifications",
     "compliance": "Compliance & KYC pack",
     "ports": "Ports",
     "guide": "Panama Canal guide",
     "contact": "Contact",
-    "ethics": "Ethics channel",
     "privacy": "Privacy",
     "terms": "Standard Trading Conditions",
     "figures": "Canal figures are referential and sourced from the Panama Canal Authority.",
@@ -173,7 +195,7 @@
     "next": "Continue to services",
     "draftNote": "Nothing is sent until you submit the second step.",
     "services": "Services needed",
-    "serviceOptions": {"agency": "Ship agency / Canal transit", "surveys": "Marine survey", "bunker_survey": "Bunker survey", "fuel": "Marine fuel supply", "sts": "Ship-to-ship / offshore", "claims": "Claims support", "consulting": "Consulting / audit"},
+    "serviceOptions": {"agency": "Ship agency / Canal transit", "surveys": "Marine survey", "bunker_survey": "Tank gauging and sampling / bunker", "fuel": "Marine fuel supply", "sts": "Ship-to-ship / offshore", "claims": "Marine accident investigation", "consulting": "Consulting / audit"},
     "notes": "Notes",
     "notesHelp": "Instructions, crew changes, spares, anything the duty officer should know.",
     "contactName": "Your name",

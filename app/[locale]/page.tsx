@@ -6,7 +6,6 @@ import {Hero} from '@/components/sections/Hero';
 import {CredentialStrip} from '@/components/sections/CredentialStrip';
 import {ServicesBento} from '@/components/sections/ServicesBento';
 import {Stats} from '@/components/sections/Stats';
-import {PortCallProcess} from '@/components/sections/PortCallProcess';
 import {CanalCrossing} from '@/components/sections/CanalCrossing';
 import {PortsCards} from '@/components/sections/PortsCards';
 import {Captain} from '@/components/sections/Captain';
@@ -20,8 +19,8 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'Home'});
   return pageMetadata({
     locale: locale as Locale,
-    title: locale === 'es' ? 'Agencia naviera e inspecciones marítimas en el Canal de Panamá' : 'Ship agency and marine surveys at the Panama Canal',
-    description: t('sub'),
+    title: locale === 'es' ? 'Agencia naviera, marine surveyors y tránsito del Canal de Panamá' : 'Shipping agency, marine surveyors and Panama Canal transit agency',
+    description: t('metaDescription'),
     href: '/',
     image: '/images/canal-transit.jpg',
   });
@@ -36,7 +35,6 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <CredentialStrip />
       <ServicesBento />
       <Stats />
-      <PortCallProcess />
       <CanalCrossing />
       <PortsCards />
       <Captain />

@@ -98,7 +98,7 @@ export const guide: Record<Locale, Guide> = {
         'Tarifa fija por tránsito: una suma por categoría de buque, desde buques regulares pequeños hasta portacontenedores Neopanamax.',
         'Cargos fijos y auxiliares: cargo de seguridad, inspección, practicaje (tránsito y puerto), remolcadores (tránsito completo o parcial, paquetes Panamax o Neopanamax) y pasacables.',
         'Capa de programación: una tasa de reserva si reserva un slot (tarifas Regular, Super o Neopanamax; más altas para reservas de último momento), o una prima de subasta si puja por un slot no reservado. Las reservas de tránsito diurno tienen su propia tasa.',
-        'Agencia: nuestro honorario, en una sola línea, más lanchas, transporte, comunicaciones y el husbandry que solicite.',
+        'Agencia: nuestro honorario, en una sola línea, más lanchas, transporte, comunicaciones y el avituallamiento que solicite.',
       ]},
       {id: 'booking', h2: '2. Periodos de reserva, tasa y subasta', ul: [
         'Primer periodo: de 90 a 15 días antes de la fecha de tránsito para las esclusas Panamax; de 90 a 31 días para Neopanamax. Periodo 1.a: 30 a 15 días (solo Neopanamax). Segundo periodo: 14 a 8 días. Tercer periodo: 7 a 2 días antes, cierra a las 15:00 hora de Panamá (OP Notice N-7-2026).',

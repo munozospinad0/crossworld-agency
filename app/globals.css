@@ -95,6 +95,9 @@
     .rv.d1 { transition-delay: 0.07s; }
     .rv.d2 { transition-delay: 0.14s; }
     .rv.d3 { transition-delay: 0.21s; }
+    /* Regla que se dibuja de izquierda a derecha cuando su Reveal entra (sin JS queda dibujada) */
+    .rule { transform: scaleX(0); transform-origin: left; transition: transform 0.9s var(--ease-out) 0.15s; }
+    .rv.in .rule { transform: scaleX(1); }
   }
 
   /* Marquesina de credenciales (única del sitio) */
@@ -103,6 +106,10 @@
 
   /* Hero: movimiento lento de cámara (fuera del hilo principal) */
   .kenburns { animation: kenburns 26s var(--ease-in-out) infinite alternate; transform-origin: 60% 45%; will-change: transform; }
+  /* Hero: las tres líneas del H1 entran escalonadas (solo con scripting; sin JS quedan visibles) */
+  @media (scripting: enabled) {
+    .hero-line { animation: hero-line 0.9s var(--ease-out) both; }
+  }
 
   /* Ruta del Canal: se dibuja al entrar en viewport (sin scripting queda dibujada) */
   @media (scripting: enabled) {
@@ -115,8 +122,10 @@
 
   @media (prefers-reduced-motion: reduce) {
     .rv { opacity: 1 !important; transform: none !important; filter: none !important; transition: none !important; }
+    .rule { transform: none !important; transition: none !important; }
     .mq-track { animation: none !important; }
     .kenburns { animation: none; }
+    .hero-line { animation: none; }
     .route path.draw { stroke-dashoffset: 0; transition: none; }
   }
 }
@@ -126,3 +135,4 @@
 
 @keyframes mq { to { transform: translateX(-50%); } }
 @keyframes kenburns { from { transform: scale(1.01) translate3d(0, 0, 0); } to { transform: scale(1.07) translate3d(-1%, -0.7%, 0); } }
+@keyframes hero-line { from { opacity: 0; transform: translate3d(0, 18px, 0); } to { opacity: 1; transform: none; } }

@@ -4,6 +4,7 @@ import {Link} from '@/i18n/navigation';
 import {services} from '@/content/services';
 import type {Locale} from '@/i18n/routing';
 import {Reveal} from '@/components/motion/Reveal';
+import {SectionKicker} from '@/components/brand/SectionKicker';
 import {serviceIcons} from '@/components/brand/Icons';
 import {InstrumentChip, ChartLines} from '@/components/brand/InstrumentChip';
 
@@ -17,10 +18,15 @@ export async function ServicesBento() {
   return (
     <section id="services" className="py-[clamp(72px,9vw,128px)]">
       <div className="wrap">
-        <div className="mb-12 grid gap-4 md:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] md:items-end">
-          <h2 className="t-h2">{t('servicesTitle')}</h2>
-          <p className="m-0 text-[1.08rem] text-muted md:pb-1">{t('servicesSub')}</p>
-        </div>
+        <Reveal className="mb-12">
+          <SectionKicker k="services" index={1} />
+          <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-3">
+            <h2 className="t-h2 max-w-[22ch]">{t('servicesTitle')}</h2>
+            <p className="m-0 font-mono text-[0.74rem] tracking-[0.16em] uppercase text-muted md:pb-2">
+              <span className="text-accent tabular-nums">07</span> · {t('servicesCount')}<span className="hidden sm:inline"> · Balboa · Cristóbal</span>
+            </p>
+          </div>
+        </Reveal>
         <div className="shell grid grid-cols-1 gap-1.5 sm:grid-cols-2 lg:grid-cols-4 lg:auto-rows-[minmax(220px,auto)]">
           {services.map((s, i) => {
             const img = withImage.has(s.key);

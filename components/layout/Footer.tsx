@@ -23,8 +23,9 @@ export async function Footer() {
           <p className="mt-4 mb-0 max-w-[40ch]">{t('tagline')}</p>
           <FlagWordmark className="mt-6" />
           <p className="mt-5 font-mono text-[0.8rem] leading-relaxed">
-            {site.legalName} · RUC {site.ruc}<br />IMO company number {site.imoCompanyNumber}<br />
-            {site.address.street} · {site.address.street2}<br />{site.address.city}, {site.address.country}<br />
+            {site.name} · RUC {site.ruc}<br />IMO company number {site.imoCompanyNumber}<br />
+            {site.address.street2}<br />{site.address.street}<br />{site.address.city}, {site.address.country}<br />
+            <a className="underline decoration-white/20 underline-offset-4 hover:text-white" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a><br />
             <a className="underline decoration-white/20 underline-offset-4 hover:text-white" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a> · <a className="underline decoration-white/20 underline-offset-4 hover:text-white" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />
             {c('timezone')}
           </p>
@@ -53,12 +54,12 @@ export async function Footer() {
           <ul className="m-0 grid list-none gap-2 p-0">
             <li><Link className="transition-colors hover:text-white" href="/request-port-call">{cta('portcall')}</Link></li>
             <li><a className="transition-colors hover:text-white" href={whatsappHref()}>{cta('whatsapp')}{site.whatsapp.confirm ? ` ${c('toConfirm')}` : ''}</a></li>
-            <li><Link className="transition-colors hover:text-white" href="/compliance">{t('ethics')}</Link></li>
+            <li><Link className="transition-colors hover:text-white" href="/compare-your-fda">{t('compare')}</Link></li>
           </ul>
         </div>
       </div>
       <div className="wrap relative mt-12 flex flex-wrap gap-x-6 gap-y-2 border-t border-white/10 pt-5 text-[0.82rem]">
-        <span>© {new Date().getFullYear()} {site.legalName}. {t('rights')}</span>
+        <span>© {new Date().getFullYear()} {site.name}. {t('rights')}</span>
         <Link className="hover:text-white" href="/privacy">{t('privacy')}</Link>
         <Link className="hover:text-white" href="/terms">{t('terms')}</Link>
         <span>{t('figures')}</span>

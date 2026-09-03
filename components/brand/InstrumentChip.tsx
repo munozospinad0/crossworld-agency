@@ -40,20 +40,25 @@ export function InstrumentChip({children, className = ''}: {children: ReactNode;
   );
 }
 
-/** Curvas batimétricas de carta náutica, para el fondo de tarjetas sin foto. */
-export function ChartLines({className = ''}: {className?: string}) {
+/** Curvas batimétricas de carta náutica, para el fondo de tarjetas sin foto.
+ *  `marks` añade sondas (puntos) y cruces de posición; se apagan cuando el fondo lleva texto o foto encima. */
+export function ChartLines({className = '', marks = true}: {className?: string; marks?: boolean}) {
   return (
     <svg viewBox="0 0 230 150" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1" className={className}>
       <path d="M-6 28C42 44 92 20 150 40s62 8 86 22" />
       <path d="M-6 58c52 20 96 0 152 18s60 4 84 16" />
       <path d="M-6 92c46 16 102-6 156 12s56 10 80 18" />
       <path d="M22 8c38 12 84-4 132 14" strokeDasharray="1 7" strokeLinecap="round" />
-      <circle cx="58" cy="46" r="1.4" fill="currentColor" stroke="none" />
-      <circle cx="132" cy="74" r="1.4" fill="currentColor" stroke="none" />
-      <circle cx="182" cy="42" r="1.4" fill="currentColor" stroke="none" />
-      <circle cx="96" cy="112" r="1.4" fill="currentColor" stroke="none" />
-      <path d="M156 104l5 5m0-5l-5 5" strokeWidth="0.9" />
-      <path d="M44 84l5 5m0-5l-5 5" strokeWidth="0.9" />
+      {marks && (
+        <>
+          <circle cx="58" cy="46" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="132" cy="74" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="182" cy="42" r="1.4" fill="currentColor" stroke="none" />
+          <circle cx="96" cy="112" r="1.4" fill="currentColor" stroke="none" />
+          <path d="M156 104l5 5m0-5l-5 5" strokeWidth="0.9" />
+          <path d="M44 84l5 5m0-5l-5 5" strokeWidth="0.9" />
+        </>
+      )}
     </svg>
   );
 }

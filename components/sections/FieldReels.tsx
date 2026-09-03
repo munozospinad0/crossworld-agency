@@ -71,11 +71,25 @@ function Reel({r, active, onToggle, playLabel, pauseLabel}: {r: (typeof reels)[n
 
 export function FieldReels() {
   const t = useTranslations('Home');
+  const tk = useTranslations('Home.kickers');
   const [active, setActive] = useState<number | null>(null);
   return (
     <section id="field" className="border-t border-white/8 bg-ink py-[clamp(72px,9vw,128px)] text-on-dark">
       <div className="wrap">
         <Reveal className="mb-8 max-w-[60ch] md:mb-10">
+          {/* Réplica inline de SectionKicker (k="field", index 6, dark): este archivo es
+              client component y el SectionKicker server async no puede importarse aquí.
+              Mantener en sincronía con components/brand/SectionKicker.tsx. */}
+          <p className="mb-4 flex items-center gap-3 font-mono text-[0.7rem] tracking-[0.18em] text-on-dark-muted uppercase">
+            <svg width="25" height="10" viewBox="0 0 25 10" aria-hidden="true" className="shrink-0 text-brand-sky">
+              {Array.from({length: 8}, (_, i) => (
+                <line key={i} x1={0.7 + i * 3.4} y1={10} x2={0.7 + i * 3.4} y2={i % 4 === 0 ? 1 : 4.5} stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" />
+              ))}
+            </svg>
+            <span className="text-brand-sky tabular-nums">06</span>
+            <span>{tk('field')}</span>
+            <span aria-hidden="true" className="rule h-px flex-1 bg-white/12" />
+          </p>
           <h2 className="t-h2 text-white">{t('reelsTitle')}</h2>
           <p className="mt-2 mb-0 text-[1.08rem] text-on-dark-muted">{t('reelsSub')}</p>
         </Reveal>

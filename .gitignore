@@ -26,3 +26,10 @@ Thumbs.db
 # capturas de QA y scripts privados
 research/shots/
 research/_*.py
+research/_shots/
+research/_serve.log
+research/_x_*
+
+# documento de correcciones del cliente (privado) y versionado de Syncthing
+research/correcciones/
+.stversions/

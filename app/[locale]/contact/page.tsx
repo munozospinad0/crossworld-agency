@@ -8,8 +8,8 @@ import {StaticPage} from '@/components/layout/StaticPage';
 import {ButtonLink, ButtonA} from '@/components/ui/Button';
 
 const ui = {
-  en: {pacific: 'Pacific side · Balboa', atlantic: 'Atlantic side · Cristóbal', office: 'Office', email: 'Email', address: 'Address', hours: '24/7, all year', form: 'Transit or port call? Use the request form: you get a request number and an itemized PDA.', bank: 'Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.', ethics: 'Concerns about our conduct: write to the office email.'},
-  es: {pacific: 'Lado Pacífico · Balboa', atlantic: 'Lado Atlántico · Cristóbal', office: 'Oficina', email: 'Correo', address: 'Dirección', hours: '24/7, todo el año', form: '¿Tránsito o escala? Use el formulario de solicitud: recibe un número de solicitud y una PDA detallada.', bank: 'Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.', ethics: 'Inquietudes sobre nuestra conducta: escriba al correo de la oficina.'},
+  en: {pacific: 'Pacific side · Balboa', atlantic: 'Atlantic side · Cristóbal', office: 'Office', email: 'Email', address: 'Address', hours: '24/7, all year', form: 'Transit or port call? Use the request form: you get a request number and an itemized PDA.', bank: 'Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.'},
+  es: {pacific: 'Lado Pacífico · Balboa', atlantic: 'Lado Atlántico · Cristóbal', office: 'Oficina', email: 'Correo', address: 'Dirección', hours: '24/7, todo el año', form: '¿Tránsito o escala? Use el formulario de solicitud: recibe un número de solicitud y una PDA detallada.', bank: 'Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.'},
 };
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -50,7 +50,7 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
     >
       <div className="grid gap-4 sm:grid-cols-2">
         <Card title={t.pacific}>
-          {site.phones.operations.label}: <a className="text-accent-ink underline" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a><br />{t.hours}
+          {c('operations')}: <a className="text-accent-ink underline" href={`tel:${site.phones.operations.e164}`}>{site.phones.operations.display}</a><br />{t.hours}
         </Card>
         <Card title={t.atlantic}>
           {site.phones.atlantic.display}<br />{locale === 'es' ? 'Atención coordinada desde la mesa de operaciones' : 'Attendance coordinated by the operations desk'}
@@ -59,10 +59,9 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
           <a className="text-accent-ink underline" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />{t.email}: <a className="text-accent-ink underline" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a>{site.emails.operations.confirm ? ` ${c('toConfirm')}` : ''}
         </Card>
         <Card title={t.address}>
-          {site.legalName}<br />{site.address.street}<br />{site.address.street2}<br />{site.address.city}, {site.address.country}<br />{c('timezone')}
+          {site.name}<br />{site.address.street2}<br />{site.address.street}<br />{site.address.city}, {site.address.country}<br />{c('timezone')}
         </Card>
       </div>
-      <p className="m-0 text-[0.9rem] text-muted">{t.ethics}</p>
     </StaticPage>
   );
 }

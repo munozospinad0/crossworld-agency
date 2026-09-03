@@ -32,7 +32,6 @@ export function organizationJsonLd(locale: Locale) {
     hasCertification: site.certifications.map((c) => ({
       '@type': 'Certification',
       name: c.standard,
-      issuedBy: {'@type': 'Organization', name: c.issuer},
     })),
     founder: {
       '@type': 'Person',

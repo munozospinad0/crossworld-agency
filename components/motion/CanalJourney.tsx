@@ -3,7 +3,7 @@
 import {useEffect, useRef, useState} from 'react';
 import {LazyMotion, domAnimation, useReducedMotion, useScroll, useSpring, useTransform, useMotionValueEvent} from 'motion/react';
 
-export type Stage = {name: string; title: string; text: string; tag: string};
+export type JourneyLabels = {map: string; sea: string; lake: string; pacific: string; caribbean: string};
 
 type Geo = {
   id: 'd' | 'm';
@@ -12,7 +12,7 @@ type Geo = {
   land: string[];
   coast: string[];
   lake: {cx: number; cy: number; rx: number; ry: number};
-  oceans: {text: string; x: number; y: number}[];
+  oceans: {key: 'pacific' | 'caribbean'; x: number; y: number}[];
   stops: number[];
   labels: string[];
   labelDx: number[];
@@ -33,7 +33,7 @@ const DESKTOP: Geo = {
   ],
   coast: ['M0 420 C 120 400 220 350 320 260', 'M560 92 C 660 60 780 30 890 12'],
   lake: {cx: 520, cy: 120, rx: 120, ry: 52},
-  oceans: [{text: 'PACIFIC OCEAN', x: 200, y: 205}, {text: 'CARIBBEAN SEA', x: 760, y: 368}],
+  oceans: [{key: 'pacific', x: 200, y: 205}, {key: 'caribbean', x: 760, y: 368}],
   stops: [0.02, 0.3, 0.55, 0.78, 0.985],
   labels: ['Balboa', 'Miraflores', 'Gatún Lake', 'Gatún', 'Cristóbal'],
   labelDx: [0, 0, 0, 0, 0],
@@ -54,7 +54,7 @@ const MOBILE: Geo = {
   ],
   coast: ['M0 616 C 140 606 300 584 420 566', 'M0 110 C 140 92 280 74 420 96'],
   lake: {cx: 216, cy: 338, rx: 74, ry: 58},
-  oceans: [{text: 'PACIFIC OCEAN', x: 210, y: 632}, {text: 'CARIBBEAN SEA', x: 210, y: 30}],
+  oceans: [{key: 'pacific', x: 210, y: 632}, {key: 'caribbean', x: 210, y: 30}],
   stops: [0.02, 0.3, 0.55, 0.78, 0.985],
   labels: ['Balboa', 'Miraflores', 'Gatún Lake', 'Gatún', 'Cristóbal'],
   labelDx: [16, 18, -18, 18, -16],
@@ -80,9 +80,9 @@ function Compass({x, y}: {x: number; y: number}) {
   );
 }
 
-function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop}: {geo: Geo; stage: number; pts: Pt[]; ready: boolean; vesselRef: React.RefObject<SVGGElement | null>; drawRef: React.RefObject<SVGPathElement | null>; onStop: (i: number) => void}) {
+function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop, labels}: {geo: Geo; stage: number; pts: Pt[]; ready: boolean; vesselRef: React.RefObject<SVGGElement | null>; drawRef: React.RefObject<SVGPathElement | null>; onStop: (i: number) => void; labels: JourneyLabels}) {
   return (
-    <svg viewBox={geo.viewBox} preserveAspectRatio="xMidYMid meet" className="h-full w-full" role="img" aria-label="Nautical-chart style map of the Panama Canal route from Balboa to Cristóbal">
+    <svg viewBox={geo.viewBox} preserveAspectRatio="xMidYMid meet" className="h-full w-full" role="img" aria-label={labels.map}>
       <defs>
         <linearGradient id="landA" x1="0" y1="0" x2="0" y2="1">
           <stop offset="0" stopColor="#16283f" />
@@ -105,7 +105,7 @@ function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop}: {geo: Geo; 
       <ellipse cx={geo.lake.cx} cy={geo.lake.cy} rx={geo.lake.rx} ry={geo.lake.ry} fill="url(#lakeGlow)" opacity={stage === 2 ? 1 : 0.3} style={{transition: 'opacity 600ms cubic-bezier(0.23,1,0.32,1)'}} />
 
       {geo.oceans.map((o) => (
-        <text key={o.text} x={o.x} y={o.y} textAnchor="middle" fontFamily="var(--font-mono)" fontSize="11" letterSpacing="2.5" fill="rgba(169,182,195,0.6)">{o.text}</text>
+        <text key={o.key} x={o.x} y={o.y} textAnchor="middle" fontFamily="var(--font-mono)" fontSize="11" letterSpacing="2.5" fill="rgba(169,182,195,0.6)">{labels[o.key].toUpperCase()}</text>
       ))}
       <Compass x={geo.compass.x} y={geo.compass.y} />
 
@@ -126,7 +126,7 @@ function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop}: {geo: Geo; 
         );
       })}
 
-      {/* marcadores de etapa (clicables con puntero; el teclado usa los puntos de la tarjeta) */}
+      {/* marcadores de etapa (clicables con puntero: llevan el scroll a ese punto de la ruta) */}
       {ready && pts.map((p, i) => (
         <g key={`stop-${i}`} transform={`translate(${p.x} ${p.y})`} onClick={() => onStop(i)} style={{cursor: 'pointer'}}>
           <circle r="14" fill="rgba(0,0,0,0)" />
@@ -154,18 +154,22 @@ function Scene({geo, stage, pts, ready, vesselRef, drawRef, onStop}: {geo: Geo; 
 
 function ElevationProfile({profRef, dotRef, tags}: {profRef: React.RefObject<SVGPathElement | null>; dotRef: React.RefObject<SVGCircleElement | null>; tags: {sea: string; lake: string}}) {
   return (
-    <svg viewBox="0 0 300 60" className="h-[52px] w-full max-w-[620px]" aria-hidden="true">
+    <svg viewBox="0 0 300 60" className="h-[68px] w-full max-w-[720px] md:h-[84px]" aria-hidden="true">
       <line x1="8" y1="46" x2="292" y2="46" stroke="rgba(169,182,195,0.2)" strokeWidth="1" strokeDasharray="3 4" />
-      <path ref={profRef} d={PROFILE} fill="none" stroke="rgba(76,141,240,0.55)" strokeWidth="1.8" strokeLinecap="round" />
-      <text x="8" y="58" fontFamily="var(--font-mono)" fontSize="8.5" fill="rgba(169,182,195,0.7)">{tags.sea}</text>
-      <text x="150" y="12" textAnchor="middle" fontFamily="var(--font-mono)" fontSize="8.5" fill="rgba(169,182,195,0.85)">{tags.lake}</text>
-      <text x="292" y="58" textAnchor="end" fontFamily="var(--font-mono)" fontSize="8.5" fill="rgba(169,182,195,0.7)">{tags.sea}</text>
-      <circle ref={dotRef} r="3.4" fill="#fff" stroke="#4C8DF0" strokeWidth="2" />
+      <path ref={profRef} d={PROFILE} fill="none" stroke="rgba(76,141,240,0.55)" strokeWidth="1.6" strokeLinecap="round" />
+      <text x="8" y="57" fontFamily="var(--font-mono)" fontSize="7" letterSpacing="0.6" fill="rgba(169,182,195,0.75)">{tags.sea.toUpperCase()}</text>
+      <text x="150" y="12" textAnchor="middle" fontFamily="var(--font-mono)" fontSize="7" letterSpacing="0.6" fill="rgba(238,242,246,0.9)">{tags.lake.toUpperCase()}</text>
+      <text x="292" y="57" textAnchor="end" fontFamily="var(--font-mono)" fontSize="7" letterSpacing="0.6" fill="rgba(169,182,195,0.75)">{tags.sea.toUpperCase()}</text>
+      <circle ref={dotRef} r="3" fill="#fff" stroke="#4C8DF0" strokeWidth="1.8" />
     </svg>
   );
 }
 
-export function CanalJourney({stages, hint}: {stages: Stage[]; hint: string}) {
+/**
+ * Cruce del Canal narrado con scroll: carta náutica estilizada, buque que recorre la ruta,
+ * compuertas que se encienden y perfil de elevación sincronizado. Sin tarjetas de texto.
+ */
+export function CanalJourney({labels}: {labels: JourneyLabels}) {
   const reduce = useReducedMotion();
   const containerRef = useRef<HTMLDivElement>(null);
   const vesselRef = useRef<SVGGElement>(null);
@@ -177,6 +181,7 @@ export function CanalJourney({stages, hint}: {stages: Stage[]; hint: string}) {
   const [ready, setReady] = useState(false);
   const [mobile, setMobile] = useState(false);
   const geo = mobile ? MOBILE : DESKTOP;
+  const last = geo.stops.length - 1;
 
   useEffect(() => {
     const mq = window.matchMedia('(max-width: 820px)');
@@ -210,9 +215,9 @@ export function CanalJourney({stages, hint}: {stages: Stage[]; hint: string}) {
       vesselRef.current.style.transform = `translate(${p.x}px, ${p.y}px) rotate(${angle}deg)`;
     }
     setReady(true);
-    if (reduce) setStage(stages.length - 1);
+    if (reduce) setStage(last);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geo.id, reduce, stages.length]);
+  }, [geo.id, reduce, last]);
 
   useMotionValueEvent(t, 'change', (v) => {
     if (reduce) return;
@@ -249,68 +254,30 @@ export function CanalJourney({stages, hint}: {stages: Stage[]; hint: string}) {
     window.scrollTo({top: top + progress * scrollable, behavior: reduce ? 'auto' : 'smooth'});
   };
 
-  const card = (s: Stage, i: number, overlay: boolean) => (
-    <div className={overlay ? 'shell-dark' : 'shell-dark h-full'}>
-      <div className={`core bg-ink-2 p-5 md:p-6 ${overlay ? '' : 'h-full'}`}>
-        <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-          <span className="font-mono text-[0.72rem] tracking-[0.14em] text-brand-sky uppercase">0{i + 1} · {s.name}</span>
-          <span className="rounded-full border border-white/12 bg-white/6 px-2.5 py-0.5 font-mono text-[0.66rem] tracking-[0.1em] text-on-dark">{s.tag}</span>
-        </div>
-        <h3 className="mt-2 text-[1.15rem] text-white md:text-[1.2rem]">{s.title}</h3>
-        <p className="m-0 mt-1.5 text-[0.95rem] text-on-dark md:text-[0.98rem]">{s.text}</p>
-      </div>
-    </div>
-  );
+  const tags = {sea: labels.sea, lake: labels.lake};
 
   if (reduce) {
     return (
-      <div key={geo.id}>
-        <div className="h-[52vh] min-h-[320px]">
-          <Scene geo={geo} stage={stages.length - 1} pts={pts} ready={ready} vesselRef={vesselRef} drawRef={drawRef} onStop={() => undefined} />
+      <div key={geo.id} className="mt-6">
+        <div className="h-[56vh] min-h-[320px]">
+          <Scene geo={geo} stage={last} pts={pts} ready={ready} vesselRef={vesselRef} drawRef={drawRef} onStop={() => undefined} labels={labels} />
         </div>
-        <ol className="mt-8 grid list-none gap-4 p-0 md:grid-cols-2 lg:grid-cols-3">
-          {stages.map((s, i) => <li key={s.name}>{card(s, i, false)}</li>)}
-        </ol>
+        <div className="mx-auto mt-4 w-full max-w-[620px]">
+          <ElevationProfile profRef={profRef} dotRef={profDotRef} tags={tags} />
+        </div>
       </div>
     );
   }
 
   return (
     <LazyMotion features={domAnimation}>
-      <div ref={containerRef} style={{height: '380vh'}}>
-        <div key={geo.id} className="sticky top-[80px] flex h-[calc(100dvh-92px)] flex-col justify-center gap-2.5 md:gap-4">
-          <div className="min-h-0 max-h-[44dvh] flex-1 md:max-h-none">
-            <Scene geo={geo} stage={stage} pts={pts} ready={ready} vesselRef={vesselRef} drawRef={drawRef} onStop={scrollToStage} />
+      <div ref={containerRef} style={{height: '260vh'}}>
+        <div key={geo.id} className="sticky top-[80px] flex h-[calc(100dvh-92px)] flex-col justify-center gap-3 md:gap-5">
+          <div className="min-h-0 max-h-[62dvh] flex-1 md:max-h-none">
+            <Scene geo={geo} stage={stage} pts={pts} ready={ready} vesselRef={vesselRef} drawRef={drawRef} onStop={scrollToStage} labels={labels} />
           </div>
           <div className="mx-auto w-full max-w-[620px]">
-            <ElevationProfile profRef={profRef} dotRef={profDotRef} tags={{sea: '0 m', lake: '+26 m · Gatún'}} />
-          </div>
-          <div className="relative mx-auto min-h-[188px] w-full max-w-[620px] md:min-h-[172px]">
-            {stages.map((s, i) => (
-              <div
-                key={s.name}
-                aria-hidden={stage !== i}
-                className="absolute inset-0"
-                style={{opacity: stage === i ? 1 : 0, transform: stage === i ? 'none' : 'translateY(14px)', transition: 'opacity 500ms cubic-bezier(0.23,1,0.32,1), transform 500ms cubic-bezier(0.23,1,0.32,1)', pointerEvents: stage === i ? 'auto' : 'none'}}
-              >
-                {card(s, i, true)}
-              </div>
-            ))}
-          </div>
-          <div className="flex items-center justify-center gap-4">
-            <div className="flex items-center gap-2" role="group" aria-label="Stages">
-              {stages.map((s, i) => (
-                <button
-                  key={s.name}
-                  type="button"
-                  aria-label={`${i + 1} · ${s.name}`}
-                  aria-current={stage === i}
-                  onClick={() => scrollToStage(i)}
-                  className={`h-2.5 rounded-full transition-[width,background-color] duration-400 ease-[cubic-bezier(0.23,1,0.32,1)] ${stage === i ? 'w-7 bg-brand-sky' : 'w-2.5 bg-white/25 hover:bg-white/45'}`}
-                />
-              ))}
-            </div>
-            <p aria-hidden="true" className="m-0 font-mono text-[0.7rem] tracking-[0.2em] text-on-dark-muted uppercase" style={{opacity: stage === stages.length - 1 ? 0 : 1, transition: 'opacity 400ms'}}>{hint} ↓</p>
+            <ElevationProfile profRef={profRef} dotRef={profDotRef} tags={tags} />
           </div>
         </div>
       </div>

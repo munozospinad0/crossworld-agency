@@ -29,7 +29,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   return {
     metadataBase: new URL(site.url),
     title: {default: `${site.name} · ${locale === 'es' ? 'Agencia naviera en el Canal de Panamá' : 'Ship agency at the Panama Canal'}`, template: `%s | ${site.name}`},
-    description: t('sub'),
+    description: t('metaDescription'),
     openGraph: {siteName: site.name, type: 'website', locale: locale === 'es' ? 'es_PA' : 'en_US'},
     robots: {index: true, follow: true},
   };

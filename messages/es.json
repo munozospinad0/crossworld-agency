@@ -22,8 +22,8 @@
     "learnMore": "Ver más"
   },
   "Home": {
-    "h1": "Agencia naviera e inspecciones marítimas en el Canal de Panamá.",
-    "sub": "Licencia de la Autoridad Marítima de Panamá y autorización de la Autoridad del Canal desde 2010. Un solo equipo para la escala. Surveyors independientes para la evidencia. 24/7.",
+    "h1Lines": ["Agencia naviera", "Marine Surveyor y P&I Club", "Agencia de tránsito del Canal de Panamá"],
+    "metaDescription": "Agencia naviera, marine surveyors y representación de clubes P&I en el Canal de Panamá. Licencia de la Autoridad Marítima de Panamá y autorización de la Autoridad del Canal desde 2010.",
     "credentials": {
       "amp": "Agencia naviera con licencia AMP",
       "acp": "Autorizada por la Autoridad del Canal de Panamá",
@@ -35,32 +35,57 @@
       "label": "Credenciales"
     },
     "servicesTitle": "Lo que hacemos en ambos lados del Canal",
-    "servicesSub": "Siete servicios, un solo equipo responsable de la escala y surveyors independientes para la evidencia. Nomínenos para el tránsito; la inspección y el combustible son la misma llamada.",
-    "processTitle": "Cómo funciona un port call con nosotros",
-    "processSub": "Cuatro pasos, cada uno con lo que recibe y cuándo.",
-    "process": [
-      {"n": "1", "title": "Nominación", "text": "Envíe los datos del buque, la ETA y los servicios que necesita. Confirmamos con un número de solicitud y el oficial de guardia sigue desde ahí.", "when": "Inmediato"},
-      {"n": "2", "title": "Cuenta proforma (PDA)", "text": "Peajes del Canal, tasa de reserva, tarifa fija, practicaje, remolcadores, pasacables y cada costo de terceros detallado, con el honorario de agencia en una sola línea.", "when": "Antes del llamado de fondos"},
-      {"n": "3", "title": "Abordaje y tránsito", "text": "Nuestro oficial aborda en el fondeadero y coordina Autoridad, prácticos, remolcadores, pasacables, cambios de tripulación y suministros. Un hilo de WhatsApp, un reporte diario.", "when": "Durante toda la escala"},
-      {"n": "4", "title": "Cuenta final (FDA)", "text": "Conciliada línea por línea contra la PDA, cada cargo de terceros con su comprobante y las diferencias explicadas. Si hubo una inspección durante la escala, su informe viaja con ella.", "when": "Tras la salida, con todos los comprobantes"}
-    ],
+    "servicesCount": "Siete servicios",
     "portsTitle": "Ambos lados del Canal",
     "portsSub": "Oficiales de guardia en el Pacífico y en el Atlántico, y los puertos panameños que atendemos.",
     "portsNote": "Envíe el terminal y la ETA; el oficial de guardia confirma la atención.",
-    "captainTitle": "Le contesta un capitán.",
-    "captainText": "El capitán Guillermo A. Peña suma más de 40 años de experiencia marítima. Es auditor interno del Código ISM, formado en el Seafarers Training Center y en Maersk Training Centre, y revisa cada informe de inspección que sale de esta oficina.",
-    "captainQuote": "Cuando llama a las tres de la mañana, le contesta alguien que ha hecho guardia de puente.",
+    "captainTitle": "Bienvenido a Cross World",
+    "captainSub": "Experiencia marítima, conocimiento técnico y compromiso en cada operación.",
+    "captainParagraphs": [
+      "Cross World brinda servicios de inspección, consultoría y soporte marítimo respaldados por más de 40 años de experiencia en la industria. Cada servicio es desarrollado bajo criterios técnicos, independientes y profesionales, ofreciendo a armadores, operadores, aseguradoras y clientes marítimos información confiable para una mejor toma de decisiones.",
+      "Al frente de nuestro equipo se encuentra el capitán Guillermo A. Peña, profesional marítimo con amplia trayectoria en inspecciones, auditorías, operaciones y seguridad marítima."
+    ],
+    "captainCredentialsLabel": "Credenciales",
+    "kickers": {"services": "Qué hacemos", "record": "Trayectoria", "canal": "El cruce", "data": "Datos del Canal", "ports": "Las dos entradas", "captain": "Quiénes somos", "field": "Desde el terreno", "clients": "A quién servimos", "proof": "Socios y alcance", "fda": "Su FDA", "request": "Nomínenos"},
+    "stats": [
+      {"label": "Licencia de la AMP y autorización de la ACP desde", "source": "04 MAR 2010 · AMP · ACP"},
+      {"label": "Sistemas de gestión certificados ISO: 9001, 14001, 45001 y 22000", "source": "CALIDAD · AMBIENTE · SST · INOCUIDAD"},
+      {"label": "Lados del Canal con atención de guardia: Balboa y Cristóbal", "source": "BALBOA · CRISTÓBAL"},
+      {"label": "Un oficial de guardia responde, todo el año, en inglés y español", "source": "UTC-5 · EN/ES"}
+    ],
+    "whoCta": "Describa su caso",
+    "canalData": {
+      "docTitle": "Hoja de datos del tránsito — Canal de Panamá",
+      "docRef": "AVISO OP N-7-2026 · REV 2026-08-31",
+      "cells": [
+        {"t": "T-90 D", "value": "90", "unit": "d", "label": "El primer periodo de reserva abre 90 días antes de la fecha de tránsito; el tercero cierra a las 15:00 hora de Panamá."},
+        {"t": "T-96 H", "value": "96", "unit": "h", "label": "Paquete de prearribo por el sistema electrónico de la ACP (EDCS) al menos 96 horas antes del arribo."},
+        {"t": "T-72 H", "value": "72", "unit": "h", "label": "Nosotros llamamos los fondos 72 horas antes, para dejar margen a las demoras bancarias."},
+        {"t": "T-48 H", "value": "48", "unit": "h", "label": "La ACP exige el pago 48 horas antes del tránsito."},
+        {"t": "REQ", "value": "400", "unit": "t", "label": "Los buques con 400 toneladas o más de hidrocarburos necesitan un PCSOPEP con persona autorizada residente en Panamá. Sin plan no hay tránsito."},
+        {"t": "T-0", "value": "8–10", "unit": "h", "label": "Tiempo típico en aguas del Canal una vez en marcha; la espera depende de la reserva y del tráfico."}
+      ],
+      "margin": "Nuestro margen",
+      "sources": "Fuentes: Aviso OP N-7-2026 de la ACP · avisos de la ACP en vigor",
+      "note": "Cifras de los avisos en vigor a la fecha de revisión; su PDA indica cada monto con su base.",
+      "cta": "Lea la guía de tránsito"
+    },
+    "fdaCta": "Compare su FDA",
+    "fdaDoc": {"header": "Cuenta de desembolsos", "sub": "Línea por línea", "specimen": "Espécimen"},
+    "fdaLines": ["Peajes del Canal", "Tarifa de reserva o prima de subasta", "Tarifa fija", "Cargo de seguridad", "Inspección y arqueo", "Practicaje", "Remolcadores", "Pasacables", "Lanchas", "Honorario de agencia (una línea)", "Cargos bancarios", "Contingencia"],
+    "captainQuote": "Experiencia que navega con usted.",
     "captainCta": "Sobre Cross World",
     "whoTitle": "A quién servimos",
     "whoSub": "Distintos principales, distintas preocupaciones. Díganos quién es y le decimos cómo trabajamos con usted.",
     "who": [
-      {"title": "Armadores y gestores", "text": "Agencia de tránsito, husbandry e inspecciones con un solo oficial responsable."},
+      {"title": "Armadores y ship brokers", "text": "Agencia de tránsito, avituallamiento e inspecciones."},
       {"title": "Fletadores y traders", "text": "Cantidad de bunker, atención de STS y agencia protectora."},
-      {"title": "Corresponsales P&I y aseguradores", "text": "Inspecciones de condición, atención de reclamos y evidencia preservada."},
+      {"title": "Corresponsales P&I y aseguradores", "text": "Inspecciones de condición, atención de reclamos y evidencia preservada, en alianza con Global Pandi Panama."},
       {"title": "Flotas pesqueras y operadores regionales", "text": "Suministro de combustible y agencia en español, por WhatsApp."}
     ],
-    "proofTitle": "Más de 40 años en el mar y en puerto, una sola mesa.",
-    "proofText": "Cross World Agencies, S.A. mantiene su licencia de agencia naviera de la AMP y la autorización de la Autoridad del Canal de Panamá desde 2010. Las inspecciones de yates y embarcaciones menores se atienden bajo nuestra marca hermana, Cross World Yacht, Marine Surveyors.",
+    "proofTitle": "Más de 40 años en el mar y en puerto.",
+    "proofText": "Cross World Agency mantiene su licencia de agencia naviera de la AMP y la autorización de la Autoridad del Canal de Panamá desde 2010. Las inspecciones de yates y embarcaciones menores se atienden bajo nuestra marca hermana, Cross World Yacht, Marine Surveyors.",
+    "representationLabel": "Representación",
     "reelsTitle": "Desde el campo",
     "reelsSub": "Clips cortos que publica nuestro equipo desde inspecciones, entregas y la oficina. Con sonido.",
     "reelPlay": "Reproducir clip",
@@ -75,34 +100,31 @@
     "copied": "Copiado"
   },
   "Journey": {
-    "title": "Un tránsito, contado desde el puente",
-    "sub": "Haga scroll para cruzar el istmo con un buque. Esto es lo que atendemos en cada milla.",
-    "hint": "Siga bajando",
-    "stages": [
-      {"name": "Balboa · fondeadero del Pacífico", "title": "Abordaje y pretránsito", "text": "Nuestro oficial aborda en el fondeadero. Prácticos, documentación y los fondos de peajes quedan confirmados antes de levar anclas.", "tag": "NIVEL DEL MAR · 0 m"},
-      {"name": "Miraflores · Pedro Miguel", "title": "Subida por las esclusas del Pacífico", "text": "Dos saltos de esclusas elevan el buque unos 26 metros hasta el nivel del lago, con pasacables y locomotoras trabajando cada cámara.", "tag": "ELEVACIÓN · +26 m"},
-      {"name": "Lago Gatún", "title": "El cruce de agua dulce", "text": "Una travesía larga por el lago. El calado máximo autorizado sigue el nivel del lago; su PDA indica la cifra vigente, con su fecha.", "tag": "AGUA DULCE · CALADO SEGÚN EL LAGO"},
-      {"name": "Gatún · Agua Clara", "title": "Bajada al Atlántico", "text": "El último salto devuelve el buque al nivel del mar. Un tránsito típico pasa de 8 a 10 horas navegando en aguas del Canal.", "tag": "TRÁNSITO TÍPICO · 8 A 10 H"},
-      {"name": "Cristóbal · Atlántico", "title": "Zarpe, o la siguiente escala", "text": "Bunker, inspecciones y cambios de tripulación en el lado Atlántico si los necesita, y una FDA conciliada línea por línea tras el zarpe.", "tag": "FDA · CONCILIADA LÍNEA POR LÍNEA"}
-    ]
+    "title": "Transita el Canal de Panamá con Cross World",
+    "sub": "Haga scroll para cruzar el istmo",
+    "mapLabel": "Carta náutica estilizada de la ruta del Canal de Panamá, de Balboa a Cristóbal",
+    "sea": "Nivel del mar · 0 m",
+    "lake": "Lago Gatún · +26 m",
+    "pacific": "Océano Pacífico",
+    "caribbean": "Mar Caribe"
   },
   "Ports": {
-    "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "locks": "A las esclusas", "locksValue": "Miraflores", "duty": "Oficial de guardia"},
-    "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "duty": "Oficial de guardia", "dutyNote": "coordinado desde la mesa de operaciones"},
+    "balboa": {"name": "Puerto de Balboa", "side": "Pacífico", "entrance": "Entrada del Pacífico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero del Pacífico", "locks": "A las esclusas", "locksValue": "Miraflores", "crew": "Cambios de tripulación", "crewValue": "Vía Tocumen, por lancha en el fondeadero", "duty": "Oficial de guardia"},
+    "cristobal": {"name": "Puerto de Cristóbal", "side": "Atlántico", "entrance": "Entrada del Atlántico", "anchorage": "Fondeadero", "anchorageValue": "Fondeadero de Cristóbal", "locks": "A las esclusas", "locksValue": "Gatún / Agua Clara", "crew": "Avituallamiento", "crewValue": "Cristóbal, Manzanillo (MIT) y CCT", "duty": "Oficial de guardia", "dutyNote": "coordinado desde la mesa de operaciones"},
     "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)"]
   },
   "Footer": {
-    "tagline": "Agencia naviera, inspecciones marítimas, bunker y soporte a reclamos en el Canal de Panamá. Licencia AMP y autorización de la Autoridad del Canal desde 2010.",
+    "tagline": "Agencia naviera, inspecciones marítimas, operaciones de bunker y representación de clubes P&I en el Canal de Panamá. Licencia AMP y autorización de la Autoridad del Canal desde 2010.",
     "services": "Servicios",
     "company": "Empresa",
     "nominate": "Nominar",
+    "compare": "Compare su FDA",
     "about": "Nosotros",
     "certifications": "Certificaciones",
     "compliance": "Cumplimiento y KYC pack",
     "ports": "Puertos",
     "guide": "Guía del Canal de Panamá",
     "contact": "Contacto",
-    "ethics": "Canal de ética",
     "privacy": "Privacidad",
     "terms": "Condiciones generales",
     "figures": "Las cifras del Canal son referenciales y provienen de la Autoridad del Canal de Panamá.",
@@ -173,7 +195,7 @@
     "next": "Continuar a servicios",
     "draftNote": "No se envía nada hasta que complete el segundo paso.",
     "services": "Servicios requeridos",
-    "serviceOptions": {"agency": "Agencia naviera / tránsito", "surveys": "Inspección marítima", "bunker_survey": "Inspección de bunker", "fuel": "Suministro de combustible", "sts": "Ship-to-ship / offshore", "claims": "Soporte a reclamos", "consulting": "Consultoría / auditoría"},
+    "serviceOptions": {"agency": "Agencia naviera / tránsito", "surveys": "Inspección marítima", "bunker_survey": "Medición y muestreo de tanques / bunker", "fuel": "Suministro de combustible", "sts": "Ship-to-ship / offshore", "claims": "Investigación de accidentes marítimos", "consulting": "Consultoría / auditoría"},
     "notes": "Notas",
     "notesHelp": "Instrucciones, cambios de tripulación, repuestos, lo que el oficial de guardia deba saber.",
     "contactName": "Su nombre",

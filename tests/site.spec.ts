@@ -5,7 +5,7 @@ const BASE = process.env.BASE_URL ?? 'https://crossworld-agency-git-main-munozos
 
 test('home EN renders hero, credentials and services', async ({page}) => {
   await page.goto(`${BASE}/en`);
-  await expect(page.getByRole('heading', {level: 1})).toContainText('Ship agency and marine surveys');
+  await expect(page.getByRole('heading', {level: 1})).toContainText('Shipping agency');
   await expect(page.getByRole('region', {name: 'Credentials'})).toBeVisible();
   await expect(page.getByRole('link', {name: /Request a port call/}).first()).toBeVisible();
   const html = await page.content();

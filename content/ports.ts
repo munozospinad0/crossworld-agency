@@ -27,7 +27,7 @@ export const ports: Port[] = [
     sideKey: 'pacific',
     image: '/images/port-cranes.jpg',
     metaTitle: {en: 'Port of Balboa: ship agency, surveys and bunkering on the Pacific side', es: 'Puerto de Balboa: agencia naviera, inspecciones y bunker en el Pacífico'},
-    metaDescription: {en: 'Ship agency, husbandry, independent surveys and bunker attendance at the Port of Balboa and the Pacific anchorage of the Panama Canal. Duty officer 24/7.', es: 'Agencia naviera, husbandry, inspecciones independientes y atención de bunker en el Puerto de Balboa y el fondeadero del Pacífico del Canal de Panamá. Oficial de guardia 24/7.'},
+    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Balboa and the Pacific anchorage of the Panama Canal. Duty officer 24/7.', es: 'Agencia naviera, avituallamiento, inspecciones marítimas y atención de bunker en el Puerto de Balboa y el fondeadero del Pacífico del Canal de Panamá. Oficial de guardia 24/7.'},
     summary: {
       en: 'Balboa is the Pacific gateway of the Panama Canal: container terminal operated by Panama Ports Company, the Pacific anchorage where vessels wait for their transit, and the bunkering area served by barge. Our duty officer boards here and at the anchorage.',
       es: 'Balboa es la puerta del Pacífico del Canal de Panamá: terminal de contenedores operado por Panama Ports Company, el fondeadero del Pacífico donde los buques esperan su tránsito y la zona de bunkering atendida por barcaza. Nuestro oficial de guardia aborda aquí y en el fondeadero.',
@@ -37,8 +37,8 @@ export const ports: Port[] = [
       es: [{k: 'Fondeadero', v: 'Fondeadero del Pacífico'}, {k: 'A las esclusas', v: 'Miraflores'}, {k: 'Oficial de guardia', v: '+507 6266-4242'}],
     },
     whatWeDo: {
-      en: ['Transit agency and pre-arrival documentation for southbound and northbound vessels waiting at the Pacific anchorage', 'Husbandry: crew changes via Tocumen, cash to master, spares, provisions, medical', 'Bunker quantity surveys and sample custody during barge deliveries', 'Draft, condition and pre-purchase surveys alongside or at anchor', 'Claims attendance and evidence preservation'],
-      es: ['Agencia de tránsito y documentación de prearribo para buques en el fondeadero del Pacífico', 'Husbandry: cambios de tripulación vía Tocumen, cash to master, repuestos, provisiones, atención médica', 'Inspecciones de cantidad de bunker y custodia de muestras durante entregas por barcaza', 'Inspecciones de calados, condición y precompra en muelle o al ancla', 'Atención de reclamos y preservación de evidencia'],
+      en: ['Transit agency and pre-arrival documentation for southbound and northbound vessels waiting at the Pacific anchorage', 'Husbandry: crew changes via Tocumen, cash to master, spares, provisions, medical', 'Tank gauging, sampling and sample custody during barge deliveries', 'Draft, condition and pre-purchase surveys alongside or at anchor', 'Marine accident investigation and evidence preservation'],
+      es: ['Agencia de tránsito y documentación de prearribo para buques en el fondeadero del Pacífico', 'Avituallamiento: cambios de tripulación vía Tocumen, cash to master, repuestos, provisiones, atención médica', 'Medición y muestreo de tanques y custodia de muestras durante entregas por barcaza', 'Inspecciones de calados, condición y precompra en muelle o al ancla', 'Investigación de accidentes marítimos y preservación de evidencia'],
     },
     particulars: {
       en: ['All times in Panama time (UTC-5, no daylight saving).'],
@@ -46,8 +46,8 @@ export const ports: Port[] = [
     },
     attendance: {en: 'Boarding from Panama City; duty officer 24/7.', es: 'Abordaje desde Ciudad de Panamá; oficial de guardia 24/7.'},
     faq: {
-      en: [{q: 'Can you take bunkers at the Pacific anchorage while waiting for the transit?', a: 'Yes, by barge, subject to the supplier\'s schedule and the Authority\'s rules; we coordinate the stem and attend the delivery with an independent surveyor.'}, {q: 'How do crew changes work at Balboa?', a: 'Crew join or leave by launch at the anchorage or alongside, with immigration handled ahead of arrival and transfers to Tocumen airport.'}],
-      es: [{q: '¿Se puede tomar bunker en el fondeadero del Pacífico mientras se espera el tránsito?', a: 'Sí, por barcaza, sujeto al programa del proveedor y a las reglas de la Autoridad; coordinamos la entrega y la atendemos con un surveyor independiente.'}, {q: '¿Cómo funcionan los cambios de tripulación en Balboa?', a: 'La tripulación embarca o desembarca por lancha en el fondeadero o en muelle, con migración tramitada antes del arribo y traslados al aeropuerto de Tocumen.'}],
+      en: [{q: 'Can you take bunkers at the Pacific anchorage while waiting for the transit?', a: 'Yes, by barge, subject to the supplier\'s schedule and the Authority\'s rules; we coordinate the stem and attend the delivery with tank gauging and sampling.'}, {q: 'How do crew changes work at Balboa?', a: 'Crew join or leave by launch at the anchorage or alongside, with immigration handled ahead of arrival and transfers to Tocumen airport.'}],
+      es: [{q: '¿Se puede tomar bunker en el fondeadero del Pacífico mientras se espera el tránsito?', a: 'Sí, por barcaza, sujeto al programa del proveedor y a las reglas de la Autoridad; coordinamos la entrega y la atendemos con medición y muestreo de tanques.'}, {q: '¿Cómo funcionan los cambios de tripulación en Balboa?', a: 'La tripulación embarca o desembarca por lancha en el fondeadero o en muelle, con migración tramitada antes del arribo y traslados al aeropuerto de Tocumen.'}],
     },
     reviewed: '2026-08-31',
   },
@@ -57,9 +57,9 @@ export const ports: Port[] = [
     name: {en: 'Port of Cristóbal', es: 'Puerto de Cristóbal'},
     side: {en: 'Atlantic side', es: 'Lado Atlántico'},
     sideKey: 'atlantic',
-    image: '/images/container-terminal.jpg',
+    image: '/images/atlantic-terminals.jpg',
     metaTitle: {en: 'Port of Cristóbal: ship agency, surveys and bunkering on the Atlantic side', es: 'Puerto de Cristóbal: agencia naviera, inspecciones y bunker en el Atlántico'},
-    metaDescription: {en: 'Ship agency, husbandry, independent surveys and bunker attendance at the Port of Cristóbal, Colón, and the Atlantic anchorage of the Panama Canal.', es: 'Agencia naviera, husbandry, inspecciones independientes y atención de bunker en el Puerto de Cristóbal, Colón, y el fondeadero del Atlántico del Canal de Panamá.'},
+    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Cristóbal, Colón, and the Atlantic anchorage of the Panama Canal.', es: 'Agencia naviera, avituallamiento, inspecciones marítimas y atención de bunker en el Puerto de Cristóbal, Colón, y el fondeadero del Atlántico del Canal de Panamá.'},
     summary: {
       en: 'Cristóbal, in Colón, is the Atlantic gateway of the Canal: the Cristóbal anchorage where northbound arrivals wait, the Panama Ports Company terminal, and, nearby, Manzanillo (MIT), CCT and the Bahía Las Minas hydrocarbon terminals.',
       es: 'Cristóbal, en Colón, es la puerta del Atlántico del Canal: el fondeadero de Cristóbal donde esperan los arribos del norte, el terminal de Panama Ports Company y, cerca, Manzanillo (MIT), CCT y los terminales de hidrocarburos de Bahía Las Minas.',
@@ -69,8 +69,8 @@ export const ports: Port[] = [
       es: [{k: 'Fondeadero', v: 'Fondeadero de Cristóbal'}, {k: 'A las esclusas', v: 'Gatún / Agua Clara'}, {k: 'Oficial de guardia', v: '+507 6266-4242'}],
     },
     whatWeDo: {
-      en: ['Transit agency and pre-arrival documentation for vessels at the Cristóbal anchorage', 'Husbandry at Cristóbal, Manzanillo (MIT) and CCT', 'Bunker quantity surveys during barge deliveries', 'Claims attendance and evidence preservation'],
-      es: ['Agencia de tránsito y documentación de prearribo para buques en el fondeadero de Cristóbal', 'Husbandry en Cristóbal, Manzanillo (MIT) y CCT', 'Inspecciones de cantidad de bunker durante entregas por barcaza', 'Atención de reclamos y preservación de evidencia'],
+      en: ['Transit agency and pre-arrival documentation for vessels at the Cristóbal anchorage', 'Husbandry at Cristóbal, Manzanillo (MIT) and CCT', 'Tank gauging and sampling during barge deliveries', 'Marine accident investigation and evidence preservation'],
+      es: ['Agencia de tránsito y documentación de prearribo para buques en el fondeadero de Cristóbal', 'Avituallamiento en Cristóbal, Manzanillo (MIT) y CCT', 'Medición y muestreo de tanques durante entregas por barcaza', 'Investigación de accidentes marítimos y preservación de evidencia'],
     },
     particulars: {
       en: ['Colón is about one hour by road from Panama City; attendance times at the anchorage depend on launch availability.'],
@@ -79,7 +79,7 @@ export const ports: Port[] = [
     attendance: {en: 'Attendance coordinated by the operations desk in Panama City; duty officer 24/7.', es: 'Atención coordinada desde la mesa de operaciones en Ciudad de Panamá; oficial de guardia 24/7.'},
     faq: {
       en: [{q: 'Do you attend at Manzanillo and CCT as well?', a: 'Yes, for husbandry and surveys; send the terminal and the ETA to the duty officer.'}],
-      es: [{q: '¿Atienden también en Manzanillo y CCT?', a: 'Sí, para husbandry e inspecciones; envíe el terminal y la ETA al oficial de guardia.'}],
+      es: [{q: '¿Atienden también en Manzanillo y CCT?', a: 'Sí, para avituallamiento e inspecciones; envíe el terminal y la ETA al oficial de guardia.'}],
     },
     reviewed: '2026-08-31',
   },

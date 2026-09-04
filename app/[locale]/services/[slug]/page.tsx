@@ -5,7 +5,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {Link, getPathname} from '@/i18n/navigation';
 import {routing, type Locale} from '@/i18n/routing';
 import {services, serviceBySlug} from '@/content/services';
-import {site, whatsappHref} from '@/content/site';
+import {site, dutyChannel} from '@/content/site';
 import {pageMetadata} from '@/lib/seo';
 import {breadcrumbJsonLd, serviceJsonLd} from '@/lib/schema';
 import {ButtonLink, ButtonA} from '@/components/ui/Button';
@@ -60,6 +60,7 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
   const url = `${site.url}${getPathname({locale, href: {pathname: '/services/[slug]', params: {slug: s.slug[locale]}}})}`;
   const requestUrl = `${site.url}${getPathname({locale, href: '/request-port-call'})}`;
   const ctaLabel = cta(s.cta);
+  const duty = dutyChannel();
   const index = services.findIndex((x) => x.key === s.key);
   const others = services.filter((x) => x.key !== s.key);
   const specialties = s.specialties?.[locale];
@@ -90,7 +91,7 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
             </div>
             <div className="mt-8 flex flex-wrap gap-3">
               <ButtonLink href="/request-port-call">{ctaLabel}</ButtonLink>
-              <ButtonA href={whatsappHref()} variant="ghost" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+              <ButtonA href={duty.href} variant="ghost">{cta(duty.label)}</ButtonA>
             </div>
           </div>
           <div className="shell">
@@ -137,7 +138,7 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
             <p className="mt-3 mb-0 max-w-[52ch] text-[1.05rem] text-on-dark-muted">{t.contactText}</p>
             <div className="mt-6 flex flex-wrap gap-3">
               <ButtonLink href="/request-port-call" variant="light">{ctaLabel}</ButtonLink>
-              <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+              <ButtonA href={duty.href} variant="ghostDark">{cta(duty.label)}</ButtonA>
             </div>
           </Reveal>
           <Reveal delay={1} className="shell-dark">

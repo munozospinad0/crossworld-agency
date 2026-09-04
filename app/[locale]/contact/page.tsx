@@ -2,7 +2,7 @@ import type {Metadata} from 'next';
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import type {Locale} from '@/i18n/routing';
 import {pages} from '@/content/pages';
-import {site, whatsappHref} from '@/content/site';
+import {site, dutyChannel} from '@/content/site';
 import {pageMetadata} from '@/lib/seo';
 import {StaticPage} from '@/components/layout/StaticPage';
 import {ButtonLink, ButtonA} from '@/components/ui/Button';
@@ -26,6 +26,7 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
   const t = ui[locale];
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
+  const duty = dutyChannel();
   const Card = ({title, children}: {title: string; children: React.ReactNode}) => (
     <div className="shell">
       <div className="core h-full bg-surface p-5">
@@ -47,7 +48,7 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
               <p className="m-0 text-[1.05rem] text-white">{t.form}</p>
               <div className="mt-4 flex flex-wrap gap-3">
                 <ButtonLink href="/request-port-call" variant="light">{cta('portcall')}</ButtonLink>
-                <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+                <ButtonA href={duty.href} variant="ghostDark">{cta(duty.label)}</ButtonA>
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
           {site.phones.atlantic.display}<br />{locale === 'es' ? 'Atención coordinada desde la mesa de operaciones' : 'Attendance coordinated by the operations desk'}
         </Card>
         <Card title={t.office}>
-          <a className="text-accent-ink underline" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />{t.email}: <a className="text-accent-ink underline" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a>{site.emails.operations.confirm ? ` ${c('toConfirm')}` : ''}
+          <a className="text-accent-ink underline" href={`tel:${site.phones.office.e164}`}>{site.phones.office.display}</a><br />{t.email}: <a className="text-accent-ink underline" href={`mailto:${site.emails.operations.address}`}>{site.emails.operations.address}</a>
         </Card>
         <Card title={t.address}>
           {site.name}<br />{site.address.street2}<br />{site.address.street}<br />{site.address.city}, {site.address.country}<br />{c('timezone')}

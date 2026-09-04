@@ -18,6 +18,7 @@
     "fuel": "Cotizar combustible",
     "attendance": "Solicitar atención",
     "whatsapp": "WhatsApp de guardia",
+    "call": "Llame al oficial de guardia",
     "nominate": "Nominar a Cross World",
     "learnMore": "Ver más"
   },
@@ -131,7 +132,6 @@
     "rights": "Todos los derechos reservados."
   },
   "Common": {
-    "toConfirm": "(a confirmar)",
     "operations": "Operaciones 24/7",
     "office": "Oficina",
     "timezone": "Todas las horas en hora de Panamá (UTC-5, sin horario de verano).",

@@ -12,7 +12,7 @@ import {SpeedInsights} from '@vercel/speed-insights/next';
 import {routing, type Locale} from '@/i18n/routing';
 import {Nav} from '@/components/layout/Nav';
 import {Footer} from '@/components/layout/Footer';
-import {WhatsAppButton} from '@/components/layout/WhatsAppButton';
+import {DutyButton} from '@/components/layout/DutyButton';
 import {AnalyticsTags} from '@/components/layout/AnalyticsTags';
 import {HelmProgress} from '@/components/motion/HelmProgress';
 import {organizationJsonLd} from '@/lib/schema';
@@ -51,7 +51,7 @@ export default async function LocaleLayout({children, params}: {children: React.
           <Nav />
           <main id="content" className="pt-[92px]">{children}</main>
           <Footer />
-          <WhatsAppButton />
+          <DutyButton />
           <HelmProgress />
         </NextIntlClientProvider>
         <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(organizationJsonLd(locale as Locale))}} />

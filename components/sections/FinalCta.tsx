@@ -4,13 +4,13 @@ import {NominateBlock} from './NominateBlock';
 import {SignalFlags} from '@/components/brand/Logo';
 import {SectionKicker} from '@/components/brand/SectionKicker';
 import {Reveal} from '@/components/motion/Reveal';
-import {site, whatsappHref} from '@/content/site';
+import {dutyChannel} from '@/content/site';
 
 export async function FinalCta() {
   const t = await getTranslations('Home');
   const cta = await getTranslations('Cta');
-  const c = await getTranslations('Common');
   const p = await getTranslations('Ports');
+  const duty = dutyChannel();
   return (
     <section id="request" className="deep py-[clamp(72px,9vw,128px)] text-on-dark">
       <div className="wrap grid grid-cols-1 items-start gap-[clamp(28px,5vw,72px)] md:grid-cols-2">
@@ -41,7 +41,7 @@ export async function FinalCta() {
           <p className="t-lead mt-4 max-w-[44ch] text-on-dark-muted">{t('finalSub')}</p>
           <div className="mt-7 flex flex-wrap gap-3">
             <ButtonLink href="/request-port-call" variant="light">{cta('portcall')}</ButtonLink>
-            <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+            <ButtonA href={duty.href} variant="ghostDark">{cta(duty.label)}</ButtonA>
           </div>
         </div>
         <div className="shell-dark"><NominateBlock /></div>

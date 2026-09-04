@@ -18,6 +18,7 @@
     "fuel": "Request a fuel quote",
     "attendance": "Request attendance",
     "whatsapp": "WhatsApp duty officer",
+    "call": "Call the duty officer",
     "nominate": "Nominate Cross World",
     "learnMore": "Learn more"
   },
@@ -131,7 +132,6 @@
     "rights": "All rights reserved."
   },
   "Common": {
-    "toConfirm": "(to confirm)",
     "operations": "Operations 24/7",
     "office": "Office",
     "timezone": "All times in Panama time (UTC-5, no daylight saving).",

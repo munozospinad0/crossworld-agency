@@ -1,6 +1,6 @@
 import {getLocale, getTranslations} from 'next-intl/server';
 import {Link} from '@/i18n/navigation';
-import {site, whatsappHref} from '@/content/site';
+import {site, dutyChannel} from '@/content/site';
 import {services} from '@/content/services';
 import type {Locale} from '@/i18n/routing';
 import {AnchorMark, Wordmark} from '@/components/brand/Logo';
@@ -11,6 +11,7 @@ export async function Footer() {
   const t = await getTranslations('Footer');
   const c = await getTranslations('Common');
   const cta = await getTranslations('Cta');
+  const duty = dutyChannel();
   const col = 'mb-3 font-mono text-[0.72rem] tracking-[0.14em] text-on-dark-muted uppercase';
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-ink pt-16 pb-28 text-[0.92rem] text-on-dark-muted">
@@ -53,7 +54,7 @@ export async function Footer() {
           <h4 className={col}>{t('nominate')}</h4>
           <ul className="m-0 grid list-none gap-2 p-0">
             <li><Link className="transition-colors hover:text-white" href="/request-port-call">{cta('portcall')}</Link></li>
-            <li><a className="transition-colors hover:text-white" href={whatsappHref()}>{cta('whatsapp')}{site.whatsapp.confirm ? ` ${c('toConfirm')}` : ''}</a></li>
+            <li><a className="transition-colors hover:text-white" href={duty.href}>{cta(duty.label)}</a></li>
             <li><Link className="transition-colors hover:text-white" href="/compare-your-fda">{t('compare')}</Link></li>
           </ul>
         </div>

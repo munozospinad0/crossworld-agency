@@ -3,7 +3,7 @@ import {getTranslations} from 'next-intl/server';
 import {ButtonLink, ButtonA} from '@/components/ui/Button';
 import {SignalFlags} from '@/components/brand/Logo';
 import {ChartLines} from '@/components/brand/InstrumentChip';
-import {site, whatsappHref} from '@/content/site';
+import {site, dutyChannel} from '@/content/site';
 
 /**
  * Hero. El H1 son las tres líneas que pidió el cliente (2-sep-2026): tres oficios,
@@ -13,8 +13,8 @@ import {site, whatsappHref} from '@/content/site';
 export async function Hero() {
   const t = await getTranslations('Home');
   const cta = await getTranslations('Cta');
-  const c = await getTranslations('Common');
   const lines = t.raw('h1Lines') as string[];
+  const duty = dutyChannel();
   return (
     <header className="deep relative isolate -mt-[92px] min-h-[min(100dvh,900px)] overflow-hidden text-on-dark">
       {/* Foto a sangre con movimiento lento de cámara */}
@@ -55,7 +55,7 @@ export async function Hero() {
           </h1>
           <div className="mt-9 flex flex-wrap gap-3">
             <ButtonLink href="/request-port-call" variant="light">{cta('portcall')}</ButtonLink>
-            <ButtonA href={whatsappHref()} variant="ghostDark" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+            <ButtonA href={duty.href} variant="ghostDark">{cta(duty.label)}</ButtonA>
           </div>
         </div>
         <div className="mt-14 flex flex-wrap items-center gap-5 md:mt-20">

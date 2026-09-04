@@ -46,14 +46,13 @@ function Seal() {
 
 export function NominateBlock() {
   const t = useTranslations('Home');
-  const c = useTranslations('Common');
   const [copied, setCopied] = useState(false);
   const lines = [
     site.name,
     `RUC ${site.ruc} · IMO company number ${site.imoCompanyNumber}`,
     `AMP-licensed ship agency, authorized by the Panama Canal Authority${site.acpAgencyCode.value ? ` (agency code: ${site.acpAgencyCode.value})` : ''}`,
     `${site.address.street2}, ${site.address.street}, ${site.address.city}, ${site.address.country}`,
-    `${site.emails.operations.address}${site.emails.operations.confirm ? ` ${c('toConfirm')}` : ''}`,
+    site.emails.operations.address,
     `${site.phones.operations.display} · ${site.phones.office.display}`,
   ];
   const text = lines.join('\n');

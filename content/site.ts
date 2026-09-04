@@ -24,18 +24,17 @@ export const site = {
     office: {label: 'Office', e164: '+5073830128', display: '+507 383-0128'},
     atlantic: {label: 'Atlantic side', e164: '+50762664242', display: '+507 6266-4242'},
   },
-  whatsapp: {e164: process.env.NEXT_PUBLIC_WHATSAPP_DUTY_E164 ?? '', confirm: !process.env.NEXT_PUBLIC_WHATSAPP_DUTY_E164},
+  whatsapp: {e164: process.env.NEXT_PUBLIC_WHATSAPP_DUTY_E164 ?? ''},
   emails: {
-    operations: {address: 'gpena@crossworldagency.com', confirm: false},
+    operations: {address: 'gpena@crossworldagency.com'},
   },
   timezone: 'America/Panama',
-  linkedin: {company: '', captain: '', confirm: true},
-  // El emisor (AQC Middle East LLC) se conserva como referencia interna; el cliente pidió no publicarlo.
+  // El emisor de las certificaciones no se publica (tachado por el cliente, 2-sep-2026).
   certifications: [
-    {standard: 'ISO 9001:2015', name: 'Quality management', scope: 'Management, chartering, administration and operation of ships: general cargo ships, tankers, bulk carriers, tug vessels and barges', issuer: 'AQC Middle East LLC (accredited by IAS, IAF member)', hero: true},
-    {standard: 'ISO 14001:2015', name: 'Environmental management', scope: '', issuer: 'AQC Middle East LLC (accredited by IAS, IAF member)', hero: true},
-    {standard: 'ISO 45001:2018', name: 'Occupational health and safety', scope: '', issuer: 'AQC Middle East LLC (accredited by IAS, IAF member)', hero: true},
-    {standard: 'ISO 22000:2018', name: 'Food safety management', scope: 'Food cargo inspections of agricultural origin, bulk food cargo certifier', issuer: 'AQC Middle East LLC (accredited by IAS, IAF member)', hero: false},
+    {standard: 'ISO 9001:2015', name: 'Quality management', scope: 'Management, chartering, administration and operation of ships: general cargo ships, tankers, bulk carriers, tug vessels and barges'},
+    {standard: 'ISO 14001:2015', name: 'Environmental management', scope: ''},
+    {standard: 'ISO 45001:2018', name: 'Occupational health and safety', scope: ''},
+    {standard: 'ISO 22000:2018', name: 'Food safety management', scope: 'Food cargo inspections of agricultural origin, bulk food cargo certifier'},
   ],
   captain: {
     name: 'Guillermo A. Peña',
@@ -73,8 +72,14 @@ export const site = {
   ] as ReadonlyArray<{en: string; es: string}>,
 } as const;
 
-export function whatsappHref(text?: string) {
+/**
+ * Canal directo con el oficial de guardia. Si hay número de WhatsApp configurado
+ * (NEXT_PUBLIC_WHATSAPP_DUTY_E164) el botón abre WhatsApp; si no, marca el teléfono de
+ * operaciones. Nunca queda un botón muerto ni un "(a confirmar)" a la vista del visitante.
+ */
+export function dutyChannel(): {href: string; label: 'whatsapp' | 'call'} {
   const n = site.whatsapp.e164.replace(/\D/g, '');
-  const base = n ? `https://wa.me/${n}` : '#contact';
-  return text && n ? `${base}?text=${encodeURIComponent(text)}` : base;
+  return n
+    ? {href: `https://wa.me/${n}`, label: 'whatsapp'}
+    : {href: `tel:${site.phones.operations.e164}`, label: 'call'};
 }

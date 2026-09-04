@@ -3,7 +3,7 @@ import {getTranslations, setRequestLocale} from 'next-intl/server';
 import type {Locale} from '@/i18n/routing';
 import {pageMetadata} from '@/lib/seo';
 import {PortCallForm} from '@/components/forms/PortCallForm';
-import {site, whatsappHref} from '@/content/site';
+import {site, dutyChannel} from '@/content/site';
 import {ButtonA} from '@/components/ui/Button';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -18,6 +18,7 @@ export default async function RequestPortCallPage({params}: {params: Promise<{lo
   const t = await getTranslations('Form');
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
+  const duty = dutyChannel();
   return (
     <>
       <section className="border-b border-line bg-surface py-[clamp(40px,5vw,64px)]">
@@ -37,7 +38,7 @@ export default async function RequestPortCallPage({params}: {params: Promise<{lo
               </ul>
               <div className="mt-4 grid gap-2">
                 <a className="font-mono text-[0.9rem] text-white" href={`tel:${site.phones.operations.e164}`}>{c('operations')}: {site.phones.operations.display}</a>
-                <ButtonA href={whatsappHref()} variant="ghostDark" className="justify-self-start" title={site.whatsapp.confirm ? c('toConfirm') : undefined}>{cta('whatsapp')}</ButtonA>
+                <ButtonA href={duty.href} variant="ghostDark" className="justify-self-start">{cta(duty.label)}</ButtonA>
               </div>
             </div>
             <p className="m-0 text-[0.85rem] text-muted">{t('attachmentsNote')}</p>

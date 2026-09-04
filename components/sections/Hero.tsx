@@ -13,8 +13,9 @@ import {site, dutyChannel} from '@/content/site';
 export async function Hero() {
   const t = await getTranslations('Home');
   const cta = await getTranslations('Cta');
+  const wa = await getTranslations('Wa');
   const lines = t.raw('h1Lines') as string[];
-  const duty = dutyChannel();
+  const duty = dutyChannel(wa('portcall'));
   return (
     <header className="deep relative isolate -mt-[92px] min-h-[min(100dvh,900px)] overflow-hidden text-on-dark">
       {/* Foto a sangre con movimiento lento de cámara */}

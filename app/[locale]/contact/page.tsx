@@ -26,7 +26,8 @@ export default async function ContactPage({params}: {params: Promise<{locale: st
   const t = ui[locale];
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('general'));
   const Card = ({title, children}: {title: string; children: React.ReactNode}) => (
     <div className="shell">
       <div className="core h-full bg-surface p-5">

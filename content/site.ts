@@ -24,7 +24,9 @@ export const site = {
     office: {label: 'Office', e164: '+5073830128', display: '+507 383-0128'},
     atlantic: {label: 'Atlantic side', e164: '+50762664242', display: '+507 6266-4242'},
   },
-  whatsapp: {e164: process.env.NEXT_PUBLIC_WHATSAPP_DUTY_E164 ?? ''},
+  // WhatsApp de guardia: el mismo número de operaciones (confirmado por el cliente, 4-sep-2026).
+  // La variable de entorno permite apuntar a otro número sin tocar código.
+  whatsapp: {e164: process.env.NEXT_PUBLIC_WHATSAPP_DUTY_E164 ?? '+50762664242'},
   emails: {
     operations: {address: 'gpena@crossworldagency.com'},
   },
@@ -73,13 +75,13 @@ export const site = {
 } as const;
 
 /**
- * Canal directo con el oficial de guardia. Si hay número de WhatsApp configurado
- * (NEXT_PUBLIC_WHATSAPP_DUTY_E164) el botón abre WhatsApp; si no, marca el teléfono de
- * operaciones. Nunca queda un botón muerto ni un "(a confirmar)" a la vista del visitante.
+ * Canal directo con el oficial de guardia. Abre WhatsApp con un mensaje ya escrito
+ * (`text`), para que la conversación llegue con contexto en vez de un "hola" suelto.
+ * Si algún día se vacía el número, el botón degrada a marcar el teléfono de operaciones:
+ * nunca queda un enlace muerto a la vista del visitante.
  */
-export function dutyChannel(): {href: string; label: 'whatsapp' | 'call'} {
+export function dutyChannel(text?: string): {href: string; label: 'whatsapp' | 'call'} {
   const n = site.whatsapp.e164.replace(/\D/g, '');
-  return n
-    ? {href: `https://wa.me/${n}`, label: 'whatsapp'}
-    : {href: `tel:${site.phones.operations.e164}`, label: 'call'};
+  if (!n) return {href: `tel:${site.phones.operations.e164}`, label: 'call'};
+  return {href: text ? `https://wa.me/${n}?text=${encodeURIComponent(text)}` : `https://wa.me/${n}`, label: 'whatsapp'};
 }

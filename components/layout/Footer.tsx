@@ -11,7 +11,8 @@ export async function Footer() {
   const t = await getTranslations('Footer');
   const c = await getTranslations('Common');
   const cta = await getTranslations('Cta');
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('general'));
   const col = 'mb-3 font-mono text-[0.72rem] tracking-[0.14em] text-on-dark-muted uppercase';
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-ink pt-16 pb-28 text-[0.92rem] text-on-dark-muted">

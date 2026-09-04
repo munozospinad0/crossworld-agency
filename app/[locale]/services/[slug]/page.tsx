@@ -60,7 +60,8 @@ export default async function ServicePage({params}: {params: Promise<{locale: st
   const url = `${site.url}${getPathname({locale, href: {pathname: '/services/[slug]', params: {slug: s.slug[locale]}}})}`;
   const requestUrl = `${site.url}${getPathname({locale, href: '/request-port-call'})}`;
   const ctaLabel = cta(s.cta);
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('service', {service: s.title[locale]}));
   const index = services.findIndex((x) => x.key === s.key);
   const others = services.filter((x) => x.key !== s.key);
   const specialties = s.specialties?.[locale];

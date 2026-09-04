@@ -10,7 +10,8 @@ export async function FinalCta() {
   const t = await getTranslations('Home');
   const cta = await getTranslations('Cta');
   const p = await getTranslations('Ports');
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('portcall'));
   return (
     <section id="request" className="deep py-[clamp(72px,9vw,128px)] text-on-dark">
       <div className="wrap grid grid-cols-1 items-start gap-[clamp(28px,5vw,72px)] md:grid-cols-2">

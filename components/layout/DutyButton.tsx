@@ -7,7 +7,8 @@ import {dutyChannel} from '@/content/site';
  */
 export async function DutyButton() {
   const t = await getTranslations('Cta');
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('general'));
   return (
     <a
       href={duty.href}

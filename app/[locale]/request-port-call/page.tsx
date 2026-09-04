@@ -18,7 +18,8 @@ export default async function RequestPortCallPage({params}: {params: Promise<{lo
   const t = await getTranslations('Form');
   const cta = await getTranslations('Cta');
   const c = await getTranslations('Common');
-  const duty = dutyChannel();
+  const wa = await getTranslations('Wa');
+  const duty = dutyChannel(wa('portcall'));
   return (
     <>
       <section className="border-b border-line bg-surface py-[clamp(40px,5vw,64px)]">

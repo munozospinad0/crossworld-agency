@@ -131,6 +131,11 @@
     "figures": "Canal figures are referential and sourced from the Panama Canal Authority.",
     "rights": "All rights reserved."
   },
+  "Wa": {
+    "general": "Hello, I am writing from the Cross World Agency website. I would like to speak with the duty officer.",
+    "service": "Hello, I am writing from the Cross World Agency website. I need information about {service}.",
+    "portcall": "Hello, I am writing from the Cross World Agency website. I need attendance for a port call or a Canal transit.\n\nVessel:\nIMO:\nETA:\nPort:\nServices:"
+  },
   "Common": {
     "operations": "Operations 24/7",
     "office": "Office",

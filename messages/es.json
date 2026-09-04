@@ -131,6 +131,11 @@
     "figures": "Las cifras del Canal son referenciales y provienen de la Autoridad del Canal de Panamá.",
     "rights": "Todos los derechos reservados."
   },
+  "Wa": {
+    "general": "Hola, escribo desde el sitio de Cross World Agency. Quisiera hablar con el oficial de guardia.",
+    "service": "Hola, escribo desde el sitio de Cross World Agency. Necesito información sobre {service}.",
+    "portcall": "Hola, escribo desde el sitio de Cross World Agency. Necesito atención para una escala o un tránsito del Canal.\n\nBuque:\nIMO:\nETA:\nPuerto:\nServicios:"
+  },
   "Common": {
     "operations": "Operaciones 24/7",
     "office": "Oficina",

@@ -73,7 +73,7 @@ test('port call form: invalid IMO shows an error, valid submission opens WhatsAp
 });
 
 test('accessibility: no serious or critical violations on key templates', async ({page}) => {
-  for (const path of ['/en', '/en/services/marine-surveys', '/en/panama-canal-transit-guide', '/en/contact', '/en/request-port-call']) {
+  for (const path of ['/en', '/en/services/marine-surveys', '/en/panama-canal-transit-guide', '/en/contact', '/en/request-port-call', '/en/insights', '/en/insights/panama-canal-transit-booking', '/es/analisis/reserva-de-transito-canal-de-panama']) {
     await page.goto(`${BASE}${path}`);
     const results = await new AxeBuilder({page}).analyze();
     const bad = results.violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');

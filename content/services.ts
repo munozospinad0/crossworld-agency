@@ -34,7 +34,7 @@ export const services: Service[] = [
     title: {en: 'Ship agency & Canal transit', es: 'Agencia naviera y tránsito del Canal'},
     oneLiner: {en: 'Canal transits, port calls and husbandry at Balboa and Cristóbal.', es: 'Tránsitos del Canal, escalas y avituallamiento en Balboa y Cristóbal.'},
     h1: {en: 'Panama Canal transit agent and husbandry services', es: 'Agente de tránsito del Canal de Panamá y servicios de avituallamiento'},
-    metaTitle: {en: 'Panama Canal Transit Agent & Husbandry | Cross World Agency', es: 'Agente de tránsito del Canal de Panamá y avituallamiento | Cross World Agency'},
+    metaTitle: {en: 'Panama Canal Transit Agent & Husbandry', es: 'Agente de tránsito del Canal de Panamá'},
     metaDescription: {en: 'AMP-licensed ship agency authorized by the Panama Canal Authority since 2010. Transits, husbandry, crew changes and PDA/FDA at Balboa and Cristóbal. 24/7.', es: 'Agencia naviera con licencia AMP y autorización de la ACP desde 2010. Tránsitos, avituallamiento, cambios de tripulación y PDA/FDA en Balboa y Cristóbal. 24/7.'},
     summary: {
       en: ['We are an AMP-licensed ship agency authorized by the Panama Canal Authority, handling transits, port calls and husbandry at Balboa, Cristóbal and the Panamanian ports we have served since 2010.'],
@@ -50,7 +50,7 @@ export const services: Service[] = [
     title: {en: 'Marine surveys', es: 'Inspecciones marítimas'},
     oneLiner: {en: 'Professional surveys, reported in the format underwriters and P&I clubs expect.', es: 'Inspecciones profesionales, en el formato que esperan aseguradores y clubes P&I.'},
     h1: {en: 'Marine surveys and inspections in Panama', es: 'Inspecciones marítimas en Panamá'},
-    metaTitle: {en: 'Marine Surveys in Panama: Draft, Condition, Pre-purchase | Cross World Agency', es: 'Inspecciones marítimas en Panamá: calados, condición, precompra | Cross World Agency'},
+    metaTitle: {en: 'Marine Surveys in Panama: Draft & Condition', es: 'Inspecciones marítimas en Panamá'},
     metaDescription: {en: 'Marine surveys at both ends of the Panama Canal, to quality standards and international rules, endorsed by the P&I Club: draft, petroleum, condition, pre-purchase, hatch cover and ISM audits.', es: 'Inspecciones marítimas en ambos lados del Canal de Panamá bajo estándares de calidad y normas internacionales, con el aval del P&I Club: calados, petróleo, condición, precompra, escotillas y auditorías ISM.'},
     summary: {
       en: ['Marine surveys carried out to quality standards and in accordance with the applicable international rules, endorsed by the P&I Club.'],
@@ -70,7 +70,7 @@ export const services: Service[] = [
     title: {en: 'Tank gauging, sampling & bunker operations', es: 'Medición y muestreo de tanques y operaciones de bunker'},
     oneLiner: {en: 'Sample logistics, custody and dispatch to specialised laboratories.', es: 'Logística de toma de muestras, custodia y envío a laboratorios especializados.'},
     h1: {en: 'Tank gauging and sampling, bunker operations, sample logistics and laboratories', es: 'Medición y muestreo de tanques y operaciones de bunkers, logística de toma de muestra y laboratorios'},
-    metaTitle: {en: 'Tank Gauging, Sampling & Bunker Operations in Panama | Cross World Agency', es: 'Medición y muestreo de tanques y operaciones de bunker en Panamá | Cross World Agency'},
+    metaTitle: {en: 'Tank Gauging & Bunker Surveys in Panama', es: 'Medición de tanques y bunker en Panamá'},
     metaDescription: {en: 'Tank gauging and sampling, bunkering supervision and logistics for the collection, custody and dispatch of samples to specialised laboratories at Balboa and Cristóbal, with traceability throughout.', es: 'Medición y muestreo de tanques, supervisión de operaciones de bunkering y logística de toma, custodia y envío de muestras a laboratorios especializados en Balboa y Cristóbal, con trazabilidad en todo el proceso.'},
     summary: {
       en: ['We carry out tank gauging and sampling, supervise bunkering operations and coordinate the logistics for the collection, custody and dispatch of samples to specialised laboratories, ensuring traceability and reliability throughout the process.'],
@@ -86,7 +86,7 @@ export const services: Service[] = [
     title: {en: 'Marine fuel supply', es: 'Suministro de combustible marino'},
     oneLiner: {en: 'MGO and ULSD arranged in Panama, CIF or FOB.', es: 'MGO y ULSD en Panamá, CIF o FOB.'},
     h1: {en: 'Marine fuel supply in Panama', es: 'Suministro de combustible marino en Panamá'},
-    metaTitle: {en: 'Marine Fuel Supply in Panama: MGO and ULSD | Cross World Agency', es: 'Suministro de combustible marino en Panamá: MGO y ULSD | Cross World Agency'},
+    metaTitle: {en: 'Marine Fuel Supply in Panama: MGO & ULSD', es: 'Combustible marino en Panamá: MGO y ULSD'},
     metaDescription: {en: 'Fuel supply and delivery to vessels in Panama, by ship-to-ship (STS) operations or directly in port. MGO and ULSD, CIF or FOB.', es: 'Suministro y entrega de combustible a embarcaciones en Panamá, por operaciones ship-to-ship (STS) o directamente en puerto. MGO y ULSD, CIF o FOB.'},
     summary: {
       en: ['Logistics coordination for the supply and delivery of fuel to vessels, both through ship-to-ship (STS) operations and directly in port, ensuring an efficient and organised execution of every operation.'],
@@ -102,7 +102,7 @@ export const services: Service[] = [
     title: {en: 'Ship-to-ship & offshore', es: 'Ship-to-ship y offshore'},
     oneLiner: {en: 'STS and terminal operations planned, attended and documented.', es: 'Operaciones ship-to-ship y de terminal planificadas, atendidas y documentadas.'},
     h1: {en: 'Ship-to-ship transfers and offshore support in Panama', es: 'Transferencias ship-to-ship y soporte offshore en Panamá'},
-    metaTitle: {en: 'Ship-to-Ship Transfers & Offshore Support in Panama | Cross World Agency', es: 'Transferencias ship-to-ship y offshore en Panamá | Cross World Agency'},
+    metaTitle: {en: 'Ship-to-Ship Transfers & Offshore, Panama', es: 'Transferencias ship-to-ship en Panamá'},
     metaDescription: {en: 'STS operations at Panama anchorages and terminals: permits, mooring master coordination, surveys before and after transfer, offshore platform and oil terminal support.', es: 'Operaciones STS en fondeaderos y terminales de Panamá: permisos, coordinación de mooring master, inspecciones antes y después de la transferencia, soporte a plataformas y terminales petroleros.'},
     summary: {
       en: ['STS operations at Panama anchorages and terminals, planned, attended and documented: permits with the Authority, mooring master and equipment coordination, surveys before and after transfer, and the agency work around it.'],
@@ -119,7 +119,7 @@ export const services: Service[] = [
     title: {en: 'Marine accident investigation', es: 'Investigación de accidentes marítimos'},
     oneLiner: {en: 'Technical investigation of marine accidents and incidents: causes, damage and specialised reports.', es: 'Investigación técnica de accidentes e incidentes marítimos: causas, daños y reportes especializados.'},
     h1: {en: 'Marine accident investigation', es: 'Investigación de accidentes marítimos'},
-    metaTitle: {en: 'Marine Accident Investigation in Panama | Cross World Agency', es: 'Investigación de accidentes marítimos en Panamá | Cross World Agency'},
+    metaTitle: {en: 'Marine Accident Investigation in Panama', es: 'Investigación de accidentes marítimos'},
     metaDescription: {en: 'Technical investigation of marine accidents and incidents in Panama: on-site inspection, evidence collection, technical analysis and specialised reports for shipowners, insurers and other parties involved.', es: 'Investigación técnica de accidentes e incidentes marítimos en Panamá: inspección en sitio, recopilación de evidencias, análisis técnico y reportes especializados para armadores, aseguradoras y otras partes involucradas.'},
     summary: {
       en: ['We conduct technical investigations of marine accidents and incidents to determine their causes, assess damage, identify operational factors and document the facts objectively. Our service includes on-site inspection, evidence collection, technical analysis and the preparation of specialised reports for shipowners, insurers and other parties involved.'],
@@ -135,7 +135,7 @@ export const services: Service[] = [
     title: {en: 'Consulting & audits', es: 'Consultoría y auditorías'},
     oneLiner: {en: 'ISM and ISPS preparation, vetting inspections and maritime projects.', es: 'Preparación ISM, ISPS, Vetting Inspections y proyectos marítimos.'},
     h1: {en: 'Consulting and audits', es: 'Consultoría y auditorías'},
-    metaTitle: {en: 'Maritime Consulting and Audits in Panama: ISM, ISPS, Vetting | Cross World Agency', es: 'Consultoría y auditorías marítimas en Panamá: ISM, ISPS, Vetting | Cross World Agency'},
+    metaTitle: {en: 'Maritime Audits in Panama: ISM, ISPS, Vetting', es: 'Auditorías marítimas: ISM, ISPS, Vetting'},
     metaDescription: {en: 'Advice and technical preparation for ISM and ISPS audits and vetting inspections, plus support for maritime projects: planning, technical support and follow-up.', es: 'Asesoría y preparación técnica para auditorías ISM, ISPS y Vetting Inspections, y acompañamiento de proyectos marítimos: planificación, soporte técnico y seguimiento.'},
     summary: {
       en: [

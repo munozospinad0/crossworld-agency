@@ -24,7 +24,15 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const locale = l as Locale;
   const p = portBySlug(locale, slug);
   if (!p) return {};
-  return pageMetadata({locale, title: p.metaTitle[locale], description: p.metaDescription[locale], href: {pathname: '/ports/[slug]', params: {slug: p.slug[locale]}}, esHref: {pathname: '/ports/[slug]', params: {slug: p.slug.es}}, image: p.image});
+  return pageMetadata({
+    locale,
+    title: p.metaTitle[locale],
+    description: p.metaDescription[locale],
+    href: {pathname: '/ports/[slug]', params: {slug: p.slug[locale]}},
+    enHref: {pathname: '/ports/[slug]', params: {slug: p.slug.en}},
+    esHref: {pathname: '/ports/[slug]', params: {slug: p.slug.es}},
+    image: p.image,
+  });
 }
 
 export default async function PortPage({params}: {params: Promise<{locale: string; slug: string}>}) {

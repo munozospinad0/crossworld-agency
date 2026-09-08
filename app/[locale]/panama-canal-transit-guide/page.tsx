@@ -10,8 +10,26 @@ import {ButtonLink} from '@/components/ui/Button';
 import {PdaAnatomy} from '@/components/guide/PdaAnatomy';
 
 const ui = {
-  en: {tldr: 'In short', contents: 'Contents', faq: 'Frequently asked questions', sources: 'Sources', reviewed: 'Last reviewed', byline: 'Written by the Cross World operations team. Reviewed by Capt. Guillermo A. Peña, ISM internal auditor.'},
-  es: {tldr: 'En resumen', contents: 'Contenido', faq: 'Preguntas frecuentes', sources: 'Fuentes', reviewed: 'Última revisión', byline: 'Escrito por el equipo de operaciones de Cross World. Revisado por el capitán Guillermo A. Peña, auditor interno ISM.'},
+  en: {
+    tldr: 'In short', contents: 'Contents', faq: 'Frequently asked questions', sources: 'Sources', reviewed: 'Last reviewed',
+    byline: 'Written by the Cross World operations team. Reviewed by Capt. Guillermo A. Peña, ISM internal auditor.',
+    deeper: 'Go deeper',
+    deeperBooking: 'Booking a slot: fees, periods, late and cancellation charges',
+    deeperBalboa: 'Port of Balboa: agency, surveys and bunkering on the Pacific side',
+    deeperCristobal: 'Port of Cristóbal: agency and attendance on the Atlantic side',
+    deeperAgency: 'What a transit agent actually does for the call',
+    deeperFda: 'Send us your last Panama FDA and we review it line by line',
+  },
+  es: {
+    tldr: 'En resumen', contents: 'Contenido', faq: 'Preguntas frecuentes', sources: 'Fuentes', reviewed: 'Última revisión',
+    byline: 'Escrito por el equipo de operaciones de Cross World. Revisado por el capitán Guillermo A. Peña, auditor interno ISM.',
+    deeper: 'Para profundizar',
+    deeperBooking: 'Reservar un cupo: tasas, periodos y cargos por demora o cancelación',
+    deeperBalboa: 'Puerto de Balboa: agencia, inspecciones y bunker en el Pacífico',
+    deeperCristobal: 'Puerto de Cristóbal: agencia y atención en el Atlántico',
+    deeperAgency: 'Qué hace realmente un agente de tránsito en la escala',
+    deeperFda: 'Envíenos su última FDA de Panamá y la revisamos línea por línea',
+  },
 };
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -73,6 +91,18 @@ export default async function GuidePage({params}: {params: Promise<{locale: stri
                   </details>
                 ))}
               </div>
+            </div>
+            {/* La guía era un callejón sin salida: la página con más contenido del sitio no
+                enlazaba a ninguna otra. Desde aquí se baja al detalle y a las páginas de puerto. */}
+            <div>
+              <h2 className="t-h2">{t.deeper}</h2>
+              <ul className="mt-4 grid list-disc gap-2 pl-5">
+                <li><Link className="text-accent-ink underline underline-offset-2" href={{pathname: '/insights/[slug]', params: {slug: locale === 'es' ? 'reserva-de-transito-canal-de-panama' : 'panama-canal-transit-booking'}}}>{t.deeperBooking}</Link></li>
+                <li><Link className="text-accent-ink underline underline-offset-2" href={{pathname: '/ports/[slug]', params: {slug: 'balboa'}}}>{t.deeperBalboa}</Link></li>
+                <li><Link className="text-accent-ink underline underline-offset-2" href={{pathname: '/ports/[slug]', params: {slug: 'cristobal'}}}>{t.deeperCristobal}</Link></li>
+                <li><Link className="text-accent-ink underline underline-offset-2" href={{pathname: '/services/[slug]', params: {slug: locale === 'es' ? 'agencia-naviera-transito-canal-de-panama' : 'ship-agency-panama-canal-transit'}}}>{t.deeperAgency}</Link></li>
+                <li><Link className="text-accent-ink underline underline-offset-2" href="/compare-your-fda">{t.deeperFda}</Link></li>
+              </ul>
             </div>
             <div>
               <h2 className="text-[1.15rem]">{t.sources}</h2>

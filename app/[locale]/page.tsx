@@ -12,6 +12,7 @@ import {Captain} from '@/components/sections/Captain';
 import {FieldReels} from '@/components/sections/FieldReels';
 import {Audiences} from '@/components/sections/Audiences';
 import {Proof} from '@/components/sections/Proof';
+import {FdaHomeTeaser} from '@/components/sections/FdaHomeTeaser';
 import {FinalCta} from '@/components/sections/FinalCta';
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {
@@ -41,6 +42,8 @@ export default async function HomePage({params}: {params: Promise<{locale: strin
       <FieldReels />
       <Audiences />
       <Proof />
+      {/* Estaba escrita y sin montar: /compare-your-fda solo recibía un enlace del pie. */}
+      <FdaHomeTeaser />
       <FinalCta />
     </>
   );

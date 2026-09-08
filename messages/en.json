@@ -10,7 +10,8 @@
     "close": "Close",
     "skip": "Skip to content",
     "switchTo": "Español",
-    "language": "Language"
+    "language": "Language",
+    "insights": "Insights"
   },
   "Cta": {
     "portcall": "Request a port call",
@@ -244,7 +245,8 @@
     "privacy": "Privacy",
     "terms": "Standard Trading Conditions",
     "figures": "Canal figures are referential and sourced from the Panama Canal Authority.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "insights": "Insights"
   },
   "Wa": {
     "general": "Hello, I am writing from the Cross World Agency website. I would like to speak with the duty officer.",

@@ -13,6 +13,8 @@ export const routing = defineRouting({
     '/panama-canal-transit-guide': {en: '/panama-canal-transit-guide', es: '/guia-transito-canal-de-panama'},
     '/ports': {en: '/ports', es: '/puertos'},
     '/ports/[slug]': {en: '/ports/[slug]', es: '/puertos/[slug]'},
+    '/insights': {en: '/insights', es: '/analisis'},
+    '/insights/[slug]': {en: '/insights/[slug]', es: '/analisis/[slug]'},
     '/about': {en: '/about', es: '/nosotros'},
     '/certifications': {en: '/certifications', es: '/certificaciones'},
     '/compliance': {en: '/compliance', es: '/cumplimiento'},

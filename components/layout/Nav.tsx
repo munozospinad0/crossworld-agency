@@ -28,6 +28,7 @@ export function Nav() {
     {href: '/services' as const, label: t('services')},
     {href: '/panama-canal-transit-guide' as const, label: t('guide')},
     {href: '/ports' as const, label: t('ports')},
+    {href: '/insights' as const, label: t('insights')},
     {href: '/about' as const, label: t('about')},
     {href: '/contact' as const, label: t('contact')},
   ];

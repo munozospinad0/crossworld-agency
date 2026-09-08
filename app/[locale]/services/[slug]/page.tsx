@@ -32,8 +32,10 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
     title: s.metaTitle[locale],
     description: s.metaDescription[locale],
     href: {pathname: '/services/[slug]', params: {slug: s.slug[locale]}},
+    enHref: {pathname: '/services/[slug]', params: {slug: s.slug.en}},
     esHref: {pathname: '/services/[slug]', params: {slug: s.slug.es}},
     image: s.image,
+    imageAlt: s.imageAlt[locale],
   });
 }
 

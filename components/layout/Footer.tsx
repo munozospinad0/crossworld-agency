@@ -48,6 +48,7 @@ export async function Footer() {
             <li><Link className="transition-colors hover:text-white" href="/compliance">{t('compliance')}</Link></li>
             <li><Link className="transition-colors hover:text-white" href="/ports">{t('ports')}</Link></li>
             <li><Link className="transition-colors hover:text-white" href="/panama-canal-transit-guide">{t('guide')}</Link></li>
+            <li><Link className="transition-colors hover:text-white" href="/insights">{t('insights')}</Link></li>
             <li><Link className="transition-colors hover:text-white" href="/contact">{t('contact')}</Link></li>
           </ul>
         </div>

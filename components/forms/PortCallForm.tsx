@@ -1,12 +1,12 @@
 'use client';
 
-import {startTransition, useActionState, useEffect, useMemo, useState} from 'react';
+import {useEffect, useMemo, useState} from 'react';
 import {useLocale, useTranslations} from 'next-intl';
-import {submitPortCall, type FormState} from '@/app/[locale]/request-port-call/actions';
+import {submitPortCall} from '@/app/[locale]/request-port-call/actions';
 import {track} from '@/lib/analytics';
-import {site} from '@/content/site';
-
-const initial: FormState = {ok: false};
+import {site, dutyChannel} from '@/content/site';
+import {PORT_OPTIONS, PortCallSchema, SERVICE_OPTIONS, VESSEL_TYPES, TRANSIT_OPTIONS, PRINCIPAL_TYPES, fieldErrors, newSubmissionId, rawFromFormData} from '@/lib/formSchemas';
+import {portCallMessage, type Labeler} from '@/lib/wa';
 
 function Field({label, htmlFor, error, help, children}: {label: string; htmlFor: string; error?: string; help?: string; children: React.ReactNode}) {
   return (
@@ -21,14 +21,18 @@ function Field({label, htmlFor, error, help, children}: {label: string; htmlFor:
 
 const input = 'w-full rounded-field border border-line-strong bg-white px-3 py-2.5 text-[1rem] text-ink focus:border-accent focus:shadow-[0_0_0_3px_rgba(31,79,216,0.18)] focus:outline-none aria-[invalid=true]:border-err';
 
+/** Campos del primer paso: si el error cae en uno de ellos, se vuelve al paso 1. */
+const STEP1 = ['vesselName', 'imo', 'vesselType', 'flag', 'loa', 'beam', 'draft', 'gt', 'cargo', 'eta', 'ports', 'transit', 'principalType'];
+
 export function PortCallForm() {
   const t = useTranslations('Form');
   const locale = useLocale();
-  const [state, action, pending] = useActionState(submitPortCall, initial);
   const [step, setStep] = useState<1 | 2>(1);
-  const [submissionId] = useState(() => (typeof crypto !== 'undefined' && 'randomUUID' in crypto ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`));
+  const [submissionId] = useState(newSubmissionId);
   const [attribution, setAttribution] = useState('{}');
-  const errors = state.errors ?? {};
+  const [errors, setErrors] = useState<Record<string, string>>({});
+  const [sent, setSent] = useState<{href: string; text: string} | null>(null);
+  const [copied, setCopied] = useState(false);
   const err = (k: string) => (errors[k] ? t(`errors.${errors[k]}` as never) : undefined);
 
   useEffect(() => {
@@ -46,39 +50,70 @@ export function PortCallForm() {
     } catch { /* sin almacenamiento */ }
   }, []);
 
+  // Mientras se ve la confirmación, el botón flotante de guardia estorba (ver globals.css).
   useEffect(() => {
-    if (state.ok && state.requestNumber) {
-      track('port_call_request', {request_number: state.requestNumber});
-      window.scrollTo({top: 0, behavior: 'smooth'});
-    } else if (state.errors) {
-      track('form_error', {field: Object.keys(state.errors)[0]});
-      // si el error está en el paso 1, volver a él
-      const step1 = ['vesselName', 'imo', 'vesselType', 'flag', 'loa', 'beam', 'draft', 'gt', 'cargo', 'eta', 'ports', 'transit', 'principalType'];
-      if (Object.keys(state.errors).some((k) => step1.includes(k))) setStep(1);
-    }
-  }, [state]);
+    if (!sent) return;
+    document.body.dataset.formSent = '1';
+    return () => { delete document.body.dataset.formSent; };
+  }, [sent]);
 
   const turnstileKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
-  const portOptions = useMemo(() => ['balboa', 'cristobal', 'manzanillo', 'cct', 'bahia-las-minas', 'psa-rodman', 'taboguilla', 'melones', 'vacamonte', 'other'] as const, []);
-  const serviceOptions = ['agency', 'surveys', 'bunker_survey', 'fuel', 'sts', 'claims', 'consulting'] as const;
+  const portOptions = useMemo(() => PORT_OPTIONS, []);
 
-  if (state.ok && state.requestNumber) {
+  /**
+   * El envío ocurre DENTRO del gesto del usuario: se valida con el mismo esquema del
+   * servidor (síncrono) y se abre WhatsApp de inmediato. Así ningún navegador bloquea la
+   * ventana por considerarla emergente, cosa que sí pasaría tras esperar una respuesta.
+   * La Server Action se dispara aparte, sin bloquear: solo registra si hay correo o CRM.
+   */
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const fd = new FormData(e.currentTarget);
+    const parsed = PortCallSchema.safeParse(rawFromFormData(fd, ['ports', 'services']));
+    if (!parsed.success) {
+      const next = fieldErrors(parsed.error);
+      setErrors(next);
+      track('form_error', {field: Object.keys(next)[0]});
+      if (Object.keys(next).some((k) => STEP1.includes(k))) setStep(1);
+      return;
+    }
+    setErrors({});
+    const text = portCallMessage(parsed.data, t as unknown as Labeler);
+    const {href} = dutyChannel(text);
+    window.open(href, '_blank', 'noopener,noreferrer');
+    setSent({href, text});
+    track('port_call_request', {channel: 'whatsapp'});
+    track('whatsapp_click', {kind: 'port_call'});
+    window.scrollTo({top: 0, behavior: 'smooth'});
+    // Registro interno: solo hace algo si hay base, Resend o webhook configurados.
+    void submitPortCall({ok: false}, fd).catch(() => {});
+  }
+
+  async function copy() {
+    if (!sent) return;
+    try {
+      await navigator.clipboard.writeText(sent.text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2500);
+    } catch { /* sin portapapeles: queda el botón de WhatsApp */ }
+  }
+
+  if (sent) {
     return (
       <div role="status" className="rounded-card border border-[#bfe3cf] bg-ok-soft p-6 text-[#134a30]">
-        <b className="block text-[1.15rem] text-[#0f3d27]">{t('success.title', {number: state.requestNumber})}</b>
-        <p className="m-0 mt-2">{t('success.text', {phone: site.phones.operations.display})}</p>
+        <b className="block text-[1.15rem] text-[#0f3d27]">{t('sent.title')}</b>
+        <p className="m-0 mt-2">{t('sent.text')}</p>
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          <a href={sent.href} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-11 items-center rounded-full bg-accent px-5 py-3 font-medium text-white hover:bg-accent-ink">{t('sent.open')}</a>
+          <button type="button" onClick={copy} className="inline-flex min-h-11 items-center rounded-full border border-[#bfe3cf] px-5 py-3 font-medium text-[#0f3d27] hover:bg-white/60">{copied ? t('sent.copied') : t('sent.copy')}</button>
+        </div>
+        <p className="m-0 mt-4 text-[0.9rem]">{t('sent.alt', {phone: site.phones.operations.display, email: site.emails.operations.address})}</p>
       </div>
     );
   }
 
   return (
-    <form
-      // Se invoca la acción dentro de una transición (y no vía action={}) para que React NO reinicie
-      // los campos tras una respuesta con errores: lo escrito por el usuario se conserva.
-      onSubmit={(e) => { e.preventDefault(); const fd = new FormData(e.currentTarget); startTransition(() => action(fd)); }}
-      className="grid gap-5 rounded-card border border-line bg-surface p-6"
-      noValidate
-    >
+    <form onSubmit={onSubmit} className="grid gap-5 rounded-card border border-line bg-surface p-6" noValidate>
       <input type="hidden" name="submissionId" value={submissionId} />
       <input type="hidden" name="locale" value={locale} />
       <input type="hidden" name="attribution" value={attribution} />
@@ -100,7 +135,7 @@ export function PortCallForm() {
           </Field>
           <Field label={t('vesselType')} htmlFor="vesselType" error={err('vesselType')}>
             <select id="vesselType" name="vesselType" className={input} defaultValue="bulk">
-              {['bulk', 'tanker', 'container', 'lpg', 'lng', 'general', 'roro', 'passenger', 'tug', 'barge', 'fishing', 'offshore', 'other'].map((v) => <option key={v} value={v}>{t(`vesselTypes.${v}` as never)}</option>)}
+              {VESSEL_TYPES.map((v) => <option key={v} value={v}>{t(`vesselTypes.${v}` as never)}</option>)}
             </select>
           </Field>
           <Field label={t('flag')} htmlFor="flag"><input id="flag" name="flag" className={input} /></Field>
@@ -123,12 +158,12 @@ export function PortCallForm() {
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={t('transit')} htmlFor="transit">
             <select id="transit" name="transit" className={input} defaultValue="none">
-              {['none', 'northbound', 'southbound'].map((v) => <option key={v} value={v}>{t(`transitOptions.${v}` as never)}</option>)}
+              {TRANSIT_OPTIONS.map((v) => <option key={v} value={v}>{t(`transitOptions.${v}` as never)}</option>)}
             </select>
           </Field>
           <Field label={t('principalType')} htmlFor="principalType">
             <select id="principalType" name="principalType" className={input} defaultValue="owner">
-              {['owner', 'charterer', 'manager', 'trader', 'pandi', 'insurer', 'lawyer', 'other'].map((v) => <option key={v} value={v}>{t(`principalTypes.${v}` as never)}</option>)}
+              {PRINCIPAL_TYPES.map((v) => <option key={v} value={v}>{t(`principalTypes.${v}` as never)}</option>)}
             </select>
           </Field>
         </div>
@@ -142,7 +177,7 @@ export function PortCallForm() {
         <legend className="sr-only">{t('steps.contact')}</legend>
         <Field label={t('services')} htmlFor="services" error={err('services')}>
           <div id="services" className="grid gap-2 sm:grid-cols-2">
-            {serviceOptions.map((s) => (
+            {SERVICE_OPTIONS.map((s) => (
               <label key={s} className="flex items-center gap-2 text-[0.95rem]"><input type="checkbox" name="services" value={s} className="h-4 w-4 accent-accent" defaultChecked={s === 'agency'} />{t(`serviceOptions.${s}` as never)}</label>
             ))}
           </div>
@@ -165,10 +200,7 @@ export function PortCallForm() {
         {turnstileKey && <div className="cf-turnstile" data-sitekey={turnstileKey} data-size="invisible" data-response-field-name="turnstileToken" />}
         <div className="flex flex-wrap items-center gap-3">
           <button type="button" onClick={() => setStep(1)} className="inline-flex min-h-11 items-center rounded-full border border-line-strong px-5 py-3 font-medium text-accent-ink hover:bg-accent-soft">{t('back')}</button>
-          <button type="submit" disabled={pending} className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-5 py-3 font-medium text-white hover:bg-accent-ink disabled:opacity-60">
-            {pending && <span className="h-3.5 w-3.5 animate-spin rounded-full border-2 border-white/40 border-t-white" />}
-            {pending ? t('sending') : t('submit')}
-          </button>
+          <button type="submit" className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-5 py-3 font-medium text-white hover:bg-accent-ink">{t('submit')}</button>
           <span className="text-[0.85rem] text-muted">{t('sla')}</span>
         </div>
       </fieldset>

@@ -88,7 +88,7 @@ export default async function GuidePage({params}: {params: Promise<{locale: stri
               </ol>
             </div>
             <div className="mt-4 rounded-card bg-ink p-6 text-on-dark">
-              <p className="m-0 text-[0.95rem]">{locale === 'es' ? 'Envíe los datos del buque y reciba una PDA detallada con número de solicitud.' : 'Send the vessel particulars and receive an itemized PDA with a request number.'}</p>
+              <p className="m-0 text-[0.95rem]">{locale === 'es' ? 'Envíe los datos del buque y reciba una PDA detallada del oficial de guardia.' : 'Send the vessel particulars and receive an itemized PDA from the duty officer.'}</p>
               <div className="mt-4"><ButtonLink href="/request-port-call" variant="light">{g.cta}</ButtonLink></div>
             </div>
           </aside>

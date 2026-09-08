@@ -130,6 +130,10 @@
   }
 }
 
+/* Con la confirmación del formulario en pantalla, el botón flotante de guardia sobra y en
+   celular se posa justo encima del correo alterno: se retira mientras dura esa pantalla. */
+body[data-form-sent] [data-duty-fab] { display: none; }
+
 /* Grano fijo, sin eventos, encima de todo lo oscuro (3.5 %) */
 .grain { position: fixed; inset: 0; z-index: 30; pointer-events: none; opacity: 0.035; mix-blend-mode: multiply; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
 

@@ -38,7 +38,12 @@ test('service pages exist in both languages', async ({page}) => {
   await expect(page.getByRole('heading', {level: 1})).toContainText('Agente de tránsito');
 });
 
-test('port call form: invalid IMO shows an error, valid submission returns a request number', async ({page}) => {
+test('port call form: invalid IMO shows an error, valid submission opens WhatsApp with the request', async ({page}) => {
+  // El envío abre WhatsApp; se intercepta window.open para leer la URL sin abrir pestaña.
+  await page.addInitScript(() => {
+    (window as unknown as {__opened: string[]}).__opened = [];
+    window.open = ((url: string) => { (window as unknown as {__opened: string[]}).__opened.push(String(url)); return null; }) as typeof window.open;
+  });
   await page.goto(`${BASE}/en/request-port-call`);
   await page.fill('#vesselName', 'MV Playwright Test');
   await page.fill('#imo', '1234568'); // dígito de control inválido (el correcto para 123456 es 7)
@@ -50,13 +55,21 @@ test('port call form: invalid IMO shows an error, valid submission returns a req
   await page.fill('#email', 'qa@example.com');
   await page.fill('#phone', '+50760000000');
   await page.check('input[name="consent"]');
-  await page.getByRole('button', {name: /Request a port call/}).click();
+  await page.getByRole('button', {name: /Send by WhatsApp/}).click();
   await expect(page.locator('#imo-error')).toContainText('check digit');
-  // IMO válido (9074729 = Maersk Sealand ejemplo con checksum correcto)
+  expect(await page.evaluate(() => (window as unknown as {__opened: string[]}).__opened.length)).toBe(0);
+  // IMO válido (9074729 = ejemplo con checksum correcto)
   await page.fill('#imo', '9074729');
   await page.getByRole('button', {name: /Continue to services/}).click();
-  await page.getByRole('button', {name: /Request a port call/}).click();
-  await expect(page.getByRole('status')).toContainText(/Request CW-\d{8}-[A-Z0-9]{3,4} received/, {timeout: 25_000});
+  await page.getByRole('button', {name: /Send by WhatsApp/}).click();
+  await expect(page.getByRole('status')).toContainText('ready in WhatsApp');
+  const opened = await page.evaluate(() => (window as unknown as {__opened: string[]}).__opened);
+  expect(opened).toHaveLength(1);
+  const text = new URL(opened[0]).searchParams.get('text') ?? '';
+  expect(new URL(opened[0]).pathname).toBe('/50762664242');
+  for (const bit of ['MV Playwright Test', '9074729', 'QA Bot', 'ECUS QA', 'qa@example.com', '+50760000000', 'Balboa']) {
+    expect(text, `falta "${bit}" en el mensaje`).toContain(bit);
+  }
 });
 
 test('accessibility: no serious or critical violations on key templates', async ({page}) => {

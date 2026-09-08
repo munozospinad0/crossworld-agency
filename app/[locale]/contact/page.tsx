@@ -8,8 +8,8 @@ import {StaticPage} from '@/components/layout/StaticPage';
 import {ButtonLink, ButtonA} from '@/components/ui/Button';
 
 const ui = {
-  en: {pacific: 'Pacific side · Balboa', atlantic: 'Atlantic side · Cristóbal', office: 'Office', email: 'Email', address: 'Address', hours: '24/7, all year', form: 'Transit or port call? Use the request form: you get a request number and an itemized PDA.', bank: 'Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.'},
-  es: {pacific: 'Lado Pacífico · Balboa', atlantic: 'Lado Atlántico · Cristóbal', office: 'Oficina', email: 'Correo', address: 'Dirección', hours: '24/7, todo el año', form: '¿Tránsito o escala? Use el formulario de solicitud: recibe un número de solicitud y una PDA detallada.', bank: 'Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.'},
+  en: {pacific: 'Pacific side · Balboa', atlantic: 'Atlantic side · Cristóbal', office: 'Office', email: 'Email', address: 'Address', hours: '24/7, all year', form: 'Transit or port call? Use the request form: it opens WhatsApp with the particulars written, and the duty officer issues an itemized PDA.', bank: 'Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.'},
+  es: {pacific: 'Lado Pacífico · Balboa', atlantic: 'Lado Atlántico · Cristóbal', office: 'Oficina', email: 'Correo', address: 'Dirección', hours: '24/7, todo el año', form: '¿Tránsito o escala? Use el formulario: abre WhatsApp con los datos escritos y el oficial de guardia emite una PDA detallada.', bank: 'Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.'},
 };
 
 export async function generateMetadata({params}: {params: Promise<{locale: string}>}): Promise<Metadata> {

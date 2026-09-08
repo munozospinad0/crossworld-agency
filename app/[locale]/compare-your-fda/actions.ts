@@ -2,47 +2,20 @@
 
 import {after} from 'next/server';
 import {headers} from 'next/headers';
-import {z} from 'zod';
 import {getPathname} from '@/i18n/navigation';
 import {site} from '@/content/site';
 import {insertLead, scoreLead} from '@/lib/leads';
 import {sendMail, confirmationMail, internalAlert} from '@/lib/email';
 import {postToCrm} from '@/lib/webhook';
 import {verifyTurnstile} from '@/lib/turnstile';
-
-const Schema = z.object({
-  submissionId: z.uuid(),
-  contactName: z.string().trim().min(2).max(80),
-  company: z.string().trim().min(2).max(120),
-  email: z.email(),
-  phone: z.string().trim().regex(/^\+\d{7,15}$/, 'phone'),
-  vesselName: z.string().trim().max(80).optional(),
-  imo: z.string().trim().regex(/^\d{7}$/).optional().or(z.literal('')),
-  port: z.enum(['balboa', 'cristobal', 'transit', 'other']),
-  notes: z.string().trim().max(2000).optional(),
-  attachmentPathname: z.string().startsWith('attachments/').optional().or(z.literal('')),
-  locale: z.enum(['en', 'es']),
-  consent: z.literal('on', {message: 'consent'}),
-  turnstileToken: z.string().optional(),
-  attribution: z.string().optional(),
-});
+import {FdaSchema, fieldErrors, rawFromFormData} from '@/lib/formSchemas';
 
 export type FdaState = {ok: boolean; requestNumber?: string; errors?: Record<string, string>};
 
+/** Registro interno; el canal visible para el visitante es WhatsApp (ver FdaCompareForm). */
 export async function submitFdaCompare(_prev: FdaState, formData: FormData): Promise<FdaState> {
-  const raw: Record<string, unknown> = {};
-  for (const [k, v] of formData.entries()) raw[k] = typeof v === 'string' ? v : undefined;
-  for (const k of ['vesselName', 'notes']) if (raw[k] === '') delete raw[k];
-  const parsed = Schema.safeParse(raw);
-  if (!parsed.success) {
-    const KNOWN = new Set(['phone', 'consent', 'turnstile']);
-    const errors: Record<string, string> = {};
-    for (const issue of parsed.error.issues) {
-      const key = String(issue.path[0] ?? 'form');
-      if (!errors[key]) errors[key] = KNOWN.has(issue.message) ? issue.message : 'generic';
-    }
-    return {ok: false, errors};
-  }
+  const parsed = FdaSchema.safeParse(rawFromFormData(formData));
+  if (!parsed.success) return {ok: false, errors: fieldErrors(parsed.error)};
   const d = parsed.data;
   const h = await headers();
   if (!(await verifyTurnstile(d.turnstileToken, h.get('x-forwarded-for')?.split(',')[0]?.trim(), d.submissionId))) return {ok: false, errors: {form: 'turnstile'}};

@@ -14,8 +14,8 @@ import {serviceIcons} from '@/components/brand/Icons';
 import {InstrumentChip, ChartLines} from '@/components/brand/InstrumentChip';
 
 const ui = {
-  en: {services: 'Services', specialties: 'Specialists in', more: 'Other services', contactTitle: 'Talk to the duty officer', contactText: 'Answers 24/7 in English and Spanish. For a transit or port call, use the request form and receive a request number.', operations: 'Operations 24/7', office: 'Office', email: 'Email'},
-  es: {services: 'Servicios', specialties: 'Especialistas en', more: 'Otros servicios', contactTitle: 'Hable con el oficial de guardia', contactText: 'Responde 24/7 en inglés y español. Para un tránsito o una escala, use el formulario y reciba un número de solicitud.', operations: 'Operaciones 24/7', office: 'Oficina', email: 'Correo'},
+  en: {services: 'Services', specialties: 'Specialists in', more: 'Other services', contactTitle: 'Talk to the duty officer', contactText: 'Answers 24/7 in English and Spanish. For a transit or port call, use the request form: it opens WhatsApp with the particulars already written.', operations: 'Operations 24/7', office: 'Office', email: 'Email'},
+  es: {services: 'Servicios', specialties: 'Especialistas en', more: 'Otros servicios', contactTitle: 'Hable con el oficial de guardia', contactText: 'Responde 24/7 en inglés y español. Para un tránsito o una escala, use el formulario: abre WhatsApp con los datos ya escritos.', operations: 'Operaciones 24/7', office: 'Oficina', email: 'Correo'},
 };
 
 export function generateStaticParams() {

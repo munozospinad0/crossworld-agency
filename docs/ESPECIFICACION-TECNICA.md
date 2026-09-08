@@ -213,6 +213,26 @@ export async function POST(req: Request) {
 ```
 `bodySizeLimit` queda en `'1mb'`. El correo interno y el webhook reciben una URL prefirmada (máx. 7 días) o `/api/file?pathname=` autenticada que hace `get(pathname, {access: 'private'})`.
 
+### 5.2 bis Canal de envío: WhatsApp (8-sep-2026, manda sobre 5.3 y 5.6)
+Mientras el sitio no tenga correo ni CRM conectados (no hay `RESEND_API_KEY`, `DATABASE_URL` ni
+`CRM_WEBHOOK_URL` cargados en Vercel), **el canal de los dos formularios es WhatsApp**, por decisión de
+Daniel: lo que el visitante llena se convierte en un mensaje y se abre el chat del oficial de guardia.
+
+- Esquemas en `lib/formSchemas.ts`, compartidos por el cliente y la Server Action; el armado del texto,
+  en `lib/wa.ts` (secciones Buque / Escala / Contacto / Notas, negritas de WhatsApp, campos vacíos fuera).
+- El cliente valida con el mismo Zod y llama `window.open(wa.me/…)` **dentro del gesto del submit**: si se
+  esperara la respuesta del servidor, el navegador trataría la pestaña como emergente y la bloquearía.
+- La Server Action sigue corriendo en segundo plano (registro, correo y webhook si algún día hay
+  variables); su resultado ya no gobierna la pantalla. La confirmación ofrece reabrir WhatsApp y copiar
+  el mensaje, más teléfono y correo como alternativa.
+- **Límite conocido:** wa.me solo deja el mensaje escrito; el visitante tiene que pulsar enviar, y el
+  mensaje sale de su cuenta. Para recepción garantizada hay que cargar Resend (vía más rápida) o pasar
+  el número a la Cloud API de WhatsApp.
+- El número de solicitud `CW-…` ya no se muestra: sin base de datos no persistía. Se retiraron las
+  promesas de "número de solicitud" y "correo de confirmación" de guía, contacto, servicios y metadatos.
+- QA: `tests/site.spec.ts` (versionado) y `research/_x_waform.mjs` (local) llenan los formularios y
+  comprueban que el mensaje llega completo al número de guardia.
+
 ### 5.3 Flujo del Server Action `submitPortCall`
 1. Validar Turnstile con `siteverify` (enviando `idempotency_key = submissionId` y `remoteip`); reintentar solo errores de red. Zod. Rate limiting con una **regla del Vercel WAF** (Pro): `POST` a `/(en|es)/(request-port-call|solicitar-port-call|contact|contacto)` → 10/h por IP, acción challenge (las Server Actions son POST a la URL de la página, así que la regla las cubre). Si hace falta a nivel de app: Upstash Redis (Marketplace) + `@upstash/ratelimit` por IP + email. (Vercel KV ya no existe.)
 2. **Idempotencia:** índice único sobre `submission_id`; si ya existe, devolver el `request_number` existente (doble clic, reintento tras error de red).

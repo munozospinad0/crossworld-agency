@@ -23,7 +23,11 @@
     "learnMore": "Learn more"
   },
   "Home": {
-    "h1Lines": ["Shipping agency", "Marine Surveyor and P&I Club", "Panama Canal Transit Agency"],
+    "h1Lines": [
+      "Shipping agency",
+      "Marine Surveyor and P&I Club",
+      "Panama Canal Transit Agency"
+    ],
     "metaDescription": "Shipping agency, marine surveyors and P&I club representation at the Panama Canal. Licensed by the Panama Maritime Authority and authorized by the Panama Canal Authority since 2010.",
     "credentials": {
       "amp": "AMP-licensed ship agency",
@@ -47,24 +51,78 @@
       "Our team is led by Captain Guillermo A. Peña, a maritime professional with an extensive track record in surveys, audits, operations and maritime safety."
     ],
     "captainCredentialsLabel": "Credentials",
-    "kickers": {"services": "What we do", "record": "Track record", "canal": "The crossing", "data": "Canal data", "ports": "Both entrances", "captain": "Who we are", "field": "From the field", "clients": "Who we serve", "proof": "Partners & reach", "fda": "Your FDA", "request": "Nominate us"},
+    "kickers": {
+      "services": "What we do",
+      "record": "Track record",
+      "canal": "The crossing",
+      "data": "Canal data",
+      "ports": "Both entrances",
+      "captain": "Who we are",
+      "field": "From the field",
+      "clients": "Who we serve",
+      "proof": "Partners & reach",
+      "fda": "Your FDA",
+      "request": "Nominate us"
+    },
     "stats": [
-      {"label": "Licensed by the AMP and authorized by the ACP since", "source": "04 MAR 2010 · AMP · ACP"},
-      {"label": "ISO-certified management systems: 9001, 14001, 45001 and 22000", "source": "QUALITY · ENVIRONMENT · OH&S · FOOD SAFETY"},
-      {"label": "Sides of the Canal with duty attendance: Balboa and Cristóbal", "source": "BALBOA · CRISTÓBAL"},
-      {"label": "A duty officer answers, all year, in English and Spanish", "source": "UTC-5 · EN/ES"}
+      {
+        "label": "Licensed by the AMP and authorized by the ACP since",
+        "source": "04 MAR 2010 · AMP · ACP"
+      },
+      {
+        "label": "ISO-certified management systems: 9001, 14001, 45001 and 22000",
+        "source": "QUALITY · ENVIRONMENT · OH&S · FOOD SAFETY"
+      },
+      {
+        "label": "Sides of the Canal with duty attendance: Balboa and Cristóbal",
+        "source": "BALBOA · CRISTÓBAL"
+      },
+      {
+        "label": "A duty officer answers, all year, in English and Spanish",
+        "source": "UTC-5 · EN/ES"
+      }
     ],
     "whoCta": "Describe your case",
     "canalData": {
       "docTitle": "Transit data sheet — Panama Canal",
       "docRef": "OP NOTICE N-7-2026 · REV 2026-08-31",
       "cells": [
-        {"t": "T-90 D", "value": "90", "unit": "d", "label": "The first booking period opens 90 days before the transit date; the third closes at 15:00 Panama time."},
-        {"t": "T-96 H", "value": "96", "unit": "h", "label": "Pre-arrival package through the ACP electronic system (EDCS) at least 96 hours before arrival."},
-        {"t": "T-72 H", "value": "72", "unit": "h", "label": "We call funds 72 hours ahead to leave margin for bank delays."},
-        {"t": "T-48 H", "value": "48", "unit": "h", "label": "The ACP requires payment 48 hours before transit."},
-        {"t": "REQ", "value": "400", "unit": "t", "label": "Vessels carrying 400 tonnes or more of oil need a PCSOPEP with a Panama-resident authorized person. No plan, no transit."},
-        {"t": "T-0", "value": "8–10", "unit": "h", "label": "Typical time in Canal waters once underway; waiting depends on booking and traffic."}
+        {
+          "t": "T-90 D",
+          "value": "90",
+          "unit": "d",
+          "label": "The first booking period opens 90 days before the transit date; the third closes at 15:00 Panama time."
+        },
+        {
+          "t": "T-96 H",
+          "value": "96",
+          "unit": "h",
+          "label": "Pre-arrival package through the ACP electronic system (EDCS) at least 96 hours before arrival."
+        },
+        {
+          "t": "T-72 H",
+          "value": "72",
+          "unit": "h",
+          "label": "We call funds 72 hours ahead to leave margin for bank delays."
+        },
+        {
+          "t": "T-48 H",
+          "value": "48",
+          "unit": "h",
+          "label": "The ACP requires payment 48 hours before transit."
+        },
+        {
+          "t": "REQ",
+          "value": "400",
+          "unit": "t",
+          "label": "Vessels carrying 400 tonnes or more of oil need a PCSOPEP with a Panama-resident authorized person. No plan, no transit."
+        },
+        {
+          "t": "T-0",
+          "value": "8–10",
+          "unit": "h",
+          "label": "Typical time in Canal waters once underway; waiting depends on booking and traffic."
+        }
       ],
       "margin": "Our margin",
       "sources": "Sources: ACP OP Notice N-7-2026 · ACP advisories in force",
@@ -72,17 +130,46 @@
       "cta": "Read the transit guide"
     },
     "fdaCta": "Compare your FDA",
-    "fdaDoc": {"header": "Disbursement account", "sub": "Line by line", "specimen": "Specimen"},
-    "fdaLines": ["Canal tolls", "Reservation fee or auction premium", "Fixed tariff", "Security charge", "Inspection and admeasurement", "Pilotage", "Tugs", "Linehandlers", "Launches", "Agency fee (one line)", "Bank charges", "Contingency"],
+    "fdaDoc": {
+      "header": "Disbursement account",
+      "sub": "Line by line",
+      "specimen": "Specimen"
+    },
+    "fdaLines": [
+      "Canal tolls",
+      "Reservation fee or auction premium",
+      "Fixed tariff",
+      "Security charge",
+      "Inspection and admeasurement",
+      "Pilotage",
+      "Tugs",
+      "Linehandlers",
+      "Launches",
+      "Agency fee (one line)",
+      "Bank charges",
+      "Contingency"
+    ],
     "captainQuote": "Experience that sails with you.",
     "captainCta": "About Cross World",
     "whoTitle": "Who we serve",
     "whoSub": "Different principals, different worries. Tell us who you are and we tell you how we work with you.",
     "who": [
-      {"title": "Shipowners & ship brokers", "text": "Transit agency, husbandry and surveys."},
-      {"title": "Charterers & traders", "text": "Bunker quantity, STS attendance and protective agency."},
-      {"title": "P&I correspondents & insurers", "text": "Condition surveys, claims attendance and evidence preserved, in alliance with Global Pandi Panama."},
-      {"title": "Fishing fleets & regional operators", "text": "Fuel supply and agency in Spanish, on WhatsApp."}
+      {
+        "title": "Shipowners & ship brokers",
+        "text": "Transit agency, husbandry and surveys."
+      },
+      {
+        "title": "Charterers & traders",
+        "text": "Bunker quantity, STS attendance and protective agency."
+      },
+      {
+        "title": "P&I correspondents & insurers",
+        "text": "Condition surveys, claims attendance and evidence preserved, in alliance with Global Pandi Panama."
+      },
+      {
+        "title": "Fishing fleets & regional operators",
+        "text": "Fuel supply and agency in Spanish, on WhatsApp."
+      }
     ],
     "proofTitle": "More than 40 years at sea and in port.",
     "proofText": "Cross World Agency has held its AMP ship agency licence and Panama Canal Authority authorization since 2010. Yacht and small-craft surveys run under our sister brand, Cross World Yacht, Marine Surveyors.",
@@ -93,7 +180,7 @@
     "reelPause": "Pause clip",
     "partnersLabel": "Partners and representation",
     "finalTitle": "Your next Panama call, handled.",
-    "finalSub": "Send the vessel particulars and ETA. You get a request number now and an itemized PDA from the duty officer.",
+    "finalSub": "Send the vessel particulars and ETA. The duty officer replies with an itemized PDA.",
     "nominateTitle": "Nominate Cross World",
     "nominateHelp": "Paste this block in your nomination message to the charterer or the Authority.",
     "bankNote": "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.",
@@ -110,9 +197,37 @@
     "caribbean": "Caribbean Sea"
   },
   "Ports": {
-    "balboa": {"name": "Port of Balboa", "side": "Pacific", "entrance": "Pacific entrance", "anchorage": "Anchorage", "anchorageValue": "Pacific anchorage", "locks": "To the locks", "locksValue": "Miraflores", "crew": "Crew changes", "crewValue": "Via Tocumen, by launch at the anchorage", "duty": "Duty officer"},
-    "cristobal": {"name": "Port of Cristóbal", "side": "Atlantic", "entrance": "Atlantic entrance", "anchorage": "Anchorage", "anchorageValue": "Cristóbal anchorage", "locks": "To the locks", "locksValue": "Gatún / Agua Clara", "crew": "Husbandry", "crewValue": "Cristóbal, Manzanillo (MIT) and CCT", "duty": "Duty officer", "dutyNote": "coordinated by the operations desk"},
-    "others": ["Manzanillo (MIT)", "CCT", "Bahía Las Minas", "PSA Panama (Rodman)"]
+    "balboa": {
+      "name": "Port of Balboa",
+      "side": "Pacific",
+      "entrance": "Pacific entrance",
+      "anchorage": "Anchorage",
+      "anchorageValue": "Pacific anchorage",
+      "locks": "To the locks",
+      "locksValue": "Miraflores",
+      "crew": "Crew changes",
+      "crewValue": "Via Tocumen, by launch at the anchorage",
+      "duty": "Duty officer"
+    },
+    "cristobal": {
+      "name": "Port of Cristóbal",
+      "side": "Atlantic",
+      "entrance": "Atlantic entrance",
+      "anchorage": "Anchorage",
+      "anchorageValue": "Cristóbal anchorage",
+      "locks": "To the locks",
+      "locksValue": "Gatún / Agua Clara",
+      "crew": "Husbandry",
+      "crewValue": "Cristóbal, Manzanillo (MIT) and CCT",
+      "duty": "Duty officer",
+      "dutyNote": "coordinated by the operations desk"
+    },
+    "others": [
+      "Manzanillo (MIT)",
+      "CCT",
+      "Bahía Las Minas",
+      "PSA Panama (Rodman)"
+    ]
   },
   "Footer": {
     "tagline": "Ship agency, marine surveys, bunker operations and P&I club representation at the Panama Canal. Licensed by the AMP and authorized by the Panama Canal Authority since 2010.",
@@ -153,36 +268,78 @@
     "title": "Compare your last Panama FDA",
     "lead": "Send us the final disbursement account of your last Panama call. We rebuild it line by line, mark what we would have charged differently, and send it back. No commitment.",
     "port": "The call was",
-    "portOptions": {"transit": "A Canal transit", "balboa": "A port call at Balboa", "cristobal": "A port call at Cristóbal", "other": "Other"},
+    "portOptions": {
+      "transit": "A Canal transit",
+      "balboa": "A port call at Balboa",
+      "cristobal": "A port call at Cristóbal",
+      "other": "Other"
+    },
     "file": "Your FDA (PDF, JPG or PNG, up to 10 MB)",
     "fileHelp": "Uploaded directly to private storage. Names of your current agent are kept confidential.",
     "uploading": "Uploading…",
     "uploaded": "File received. You can submit the form.",
-    "uploadsOff": "File upload is being enabled. Submit the form and reply to the confirmation email with the FDA attached.",
+    "uploadsOff": "File upload is not enabled yet. Submit the form and attach the FDA in the WhatsApp chat that opens.",
     "tooBig": "The file exceeds 10 MB.",
-    "uploadFailed": "Upload failed. Try again or reply to the confirmation email with the file.",
-    "submit": "Send my FDA for comparison",
-    "sla": "You receive the comparison by email, with no obligation.",
+    "uploadFailed": "Upload failed. Attach the file directly in the WhatsApp chat.",
+    "submit": "Send my FDA by WhatsApp",
+    "sla": "The comparison comes back in the same chat, with no commitment.",
     "howTitle": "What we do with it",
-    "howItems": ["A captain reads the FDA and checks every third-party line against the ACP tariff and the vouchers you would expect.", "We rebuild the account with our agency fee as one line and mark each difference.", "You get the comparison by email, with no obligation to nominate us."],
+    "howItems": [
+      "A captain reads the FDA and checks every third-party line against the ACP tariff and the vouchers you would expect.",
+      "We rebuild the account with our agency fee as one line and mark each difference.",
+      "You get the comparison in the same chat, with no obligation to nominate us."
+    ],
     "privacyNote": "Your documents are used only for this comparison and deleted on request. Bank details are never requested here.",
-    "success": {"title": "Request {number} received.", "text": "A captain will read your FDA and reply by email. If you prefer to talk first, call {phone}."}
+    "sent": {
+      "title": "Your request is ready in WhatsApp.",
+      "text": "We opened the chat with your details written out. Press send and attach the FDA in the same conversation."
+    },
+    "wa": {
+      "title": "FDA comparison — Cross World Agency",
+      "call": "The call",
+      "attach": "I am attaching the FDA in this chat.",
+      "attached": "The FDA was uploaded through the website form.",
+      "kind": "Call type"
+    }
   },
   "Form": {
     "metaTitle": "Request a port call or Canal transit",
-    "metaDescription": "Send vessel particulars, ETA, ports and services. You receive a request number now and an itemized PDA from the duty officer.",
+    "metaDescription": "Send vessel particulars, ETA, ports and services. WhatsApp opens with the request written and the duty officer replies with an itemized PDA.",
     "title": "Request a port call",
-    "lead": "Two steps: the vessel, then services and contact. You receive a request number on screen and a confirmation by email; the duty officer replies 24/7.",
+    "lead": "Two steps: the vessel, then services and contact. When you finish, WhatsApp opens with the request already written for the duty officer, who replies 24/7.",
     "asideTitle": "What happens next",
-    "asideItems": ["You get a request number immediately and a confirmation email.", "The duty officer reviews the particulars and prepares the PDA.", "You receive the PDA ahead of the funds call.", "Funds are called ahead of transit; the ACP requires them 48 hours before."],
-    "attachmentsNote": "Attachments (charter party instructions, certificates): reply to the confirmation email with the files. Direct upload is coming soon.",
+    "asideItems": [
+      "On submit, WhatsApp opens with every particular already written: you just press send.",
+      "The duty officer receives the request in the chat and checks the particulars.",
+      "You receive the PDA ahead of the funds call.",
+      "Funds are called ahead of transit; the ACP requires them 48 hours before."
+    ],
+    "attachmentsNote": "Attachments (charter party instructions, certificates): send them in the same WhatsApp chat, alongside the message.",
     "bankNote": "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.",
-    "steps": {"label": "Steps", "vessel": "Vessel", "contact": "Services and contact"},
+    "steps": {
+      "label": "Steps",
+      "vessel": "Vessel",
+      "contact": "Services and contact"
+    },
     "vesselName": "Vessel name",
     "imo": "IMO number",
     "imoHelp": "7 digits; we validate the check digit.",
     "vesselType": "Vessel type",
-    "vesselTypes": {"bulk": "Bulk carrier", "tanker": "Tanker", "container": "Container ship", "lpg": "LPG carrier", "lng": "LNG carrier", "general": "General cargo", "roro": "RoRo / vehicle carrier", "passenger": "Passenger / cruise", "tug": "Tug", "barge": "Barge", "fishing": "Fishing vessel", "offshore": "Offshore unit", "other": "Other"},
+    "vesselTypes": {
+      "bulk": "Bulk carrier",
+      "tanker": "Tanker",
+      "container": "Container ship",
+      "lpg": "LPG carrier",
+      "lng": "LNG carrier",
+      "general": "General cargo",
+      "roro": "RoRo / vehicle carrier",
+      "passenger": "Passenger / cruise",
+      "tug": "Tug",
+      "barge": "Barge",
+      "fishing": "Fishing vessel",
+      "offshore": "Offshore unit",
+      "other": "Other"
+    },
     "flag": "Flag",
     "loa": "LOA (m)",
     "beam": "Beam (m)",
@@ -192,15 +349,47 @@
     "eta": "ETA (Panama time, UTC-5)",
     "etaHelp": "You can update it later; we plan boarding from your ETA.",
     "ports": "Ports",
-    "portOptions": {"balboa": "Balboa (Pacific)", "cristobal": "Cristóbal (Atlantic)", "manzanillo": "Manzanillo (MIT)", "cct": "CCT", "bahia-las-minas": "Bahía Las Minas", "psa-rodman": "PSA Panama (Rodman)", "taboguilla": "Taboguilla", "melones": "Melones", "vacamonte": "Vacamonte", "other": "Other / not sure"},
+    "portOptions": {
+      "balboa": "Balboa (Pacific)",
+      "cristobal": "Cristóbal (Atlantic)",
+      "manzanillo": "Manzanillo (MIT)",
+      "cct": "CCT",
+      "bahia-las-minas": "Bahía Las Minas",
+      "psa-rodman": "PSA Panama (Rodman)",
+      "taboguilla": "Taboguilla",
+      "melones": "Melones",
+      "vacamonte": "Vacamonte",
+      "other": "Other / not sure"
+    },
     "transit": "Canal transit",
-    "transitOptions": {"none": "No transit (port call only)", "northbound": "Northbound (Pacific to Atlantic)", "southbound": "Southbound (Atlantic to Pacific)"},
+    "transitOptions": {
+      "none": "No transit (port call only)",
+      "northbound": "Northbound (Pacific to Atlantic)",
+      "southbound": "Southbound (Atlantic to Pacific)"
+    },
     "principalType": "You are",
-    "principalTypes": {"owner": "Shipowner", "charterer": "Charterer", "manager": "Ship manager", "trader": "Trader", "pandi": "P&I club or correspondent", "insurer": "Insurer / underwriter", "lawyer": "Law firm", "other": "Other"},
+    "principalTypes": {
+      "owner": "Shipowner",
+      "charterer": "Charterer",
+      "manager": "Ship manager",
+      "trader": "Trader",
+      "pandi": "P&I club or correspondent",
+      "insurer": "Insurer / underwriter",
+      "lawyer": "Law firm",
+      "other": "Other"
+    },
     "next": "Continue to services",
     "draftNote": "Nothing is sent until you submit the second step.",
     "services": "Services needed",
-    "serviceOptions": {"agency": "Ship agency / Canal transit", "surveys": "Marine survey", "bunker_survey": "Tank gauging and sampling / bunker", "fuel": "Marine fuel supply", "sts": "Ship-to-ship / offshore", "claims": "Marine accident investigation", "consulting": "Consulting / audit"},
+    "serviceOptions": {
+      "agency": "Ship agency / Canal transit",
+      "surveys": "Marine survey",
+      "bunker_survey": "Tank gauging and sampling / bunker",
+      "fuel": "Marine fuel supply",
+      "sts": "Ship-to-ship / offshore",
+      "claims": "Marine accident investigation",
+      "consulting": "Consulting / audit"
+    },
     "notes": "Notes",
     "notesHelp": "Instructions, crew changes, spares, anything the duty officer should know.",
     "contactName": "Your name",
@@ -211,10 +400,38 @@
     "phoneHelp": "International format, e.g. +30 210 …",
     "consent": "I agree to the processing of this data to answer my request (privacy policy).",
     "back": "Back",
-    "submit": "Request a port call",
-    "sending": "Sending…",
-    "sla": "We reply 24/7.",
-    "success": {"title": "Request {number} received.", "text": "The duty officer has it and will reply 24/7. A confirmation was sent to your email. If it is urgent, call {phone}."},
-    "errors": {"generic": "Check this field.", "imo": "IMO numbers have 7 digits and a check digit. Check the last digit.", "eta": "Enter the ETA.", "ports": "Select at least one port.", "services": "Select at least one service.", "phone": "Use the international format with country code, e.g. +507…", "consent": "We need your consent to process the request.", "turnstile": "Verification failed. Please try again.", "form": "Something went wrong. Your data is still on this screen: check your connection and send again."}
+    "submit": "Send by WhatsApp",
+    "sla": "WhatsApp opens with everything written. Just press send.",
+    "errors": {
+      "generic": "Check this field.",
+      "imo": "IMO numbers have 7 digits and a check digit. Check the last digit.",
+      "eta": "Enter the ETA.",
+      "ports": "Select at least one port.",
+      "services": "Select at least one service.",
+      "phone": "Use the international format with country code, e.g. +507…",
+      "consent": "We need your consent to process the request.",
+      "turnstile": "Verification failed. Please try again.",
+      "form": "Something went wrong. Your data is still on this screen: check your connection and send again."
+    },
+    "sent": {
+      "title": "Your request is ready in WhatsApp.",
+      "text": "We opened the duty officer chat with every particular written out. Press send in WhatsApp: until then the request has not left your phone.",
+      "open": "Open WhatsApp",
+      "copy": "Copy the message",
+      "copied": "Message copied",
+      "alt": "Prefer another route? Call {phone} or write to {email}."
+    },
+    "wa": {
+      "title": "Port call request — Cross World Agency",
+      "vessel": "Vessel",
+      "call": "Port call",
+      "contact": "Contact",
+      "notes": "Notes",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "eta": "ETA (Panama time)",
+      "dims": "LOA / Beam / Draft (m)"
+    }
   }
 }

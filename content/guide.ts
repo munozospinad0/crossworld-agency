@@ -55,7 +55,7 @@ export const guide: Record<Locale, Guide> = {
         'The maximum authorized draft changes with Gatún Lake levels; the ACP publishes advisories. We state the draft in force in every PDA with its date.',
       ]},
       {id: 'agent', h2: '5. What your agent does and what a PDA includes', ul: [
-        'Nomination: vessel particulars, IMO, ETA, direction and services; you receive a request number.',
+        'Nomination: vessel particulars, IMO, ETA, direction and services; the duty officer confirms receipt.',
         'PDA: tolls, reservation fee or auction premium, fixed tariff, security, inspection, pilotage, tugs, linehandlers, launches, agency fee (one line), bank charges and a contingency, each with its basis.',
         'Booking, pre-arrival filing, boarding at the anchorage, coordination of pilots, tugs and linehandlers, crew and supplies.',
         'FDA: reconciled line by line against the PDA, every third-party charge with its voucher, variances explained.',
@@ -120,7 +120,7 @@ export const guide: Record<Locale, Guide> = {
         'El calado máximo autorizado cambia con el nivel del lago Gatún; la ACP publica avisos. En cada PDA indicamos el calado vigente con su fecha.',
       ]},
       {id: 'agent', h2: '5. Qué hace su agente y qué incluye una PDA', ul: [
-        'Nominación: datos del buque, IMO, ETA, dirección y servicios; recibe un número de solicitud.',
+        'Nominación: datos del buque, IMO, ETA, dirección y servicios; el oficial de guardia confirma la recepción.',
         'PDA: peajes, tasa de reserva o prima de subasta, tarifa fija, seguridad, inspección, practicaje, remolcadores, pasacables, lanchas, honorario de agencia (una línea), cargos bancarios y una contingencia, cada uno con su base.',
         'Reserva, prearribo, abordaje en el fondeadero, coordinación de prácticos, remolcadores y pasacables, tripulación y suministros.',
         'FDA: conciliada línea por línea contra la PDA, cada cargo de terceros con su comprobante, diferencias explicadas.',

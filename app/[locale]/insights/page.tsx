@@ -12,7 +12,7 @@ const ui = {
   en: {
     title: 'Insights from the duty desk',
     metaTitle: 'Panama Canal and port call insights',
-    metaDescription: 'Notes from the duty desk on Panama Canal transits, booking, port calls, surveys and bunker operations, written by Capt. Guillermo A. Peña with the source for every figure.',
+    metaDescription: 'Notes from the duty desk on Panama Canal transits, booking, port calls, surveys and bunker operations, with the source for every figure.',
     lead: 'What we learn moving ships through Panama, written down. Every figure carries the notice or tariff it comes from, so you can check it before you rely on it.',
     byline: 'Written by the Cross World Agency operations team.',
     empty: 'The first notes are being reviewed and will appear here shortly.',
@@ -23,7 +23,7 @@ const ui = {
   es: {
     title: 'Análisis del puesto de guardia',
     metaTitle: 'Análisis del Canal de Panamá y escalas',
-    metaDescription: 'Notas del puesto de guardia sobre tránsitos del Canal de Panamá, reservas, escalas, inspecciones y bunker, escritas por el capitán Guillermo A. Peña con la fuente de cada cifra.',
+    metaDescription: 'Notas del puesto de guardia sobre tránsitos, reservas, escalas, inspecciones y bunker en Panamá, con la fuente de cada cifra.',
     lead: 'Lo que aprendemos moviendo buques por Panamá, puesto por escrito. Cada cifra lleva el aviso o el tarifario del que sale, para que pueda comprobarla antes de usarla.',
     byline: 'Escrito por el equipo de operaciones de Cross World Agency.',
     empty: 'Las primeras notas están en revisión y aparecerán aquí en breve.',

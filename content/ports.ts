@@ -26,8 +26,8 @@ export const ports: Port[] = [
     side: {en: 'Pacific side', es: 'Lado Pacífico'},
     sideKey: 'pacific',
     image: '/images/port-cranes.jpg',
-    metaTitle: {en: 'Port of Balboa: ship agency, surveys and bunkering on the Pacific side', es: 'Puerto de Balboa: agencia naviera, inspecciones y bunker en el Pacífico'},
-    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Balboa and the Pacific anchorage of the Panama Canal. Duty officer 24/7.', es: 'Agencia naviera, avituallamiento, inspecciones marítimas y atención de bunker en el Puerto de Balboa y el fondeadero del Pacífico del Canal de Panamá. Oficial de guardia 24/7.'},
+    metaTitle: {en: 'Port of Balboa: ship agency and surveys', es: 'Puerto de Balboa: agencia e inspecciones'},
+    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Balboa and the Pacific anchorage of the Panama Canal. Duty officer 24/7.', es: 'Agencia naviera, avituallamiento, inspecciones y atención de bunker en el Puerto de Balboa y el fondeadero del Pacífico. Oficial de guardia 24/7.'},
     summary: {
       en: 'Balboa is the Pacific gateway of the Panama Canal: container terminal operated by Panama Ports Company, the Pacific anchorage where vessels wait for their transit, and the bunkering area served by barge. Our duty officer boards here and at the anchorage.',
       es: 'Balboa es la puerta del Pacífico del Canal de Panamá: terminal de contenedores operado por Panama Ports Company, el fondeadero del Pacífico donde los buques esperan su tránsito y la zona de bunkering atendida por barcaza. Nuestro oficial de guardia aborda aquí y en el fondeadero.',
@@ -58,8 +58,8 @@ export const ports: Port[] = [
     side: {en: 'Atlantic side', es: 'Lado Atlántico'},
     sideKey: 'atlantic',
     image: '/images/atlantic-terminals.jpg',
-    metaTitle: {en: 'Port of Cristóbal: ship agency, surveys and bunkering on the Atlantic side', es: 'Puerto de Cristóbal: agencia naviera, inspecciones y bunker en el Atlántico'},
-    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Cristóbal, Colón, and the Atlantic anchorage of the Panama Canal.', es: 'Agencia naviera, avituallamiento, inspecciones marítimas y atención de bunker en el Puerto de Cristóbal, Colón, y el fondeadero del Atlántico del Canal de Panamá.'},
+    metaTitle: {en: 'Port of Cristóbal: ship agency and surveys', es: 'Puerto de Cristóbal: agencia e inspecciones'},
+    metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Cristóbal, Colón, and the Atlantic anchorage of the Panama Canal.', es: 'Agencia naviera, avituallamiento, inspecciones y bunker en el Puerto de Cristóbal, Colón, y el fondeadero del Atlántico.'},
     summary: {
       en: 'Cristóbal, in Colón, is the Atlantic gateway of the Canal: the Cristóbal anchorage where northbound arrivals wait, the Panama Ports Company terminal, and, nearby, Manzanillo (MIT), CCT and the Bahía Las Minas hydrocarbon terminals.',
       es: 'Cristóbal, en Colón, es la puerta del Atlántico del Canal: el fondeadero de Cristóbal donde esperan los arribos del norte, el terminal de Panama Ports Company y, cerca, Manzanillo (MIT), CCT y los terminales de hidrocarburos de Bahía Las Minas.',

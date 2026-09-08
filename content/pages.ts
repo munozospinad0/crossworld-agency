@@ -7,8 +7,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
   about: {
     en: {
       title: 'About Cross World Agency',
-      metaTitle: 'About: AMP-licensed ship agency at the Panama Canal since 2010',
-      metaDescription: 'Cross World Agency, founded on 4 March 2010, is an AMP-licensed ship agency authorized by the Panama Canal Authority, led by Captain Guillermo A. Peña, with representation in Venezuela, Brazil, Aruba, Greece, Colombia, Curaçao, the Dominican Republic and Miami.',
+      metaTitle: 'About: AMP-licensed agency since 2010',
+      metaDescription: 'Founded on 4 March 2010, an AMP-licensed ship agency authorized by the Panama Canal Authority and led by Captain Guillermo A. Peña.',
       lead: 'Cross World Agency was founded on 4 March 2010 under a ship agency licence from the Panama Maritime Authority and is authorized by the Panama Canal Authority as a shipping agency. We carry out professional surveys, Panama Canal transits, port calls, audits, marine accident investigation and the representation of the leading P&I clubs through our alliance with Global Pandi Panama.',
       blocks: [
         {h2: 'Timeline', ul: ['2010: AMP ship agency licence and Panama Canal Authority authorization (4 March 2010).', 'ISO 9001, 14001, 45001 and 22000 certifications.', 'SOS Resilience Holding, fuel marketing line.', 'Representation in Venezuela, Brazil, Aruba, Greece, Colombia, Curaçao, the Dominican Republic and Miami.']},
@@ -19,8 +19,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
     },
     es: {
       title: 'Sobre Cross World Agency',
-      metaTitle: 'Nosotros: agencia naviera con licencia AMP en el Canal de Panamá desde 2010',
-      metaDescription: 'Cross World Agency, fundada el 4 de marzo de 2010, es una agencia naviera con licencia de la AMP y autorización de la Autoridad del Canal, dirigida por el capitán Guillermo A. Peña, con representación en Venezuela, Brasil, Aruba, Grecia, Colombia, Curazao, República Dominicana y Miami.',
+      metaTitle: 'Nosotros: agencia naviera desde 2010',
+      metaDescription: 'Fundada el 4 de marzo de 2010, agencia naviera con licencia AMP y autorización de la ACP, dirigida por el capitán Guillermo A. Peña.',
       lead: 'Cross World Agency se fundó el 4 de marzo de 2010 con licencia de agencia naviera de la Autoridad Marítima de Panamá y está autorizada por la Autoridad del Canal de Panamá como agencia naviera. Realizamos inspecciones profesionales, tránsitos por el Canal de Panamá, escalas, auditorías, investigación de accidentes marítimos y representación de los principales clubes de P&I gracias a nuestra alianza con Global Pandi Panama.',
       blocks: [
         {h2: 'Línea de tiempo', ul: ['2010: licencia AMP y autorización de la Autoridad del Canal (4 de marzo de 2010).', 'Certificaciones ISO 9001, 14001, 45001 y 22000.', 'SOS Resilience Holding, línea de comercialización de combustible.', 'Representación en Venezuela, Brasil, Aruba, Grecia, Colombia, Curazao, República Dominicana y Miami.']},
@@ -33,8 +33,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
   certifications: {
     en: {
       title: 'Certifications and licences',
-      metaTitle: 'Certifications: ISO 9001, 14001, 45001, 22000, AMP licence, ACP authorization',
-      metaDescription: 'ISO 9001:2015, 14001:2015, 45001:2018 and 22000:2018 certified management systems, AMP ship agency licence, Panama Canal Authority authorization, IMO company number 5785507.',
+      metaTitle: 'Certifications: ISO, AMP licence, ACP',
+      metaDescription: 'ISO 9001, 14001, 45001 and 22000 certified management systems, AMP ship agency licence, Canal Authority authorization and IMO company number 5785507.',
       lead: 'Every credential below is shown with its scope. Ask the duty officer for a copy of any certificate.',
       blocks: [
         {h2: 'Licences and registrations', ul: ['Ship agency licence, Panama Maritime Authority (AMP).', 'Shipping agency authorization, Panama Canal Authority.', 'IMO company number 5785507.', 'RUC 1675308-1-680680 DV 34, Cross World Agency.']},
@@ -47,8 +47,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
     },
     es: {
       title: 'Certificaciones y licencias',
-      metaTitle: 'Certificaciones: ISO 9001, 14001, 45001, 22000, licencia AMP, autorización ACP',
-      metaDescription: 'Sistemas de gestión certificados ISO 9001:2015, 14001:2015, 45001:2018 y 22000:2018, licencia de agencia naviera de la AMP, autorización de la Autoridad del Canal, IMO company number 5785507.',
+      metaTitle: 'Certificaciones: ISO, licencia AMP, ACP',
+      metaDescription: 'Sistemas certificados ISO 9001, 14001, 45001 y 22000, licencia de agencia naviera de la AMP, autorización de la ACP e IMO company number 5785507.',
       lead: 'Cada credencial se muestra con su alcance. Pida al oficial de guardia copia de cualquier certificado.',
       blocks: [
         {h2: 'Licencias y registros', ul: ['Licencia de agencia naviera, Autoridad Marítima de Panamá (AMP).', 'Autorización como agencia naviera, Autoridad del Canal de Panamá.', 'IMO company number 5785507.', 'RUC 1675308-1-680680 DV 34, Cross World Agency.']},
@@ -63,8 +63,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
   compliance: {
     en: {
       title: 'Compliance, sanctions and KYC',
-      metaTitle: 'Compliance: sanctions screening, KYC/AML, anti-bribery, KYC pack',
-      metaDescription: 'How Cross World Agency screens vessels and counterparties against OFAC, EU, UK and UN sanctions, handles KYC and AML, prohibits facilitation payments, and what the KYC pack for supplier onboarding contains.',
+      metaTitle: 'Compliance: sanctions, KYC and AML',
+      metaDescription: 'How we screen vessels and counterparties against OFAC, EU, UK and UN sanctions, handle KYC and AML, and what the KYC pack contains.',
       lead: 'Shipowners, managers, traders and clubs need to onboard us before they can nominate us. This page states our policies and lists the documents in our KYC pack.',
       blocks: [
         {h2: 'Sanctions screening', p: ['We screen every vessel, owner, manager, charterer and counterparty against the OFAC, EU, UK and UN sanctions lists before accepting a nomination and again before funds are called. We do not do business with sanctioned parties or with vessels engaged in sanctioned trades.']},
@@ -77,8 +77,8 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
     },
     es: {
       title: 'Cumplimiento, sanciones y KYC',
-      metaTitle: 'Cumplimiento: sanciones, KYC/AML, antisoborno, KYC pack',
-      metaDescription: 'Cómo Cross World Agency verifica buques y contrapartes contra las listas de sanciones de OFAC, UE, Reino Unido y ONU, maneja KYC y AML, prohíbe pagos de facilitación y qué contiene el KYC pack para alta de proveedor.',
+      metaTitle: 'Cumplimiento: sanciones, KYC y AML',
+      metaDescription: 'Cómo verificamos buques y contrapartes contra las sanciones de OFAC, UE, Reino Unido y ONU, cómo manejamos KYC y AML, y qué contiene el KYC pack.',
       lead: 'Armadores, gestores, traders y clubes necesitan darnos de alta como proveedor antes de poder nominarnos. Esta página declara nuestras políticas y lista los documentos del KYC pack.',
       blocks: [
         {h2: 'Verificación de sanciones', p: ['Verificamos cada buque, armador, gestor, fletador y contraparte contra las listas de sanciones de OFAC, UE, Reino Unido y ONU antes de aceptar una nominación y de nuevo antes de llamar los fondos. No hacemos negocios con partes sancionadas ni con buques en comercios sancionados.']},
@@ -93,15 +93,15 @@ export const pages: Record<'about' | 'certifications' | 'compliance' | 'contact'
   contact: {
     en: {
       title: 'Contact the duty officer',
-      metaTitle: 'Contact: duty officer 24/7 at Balboa and Cristóbal',
-      metaDescription: 'Cross World Agency, Atrium Tower, Obarrio, Panama City. Operations 24/7 +507 6266-4242, office +507 383-0128. Duty officers on the Pacific and Atlantic side of the Panama Canal.',
+      metaTitle: 'Contact: duty officer 24/7 in Panama',
+      metaDescription: 'Atrium Tower, Obarrio, Panama City. Operations 24/7 on +507 6266-4242 and office on +507 383-0128, for Balboa and Cristóbal.',
       lead: 'The duty officer answers 24/7. For a transit or port call, use the request form so we can issue an itemized PDA.',
       blocks: [],
     },
     es: {
       title: 'Contacte al oficial de guardia',
-      metaTitle: 'Contacto: oficial de guardia 24/7 en Balboa y Cristóbal',
-      metaDescription: 'Cross World Agency, Atrium Tower, Obarrio, Ciudad de Panamá. Operaciones 24/7 +507 6266-4242, oficina +507 383-0128. Oficiales de guardia en el Pacífico y el Atlántico del Canal de Panamá.',
+      metaTitle: 'Contacto: oficial de guardia 24/7',
+      metaDescription: 'Atrium Tower, Obarrio, Ciudad de Panamá. Operaciones 24/7 al +507 6266-4242 y oficina al +507 383-0128, para Balboa y Cristóbal.',
       lead: 'El oficial de guardia responde 24/7. Para un tránsito o una escala, use el formulario de solicitud para que emitamos una PDA detallada.',
       blocks: [],
     },

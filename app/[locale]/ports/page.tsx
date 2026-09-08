@@ -7,8 +7,8 @@ import {ports} from '@/content/ports';
 import {pageMetadata} from '@/lib/seo';
 
 const copy = {
-  en: {title: 'Ports we serve at the Panama Canal', sub: 'Balboa on the Pacific side and Cristóbal on the Atlantic side, with the terminals around them. Send the terminal and the ETA and the duty officer confirms attendance.', others: 'Terminals around them', metaTitle: 'Ports: Balboa, Cristóbal and the terminals we serve', metaDesc: 'Ship agency, surveys and bunker attendance at Balboa (Pacific) and Cristóbal (Atlantic), and the terminals around them.'},
-  es: {title: 'Puertos que atendemos en el Canal de Panamá', sub: 'Balboa en el Pacífico y Cristóbal en el Atlántico, con los terminales a su alrededor. Envíe el terminal y la ETA y el oficial de guardia confirma la atención.', others: 'Terminales alrededor', metaTitle: 'Puertos: Balboa, Cristóbal y los terminales que atendemos', metaDesc: 'Agencia naviera, inspecciones y atención de bunker en Balboa (Pacífico) y Cristóbal (Atlántico), y los terminales a su alrededor.'},
+  en: {title: 'Ports we serve at the Panama Canal', sub: 'Balboa on the Pacific side and Cristóbal on the Atlantic side, with the terminals around them. Send the terminal and the ETA and the duty officer confirms attendance.', others: 'Terminals around them', metaTitle: 'Ports we serve at the Panama Canal', metaDesc: 'Ship agency, surveys and bunker attendance at Balboa (Pacific) and Cristóbal (Atlantic), and the terminals around them.'},
+  es: {title: 'Puertos que atendemos en el Canal de Panamá', sub: 'Balboa en el Pacífico y Cristóbal en el Atlántico, con los terminales a su alrededor. Envíe el terminal y la ETA y el oficial de guardia confirma la atención.', others: 'Terminales alrededor', metaTitle: 'Puertos que atendemos en el Canal', metaDesc: 'Agencia naviera, inspecciones y atención de bunker en Balboa (Pacífico) y Cristóbal (Atlántico), y los terminales a su alrededor.'},
 };
 const others = ['Manzanillo (MIT)', 'CCT', 'Bahía Las Minas', 'PSA Panama (Rodman)'];
 

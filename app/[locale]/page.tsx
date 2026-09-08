@@ -20,7 +20,7 @@ export async function generateMetadata({params}: {params: Promise<{locale: strin
   const t = await getTranslations({locale, namespace: 'Home'});
   return pageMetadata({
     locale: locale as Locale,
-    title: locale === 'es' ? 'Agencia naviera, marine surveyors y tránsito del Canal de Panamá' : 'Shipping agency, marine surveyors and Panama Canal transit agency',
+    title: locale === 'es' ? 'Agencia naviera y marine surveyors, Canal de Panamá' : 'Panama Canal ship agency and marine surveyors',
     description: t('metaDescription'),
     href: '/',
     image: '/images/canal-transit.jpg',

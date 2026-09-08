@@ -50,8 +50,8 @@ export const services: Service[] = [
     title: {en: 'Marine surveys', es: 'Inspecciones marítimas'},
     oneLiner: {en: 'Professional surveys, reported in the format underwriters and P&I clubs expect.', es: 'Inspecciones profesionales, en el formato que esperan aseguradores y clubes P&I.'},
     h1: {en: 'Marine surveys and inspections in Panama', es: 'Inspecciones marítimas en Panamá'},
-    metaTitle: {en: 'Marine Surveys in Panama: Draft & Condition', es: 'Inspecciones marítimas en Panamá'},
-    metaDescription: {en: 'Marine surveys at both ends of the Panama Canal, to quality standards and international rules, endorsed by the P&I Club: draft, petroleum, condition, pre-purchase, hatch cover and ISM audits.', es: 'Inspecciones marítimas en ambos lados del Canal de Panamá bajo estándares de calidad y normas internacionales, con el aval del P&I Club: calados, petróleo, condición, precompra, escotillas y auditorías ISM.'},
+    metaTitle: {en: 'Marine Surveys in Panama: Draft, Condition', es: 'Inspecciones marítimas en Panamá'},
+    metaDescription: {en: 'Marine surveys at both ends of the Panama Canal, endorsed by the P&I Club: draft, petroleum, condition, pre-purchase, hatch cover and ISM audits.', es: 'Inspecciones marítimas en ambos lados del Canal de Panamá con aval del P&I Club: calados, petróleo, condición, precompra, escotillas y auditorías ISM.'},
     summary: {
       en: ['Marine surveys carried out to quality standards and in accordance with the applicable international rules, endorsed by the P&I Club.'],
       es: ['Inspecciones marítimas bajo estándares de calidad y acorde a las normas internacionales respectivas, con el aval del P&I Club.'],
@@ -71,7 +71,7 @@ export const services: Service[] = [
     oneLiner: {en: 'Sample logistics, custody and dispatch to specialised laboratories.', es: 'Logística de toma de muestras, custodia y envío a laboratorios especializados.'},
     h1: {en: 'Tank gauging and sampling, bunker operations, sample logistics and laboratories', es: 'Medición y muestreo de tanques y operaciones de bunkers, logística de toma de muestra y laboratorios'},
     metaTitle: {en: 'Tank Gauging & Bunker Surveys in Panama', es: 'Medición de tanques y bunker en Panamá'},
-    metaDescription: {en: 'Tank gauging and sampling, bunkering supervision and logistics for the collection, custody and dispatch of samples to specialised laboratories at Balboa and Cristóbal, with traceability throughout.', es: 'Medición y muestreo de tanques, supervisión de operaciones de bunkering y logística de toma, custodia y envío de muestras a laboratorios especializados en Balboa y Cristóbal, con trazabilidad en todo el proceso.'},
+    metaDescription: {en: 'Tank gauging and sampling, bunkering supervision and sample custody and dispatch to specialised laboratories at Balboa and Cristóbal.', es: 'Medición y muestreo de tanques, supervisión de bunkering y custodia y envío de muestras a laboratorios especializados en Balboa y Cristóbal.'},
     summary: {
       en: ['We carry out tank gauging and sampling, supervise bunkering operations and coordinate the logistics for the collection, custody and dispatch of samples to specialised laboratories, ensuring traceability and reliability throughout the process.'],
       es: ['Realizamos medición y muestreo de tanques, supervisión de operaciones de bunkering y coordinación logística para la toma, custodia y envío de muestras a laboratorios especializados, garantizando trazabilidad y confiabilidad durante todo el proceso.'],
@@ -103,7 +103,7 @@ export const services: Service[] = [
     oneLiner: {en: 'STS and terminal operations planned, attended and documented.', es: 'Operaciones ship-to-ship y de terminal planificadas, atendidas y documentadas.'},
     h1: {en: 'Ship-to-ship transfers and offshore support in Panama', es: 'Transferencias ship-to-ship y soporte offshore en Panamá'},
     metaTitle: {en: 'Ship-to-Ship Transfers & Offshore, Panama', es: 'Transferencias ship-to-ship en Panamá'},
-    metaDescription: {en: 'STS operations at Panama anchorages and terminals: permits, mooring master coordination, surveys before and after transfer, offshore platform and oil terminal support.', es: 'Operaciones STS en fondeaderos y terminales de Panamá: permisos, coordinación de mooring master, inspecciones antes y después de la transferencia, soporte a plataformas y terminales petroleros.'},
+    metaDescription: {en: 'STS operations at Panama anchorages and terminals: permits, mooring master coordination and surveys before and after transfer.', es: 'Operaciones STS en fondeaderos y terminales de Panamá: permisos, coordinación de mooring master e inspecciones antes y después de la transferencia.'},
     summary: {
       en: ['STS operations at Panama anchorages and terminals, planned, attended and documented: permits with the Authority, mooring master and equipment coordination, surveys before and after transfer, and the agency work around it.'],
       es: ['Operaciones STS en fondeaderos y terminales de Panamá, planificadas, atendidas y documentadas: permisos ante la Autoridad, coordinación de mooring master y equipos, inspecciones antes y después de la transferencia, y el trabajo de agencia alrededor.'],
@@ -120,7 +120,7 @@ export const services: Service[] = [
     oneLiner: {en: 'Technical investigation of marine accidents and incidents: causes, damage and specialised reports.', es: 'Investigación técnica de accidentes e incidentes marítimos: causas, daños y reportes especializados.'},
     h1: {en: 'Marine accident investigation', es: 'Investigación de accidentes marítimos'},
     metaTitle: {en: 'Marine Accident Investigation in Panama', es: 'Investigación de accidentes marítimos'},
-    metaDescription: {en: 'Technical investigation of marine accidents and incidents in Panama: on-site inspection, evidence collection, technical analysis and specialised reports for shipowners, insurers and other parties involved.', es: 'Investigación técnica de accidentes e incidentes marítimos en Panamá: inspección en sitio, recopilación de evidencias, análisis técnico y reportes especializados para armadores, aseguradoras y otras partes involucradas.'},
+    metaDescription: {en: 'Technical investigation of marine accidents in Panama: on-site inspection, evidence collection, analysis and reports for owners and insurers.', es: 'Investigación técnica de accidentes marítimos en Panamá: inspección en sitio, evidencias, análisis y reportes para armadores y aseguradoras.'},
     summary: {
       en: ['We conduct technical investigations of marine accidents and incidents to determine their causes, assess damage, identify operational factors and document the facts objectively. Our service includes on-site inspection, evidence collection, technical analysis and the preparation of specialised reports for shipowners, insurers and other parties involved.'],
       es: ['Realizamos investigaciones técnicas de accidentes e incidentes marítimos para determinar sus causas, evaluar daños, identificar factores operativos y documentar los hechos de manera objetiva. Nuestro servicio incluye inspección en sitio, recopilación de evidencias, análisis técnico y elaboración de reportes especializados para armadores, aseguradoras y otras partes involucradas.'],
@@ -136,7 +136,7 @@ export const services: Service[] = [
     oneLiner: {en: 'ISM and ISPS preparation, vetting inspections and maritime projects.', es: 'Preparación ISM, ISPS, Vetting Inspections y proyectos marítimos.'},
     h1: {en: 'Consulting and audits', es: 'Consultoría y auditorías'},
     metaTitle: {en: 'Maritime Audits in Panama: ISM, ISPS, Vetting', es: 'Auditorías marítimas: ISM, ISPS, Vetting'},
-    metaDescription: {en: 'Advice and technical preparation for ISM and ISPS audits and vetting inspections, plus support for maritime projects: planning, technical support and follow-up.', es: 'Asesoría y preparación técnica para auditorías ISM, ISPS y Vetting Inspections, y acompañamiento de proyectos marítimos: planificación, soporte técnico y seguimiento.'},
+    metaDescription: {en: 'Technical preparation for ISM and ISPS audits and vetting inspections, plus planning and follow-up for maritime projects in Panama.', es: 'Preparación técnica para auditorías ISM, ISPS y vetting, y planificación y seguimiento de proyectos marítimos en Panamá.'},
     summary: {
       en: [
         'We provide advice and technical preparation for ISM and ISPS audits and vetting inspections, supporting shipowners and operators in reviewing procedures and documentation, meeting requirements and preparing the vessel before each inspection.',

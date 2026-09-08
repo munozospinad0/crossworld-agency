@@ -18,8 +18,8 @@ export type Guide = {
 export const guide: Record<Locale, Guide> = {
   en: {
     title: 'Panama Canal transit cost, tolls and booking: the guide for shipowners and operators',
-    metaTitle: 'Panama Canal transit cost, tolls and booking (2026 guide)',
-    metaDescription: 'What a Panama Canal transit really costs: toll by segment, fixed tariff, reservation fee or auction, ancillary charges and agency fee. Booking periods, EDCS pre-arrival, PCSOPEP, draft limits and what a PDA includes. Sources: Panama Canal Authority.',
+    metaTitle: 'Panama Canal transit cost and tolls',
+    metaDescription: 'What a Panama Canal transit costs: tolls, fixed tariff, booking fee, ancillary charges and agency fee, with the Canal Authority as the source.',
     tldr: [
       'A transit is priced in three layers: the toll (by vessel segment and size), the fixed and ancillary charges (fixed tariff, security, inspection, pilotage, tugs, linehandlers) and the scheduling layer (reservation fee, or an auction premium for last-minute slots).',
       'Booking periods and fees are set by the Panama Canal Authority\'s OP Notice to Shipping in force (N-7-2026 at the time of writing). Funds are required 48 hours before transit.',
@@ -83,8 +83,8 @@ export const guide: Record<Locale, Guide> = {
   },
   es: {
     title: 'Costo de tránsito, peajes y reserva en el Canal de Panamá: la guía para armadores y operadores',
-    metaTitle: 'Costo de tránsito, peajes y reserva del Canal de Panamá (guía 2026)',
-    metaDescription: 'Cuánto cuesta realmente un tránsito por el Canal de Panamá: peaje por segmento, tarifa fija, tasa de reserva o subasta, cargos auxiliares y honorario de agencia. Periodos de reserva, prearribo EDCS, PCSOPEP, límites de calado y qué incluye una PDA. Fuente: Autoridad del Canal de Panamá.',
+    metaTitle: 'Costo de tránsito y peajes del Canal',
+    metaDescription: 'Cuánto cuesta un tránsito por el Canal de Panamá: peajes, tarifa fija, tasa de reserva, cargos auxiliares y honorario de agencia, con fuente de la ACP.',
     tldr: [
       'Un tránsito se cobra en tres capas: el peaje (por segmento y tamaño del buque), los cargos fijos y auxiliares (tarifa fija, seguridad, inspección, practicaje, remolcadores, pasacables) y la capa de programación (tasa de reserva, o prima de subasta para slots de último momento).',
       'Los periodos de reserva y las tasas los fija el OP Notice to Shipping vigente de la Autoridad del Canal (N-7-2026 al momento de escribir). Los fondos se exigen 48 horas antes del tránsito.',

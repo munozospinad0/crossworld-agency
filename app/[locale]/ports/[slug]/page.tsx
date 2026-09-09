@@ -11,8 +11,8 @@ import {breadcrumbJsonLd} from '@/lib/schema';
 import {ButtonLink} from '@/components/ui/Button';
 
 const ui = {
-  en: {ports: 'Ports', what: 'What we do here', particulars: 'Particulars', attendance: 'Attendance', faq: 'Frequently asked questions', reviewed: 'Port data reviewed'},
-  es: {ports: 'Puertos', what: 'Qué hacemos aquí', particulars: 'Particularidades', attendance: 'Atención', faq: 'Preguntas frecuentes', reviewed: 'Datos de puerto revisados'},
+  en: {ports: 'Ports', context: 'The port and what surrounds it', what: 'What we do here', particulars: 'Particulars', attendance: 'Attendance', faq: 'Frequently asked questions', reviewed: 'Port data reviewed'},
+  es: {ports: 'Puertos', context: 'El puerto y lo que lo rodea', what: 'Qué hacemos aquí', particulars: 'Particularidades', attendance: 'Atención', faq: 'Preguntas frecuentes', reviewed: 'Datos de puerto revisados'},
 };
 
 export function generateStaticParams() {
@@ -67,6 +67,12 @@ export default async function PortPage({params}: {params: Promise<{locale: strin
       <section className="py-[clamp(48px,6vw,88px)]">
         <div className="wrap grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]">
           <div className="grid gap-10">
+            {/* Contexto del puerto antes de lo que hacemos ahí: quien busca «puerto de Balboa»
+                quiere entender el puerto, no leer un catálogo de servicios. */}
+            <div className="max-w-[70ch]">
+              <h2 className="t-h2">{t.context}</h2>
+              {p.context[locale].map((x) => <p key={x} className="mt-4">{x}</p>)}
+            </div>
             <div>
               <h2 className="t-h2">{t.what}</h2>
               <ul className="mt-4 grid list-disc gap-2 pl-5">{p.whatWeDo[locale].map((x) => <li key={x}>{x}</li>)}</ul>

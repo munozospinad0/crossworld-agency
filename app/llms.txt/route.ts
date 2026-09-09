@@ -1,5 +1,6 @@
 import {services} from '@/content/services';
 import {ports} from '@/content/ports';
+import {articlesByDate} from '@/content/articles';
 import {site} from '@/content/site';
 import {getPathname} from '@/i18n/navigation';
 import type {Locale} from '@/i18n/routing';
@@ -61,6 +62,12 @@ export async function GET() {
     section('Ports', ports.map((p) =>
       `- [${p.name.en} (${p.side.en})](${en({pathname: '/ports/[slug]', params: {slug: p.slug.en}})}): ${p.summary.en.split('. ')[0]}. · ES: ${es({pathname: '/ports/[slug]', params: {slug: p.slug.es}})}`,
     )),
+    section('Insights (analysis written by the operations team, every figure sourced)', [
+      ...articlesByDate().map((a) =>
+        `- [${a.title.en}](${en({pathname: '/insights/[slug]', params: {slug: a.slug.en}})}): ${a.standfirst.en} Sources: ${a.sources.map((s) => s.label.en).join(' ')} · ES: ${es({pathname: '/insights/[slug]', params: {slug: a.slug.es}})}`,
+      ),
+      `- [Full text of every article in one file](${site.url}/llms-full.txt): plain text, both languages, for quoting.`,
+    ]),
     section('Requesting a port call', [
       `- [Request a port call](${en('/request-port-call')}): vessel particulars, ETA, ports and services; the request opens a WhatsApp message to the duty officer.`,
       `- [Compare your last Panama FDA](${en('/compare-your-fda')}): send a final disbursement account and a captain reviews it line by line.`,

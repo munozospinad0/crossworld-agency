@@ -4,10 +4,10 @@ import {notFound} from 'next/navigation';
 import {setRequestLocale} from 'next-intl/server';
 import {Link, getPathname} from '@/i18n/navigation';
 import {routing, type Locale} from '@/i18n/routing';
-import {articles, articleBySlug, articlesByDate} from '@/content/articles';
+import {articles, articleBySlug, articlesByDate, articleWordCount} from '@/content/articles';
 import {site} from '@/content/site';
 import {pageMetadata} from '@/lib/seo';
-import {breadcrumbJsonLd} from '@/lib/schema';
+import {breadcrumbJsonLd, WD} from '@/lib/schema';
 import {ButtonLink} from '@/components/ui/Button';
 import {ArticleBody} from '@/components/insights/ArticleBody';
 
@@ -92,6 +92,17 @@ export default async function InsightPage({params}: {params: Promise<{locale: st
     publisher: {'@id': `${site.url}/#org`},
     isPartOf: {'@type': 'Blog', name: `${site.name} — ${t.insights}`, url: `${site.url}${getPathname({locale, href: '/insights'})}`},
     citation: a.sources.filter((s) => s.url).map((s) => s.url),
+    // Señales para buscadores generativos: de qué trata exactamente, a qué entidades conocidas
+    // se refiere, cuánto contenido hay y que se puede leer y citar sin muro de pago.
+    about: {'@type': 'Thing', name: 'Panama Canal', sameAs: WD.panamaCanal},
+    mentions: [
+      {'@type': 'Organization', name: 'Panama Canal Authority', sameAs: WD.canalAuthority},
+      {'@type': 'Organization', name: 'Panama Maritime Authority', sameAs: WD.maritimeAuthority},
+    ],
+    articleSection: a.topic[locale],
+    wordCount: articleWordCount(a, locale),
+    isAccessibleForFree: true,
+    license: `${site.url}/llms.txt`,
   };
 
   return (

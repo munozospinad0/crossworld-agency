@@ -85,3 +85,28 @@ export const articleBySlug = (locale: Locale, slug: string) =>
 /** Más recientes primero: el orden del índice y del feed. */
 export const articlesByDate = () =>
   [...articles].sort((a, b) => (a.published < b.published ? 1 : -1));
+
+/** Texto plano de un artículo, en un idioma. Se usa para contar palabras y para /llms-full.txt. */
+export function articleText(a: Article, locale: Locale): string {
+  const out: string[] = [a.title[locale], a.standfirst[locale]];
+  for (const b of a.body) {
+    switch (b.t) {
+      case 'h2': case 'h3': out.push('\n## ' + b.text[locale]); break;
+      case 'p': out.push(b.text[locale]); break;
+      case 'note': out.push(b.text[locale]); break;
+      case 'quote': out.push(b.text[locale]); break;
+      case 'ul': case 'ol': out.push(b.items[locale].map((x) => '- ' + x).join('\n')); break;
+      case 'answer': out.push(`${b.q[locale]}\n${b.a[locale]}`); break;
+      case 'table': {
+        out.push(b.caption[locale]);
+        out.push(b.head[locale].join(' | '));
+        out.push(b.rows[locale].map((r) => r.join(' | ')).join('\n'));
+        break;
+      }
+    }
+  }
+  return out.join('\n\n');
+}
+
+export const articleWordCount = (a: Article, locale: Locale) =>
+  articleText(a, locale).split(/\s+/).filter(Boolean).length;

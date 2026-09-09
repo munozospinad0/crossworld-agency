@@ -1,5 +1,6 @@
 import type {Locale} from '@/i18n/routing';
 import {panamaCanalBooking} from '@/content/insights/panama-canal-booking';
+import {authorizedShippingAgent} from '@/content/insights/authorized-shipping-agent';
 
 /**
  * Análisis firmados por el capitán. El sitio no tiene CRM ni correo conectados: el orgánico es
@@ -65,13 +66,18 @@ export type ArticleHref =
   | '/panama-canal-transit-guide'
   | '/ports'
   | '/services'
+  | '/insights'
   | '/compare-your-fda'
   | '/request-port-call'
+  | '/compliance'
+  | '/certifications'
+  | '/about'
   | {pathname: '/services/[slug]'; params: {slug: string}}
-  | {pathname: '/ports/[slug]'; params: {slug: string}};
+  | {pathname: '/ports/[slug]'; params: {slug: string}}
+  | {pathname: '/insights/[slug]'; params: {slug: string}};
 
 // Los artículos viven uno por archivo en `content/insights/` y se registran aquí.
-export const articles: Article[] = [panamaCanalBooking];
+export const articles: Article[] = [panamaCanalBooking, authorizedShippingAgent];
 
 export const articleBySlug = (locale: Locale, slug: string) =>
   articles.find((a) => a.slug[locale] === slug);

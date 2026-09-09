@@ -98,25 +98,25 @@
           "t": "T-96 H",
           "value": "96",
           "unit": "h",
-          "label": "Pre-arrival package through the ACP electronic system (EDCS) at least 96 hours before arrival."
+          "label": "ETA notification to the ACP at least 96 hours before arrival, with the vessel particulars and certificates required for the call."
         },
         {
-          "t": "T-72 H",
-          "value": "72",
-          "unit": "h",
-          "label": "We call funds 72 hours ahead to leave margin for bank delays."
+          "t": "T-15 D",
+          "value": "15",
+          "unit": "d",
+          "label": "Cancelling a long-term slot 15 days or more before required arrival costs 80% of the awarded bid; later, 100% (Advisory A-34-2025)."
         },
         {
-          "t": "T-48 H",
-          "value": "48",
-          "unit": "h",
-          "label": "The ACP requires payment 48 hours before transit."
+          "t": "T-2 D",
+          "value": "2",
+          "unit": "d",
+          "label": "The third and last booking period closes at 15:00, two days before the transit date."
         },
         {
-          "t": "REQ",
-          "value": "400",
-          "unit": "t",
-          "label": "Vessels carrying 400 tonnes or more of oil need a PCSOPEP with a Panama-resident authorized person. No plan, no transit."
+          "t": "PCSOPEP",
+          "value": "660",
+          "unit": "USD",
+          "label": "The oil pollution emergency plan is charged per transit by tier of oil-carrying capacity, from USD 660 in tier 1 to USD 2,000 in tier 4 (Advisory A-58-2023)."
         },
         {
           "t": "T-0",
@@ -314,7 +314,7 @@
       "On submit, WhatsApp opens with every particular already written: you just press send.",
       "The duty officer receives the request in the chat and checks the particulars.",
       "You receive the PDA ahead of the funds call.",
-      "Funds are called ahead of transit; the ACP requires them 48 hours before."
+      "Funds are called ahead of the transit, with margin for bank delays."
     ],
     "attachmentsNote": "Attachments (charter party instructions, certificates): send them in the same WhatsApp chat, alongside the message.",
     "bankNote": "Bank details are issued only on the PDA and confirmed by phone with your duty officer. We never change bank details by email.",

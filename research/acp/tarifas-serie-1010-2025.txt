@@ -1,0 +1,331 @@
+Official Tariff: Item 1010.0000 - Tolls
+Tolls for Vesssels using the Panama Canal:
+Merchant vessel, yachts hospital ships, supply vessel and military transports, per PC/UMS net ton, TEU, deadweight ton, timber deadweight ton, displacement
+ton, cubic meter, length or any other unit of measurement determined in accordance with Panama Canal vessel admeasurement rules:
+The toll structure is based on at least two components:
+• Fixed rate according to vessel size category and lock used.
+• A panamax vessel, either regular or super, that arrives with a draft above 39.5 feet or due to a given condition or deficiency must transit through the
+   neopanamax locks, will be considered a neopanamax vessel for toll assessment purposes.
+• Rate per vessel capacity according to the established charging unit.
+•    Additional rates apply per TEU transported on deck, for non-container vessels.
+•    For container vessels, rates apply for loaded TEUs and empty TEUs transported in each transit.
+•    The Intra Maritime Cluster maintains a special structure for its categories.
+Vessel size categories included in the structure:
+• Regular Vessel: Vessel with a beam less than 91 feet (27.74 meters).
+• Super Vessel: Vessel with a beam equal to or greater than 91 feet (27.74 meters).
+• Neopanamax Vessel: Vessel with a beam greater than 107 feet (32.61 meters) and/or length greater than 966 feet (294.44 meters). For toll collection
+    purposes, those vessels transiting with a tropical freshwater draft of 39'09" (12.12 meters) or greater, as well as vessels that due to some condition or
+    deficiency require transit through the neopanamax locks, will be considered neopanamax vessels.
+Tolls for vessels making a partial transit and return:
+Vessels transiting the locks at either end of the Panama Canal and returning to the original point of entry without passing through the locks at the other end of
+the Canal, completing 6 chambers maximum, will pay the tolls prescribed for a full transit through the Canal. Exceptions where the itinerary exceeds 6 chambers,
+an additional toll charge will be applied.
+
+
+    Glossary for symbols in the Official Tariff:
+    AR = Additional Tariff                       MR+ = Modified Tariff (increase)                       MW = Modified Wording
+          Maritime Tariffs – Item 1010 - Tolls                                                                        1 January 2025
+Fixed Tariff Component per Transit
+Applicable to each transit according to vessel size category and the locks utilized
+                                                                                                                                  Tariff per
+   Item           Symbol                  Effective                                 Description
+                                                                                                                                   Transit
+1010.FR01               AR              1-Jan-2023    Regular Vessel - Category "Others" with PC/UMS < 7,500                       $15,000
+
+                                                      Regular Vessel – Passengers (new for 2024), General Cargo and Reefers
+1010.FR02             MW                1-Jan-2024                                                                                 $25,000
+                                                      with PC/UMS < 10,000
+                                                      Regular Vessel - Container; Vehicle Carrier/RoRo; Tanker; Chemical
+                                                      Carrier; LPG; LNG; Dry Bulk; Passengers (new for 2024) Category
+1010.FR03             MW                1-Jan-2024                                                                                 $60,000
+                                                      "Others" with PC/UMS > 7,500; General Cargo and Reefer with PC/UMS >
+                                                      10,000;
+                                                      Super Vessel - Container; Vehicle Carrier/RoRo; Tanker; Chemical Carrier;
+1010.FS01             MW                1-Jan-2024    LPG; LNG; Dry Bulk; Passengers (new for 2024); General Cargo and            $100,000
+                                                      Reefers; "Others"
+1010.FN01               AR              1-Jan-2023    Neopanamax Vessel - Container vessel with TTA < 10,000 TEU                  $200,000
+
+                                                      Neopanamax Vessel - Container vessel with TTA > 10,000 TEU; Vehicle
+1010.FN02             MW                1-Jan-2024    Carrier/RoRo; Tanker; Chemical Carrier; LPG; LNG; Dry Bulk; Passengers      $300,000
+                                                      (new for 2024); Reefer; General Cargo and "Others"
+       Maritime Tariffs – Item 1010 - Tolls                                                            1 January 2025
+ Capacity Tariff Component
+ Applicable to each transit, by type and vessel size according to the established billing unit
+Tankers
+                                                                                                                                                                                                         Tariff per
+     Item               Symbol                 Effective                                                                 Description
+                                                                                                                                                                                                         PC/UMS
+ 1010.TR01                 MR+                1-Jan-2025             Capacity Tonnage (PC/UMS) - Regular Vessel                                                                                              $6.00
+ 1010.TS01                 MR+                1-Jan-2025             Capacity Tonnage (PC/UMS) - Super Vessel                                                                                                $5.25
+1010.TN01                  MR+                1-Jan-2025             Capacity Tonnage (PC/UMS) – Neopanamax Vessel                                                                                           $3.25
+
+Chemical Carriers
+                                                                                                                                                                                                         Tariff per
+      Item                Symbol                    Effective                                                             Description
+                                                                                                                                                                                                         PC/UMS
+ 1010.QR01                    MR+               1-Jan-2025             Capacity Tonnage (PC/UMS) - Regular Vessel                                                                                            $5.50
+ 1010.QS01                    MR+               1-Jan-2025             Capacity Tonnage (PC/UMS) - Super Vessel                                                                                              $5.25
+ 1010.QN01                    MR+               1-Jan-2025             Capacity Tonnage (PC/UMS) - Neopanamax Vessel                                                                                         $3.25
+Note: Chemical vessels identified as "Chemical Tankers" by their Certificate of Class or any other classification different from "Chemical/Oil Tankers" or "Chemical/Parcel", will be classified as chemical tankers and shall
+pay the tolls established for chemical tankers. Vessels identified as "Chemical/Oil Tanker or "Chemical/Parcel" by their Certificate of Class, or "Chemical/Parcel" shall be asked to submit the "Certificate of Fitness for
+the Carriage of Dangerous chemical in Bulk", in compliance with the IBC Code, Chapter 2, paragraph 2.1.2 to be classified in the following manner:
+(1) Vessels with the Type 1 classifications or any other combination that contains Type 1 in their "Certificate of Fitness for the Carriage of Dangerous chemical in Bulk", will be deemed chemical tankers and shall pay
+the tolls established for chemical tankers.
+(2) Vessels classified as Type 2 , Type 3 or both in their "Certificate of Fitness for the Carriage of Dangerous chemical in Bulk", shall pay the tolls established for product tankers.
+
+             Maritime Tariffs – Item 1010 - Tolls                                                                                                            1 January 2025
+Capacity Tariff Component
+Applicable to each transit, by type and vessel size according to the established billing unit
+
+LPG Carriers
+                                                                                                                       Tariff por
+  Item           Symbol                 Effective                                    Description
+                                                                                                                          m3
+1010.LR01           MR+                1-Jan-2025        Capacity Tonnage (m3) – Regular Vessel                          $3.50
+1010.LS01           MR+                1-Jan-2025        Capacity Tonnage (m3) – Super Vessel                            $3.85
+1010.LN01           MR+                1-Jan-2025        Capacity Tonnage (m3) – Neopanamax Vessel                       $2.75
+
+LNG Carriers
+                                                                                                                       Tariff per
+  Item             Symbol                    Effective                                Descriptive
+                                                                                                                          m3
+1010.NR01              MR+               1-Jan-2025       Capacity Tonnage (m3) – Regular Vessel                         $3.50
+1010.NS01              MR+               1-Jan-2025       Capacity Tonnage (m3) – Super Vessel                           $3.85
+1010.NN01              MR+               1-Jan-2025       Capacity Tonnage (m3) – Neopanamax Vessel                      $2.05
+
+
+      Maritime Tariffs – Item 1010 - Tolls                                                            1 January 2025
+Capacity Tariff Component
+Applicable to each transit, by type and vessel size according to the established billing unit
+Dry Bulk
+                                                                                                                                                    Tariff per
+  Item             Symbol                    Effective                                        Description                                            DWT or
+                                                                                                                                                     TDWT
+1010.DR01              MR+               1-Jan-2025       Deadweight Tonnage (DWT) or Timber DWT (TDWT), whichever is aplicable – Regular Vessel      $1.65
+1010.DS01              MR+               1-Jan-2025       Deadweight Tonnage (DWT) or Timber DWT (TDWT), whichever is aplicable - Super Vessel        $1.50
+1010.DN01              MR+               1-Jan-2025       Deadweight Tonnage (DWT) or Timber DWT (TDWT), whichever is aplicable Neopanamax Vessel     $0.80
+
+Vehicle Carriers / RoRo
+                                                                                                                                                    Tariff per
+  Item           Symbol                 Effective                                             Description
+                                                                                                                                                    PC/UMS
+1010.VR01           MR+                1-Jan-2025        Capacity Tonnage (PC/UMS) – Regular Vessel                                                   $6.00
+1010.VS01           MR+                1-Jan-2025        Capacity Tonnage (PC/UMS) – Super Vessel                                                     $4.75
+1010.VN01           MR+                1-Jan-2025        Capacity Tonnage (PC/UMS) - Neopanamax                                                       $2.75
+
+
+      Maritime Tariffs – Item 1010 - Tolls                                                                              1 January 2025
+Capacity Tariff Component
+Applicable to each transit, by type and vessel size according to the established billing unit
+General Cargo
+                                                                                                                          Tariff per
+  Item             Symbol                    Effective                               Description
+                                                                                                                          PC/UMS
+1010.GR01             MR+               1-Jan-2025        Capacity Tonnage (PC/UMS) – Regular Vessel < 10,000               $3.50
+1010.GR02             MR+               1-Jan-2025        Capacity Tonnage (PC/UMS) – Regular Vessel > 10,000               $3.25
+1010.GS01             MR+               1-Jan-2025        Capacity Tonnage (PC/UMS) – Super Vessel                          $3.00
+1010.GN01             MR+               1-Jan-2025        Capacity Tonnage (PC/UMS) – Neopanamax Vessel                     $1.50
+
+Reefers
+                                                                                                                          Tariff per
+  Item           Symbol                Effective                                    Description
+                                                                                                                          PC/UMS
+1010.RR01           MR+               1-Jan-2025         Tonelaje de Capacidad (CP/SUAB) - Buque Regular < 10,000           $3.50
+1010.RR02           MR+               1-Jan-2025         Tonelaje de Capacidad (CP/SUAB) - Buque Regular > 10,000           $3.25
+1010.RS01           MR+               1-Jan-2025         Tonelaje de Capacidad (CP/SUAB) - Buque Súper                      $3.00
+1010.RN01           MR+               1-Jan-2025         Tonelaje de Capacidad (CP/SUAB) - Buque Neopanamax                 $1.50
+      Maritime Tariffs – Item 1010 - Tolls                                                               1 January 2025
+Capacity Tariff Component
+Applicable to each transit, by type and vessel size according to the established billing unit
+
+
+Others
+                                                                                                                      Tariff per
+  Item            Symbol                    Effective                              Description
+                                                                                                                      PC/UMS
+1010.OR01             MR+               1-Jan-2025      Capacity Tonnage (PC/UMS) – Regular Vessel < 7,500              $3.00
+1010.OR02             MR+               1-Jan-2025      Capacity Tonnage (PC/UMS) – Regular Vessel > 7,500              $3.25
+1010.OS01             MR+               1-Jan-2025      Capacity Tonnage (PC/UMS) – Super Vessel                        $3.00
+1010.ON01             MR+               1-Jan-2025      Capacity Tonnage (PC/UMS) – Neopanamax Vessel                   $1.50
+
+
+
+
+     Maritime Tariffs – Item 1010 - Tolls                                                            1 January 2025
+Tariff Components of TEU Capacity, TEU Loaded Onboard and TEU Empty
+Applicable to each transit, by type and vessel size according to the established billing unit
+Containers
+                                                                                                                    Tariff per
+  Item           Symbol                Effective                                Description
+                                                                                                                      TEU
+1010.PAR1             AR              1-Jan-2023   TEU Capacity (TTA) - Regular Vessel                               $40.00
+1010.PAS1             AR              1-Jan-2023   TEU Capacity (TTA) - Super Vessel                                 $40.00
+1010.PAN1             AR              1-Jan-2023   TEU Capacity (TTA) - Neopanamax Vessel with TTA < 10,000          $30.00
+1010.PAN2             AR              1-Jan-2023   TEU Capacity (TTA) - Neopanamax with TTA > 10,000                 $30.00
+1010.PLR1           MR+               1-Jan-2025   TEU Loaded Onboard (TTL) – Regular Vessel                         $35.00
+1010.PLS1           MR+               1-Jan-2025   TEU Loaded Onboard (TTL) - Super Vessel                           $35.00
+1010.PLN1           MR+               1-Jan-2025   TEU Loaded Onboard (TTL) - Neopanamax Vessel with TTA < 10,000    $35.00
+1010.PLN2           MR+               1-Jan-2025   TEU Loaded Onboard (TTL) - Neopanamax Vessel with TTA > 10,000    $45.00
+1010.PER1           MR+               1-Jan-2025   TEU Empty (TTE) - Regular Vessel                                   $6.00
+1010.PES1           MR+               1-Jan-2025   TEU Empty (TTE) - Super Vessel                                     $6.00
+1010.PEN1           MR+               1-Jan-2025   TEU Empty (TTE) - Neopanamax Vessel with TTA < 10,000              $6.00
+1010.PEN2           MR+               1-Jan-2025   TEU Empty (TTE) - Neopanamax Vessel with TTA > 10,000              $6.00
+      Maritime Tariffs– Item 1010 - Tolls                                                         1 January 2025
+Other applied concept: Vessels in Ballast
+      Item              Symbol          Effective                                 Description                                          Concept
+
+
+    1010.BA01                AR         1-Jan-2023   Vessels in ballast – (except full-container vessels)                            85% of tolls
+Vessels in Ballast: 85% of laden tolls
+•    The tolls for ships transiting in ballast is established as 85% of the laden tolls, except for container ships, to which this consideration does
+     not apply.
+•    The toll calculation for all vessels in ballast, applying 85% of the respective loaded toll, only applies to the fixed rate and capacity
+     components. The calculation will not apply to rates for refrigerated, dry and empty TEU on deck for vessels that are not container vessels
+     in ballast condition.
+•    The ballast charge applies to LPG carriers carrying up to a maximum of 2 percent (2%) of the total cubic meters (m3) of LPG cargo capacity
+     of the spaces designed and certified for this purpose.
+•    The ballast charge applies to LNG carriers carrying up to a maximum of 10 percent (10%) of the total cubic meters (m3) of LNG cargo
+     capacity of the spaces designed and certified for this purpose.
+•    For the purpose of collecting tolls for vessels in ballast, compliance with the conditions established in Article 25 of the Rules on
+     Admeasurement of vessels for the Assessment of Tolls for the Use of the Panama Canal shall be verified.
+
+
+
+
+         Maritime – Item 1010 - Tolls                                                                     1 January 2025
+Vessel Capacity Tariff
+Applicable to each transit by vessel type and size according to the established billing unit
+
+Passenger vessels
+                                                                                                                   Tariff per
+  Item           Symbol                Effective                              Description
+                                                                                                                   PC/UMS
+1010.CR01           MR+               1-Jan-2025   Capacity tonnage (PC/UMS) – Regular vessel < 10,000               $4.25
+1010.CR02           MR+               1-Jan-2025   Capacity tonnage (PC/UMS) – Regular vessel > 10,000               $5.00
+1010.CS01           MR+               1-Jan-2025   Capacity tonnage (PC/UMS) – Super vessel                          $5.50
+1010.CN01           MR+               1-Jan-2025   Capacity tonnage (PC/UMS) – Neopanamax vessel                     $5.50
+
+
+
+
+      Marítime Tariffs– Item 1010 - Tolls                                                         1 January 2025
+Other Tariffs / Displacement Tariff
+TEU on-deck in vessel types other than container vessel
+    Item                     Symbol                     Effective                     Description                         Tariff per TEU
+  1010.5026                      MR+                    1-Jan-2025     TEU – Refrigerated                                    $120.00
+  1010.5027                      MR+                    1-Jan-2025     TEU – Dry                                             $110.00
+  1010.5028                      MR+                    1-Jan-2025     TEU – Empty                                           $70.00
+
+
+Other floating craft which pay by displacement
+                                                                                                                             Tariff per
+  Item            Symbol                   Effective                           Description
+                                                                                                                         displacement ton
+                                                         Including dredges, floating dry-docks and warships, per
+1010.0900             MR+                  1-Jan-2025                                                                         $5.50
+                                                         ton of maximum displacement
+
+• Vessels with a displacement tonnage of more than 1,000 tons will be assessed tolls based on the rate per
+  displacement ton.
+• The maximum displacement tonnage limit established by the tolls based on its total length (small vessel
+  tolls) is 1,000 displacement tons.
+    Maritime Tariffs – Item 1010 - Tolls                                                                1 January 2025
+Minimum Tolls for Small Vessels
+Small Vessels
+                                                                                                                           Fixed
+  Item            Symbol                     Effective                 Description – Length overall Ranges               Tariff per
+                                                                                                                          Transit
+1010.0910            MR+                 1-Jan-2025      Less than 19.812 meters (65 feet)                                $2,130
+1010.0920            MR+                 1-Jan-2025      From 19.812 meters (65 feet) to 24.384 meters (80 feet)          $3,200
+1010.0930            MR+                 1-Jan-2025      More than 24.384 meters (80 feet) to 30.480 meters (100 feet)    $4,660
+1010.0940            MR+                 1-Jan-2025      More than 30.480 meters (100 feet)                               $6,000
+
+• These tariffs apply to all small vessels (length overall up to 125 feet)
+• Ocean-going vessel (length overall above 125 feet), of any market segment, with PC/UMS tonnage up to a
+  maximum of 999, will be charged the highest range of small vessel tolls (length overall above 100 feet), in
+  addition to all pertinent maritime services charges.
+• The maximum displacement tonnage limit established by the tolls based on its length overall (small vessel
+  tolls) is 1,000 displacement tons.
+
+
+      Maritime Tariffs – Item 1010 - Tolls                                                             1 January 2025
+Intra-maritime cluster – Local tourism
+  Local tourism
+    Item              Symbol                   Effective                           Description                           Tariff per Transit
+  1010.0950               MR+                 1-May-2020    Local tourism - small vessel transits                             $2,500
+                                                                                                                          Tariff per TEU
+                                                            Per TEU on deck in the case that the local tourism vessel
+  1010.0951                AR                 29-Abr-2015                                                                       $72
+                                                            is carrying containers on deck
+
+
+                Note: To be eligible for inclusion in this segment, the vessel must be 125 ft length overall
+                or less and would otherwise fall into the "minimum tolls based upon its length overall
+                category", conduct commercial tourism activity and be making repetitive full or partial
+                transits of the Canal.
+
+
+
+
+     Marítime Tariffs – Series 1010 - Tolls                                                             1 January 2025
+Intra maritime cluster – Marine bunkering
+For vessel up to 125 feet length overall, according to the following:
+                                                                                                                         Tariff per
+   Item            Symbol             Effective                                Description
+                                                                                                                          Transit
+ 1010.0955             MW            1-Jan-2023    Less than 19.812 meters (65 feet)                                       $800
+ 1010.0956             MW            1-Jan-2023    Greater than 19.812 meters (65 feet) up to 24.384 meters (80 feet)     $1,300
+ 1010.0957               AR          29-Apr-2015   Greater than 24.384 meters (80 feet) up to 30.480 meters (100 feet)    $2,000
+ 1010.0958               AR          29-Apr-2015   Greater than 30.480 meters (100 feet)                                  $3,200
+                                                                                                                         Tariff per
+                                                                                                                           TEU
+                                                   Per TEU on deck in the case the marine bunkering vessel is carrying
+ 1010.0959               AR          29-Abr-2015                                                                            $72
+                                                   containers on deck
+
+      Note: To be eligible for inclusion in this segment, the vessel must be up to 125 feet length overall,
+      conduct marine bunkering activities in local waters, with the possibility of full or partial transits.
+
+
+      Marítime – Item 1010 - Tolls                                                              1 January 2025
+Intra maritime cluster – Marine bunkering
+ For vessels greater than 125 feet length overall or PC/UMS greater than 999, according to
+ the following:
+                                                                                                                      Tariff per
+   Item             Symbol                   Effective                           Description
+                                                                                                                      PC/UMS
+ 1010.0960               AR              29-Apr-2015 1st 10,000 PC/UMS tons, when transporting passengers or cargo      $5.00
+ 1010.0961               AR              29-Apr-2015 Next 10,000 PC/UMS tons, when transporting passengers or cargo     $4.90
+ 1010.0962               AR              29-Apr-2015 Next 15,000 PC/UMS tons, when transporting passengers or cargo     $4.85
+ 1010.0963               AR              29-Apr-2015 Next 10,000 PC/UMS tons, when transporting passengers or cargo     $4.75
+ 1010.0964               AR              29-Apr-2015 Remaining PC/UMS tons, when transporting passengers or cargo       $4.55
+ 1010.0965               AR              29-Apr-2015 1st 10,000 PC/UMS tons, without passengers or cargo                $4.14
+ 1010.0966               AR              29-Apr-2015 Next 10,000 PC/UMS tons, without passengers or cargo               $3.99
+ 1010.0967               AR              29-Apr-2015 Next 15,000 PC/UMS tons, without passengers or cargo               $3.80
+ 1010.0968               AR              29-Apr-2015 Next 10,000 PC/UMS tons, without passengers or cargo               $3.60
+ 1010.0969               AR              29-Apr-2015 Remaining PC/UMS tons, without passengers or cargo                 $3.45
+              Note: To be elegible for this segment a vessel must conduct marine bunkering activities
+              in local waters with the possibility of full or partial transits.
+      Maritime Tariffs – Item 1010 - Tolls                                                        1 January 2025
+Intra maritime cluster – Container transshipment
+ With cell guides
+      Item                      Symbol                     Effective                        Description                            Tariff per TEU
+   1010.9070                          AR                  29-Apr-2015      Per maximum capacity (TTA)                                   $48
+   1010.9071                          AR                  29-Apr-2015      Per TEU transported (TTL)                                    $24
+
+Without cell guides
+                                                                                                                                              Tariff per
+  Item              Symbol                    Effective                                     Description
+                                                                                                                                              PC/UMS
+1010.9072                AR              29-Apr-2015         1st 10,000 PC/UMS tons, when transporting passengers or cargo                      $4.20
+1010.9073                AR              29-Apr-2015         Next 10,000 PC/UMS tons, when transporting passengers or cargo                     $4.11
+1010.9074                AR              29-Apr-2015         Remaining PC/UMS tons, when transporting passengers or cargo                       $4.05
+1010.9075                AR              29-Apr-2015         1st 10,000 PC/UMS tons, in ballast                                                 $3.35
+1010.9076                AR              29-Apr-2015         Next 10,000 PC/UMS tons, in ballast                                                $3.30
+1010.9077                AR              29-Apr-2015         Remaining PC/UMS tons, in ballast                                                  $3.24
+1010.9078                AR              29-Apr-2015         Per TEU on deck in the case a vessel is carrying containers on deck              $72 per TEU
+ Note: Vessels eligible for inclusion in this segment are those dedicated to container transshipment within the intra maritime cluster,
+ between local ports. A local port is one that operates adjacent to Canal waters and includes but is not limited to, nearby areas such as the
+ Balboa Bay, Manzanillo Bay or other areas comprising the local maritime cluster).
+       Maritime Tariffs – Item 1010 - Tolls                                                                    1 January 2025
+

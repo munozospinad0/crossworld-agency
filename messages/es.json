@@ -98,25 +98,25 @@
           "t": "T-96 H",
           "value": "96",
           "unit": "h",
-          "label": "Paquete de prearribo por el sistema electrónico de la ACP (EDCS) al menos 96 horas antes del arribo."
+          "label": "Notificación de ETA a la ACP con al menos 96 horas de anticipación al arribo, con los datos del buque y los certificados que exija la escala."
         },
         {
-          "t": "T-72 H",
-          "value": "72",
-          "unit": "h",
-          "label": "Nosotros llamamos los fondos 72 horas antes, para dejar margen a las demoras bancarias."
+          "t": "T-15 D",
+          "value": "15",
+          "unit": "d",
+          "label": "Cancelar un cupo a largo plazo con 15 días o más de antelación cuesta el 80% de la puja adjudicada; después, el 100% (aviso A-34-2025)."
         },
         {
-          "t": "T-48 H",
-          "value": "48",
-          "unit": "h",
-          "label": "La ACP exige el pago 48 horas antes del tránsito."
+          "t": "T-2 D",
+          "value": "2",
+          "unit": "d",
+          "label": "El tercer y último periodo de reserva cierra a las 15:00, dos días antes de la fecha de tránsito."
         },
         {
-          "t": "REQ",
-          "value": "400",
-          "unit": "t",
-          "label": "Los buques con 400 toneladas o más de hidrocarburos necesitan un PCSOPEP con persona autorizada residente en Panamá. Sin plan no hay tránsito."
+          "t": "PCSOPEP",
+          "value": "660",
+          "unit": "USD",
+          "label": "El plan de emergencia por hidrocarburos se cobra por tránsito según el tier de capacidad del buque, de 660 dólares en el tier 1 a 2.000 en el tier 4 (aviso A-58-2023)."
         },
         {
           "t": "T-0",
@@ -314,7 +314,7 @@
       "Al enviar se abre WhatsApp con todos los datos escritos: usted solo pulsa enviar.",
       "El oficial de guardia recibe la solicitud en el chat y revisa los datos.",
       "Recibe la PDA antes del llamado de fondos.",
-      "Los fondos se llaman antes del tránsito; la ACP los exige 48 horas antes."
+      "Los fondos se llaman antes del tránsito, con margen para demoras bancarias."
     ],
     "attachmentsNote": "Adjuntos (instrucciones del fletamento, certificados): envíelos en el mismo chat de WhatsApp, junto al mensaje.",
     "bankNote": "Los datos bancarios se emiten solo en la PDA y se confirman por teléfono con su oficial de guardia. Nunca cambiamos datos bancarios por correo.",

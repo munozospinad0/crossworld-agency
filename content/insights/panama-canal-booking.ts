@@ -28,8 +28,8 @@ export const panamaCanalBooking: Article = {
     es: 'Un cupo de reserva en el Canal de Panamá cuesta 12.000, 50.000 o 100.000 dólares, según la manga y la eslora del buque, no según lo que transporte. Las solicitudes abren 90 días antes del tránsito y la última ventana cierra dos días antes. Si el buque llega más de dos horas tarde, la tasa se cobra completa.',
   },
   published: '2026-09-08',
-  updated: '2026-09-08',
-  readingMinutes: 9,
+  updated: '2026-09-09',
+  readingMinutes: 10,
   image: '/images/canal-transit.jpg',
   imageAlt: {
     en: 'Vessel entering the locks of the Panama Canal, seen from the deck',
@@ -44,6 +44,13 @@ export const panamaCanalBooking: Article = {
         es: 'Autoridad del Canal de Panamá, Aviso a la Navegación N-7-2026, «Panama Canal Transit Reservation System», vigente desde el 1 de enero de 2026 (cancela el N-7-2025).',
       },
       url: 'https://pancanal.com/en/advisories-to-shipping/',
+    },
+    {
+      label: {
+        en: 'Panama Canal Authority, Advisory to Shipping A-34-2025, “Modifications to the Transit Reservation (Booking) System Tariffs — Cancellation fee for Long-Term Slot Allocation”, 30 October 2025.',
+        es: 'Autoridad del Canal de Panamá, Aviso a la Navegación A-34-2025, «Modifications to the Transit Reservation (Booking) System Tariffs — Cancellation fee for Long-Term Slot Allocation», 30 de octubre de 2025.',
+      },
+      url: 'https://pancanal.com/lotsa/',
     },
     {
       label: {
@@ -298,6 +305,40 @@ export const panamaCanalBooking: Article = {
       a: {
         en: 'It depends entirely on what a day of waiting costs the vessel, and that is a charter-party question, not a Canal one. What the notice fixes is the mechanism: third period only, USD 1,000 steps. What it does not fix is the price, which is whatever the fleet is willing to pay that week. Decide your ceiling before the window opens, not during it.',
         es: 'Depende por completo de lo que le cueste al buque un día de espera, y eso es una pregunta de póliza de fletamento, no del Canal. Lo que el aviso fija es el mecanismo: solo el tercer periodo, pasos de 1.000 dólares. Lo que no fija es el precio, que es lo que la flota esté dispuesta a pagar esa semana. Defina su techo antes de que abra la ventana, no durante.',
+      },
+    },
+
+    {t: 'h2', id: 'lotsa', text: {en: 'What about long-term slots?', es: '¿Y los cupos a largo plazo?'}},
+    {
+      t: 'p',
+      text: {
+        en: 'Alongside the ordinary periods, the Canal runs the Long-Term Slot Allocation programme, LoTSA, for operators who want capacity secured well in advance. Its cancellation terms changed on 1 November 2025 and they are harsher than the ordinary scale: the fee is a share of the awarded bid, not of a fixed booking fee.',
+        es: 'Además de los periodos ordinarios, el Canal opera el programa de asignación de cupos a largo plazo, LoTSA, para operadores que quieren capacidad asegurada con mucha antelación. Sus condiciones de cancelación cambiaron el 1 de noviembre de 2025 y son más duras que la escala ordinaria: el cargo es un porcentaje de la puja adjudicada, no de una tasa fija.',
+      },
+    },
+    {
+      t: 'table',
+      caption: {
+        en: 'LoTSA cancellation fees, ACP Advisory A-34-2025, in force 1 November 2025.',
+        es: 'Cargos por cancelación de LoTSA, aviso A-34-2025 de la ACP, vigente desde el 1 de noviembre de 2025.',
+      },
+      head: {en: ['Notice given', 'Fee', 'Tariff'], es: ['Aviso dado', 'Cargo', 'Tarifa']},
+      rows: {
+        en: [
+          ['15 days or more before required arrival', '80% of the awarded slot', '1050.IBC10'],
+          ['Less than 15 days', '100% of the awarded slot', '1050.IBC8'],
+        ],
+        es: [
+          ['15 días o más antes del arribo exigido', '80% del cupo adjudicado', '1050.IBC10'],
+          ['Menos de 15 días', '100% del cupo adjudicado', '1050.IBC8'],
+        ],
+      },
+    },
+    {
+      t: 'p',
+      text: {
+        en: 'The Authority framed the change as an incentive to cancel early so slots can be reallocated. Slots awarded under the earlier LoTSA 1.0 programme keep their original terms until their validity period ends.',
+        es: 'La Autoridad presentó el cambio como un incentivo para cancelar temprano y poder reasignar los cupos. Los cupos adjudicados bajo el programa anterior, LoTSA 1.0, conservan sus condiciones originales hasta que termine su periodo de validez.',
       },
     },
 

@@ -1,0 +1,342 @@
+         CUSTOMER CODE ISSUANCE,
+      CONSOLIDATION AND DEACTIVATION
+               PROCEDURES
+                                        20-May-2025
+
+This document sets forth the provisions that apply for the issuance, consolidation, and
+deactivation of Panama Canal Authority (ACP) customer codes.
+
+1. GENERAL PROVISIONS
+
+For the purposes of this procedure and the use of the customer code, the following definitions
+apply:
+
+   a. Charterer: Party who has signed a written chartering agreement with the shipowner for
+      the direct hire of a vessel. Chartering agreements include only bareboat, voyage, and time
+      charters. In some cases, a vessel may be sub-chartered to a third party. In these cases,
+      the sub-charterer must request a customer code of its own and report it at the time of
+      the visit creation.
+
+   b. Commercial relationship: Relationship between two or more parties that includes
+      mergers, ownership, subsidiaries, or membership of a holding group.
+
+   c. Consolidation of a customer code: The process by which two or more owners in a
+      commercial relationship request to merge their customer codes into one. This process
+      results in one valid code for all requesting parties and deactivates all other codes of the
+      other requesting entities.
+   d. Customer code: Code issued by the ACP to a customer (owner, operator or charterer) to
+      be used in each visit and to accumulate points in the ACP customer ranking.
+
+   e. Operator: Party responsible for the operating costs, repairs, and earnings of a vessel, and
+      that has a written contract to operate a vessel. A vessel operator oversees various aspects
+      of a ship’s operations, including voyage planning, crew management, payments, and
+      other assignments. Ship management companies fall into the category of vessel operator.
+
+   f. Owner:
+      1. Person or entity that appears in a ship registry as the sole owner of a registered vessel
+         or,
+      2. Persons or entities that jointly make up for at least 51% of the ownership of a
+         registered vessel in a ship registry or,
+      3. An entity that owns at least 51% of a company that appears in a ship registry as the
+         sole owner of a registered vessel in a ship registry or,
+      4. Persons or entities that jointly make up for at least 51% of a company that appears in
+         a ship registry as the sole owner of a registered vessel.
+
+   g. Owner of a customer code: Person or entity that has been issued a valid customer code
+      by the ACP.
+
+   h. Parent company: Company that owns a customer code and acts as a holding company of
+      a group of companies (holding group) in which it possesses an ownership stake of it and
+      exercises significant influence over the administration, direction and policies of the
+      subsidiary or related companies or over the distributions of its economic benefits.
+
+   i.   Subsidiary or Related company: Legally constituted company that is part of a group of
+        companies (holding group) and that is owned by a parent company who possesses an
+        ownership stake of it and exercises significant distribution the administration, direction
+        and policies of the company or over the distributions of its economic benefits.
+
+
+2. PURPOSE OF A CUSTOMER CODE
+
+The ACP requires that a customer code be provided to every vessel’s visit to transit the Panama
+Canal, except for yachts or government vessels. Customer codes are an important factor in the
+competition toward obtaining reserved transit slots, as stipulated in the Panama Canal Authority
+(ACP) Notice to Shipping N-07 available in our website https://pancanal.com/en/
+
+The ACP issues customer codes only to the owner, operator, or charterer of a vessel visiting the
+Panama Canal. Consequently, the customer code provided by an authorized agent for a vessel’s
+visit must belong to one of the following:
+
+   a. The owner of the vessel transiting the Canal, or
+   b. The operator of the vessel transiting the Canal, or
+   c. The company that charters a vessel transiting the Canal.
+
+Providing a customer code belonging to a person or entity that does not own, operate, or charter
+the visiting vessel is prohibited.
+
+Credit for the transit of a vessel is awarded to the customer code provided through the Panama
+Maritime Single Window (VUMPA per its initials in Spanish) at the time of the creation of the
+vessel´s visit.
+
+All customer code information and documents submitted to the ACP will be regarded as
+confidential, in compliance with ACP regulations and directives.
+
+Owners of a customer code are responsible for providing accurate information as requested in
+this procedure and for keeping their information updated in the ACP´s database.
+
+
+3. LANGUAGES AND SUPPORTING DOCUMENTATION
+
+All documents requested by the ACP in this procedure must be:
+
+   a. Submitted in Spanish or English. Documents that are written, issued, or otherwise
+      obtained in any other language that is not Spanish or English, must be accompanied by
+      their corresponding translation to Spanish or English, and must be duly signed and
+      stamped by a certified public translator.
+
+       Documents that do not comply with the above requirements will not be considered valid
+       for review by the ACP.
+
+   b. Accompanied by the signatory’s identification document (i.e., ID or passport with
+      signature page) when the document is signed by an individual.
+
+       In the case of individuals signing on behalf of legal entities, the ACP may request said
+       entity to provide a notarized and/or apostilled document certifying the authority of the
+       individual’s signature.
+
+       The ACP may require that documents issued by legal entities be accompanied by an
+       official document, duly notarized and/or apostilled, whereby the authority of the person
+       signing the document on behalf of the entity is certified.
+4. APPLYING FOR A CUSTOMER CODE
+
+Parties interested in applying for a customer code must present the relevant documents to the
+ACP’s Shipping Customer Service Management Team for review. These documents are required
+to be in “.pdf” format and should be sent by electronic mail to the address
+operationservices@pancanal.com with the subject “Customer Code Application Documents”
+followed by the applicant´s name (e.g., Customer Code Application Documents Owner´s Name).
+
+The documents that must be submitted for review are the following:
+
+If the requesting party is an owner:
+
+   a. Form 341 duly signed.
+   b. Document(s) proving the ownership of the vessel or vessels for which the owner is
+      interested in using the customer code.
+
+If the requesting party is an operator:
+
+   a. Form 341 duly signed.
+   b. Document(s) proving the applicant holds a valid operation agreement with the owner of
+      the vessel or vessels for which the operator is interested in using the customer code.
+
+If the requesting party is a charterer:
+
+   a. Form 341 duly signed.
+   b. Document(s) proving the applicant holds a valid charter party agreement with the owner
+      of the vessel or vessels for which the charterer is interested in using the customer code.
+
+All documents submitted according to this section must follow the requirements set forth in
+section 3 of this procedure.
+
+All requests for the issuance of a customer code will be processed once the required
+documentation is complete and must be submitted prior to the vessel´s visit creation. If the
+documentation is complete, the review process will take a maximum of five (5) working days.
+
+The ACP’s Shipping Customer Service Management Team will provide each customer with a
+written notification of the assigned code by electronic mail.
+
+Failing to comply with this procedure may result in delays and/or rejection of the application
+without any liability to the ACP or its employees.
+5. USE OF AN EXISTING CUSTOMER CODE BY A SUBSIDIARY OR RELATED COMPANY
+
+Companies that have an assigned customer code and would like that their code be applied to the
+transits of vessels owned, operated, or chartered by a subsidiary or a related company, must
+present the relevant documents to the ACP’s Shipping Customer Service Management Team
+seeking formal authorization to use the existing customer code for the transits of the vessels of
+their subsidiary or company in which they have partial ownership.
+
+These documents are required to be in “.pdf” format and should be sent by electronic mail to the
+address operationservices@pancanal.com with the subject “Customer Code Use Authorization”
+followed by the customer code (e.g., Customer Code Use Authorization CODENAME).
+
+The owner of the customer code must submit an affidavit authorizing the use of its customer
+code and certifying that the company or companies are authorized to use its code as subsidiaries
+or related companies, defined in section 1 of this procedure.
+
+The customer code assigned to a given customer cannot be used by members of any pool, joint
+venture, or strategic alliance for which the customer is a member.
+
+In addition, sub-charterers are not authorized to use the customer code assigned to another
+customer and must request a customer code in their own capacity as charterer of a vessel.
+
+
+6. CONSOLIDATION OF CUSTOMER CODES
+
+The consolidation of customer codes may be authorized in cases where two or more parties
+establish a commercial relationship and wish to use one customer code for all their visits.
+Entities that have an assigned customer code and would like to consolidate their customer codes
+into one valid customer code, must present the relevant documents to the ACP’s Shipping
+Customer Service Management Team for review. Consolidation documents are required to be in
+“.pdf” format and should be sent by electronic mail to the address
+operationservices@pancanal.com with the subject “Consolidation of Customer Codes” followed
+by the customer codes to be consolidated (e.g., Consolidation of Customer Code CODENAME1
+into CODENAME2).
+
+The procedure for consolidation of customer codes is as follows:
+
+   a. The majority or holding company (owners or holders of 51 % or more of the total number
+      of shares of the group) must send a written request to the ACP’s Shipping Customer
+      Service Management Team indicating:
+
+       1. The names and the respective codes of the companies for which consolidation is being
+          sought.
+       2. The commercial relationship that exists between them as defined in section 1 of this
+          procedure.
+       3. The percentage of shares that the requester (the majority) holds on each company
+          listed in the request, along with a notarized copy of the certification providing that
+          the requester owns or holds 51% or more of the group´s shares.
+       4. Customer code that the requester wants to retain for booking purposes.
+
+   b. A consolidation of the customer code is also authorized in cases where none of the
+      holders has majority share ownership. If that is the case, to consolidate, the group that
+      makes up the majority of the company's shareholders must send all the documentation
+      listed in section 6 (a), together with a notarized letter indicating its agreement with the
+      consolidation of the customer code under the code that the majority have decided to
+      retain for booking purposes.
+
+   c. If part of the shares of the majority are sold, and the majority holder ceases to have 51%
+      or more of the shares of the consolidated group of companies, the majority must indicate
+      the change in status to the ACP. Failure to report such a change may result in cancellation
+      of the consolidated customer code in addition to any fine that the ACP may impose.
+
+   d. When consolidating customer codes, transit histories of the codes being consolidated will
+      be placed on hold while they are consolidated.
+
+   e. Once the customer code consolidation is approved, the ACP’s Shipping Customer Service
+      Management Team will proceed to deactivate the customer code not being retained. The
+      ACP will honor booking credits under consolidated codes within approximately twenty
+      (20) working days after receipt of the required documentation. In the cases that the
+      customer using this code uses the Business to Business Gateway (B2B), the customer code
+      not being retained will not be deactivated, but transits will not be accrued to the
+      consolidated code until the customer completes the new accreditation process and the
+      required testing procedures with operationservices@pancanal.com.
+
+
+The accreditation process may take approximately thirty (30) working days.
+If one or more of the companies that use a consolidated code ceases to be part of the majority,
+the transit histories already accrued under the consolidated code will not be redistributed.
+
+All documents submitted according to this section must follow the requirements set forth in
+section 3.
+7. CHANGE OF AN ASSIGNED CUSTOMER CODE
+
+Once a customer code has been assigned to a visit and its transit has been booked, no changes
+will be permitted unless a written justification is sent by electronic mail to the following
+addresses:    eta@pancanal.com       (Integrated    Control      Operations    Center)    and
+operationservices@pancanal.com (Shipping Customer Service Management Team) with the
+subject “Change of an Assigned Customer Code” followed by the customer codes to be changed
+(e.g., Change of an Assigned Customer Code CODENAME1 into CODENAME2) for approval.
+Under no circumstances shall any changes to the customer code be allowed once the vessel is
+underway, has completed its transit, or has been booked using the Long-Term Slot Allocation
+(LoTSA) method.
+
+The request to use a customer code different than the one initially provided in the VUMPA must
+be supported by the following documents:
+
+   a. A letter signed by the owner of the customer code that was initially provided, approving
+      the use of the newly provided customer code.
+   b. A letter signed by the owner of the newly provided customer code, requesting the use of
+      his customer code.
+
+All documents submitted according to this section must follow the requirements set forth in
+section 3 of this procedure. Failure to comply with these requirements may result in the
+application of actions stated in section 8 (Inappropriate Use of a Customer Code) of this
+procedure.
+
+
+
+8. INAPPROPRIATE USE OF A CUSTOMER CODE
+
+   a. Agents must ensure that the customer code applied to a visit belongs to the owner,
+      operator, or charterer of the vessel responsible for the transit. Consequently, agents
+      must require proper documentation from the customer and have it available upon
+      request.
+
+   b. The ACP may perform audits at any time to ensure the proper use of the customer codes.
+      Customers or agents may be required to submit documents (e.g., proof of ownership,
+      chartering contract, operation agreements, etc.) to prove that the customer code
+      reported at the time of the vessel transit falls into one of the authorized categories.
+
+   c. To provide a customer code which belongs to a person or entity who does not own,
+      operate, or charter the visiting vessel is prohibited. In addition, customers and agents are
+      reminded that any audit performed by ACP that identifies inappropriate use of a customer
+      code will result in the following actions:
+       1. Chapter XI of the Regulation on Navigation in Panama Canal Waters establishes that
+          providing inaccurate information to the ACP may result in fines ranging from B/.500
+          to B/. 1,000,000.
+
+       2. All reserved transit slots for the visiting vessel, under the misused customer code,
+          allocated through a booking competition process, will be cancelled and the
+          cancellation fees will be invoiced to the company of under the misused customer
+          code.
+
+       3. All credits earned by completed visits for the visiting vessel will be deducted from the
+          next generated customer code ranking reports after audit is completed and
+          inappropriate use is found.
+
+       4. All reserved transits for the visiting vessel, under the misused customer code,
+          allocated through a standard booking request procedure or through auction will be
+          honored. However, such transits will not be included in the next generated customer
+          code ranking reports after audit is completed and inappropriate use is found.
+
+       5. Any future transit booking requests submitted for vessel by the offending customer
+          will not be accepted until the customer complies with the Customer Code Issuance,
+          Consolidation and Deactivation Procedure and other rules and regulations established
+          by the ACP.
+
+
+9. CHANGES OF A CUSTOMER’S INFORMATION
+
+Any change in the information provided in form 341 or submitted by the owner of a customer
+code or an authorized agent to the ACP, that may have an effect in the result of the tiebreaker
+competition, or the allocation of points in the ACP customer ranking, must be immediately
+reported to the ACP.
+
+Parties interested in changing the information kept by the ACP must present the relevant
+documents to the ACP’s Shipping Customer Service Management Team. These documents are
+required to be in “.pdf” format and should be sent by electronic mail to the address
+operationservices@pancanal.com with the subject “Information Update” followed by the
+customer code (e.g., Information Update CODENAME).
+
+All documents submitted according to this section must follow the requirements set forth in
+section 3 of this procedure.
+
+Failure to report such changes may result in cancellation of the consolidated customer code in
+addition to any fine that the ACP may impose.
+10. DEACTIVATION OF CUSTOMER CODES
+
+Customer codes that are not used during a five-year period will be deactivated by the ACP’s
+Shipping Customer Service Management Team.
+
+Parties interested in re-activating a customer code that has been deactivated must send a written
+request to the ACP’s Shipping Customer Service Management Team and must follow the steps
+indicated in section 4. Documents are required to be in “.pdf” format and should be sent by
+electronic mail to the address operationservices@pancanal.com with the subject “Customer
+Code Activation” followed by the customer code for which it is seeking activation (e.g., Customer
+Code Activation CODENAME).
+
+A shipping agent may request the deactivation of the customer code of its principal if the
+company ceases to exist, if there is more than one customer code assigned to the same
+company or to a subsidiary, and if the customer code is consolidated by the ACP and will no
+longer be in use. The request may be sent by electronic mail operationservices@pancanal.com
+and must include form 341.
+
+All documents submitted according to this section must follow the requirements set forth in
+section 3 of this procedure.
+
+After deactivation of the Customer Code, it will cease to appear in the next Customer Ranking
+Report.
+
+
+This procedure will be in effect from the date of its publication and replace all prior versions.
+

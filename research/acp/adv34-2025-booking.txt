@@ -1,0 +1,62 @@
+                                                                Panama Canal Authority
+                                                             Vice Presidency for Operations
+
+
+                                        Advisory To Shipping No. A-34-2025
+       3654-A (OP-I)
+       V. 29/03/2023
+
+
+October 30, 2025
+TO:                    All Shipping Agents, Owners, and Operators
+SUBJECT:               Modifications to the Transit Reservation (Booking) System Tariffs – Cancellation fee for Long-Term
+                       Slot Allocation
+
+The Panama Canal Authority (ACP) announces modifications to the Transit Reservation (Booking) cancellation policy
+under the Long-Term Slot Allocation (LoTSA 2.0) program. These changes are based on customer feedback and are
+designed to encourage early cancellation requests, allowing for more efficient slot reallocation and operational
+planning.
+
+Cancellations for LoTSA 2.0 slots submitted 15 days or more prior to the required arrival date will incur a fee equal
+to 80% of the awarded bid amount as per tariff 1050.IBC10. Cancellations made less than 15 days before the
+required arrival date will continue to incur a fee of 100% of the awarded bid amount and will use the current tariff
+1050.IBC8, described as “Cancellation of slot acquired through the Long-Term Slot Allocation method”.
+
+Slots allocated under the LoTSA 1.0 program in 2025 will retain the current cancellation policy, including the
+current cancellation fee, in accordance with the established terms and conditions, until the end of their validity
+period.
+
+                                                                                                                         Days from required arrival
+      Tariff           Program                     Description                            Cancellation fee                                            Effective
+                                                                                                                                   time
+
+                                   Cancellation of slot acquired through the Long
+  1050.IBC10           LoTSA 2.0    Term Slot Allocation method with 15 days or        80% of the awarded slot                      ≥ 15              1-Nov-25
+                                        more from the required arrival time
+
+                       LoTSA 1.0                                                                                                    N/A               1-Sep-24
+                                   Cancellation of slot acquired through the Long
+  1050.IBC8                                                                       100% of the awarded slot
+                                           Term Slot Allocation method
+                       LoTSA 2.0                                                                                                    <15               1-Nov-25
+
+
+
+Detailed terms and conditions are available in the following link: https://pancanal.com/lotsa/
+
+The Panama Canal continues to pursue innovative strategies to enhance the customer experience, optimize
+operational efficiency, and reaffirm its commitment to delivering exceptional service.
+
+For additional information, please contact operationservices@pancanal.com
+
+
+ORIGINAL SIGNED
+Boris Moreno Vásquez
+Vice President for Operations
+
+
+
+
+                                                        ADVISORIES ARE AVAILABLE AT http://www.pancanal.com
+                                           FOR ETAS OR DIRECT COMMUNICATION WITH OUR OFFICES, REFER TO NOTICE N-3-2023
+

@@ -23,6 +23,19 @@ function PlayGlyph({playing}: {playing: boolean}) {
 
 function Reel({r, active, onToggle, playLabel, pauseLabel}: {r: (typeof reels)[number]; active: boolean; onToggle: () => void; playLabel: string; pauseLabel: string}) {
   const ref = useRef<HTMLVideoElement>(null);
+  // El poster se pone solo cuando el clip se acerca. `preload="none"` frena el vídeo, pero el
+  // navegador descarga el poster igual, y esta sección vive a unos 9.500 px del inicio: eran
+  // 75 KB compitiendo por ancho de banda con lo que sí se está mirando.
+  const [near, setNear] = useState(false);
+  useEffect(() => {
+    const v = ref.current; if (!v) return;
+    const io = new IntersectionObserver(
+      (es) => { if (es[0].isIntersecting) { setNear(true); io.disconnect(); } },
+      {rootMargin: '600px'},
+    );
+    io.observe(v);
+    return () => io.disconnect();
+  }, []);
   useEffect(() => {
     const v = ref.current; if (!v) return;
     if (active) { v.play().catch(() => undefined); } else { v.pause(); }
@@ -41,7 +54,7 @@ function Reel({r, active, onToggle, playLabel, pauseLabel}: {r: (typeof reels)[n
         <video
           ref={ref}
           src={`/video/reel-${r.id}.mp4`}
-          poster={`/video/reel-${r.id}.jpg`}
+          poster={near ? `/video/reel-${r.id}.jpg` : undefined}
           preload="none"
           playsInline
           loop

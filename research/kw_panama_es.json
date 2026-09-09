@@ -1,0 +1,1185 @@
+[
+ {
+  "keyword": "puerto de balboa",
+  "vol": 2900,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de balboa panama",
+  "vol": 2900,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "autoridad marítima de panamá",
+  "vol": 1000,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto balboa",
+  "vol": 1000,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusa del canal de panama",
+  "vol": 720,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "balboa en panama",
+  "vol": 590,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "colon container terminal panama",
+  "vol": 480,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "colón 2000",
+  "vol": 480,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusa de miraflores panama",
+  "vol": 480,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas de miraflores panamá",
+  "vol": 480,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de panama",
+  "vol": 480,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "cómo funciona el canal de panamá",
+  "vol": 320,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama como funciona",
+  "vol": 320,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas de gatun",
+  "vol": 320,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "balboa panamá",
+  "vol": 260,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "panama puerto",
+  "vol": 260,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "panama puertos",
+  "vol": 260,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto en panama",
+  "vol": 260,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas del canal de panamá",
+  "vol": 210,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto manzanillo panama",
+  "vol": 210,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal panama esclusas",
+  "vol": 170,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto colon 2000",
+  "vol": 170,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de manzanillo panama",
+  "vol": 170,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusa de panama",
+  "vol": 140,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas pedro miguel",
+  "vol": 140,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "las esclusas del canal de panamá",
+  "vol": 140,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "nombre de las esclusas del canal de panamá",
+  "vol": 140,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto baru chiriqui",
+  "vol": 140,
+  "comp": "LOW",
+  "idx": 5,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos de panamá",
+  "vol": 110,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panamá miraflores",
+  "vol": 110,
+  "comp": "LOW",
+  "idx": 10,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto balboa panama",
+  "vol": 110,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto balboa en panama",
+  "vol": 90,
+  "comp": "LOW",
+  "idx": 4,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto balboa panamá",
+  "vol": 90,
+  "comp": "LOW",
+  "idx": 4,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de crucero colon 2000",
+  "vol": 90,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de cruceros colon",
+  "vol": 70,
+  "comp": "LOW",
+  "idx": 10,
+  "tag": "info"
+ },
+ {
+  "keyword": "terminal de cruceros amador",
+  "vol": 70,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "astillero balboa",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama horarios de visita",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 16,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funcionan las esclusas del canal de panamá",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "nuevas esclusas del canal de panamá",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "principales puertos de panamá",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto baru panama",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 9,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de colon panama",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto obaldia panama",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto rodman panama",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "tránsito por el canal de panamá",
+  "vol": 50,
+  "comp": "LOW",
+  "idx": 15,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "esclusas en panama",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 12,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas panama",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 12,
+  "tag": "info"
+ },
+ {
+  "keyword": "panama esclusas",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 12,
+  "tag": "info"
+ },
+ {
+  "keyword": "panama puerto colon",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto caimito panama",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto colon panama",
+  "vol": 40,
+  "comp": "LOW",
+  "idx": 3,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama agua clara",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 1,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funcionan las esclusas del canal de panama",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "funcionamiento de las esclusas del canal de panamá",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "tercer juego de esclusas del canal de panamá",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de cristóbal",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "agencias navieras en panamá",
+  "vol": 30,
+  "comp": "LOW",
+  "idx": 23,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agua clara canal de panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 5,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama esclusa miraflores",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 23,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama esclusas de miraflores",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 7,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama esclusas miraflores",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 23,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusa miraflores panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 10,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas de miraflores canal de panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 7,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas de miraflores panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas del canal de panamá ampliado",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas nuevas del canal de panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "las esclusas de panamá",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "las nuevas esclusas del canal de panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "sistema portuario de panama",
+  "vol": 20,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "cuánto cuesta cruzar el canal de panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "la zayapa hotel",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "zayapa hotel",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "air panama puerto obaldia",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "astillero balboa panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 5,
+  "tag": "info"
+ },
+ {
+  "keyword": "astillero balboa panamá",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "astillero de balboa panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "balboa panamá puerto",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "balboa puerto panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama aguas claras",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 5,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama compuertas",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama cuanto cuesta cruzar",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama historia y como funciona",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama miraflores precios",
+  "vol": 10,
+  "comp": "MEDIUM",
+  "idx": 57,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panama nuevas esclusas",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "castillo san cristóbal san juan",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "colon 2000 terminal de cruceros",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "colon container terminal almacenaje",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 14,
+  "tag": "info"
+ },
+ {
+  "keyword": "colon container terminal telefonos",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "colon panama puerto",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funciona canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funciona el canal de panamá cuando pasan los barcos",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funciona el canal de panamá resumen",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "como funciona el sistema de esclusas del canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "compuertas canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "cuanto cuesta cruzar el canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 13,
+  "tag": "info"
+ },
+ {
+  "keyword": "cuanto cuesta cruzar el canal de panamá en velero",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "cuanto cuesta cruzar un barco por el canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "dimensiones de las esclusas del canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas canal de panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas canal panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 14,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas de panama nuevas",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusas del canal de panama horarios",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "funcionamiento esclusas canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "manzanillo panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "museo de miraflores panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "museo del canal de panama miraflores",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 4,
+  "tag": "info"
+ },
+ {
+  "keyword": "obaldia panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "panama puertos maritimos",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "para que sirven las esclusas del canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto almirante panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto baquerizo moreno hoteles",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto colon container terminal",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto colon en panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de balboa almacenaje",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de colón panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de contenedores en colón",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de obaldia panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de panama balboa",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 4,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto maritimo de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto maritimo panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto obaldia panamá",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto panama pacifico",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos de contenedores en panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos del canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos en colon panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 2,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos internacionales de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos maritimos en panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puertos marítimos de panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "que es el canal de panama y como funciona",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "sistema de esclusas canal de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "tarifas portuarias en panamá",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 12,
+  "tag": "info"
+ },
+ {
+  "keyword": "terminal de cruceros amador panama",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "terminal de cruceros de panamá",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "agencias maritimas en panama",
+  "vol": 10,
+  "comp": "MEDIUM",
+  "idx": 43,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agencias navieras de panama",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 29,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agencias navieras panamá",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "inspección de buques",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 7,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "draft survey",
+  "vol": 10,
+  "comp": "LOW",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "aerovaradero reclamaciones",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "inspecciones de buques",
+  "vol": 10,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "castillo de san cristóbal san juan",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "ciudad y puerto de panama",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "cuanto cuesta cruzar el canal de panamá en auto",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "esclusa miraflores canal de panama panama city",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "estatua de colon en san juan",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "estatua de colon viejo san juan",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "hotel san cristóbal teléfono",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "puerto de cruceros colon 2000 telefonos",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "sierra de san cristóbal el puerto de santa maría",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "peajes canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "reserva de tránsito canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "requisitos para transitar el canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "restricciones de calado canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "canal de panamá barcos por día",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "info"
+ },
+ {
+  "keyword": "agencia naviera panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agente naviero panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agencia marítima panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "tránsito canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "agente canal de panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "cambio de tripulación panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "servicios marítimos panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "agencia"
+ },
+ {
+  "keyword": "reclamaciones de carga",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "inspeccion tecnica de buques",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "inspector naval panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "survey de bunker",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "combustible marino panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "bunkering panamá",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ },
+ {
+  "keyword": "operaciones ship to ship",
+  "vol": 0,
+  "comp": "UNKNOWN",
+  "idx": 0,
+  "tag": "tecnico"
+ }
+]

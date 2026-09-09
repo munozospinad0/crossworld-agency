@@ -33,7 +33,7 @@ export async function Footer() {
           </p>
         </div>
         <div>
-          <h4 className={col}>{t('services')}</h4>
+          <h2 className={col}>{t('services')}</h2>
           <ul className="m-0 grid list-none gap-2 p-0">
             {services.map((s) => (
               <li key={s.key}><Link className="transition-colors hover:text-white" href={{pathname: '/services/[slug]', params: {slug: s.slug[locale]}}}>{s.title[locale]}</Link></li>
@@ -41,7 +41,7 @@ export async function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className={col}>{t('company')}</h4>
+          <h2 className={col}>{t('company')}</h2>
           <ul className="m-0 grid list-none gap-2 p-0">
             <li><Link className="transition-colors hover:text-white" href="/about">{t('about')}</Link></li>
             <li><Link className="transition-colors hover:text-white" href="/certifications">{t('certifications')}</Link></li>
@@ -53,7 +53,7 @@ export async function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className={col}>{t('nominate')}</h4>
+          <h2 className={col}>{t('nominate')}</h2>
           <ul className="m-0 grid list-none gap-2 p-0">
             <li><Link className="transition-colors hover:text-white" href="/request-port-call">{cta('portcall')}</Link></li>
             <li><a className="transition-colors hover:text-white" href={duty.href}>{cta(duty.label)}</a></li>

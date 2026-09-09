@@ -23,7 +23,9 @@ const securityHeaders = [
       "base-uri 'self'",
       "form-action 'self'",
       "frame-ancestors 'none'",
-      'upgrade-insecure-requests',
+      // Sin `upgrade-insecure-requests`: el navegador la ignora en una política Report-Only y
+      // deja un error en consola en cada carga, que Lighthouse cuenta como error de la página.
+      // Cuando la CSP pase a modo enforce, esta directiva vuelve.
     ].join('; '),
   },
 ];

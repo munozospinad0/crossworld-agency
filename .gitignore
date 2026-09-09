@@ -33,3 +33,7 @@ research/_x_*
 # documento de correcciones del cliente (privado) y versionado de Syncthing
 research/correcciones/
 .stversions/
+
+# Perfiles temporales que Lighthouse crea si hereda el TMPDIR de Windows
+C:\\*
+lighthouse.*

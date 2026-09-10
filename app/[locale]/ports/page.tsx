@@ -92,7 +92,7 @@ export default async function PortsHub({params}: {params: Promise<{locale: strin
           {ports.map((p) => (
             <Link key={p.key} href={{pathname: '/ports/[slug]', params: {slug: p.slug[locale]}}} className="group overflow-hidden rounded-card border border-line bg-surface transition-[transform,box-shadow] duration-200 hover:-translate-y-px hover:shadow-1">
               <div className="relative aspect-[3/2]">
-                <Image src={p.image} alt="" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
+                <Image src={p.image} alt={p.imageAlt[locale]} fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
               </div>
               <div className="p-5">
                 <span className="font-mono text-[0.78rem] text-muted">{p.side[locale]}</span>

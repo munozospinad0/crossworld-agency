@@ -60,7 +60,7 @@ export default async function PortPage({params}: {params: Promise<{locale: strin
             <div className="mt-6"><ButtonLink href="/request-port-call">{cta('portcall')}</ButtonLink></div>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-card">
-            <Image src={p.image} alt="" fill priority sizes="(max-width: 768px) 100vw, 40vw" className="object-cover" />
+            <Image src={p.image} alt={p.imageAlt[locale]} fill priority sizes="(max-width: 768px) 100vw, 40vw" className="object-cover" />
           </div>
         </div>
       </section>

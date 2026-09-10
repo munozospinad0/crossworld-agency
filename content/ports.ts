@@ -7,6 +7,8 @@ export type Port = {
   side: Record<Locale, string>;
   sideKey: 'pacific' | 'atlantic';
   image: string;
+  /** La foto del puerto informa, no decora: lleva descripción real, no alt vacío. */
+  imageAlt: Record<Locale, string>;
   metaTitle: Record<Locale, string>;
   metaDescription: Record<Locale, string>;
   summary: Record<Locale, string>;
@@ -32,6 +34,10 @@ export const ports: Port[] = [
     side: {en: 'Pacific side', es: 'Lado Pacífico'},
     sideKey: 'pacific',
     image: '/images/port-cranes.jpg',
+    imageAlt: {
+      en: 'Container gantry cranes at the Port of Balboa, on the Pacific side of the Panama Canal',
+      es: 'Grúas pórtico de contenedores en el Puerto de Balboa, en el lado Pacífico del Canal de Panamá',
+    },
     metaTitle: {en: 'Port of Balboa: ship agency and surveys', es: 'Puerto de Balboa: agencia e inspecciones'},
     metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Balboa and the Pacific anchorage of the Panama Canal. Duty officer 24/7.', es: 'Agencia naviera, avituallamiento, inspecciones y atención de bunker en el Puerto de Balboa y el fondeadero del Pacífico. Oficial de guardia 24/7.'},
     summary: {
@@ -78,6 +84,10 @@ export const ports: Port[] = [
     side: {en: 'Atlantic side', es: 'Lado Atlántico'},
     sideKey: 'atlantic',
     image: '/images/atlantic-terminals.jpg',
+    imageAlt: {
+      en: 'Terminals on the Atlantic side of the Panama Canal, at Cristóbal in Colón',
+      es: 'Terminales del lado Atlántico del Canal de Panamá, en Cristóbal, Colón',
+    },
     metaTitle: {en: 'Port of Cristóbal: ship agency and surveys', es: 'Puerto de Cristóbal: agencia e inspecciones'},
     metaDescription: {en: 'Ship agency, husbandry, marine surveys and bunker attendance at the Port of Cristóbal, Colón, and the Atlantic anchorage of the Panama Canal.', es: 'Agencia naviera, avituallamiento, inspecciones y bunker en el Puerto de Cristóbal, Colón, y el fondeadero del Atlántico.'},
     summary: {
